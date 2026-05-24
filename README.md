@@ -73,3 +73,26 @@ Khởi động lại các tiến độ nền để tải lại cấu trúc dịc
 bench restart
 ```
 *(Nếu chạy bằng Docker/Production, hãy reload hoặc restart các container tương ứng).*
+
+---
+
+## 4. Công Cụ Xác Thực Dịch Thuật (Validation Suite)
+
+Để kiểm tra chất lượng file dịch trước khi commit hoặc đưa vào sử dụng, repository cung cấp sẵn một kịch bản xác thực tự động thông qua **`validate_translations.ps1`**. Kịch bản thực hiện 5 bài kiểm tra cốt lõi:
+
+1. **Placeholder Validation (Kiểm tra tham số)**:
+   Xác thực xem toàn bộ các tham số như `{0}`, `{name}` hoặc các biến định dạng dạng `%s`, `%d` trong `msgid` có được giữ nguyên và xuất hiện đầy đủ trong `msgstr` hay không.
+2. **Jinja Validation (Kiểm tra thẻ Jinja)**:
+   Đảm bảo các thẻ biểu thức Jinja `{{ ... }}` và các thẻ cấu trúc điều khiển `{% ... %}` (như `{% if comments %}`) không bị dịch sai cú pháp (ví dụ tránh lỗi dịch sai thành `{% nếu nhận xét %}`).
+3. **JS Template Validation (Kiểm tra JS Template)**:
+   Xác minh các biểu thức JavaScript template string dạng `${type}` được giữ nguyên ký tự biến để tránh phát sinh lỗi `ReferenceError` khi chạy trên giao diện trình duyệt.
+4. **Forbidden Literal Translation Detection (Phát hiện dịch thô bị cấm)**:
+   Tự động cảnh báo khi phát hiện các từ dịch thô/dịch máy bị cấm như `"hàng đợi"`, `"máy chủ"`, `"móc web"`, `"Đảng chung"` và đề xuất thay bằng thuật ngữ chuẩn.
+5. **msgfmt Compile Test (Kiểm tra biên dịch gettext)**:
+   Tự động phát hiện và gọi công cụ biên dịch chuẩn gettext `msgfmt` để biên dịch thử các tệp `.po` thành `.mo`, đảm bảo không có lỗi cú pháp định dạng file nào trước khi hệ thống Frappe nạp file.
+
+### Cách chạy kiểm tra:
+Trong PowerShell, chạy lệnh sau tại thư mục chứa repository:
+```powershell
+powershell -ExecutionPolicy Bypass -File validate_translations.ps1
+```

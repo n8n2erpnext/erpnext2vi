@@ -29,6 +29,14 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
+msgstr ""
+
+msgstr ""
+
+msgstr ""
+
 # Translations template for Frappe Framework.
 # Copyright (C) 2026 Frappe Technologies
 # This file is distributed under the same license as the Frappe Framework project.
@@ -11126,7 +11134,7 @@ msgstr "Nổi"
 #. Label of the float_precision (Select) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Float Precision"
-msgstr "Phao chính xác"
+msgstr "Độ chính xác số thập phân"
 
 #. Option for the 'Type' (Select) field in DocType 'DocField'
 #. Option for the 'Fieldtype' (Select) field in DocType 'Report Column'

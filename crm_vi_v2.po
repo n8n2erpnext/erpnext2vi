@@ -25,6 +25,14 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
+msgstr ""
+
+msgstr ""
+
+msgstr ""
+
 # Translations template for Frappe CRM.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe CRM project.
@@ -3401,7 +3409,7 @@ msgstr "Họ tên"
 
 #: frontend/src/components/Settings/DefaultsSettings.vue:92
 msgid "Float Precision"
-msgstr "Phao chính xác"
+msgstr "Độ chính xác số thập phân"
 
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:48
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:80

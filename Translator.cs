@@ -32,6 +32,7 @@ public class PoTranslator
         { "Ignore User Time Overlap", "Bỏ qua trùng lặp thời gian người dùng" },
         { "Ignore Workstation Time Overlap", "Bỏ qua trùng lặp thời gian trạm làm việc" },
         { "Enabling the check box will fetch timesheet on select of a Project in Sales Invoice", "Bật hộp kiểm sẽ lấy bảng chấm công khi chọn Dự án trong Hóa đơn bán hàng" },
+        { "Float Precision", "Độ chính xác số thập phân" },
 
         // System UI & Navigation
         { "Desktop", "Tổng quan" },
@@ -115,6 +116,40 @@ public class PoTranslator
         { "Receivable", "Công nợ phải thu" },
         { "Payable", "Công nợ phải trả" },
         { "Outstanding Amount", "Công nợ còn lại" },
+        { "Accounts Receivable", "Công nợ phải thu" },
+        { "Accounts Payable", "Công nợ phải trả" },
+        { "Accounts Receivable Summary", "Tổng hợp công nợ phải thu" },
+        { "Accounts Payable Summary", "Tổng hợp công nợ phải trả" },
+        { "Accounts Receivable / Payable Tuning", "Điều chỉnh Công nợ phải thu / phải trả" },
+        { "Accounts Receivable/Payable", "Công nợ phải thu/phải trả" },
+        { "Accounts Receivable Unpaid Account", "Tài khoản công nợ phải thu chưa thanh toán" },
+        { "Opening Invoice Creation Tool", "Tạo công nợ đầu kỳ" },
+        { "Opening Invoice Tool", "Tạo công nợ đầu kỳ" },
+        { "Opening Invoice Creation Tool Item", "Mục Tạo công nợ đầu kỳ" },
+        { "Opening Invoice Item", "Mục công nợ đầu kỳ" },
+        { "Opening Invoices", "Hóa đơn công nợ đầu kỳ" },
+        { "Opening Invoice", "Hóa đơn công nợ đầu kỳ" },
+        { "Accounting Dimension", "Phân tích kế toán" },
+        { "Accounting Dimensions", "Phân tích kế toán" },
+        { "Accounting Dimension Detail", "Chi tiết phân tích kế toán" },
+        { "Accounting Dimension Filter", "Bộ lọc phân tích kế toán" },
+        { "Accounting Dimensions Filter", "Bộ lọc phân tích kế toán" },
+        { "Journal Entry Template", "Mẫu định khoản" },
+        { "Journal Entry Template Account", "Tài khoản mẫu định khoản" },
+
+        // Stock / Ageing / Inventory Dimension overrides
+        { "Stock Ageing", "Tuổi tồn kho" },
+        { "Show Stock Ageing Data", "Hiển thị dữ liệu tuổi tồn kho" },
+        { "Ageing Based On", "Tính tuổi nợ/kho theo" },
+        { "Ageing Range", "Khoảng phân tích tuổi" },
+        { "Ageing Report based on {0} up to {1}", "Báo cáo phân tích tuổi nợ dựa trên {0} đến {1}" },
+        { "Inventory Dimension", "Thuộc tính tồn kho" },
+        { "Inventory Dimension key", "Khóa thuộc tính tồn kho" },
+        { "Inventory Dimension Negative Stock", "Âm kho theo thuộc tính tồn kho" },
+
+        // HR / HRMS overrides
+        { "Employee Exits", "Nhân viên nghỉ việc" },
+        { "Employee Exit Settings", "Cài đặt nhân viên nghỉ việc" },
 
         // Manufacturing
         { "BOM", "Định mức nguyên vật liệu" },
@@ -446,6 +481,24 @@ public class PoTranslator
         text = text.Replace("Đảng chung", "Đối tác chung");
         text = text.Replace("Sức khỏe sổ cái", "Trạng thái sổ cái");
         text = text.Replace("sức khỏe sổ cái", "trạng thái sổ cái");
+
+        // Additional replacements requested by user
+        text = text.Replace("Chiều Kế toán", "Phân tích kế toán");
+        text = text.Replace("Chiều kế toán", "Phân tích kế toán");
+        text = text.Replace("chiều kế toán", "phân tích kế toán");
+
+        text = text.Replace("Mẫu bút toán nhật ký", "Mẫu định khoản");
+        text = text.Replace("mẫu bút toán nhật ký", "mẫu định khoản");
+
+        text = text.Replace("Lão hóa tồn kho", "Tuổi tồn kho");
+        text = text.Replace("lão hóa tồn kho", "tuổi tồn kho");
+
+        text = text.Replace("Chiều Hàng tồn kho", "Thuộc tính tồn kho");
+        text = text.Replace("Chiều hàng tồn kho", "Thuộc tính tồn kho");
+        text = text.Replace("chiều hàng tồn kho", "thuộc tính tồn kho");
+
+        text = text.Replace("Nghỉ việc nhân viên", "Nhân viên nghỉ việc");
+        text = text.Replace("nghỉ việc nhân viên", "nhân viên nghỉ việc");
 
         return text;
     }

@@ -29,6 +29,14 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
+msgstr ""
+
+msgstr ""
+
+msgstr ""
+
 # Translations template for ERPNext.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the ERPNext project.
@@ -1834,27 +1842,27 @@ msgstr "Chi tiết Kế toán"
 #: erpnext/workspace_sidebar/accounts_setup.json
 #: erpnext/workspace_sidebar/budget.json
 msgid "Accounting Dimension"
-msgstr "Chiều Kế toán"
+msgstr "Phân tích kế toán"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:213
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:150
 msgid "Accounting Dimension <b>{0}</b> is required for 'Balance Sheet' account {1}."
-msgstr "Chiều Kế toán <b>{0}</b> là bắt buộc cho tài khoản 'Bảng Cân đối' {1}."
+msgstr "Phân tích kế toán <b>{0}</b> là bắt buộc cho tài khoản 'Bảng Cân đối' {1}."
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:200
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:138
 msgid "Accounting Dimension <b>{0}</b> is required for 'Profit and Loss' account {1}."
-msgstr "Chiều Kế toán <b>{0}</b> là bắt buộc cho tài khoản 'Lãi và Lỗ' {1}."
+msgstr "Phân tích kế toán <b>{0}</b> là bắt buộc cho tài khoản 'Lãi và Lỗ' {1}."
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/accounting_dimension_detail/accounting_dimension_detail.json
 msgid "Accounting Dimension Detail"
-msgstr "Chi tiết Chiều Kế toán"
+msgstr "Chi tiết phân tích kế toán"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.json
 msgid "Accounting Dimension Filter"
-msgstr "Filter Chiều Kế toán"
+msgstr "Bộ lọc phân tích kế toán"
 
 #. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Advance Taxes and Charges'
@@ -1990,7 +1998,7 @@ msgstr "Filter Chiều Kế toán"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Accounting Dimensions"
-msgstr "Chiều Kế toán"
+msgstr "Phân tích kế toán"
 
 #. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Purchase Invoice'
@@ -2011,7 +2019,7 @@ msgstr "Kích thước kế toán"
 #. 'Payment Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Accounting Dimensions Filter"
-msgstr "Filter Chiều Kế toán"
+msgstr "Bộ lọc phân tích kế toán"
 
 #. Label of the accounts (Table) field in DocType 'Journal Entry'
 #. Label of the accounts (Table) field in DocType 'Journal Entry Template'
@@ -2174,13 +2182,13 @@ msgstr "Tài khoản Thiếu từ Báo cáo"
 #: erpnext/workspace_sidebar/invoicing.json
 #: erpnext/workspace_sidebar/payments.json
 msgid "Accounts Payable"
-msgstr "Phải trả Tài khoản"
+msgstr "Công nợ phải trả"
 
 #. Name of a report
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:175
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.json
 msgid "Accounts Payable Summary"
-msgstr "Tóm tắt Phải trả Tài khoản"
+msgstr "Tổng hợp công nợ phải trả"
 
 #. Option for the 'Write Off Based On' (Select) field in DocType 'Journal
 #. Entry'
@@ -2199,13 +2207,13 @@ msgstr "Tóm tắt Phải trả Tài khoản"
 #: erpnext/workspace_sidebar/invoicing.json
 #: erpnext/workspace_sidebar/payments.json
 msgid "Accounts Receivable"
-msgstr "Phải thu Tài khoản"
+msgstr "Công nợ phải thu"
 
 #. Label of the accounts_receivable_payable_tuning_section (Section Break)
 #. field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Accounts Receivable / Payable Tuning"
-msgstr "Điều chỉnh Phải thu / Phải trả Tài khoản"
+msgstr "Điều chỉnh Công nợ phải thu / phải trả"
 
 #. Label of the accounts_receivable_credit (Link) field in DocType 'Invoice
 #. Discounting'
@@ -2223,19 +2231,19 @@ msgstr "Tài khoản Chiết khấu Phải thu"
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:202
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.json
 msgid "Accounts Receivable Summary"
-msgstr "Tóm tắt Phải thu Tài khoản"
+msgstr "Tổng hợp công nợ phải thu"
 
 #. Label of the accounts_receivable_unpaid (Link) field in DocType 'Invoice
 #. Discounting'
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
 msgid "Accounts Receivable Unpaid Account"
-msgstr "Tài khoản phải thu Tài khoản chưa thanh toán"
+msgstr "Tài khoản công nợ phải thu chưa thanh toán"
 
 #. Label of the receivable_payable_remarks_length (Int) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Accounts Receivable/Payable"
-msgstr "Phải thu/Phải trả Tài khoản"
+msgstr "Công nợ phải thu/phải trả"
 
 #. Name of a DocType
 #. Label of a Link in the Invoicing Workspace
@@ -3707,7 +3715,7 @@ msgstr "Tuổi ({0})"
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:95
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:21
 msgid "Ageing Based On"
-msgstr "Lão hóa Dựa trên"
+msgstr "Tính tuổi nợ/kho theo"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:80
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:35
@@ -3715,12 +3723,12 @@ msgstr "Lão hóa Dựa trên"
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:35
 #: erpnext/stock/report/stock_ageing/stock_ageing.js:58
 msgid "Ageing Range"
-msgstr "Khoảng Lão hóa"
+msgstr "Khoảng phân tích tuổi"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:104
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:352
 msgid "Ageing Report based on {0} up to {1}"
-msgstr "Báo cáo Lão hóa dựa trên {0} đến {1}"
+msgstr "Báo cáo phân tích tuổi nợ dựa trên {0} đến {1}"
 
 #. Label of the agenda (Table) field in DocType 'Quality Meeting'
 #. Label of the agenda (Text Editor) field in DocType 'Quality Meeting Agenda'
@@ -11506,7 +11514,7 @@ msgstr "Kết nối"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.js:176
 msgid "Consider Accounting Dimensions"
-msgstr "Xem xét Chiều Kế toán"
+msgstr "Xem xét Phân tích kế toán"
 
 #. Label of the consider_minimum_order_qty (Check) field in DocType 'Production
 #. Plan'
@@ -18021,7 +18029,7 @@ msgstr "Ems(Pica)"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable Accounting Dimensions"
-msgstr "Bật Chiều Kế toán"
+msgstr "Bật Phân tích kế toán"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1721
 msgid "Enable Allow Partial Reservation in the Stock Settings to reserve partial stock."
@@ -18187,7 +18195,7 @@ msgstr "Bật theo dõi YouTube"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable cost center, projects and other custom accounting dimensions"
-msgstr "Bật trung tâm chi phí, dự án và các chiều kế toán tùy chỉnh khác"
+msgstr "Bật trung tâm chi phí, dự án và các phân tích kế toán tùy chỉnh khác"
 
 #. Label of the enable_cutoff_date_on_bulk_delivery_note_creation (Check) field
 #. in DocType 'Selling Settings'
@@ -24075,7 +24083,7 @@ msgstr "Tài khoản không hợp lệ"
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:418
 msgid "Invalid Accounting Dimension"
-msgstr "Chiều Kế toán không hợp lệ"
+msgstr "Phân tích kế toán không hợp lệ"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:400
 #: erpnext/accounts/doctype/payment_request/payment_request.py:1005
@@ -24348,17 +24356,17 @@ msgstr "Tiền tệ Tài khoản Hàng tồn kho"
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.py:182
 #: erpnext/workspace_sidebar/stock.json
 msgid "Inventory Dimension"
-msgstr "Chiều Hàng tồn kho"
+msgstr "Thuộc tính tồn kho"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:160
 msgid "Inventory Dimension Negative Stock"
-msgstr "Hàng tồn kho Chiều Âm"
+msgstr "Âm kho theo thuộc tính tồn kho"
 
 #. Label of the inventory_dimension_key (Small Text) field in DocType 'Stock
 #. Closing Balance'
 #: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
 msgid "Inventory Dimension key"
-msgstr "Khóa Chiều Hàng tồn kho"
+msgstr "Khóa thuộc tính tồn kho"
 
 #. Label of the inventory_settings_section (Section Break) field in DocType
 #. 'Item'
@@ -27031,12 +27039,12 @@ msgstr "Tài khoản bút toán nhật ký"
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 #: erpnext/workspace_sidebar/accounts_setup.json
 msgid "Journal Entry Template"
-msgstr "Mẫu bút toán nhật ký"
+msgstr "Mẫu định khoản"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/journal_entry_template_account/journal_entry_template_account.json
 msgid "Journal Entry Template Account"
-msgstr "Tài khoản mẫu bút toán nhật ký"
+msgstr "Tài khoản mẫu định khoản"
 
 #. Label of the voucher_type (Select) field in DocType 'Journal Entry Template'
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
@@ -32158,21 +32166,21 @@ msgstr "Đang tạo Hóa đơn Mở"
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Opening Invoice Creation Tool"
-msgstr "Công cụ Tạo Hóa đơn Mở"
+msgstr "Tạo công nợ đầu kỳ"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
 msgid "Opening Invoice Creation Tool Item"
-msgstr "Mục Công cụ Tạo Hóa đơn Mở"
+msgstr "Mục Tạo công nợ đầu kỳ"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:106
 msgid "Opening Invoice Item"
-msgstr "Mục Hóa đơn Mở"
+msgstr "Mục công nợ đầu kỳ"
 
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/accounts_setup.json
 msgid "Opening Invoice Tool"
-msgstr "Công cụ Hóa đơn Mở"
+msgstr "Tạo công nợ đầu kỳ"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1653
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1988
@@ -32181,7 +32189,7 @@ msgstr "Hóa đơn Mở có điều chỉnh làm tròn {0}.<br><br> Tài khoản
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool_dashboard.html:8
 msgid "Opening Invoices"
-msgstr "Hóa đơn Mở"
+msgstr "Hóa đơn công nợ đầu kỳ"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:142
 msgid "Opening Invoices Summary"
@@ -35937,7 +35945,7 @@ msgstr "Vui lòng tạo Phiếu chi phí hạ tầng đối với các hóa đơ
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:74
 msgid "Please create a new Accounting Dimension if required."
-msgstr "Vui lòng tạo một Chiều kế toán mới nếu cần."
+msgstr "Vui lòng tạo một Phân tích kế toán mới nếu cần."
 
 #: erpnext/controllers/accounts_controller.py:802
 msgid "Please create purchase from internal sale or delivery document itself"
@@ -36621,7 +36629,7 @@ msgstr "Vui lòng đặt Tài khoản trong Kho {0} hoặc Tài khoản hàng t�
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:333
 msgid "Please set Accounting Dimension {} in {}"
-msgstr "Vui lòng đặt Chiều kế toán {} trong {}"
+msgstr "Vui lòng đặt Phân tích kế toán {} trong {}"
 
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:23
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:34
@@ -44188,7 +44196,7 @@ msgstr "Hàng #{0}: Kho nguồn và Kho đích không thể giống nhau cho Chu
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1129
 msgid "Row #{0}: Source, Target Warehouse and Inventory Dimensions cannot be the exact same for Material Transfer"
-msgstr "Hàng #{0}: Kho nguồn, Kho đích và Chiều hàng tồn kho không thể giống nhau hoàn toàn cho Chuyển nguyên liệu"
+msgstr "Hàng #{0}: Kho nguồn, Kho đích và Thuộc tính tồn kho không thể giống nhau hoàn toàn cho Chuyển nguyên liệu"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:107
 msgid "Row #{0}: Start Time must be before End Time"
@@ -44273,7 +44281,7 @@ msgstr "Hàng #{0}: Lệnh Sản xuất đã tồn tại cho toàn bộ hoặc m
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:100
 msgid "Row #{0}: You cannot use the inventory dimension '{1}' in Stock Reconciliation to modify the quantity or valuation rate. Stock reconciliation with inventory dimensions is intended solely for performing opening entries."
-msgstr "Hàng #{0}: Bạn không thể sử dụng chiều hàng tồn kho '{1}' trong Đối soát Hàng tồn kho để sửa số lượng hoặc tỷ giá định giá. Đối soát hàng tồn kho với chiều hàng tồn kho chỉ nhằm mục đích thực hiện các mục số dư đầu kỳ."
+msgstr "Hàng #{0}: Bạn không thể sử dụng thuộc tính tồn kho '{1}' trong Đối soát Hàng tồn kho để sửa số lượng hoặc tỷ giá định giá. Đối soát hàng tồn kho với thuộc tính tồn kho chỉ nhằm mục đích thực hiện các mục số dư đầu kỳ."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:429
 msgid "Row #{0}: You must select an Asset for Item {1}."
@@ -44737,7 +44745,7 @@ msgstr "Hàng {0}: người dùng chưa áp dụng quy tắc {1} cho mặt hàng
 
 #: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.py:63
 msgid "Row {0}: {1} account already applied for Accounting Dimension {2}"
-msgstr "Hàng {0}: Tài khoản {1} đã được áp dụng cho Chiều Kế toán {2}"
+msgstr "Hàng {0}: Tài khoản {1} đã được áp dụng cho Phân tích kế toán {2}"
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:41
 msgid "Row {0}: {1} must be greater than 0"
@@ -46183,7 +46191,7 @@ msgstr "Xem tất cả các phiếu đang mở"
 
 #: erpnext/accounts/report/profitability_analysis/profitability_analysis.py:23
 msgid "Select Accounting Dimension."
-msgstr "Chọn Chiều Kế toán."
+msgstr "Chọn Phân tích kế toán."
 
 #: erpnext/public/js/utils.js:555
 msgid "Select Alternate Item"
@@ -48394,7 +48402,7 @@ msgstr "Hiển thị nhân viên bán hàng"
 
 #: erpnext/stock/report/stock_balance/stock_balance.js:120
 msgid "Show Stock Ageing Data"
-msgstr "Hiển thị dữ liệu lão hóa chứng khoán"
+msgstr "Hiển thị dữ liệu tuổi tồn kho"
 
 #. Label of the show_taxes_as_table_in_print (Check) field in DocType 'Accounts
 #. Settings'
@@ -49173,7 +49181,7 @@ msgstr "Tài khoản điều chỉnh tồn kho"
 #: erpnext/stock/workspace/stock/stock.json
 #: erpnext/workspace_sidebar/stock.json
 msgid "Stock Ageing"
-msgstr "Lão hóa tồn kho"
+msgstr "Tuổi tồn kho"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace

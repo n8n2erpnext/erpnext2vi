@@ -29,6 +29,14 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
+msgstr ""
+
+msgstr ""
+
+msgstr ""
+
 # Translations template for Frappe HR.
 # Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe HR project.
@@ -2977,7 +2985,7 @@ msgstr "Email nhân viên"
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Employee Exit Settings"
-msgstr "Cài đặt nghỉ việc nhân viên"
+msgstr "Cài đặt nhân viên nghỉ việc"
 
 #. Name of a report
 #. Label of a Link in the HR Workspace
@@ -2985,7 +2993,7 @@ msgstr "Cài đặt nghỉ việc nhân viên"
 #: hrms/hr/report/employee_exits/employee_exits.json
 #: hrms/hr/workspace/hr/hr.json hrms/hr/workspace/tenure/tenure.json
 msgid "Employee Exits"
-msgstr "Nghỉ việc nhân viên"
+msgstr "Nhân viên nghỉ việc"
 
 #. Name of a DocType
 #: hrms/hr/doctype/employee_feedback_criteria/employee_feedback_criteria.json
@@ -3197,7 +3205,7 @@ msgstr "Nhân viên được giữ lại"
 #: hrms/hr/doctype/employee_separation/employee_separation.json
 #: hrms/hr/workspace/tenure/tenure.json
 msgid "Employee Separation"
-msgstr "Nghỉ việc nhân viên"
+msgstr "Nhân viên nghỉ việc"
 
 #. Label of the employee_separation_template (Link) field in DocType 'Employee
 #. Separation'
@@ -3207,7 +3215,7 @@ msgstr "Nghỉ việc nhân viên"
 #: hrms/hr/doctype/employee_separation_template/employee_separation_template.json
 #: hrms/hr/workspace/tenure/tenure.json
 msgid "Employee Separation Template"
-msgstr "Mẫu nghỉ việc nhân viên"
+msgstr "Mẫu nhân viên nghỉ việc"
 
 #. Label of the employee_settings (Section Break) field in DocType 'HR
 #. Settings'

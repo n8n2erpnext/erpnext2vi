@@ -23,6 +23,10 @@ public class PoMerger
 
     private static Dictionary<string, string> dictExact = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
     {
+        // Brand name overrides
+        { "Frappe", "Frappe" },
+        { "Frappe Support", "Hỗ trợ Frappe" },
+
         // System UI & Navigation
         { "Desktop", "Tổng quan" },
         { "Workspace", "Khu làm việc" },

@@ -25,6 +25,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe Framework.
 # Copyright (C) 2026 Frappe Technologies
 # This file is distributed under the same license as the Frappe Framework project.
@@ -11561,7 +11563,7 @@ msgstr "Khung hệ thống"
 #: frappe/www/login.html:67 frappe/www/login.html:166 frappe/www/login.py:53
 #: frappe/www/login.py:154
 msgid "Frappe"
-msgstr "sinh tố"
+msgstr "Frappe"
 
 #: frappe/public/js/frappe/ui/toolbar/about.js:28
 msgid "Frappe Blog"
@@ -11597,7 +11599,7 @@ msgstr "Trang Frappe Mail"
 #. Type: Route
 #: frappe/hooks.py
 msgid "Frappe Support"
-msgstr "Hỗ trợ sinh tố"
+msgstr "Hỗ trợ Frappe"
 
 #: frappe/website/doctype/web_page/web_page.js:97
 msgid "Frappe page builder using components"
@@ -13749,7 +13751,7 @@ msgstr "InnoDB"
 #. Description of the 'New Role' (Data) field in DocType 'Role Replication'
 #: frappe/core/doctype/role_replication/role_replication.json
 msgid "Input existing role name if you would like to extend it with access of another role."
-msgstr "Nhập tên Role hiện tại nếu bạn muốn mở rộng vai trò đó với quyền truy cập của Role khác."
+msgstr "Nhập tên Role hiện tại nếu bạn muốn mở rộng role đó với quyền truy cập của Role khác."
 
 #: frappe/core/doctype/data_import/data_import_list.js:35
 msgid "Insert"

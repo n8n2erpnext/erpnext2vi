@@ -125,3 +125,21 @@ Repository này đi kèm với các công cụ tự động phục vụ việc c
    ```powershell
    powershell -ExecutionPolicy Bypass -File validate_translations.ps1
    ```
+
+---
+
+## 5. Hình Ảnh Minh Họa Giao Diện (Screenshots)
+
+Dưới đây là một số hình ảnh giao diện ERPNext v16 thực tế sau khi đã được dịch thuật và đồng bộ cơ sở dữ liệu:
+
+### A. Trang Tổng Quan (Main Desk Dashboard)
+![Trang Tổng Quan](images/workspace_main.png)
+
+### B. Khu làm việc Bán Hàng (Sales Workspace)
+![Khu làm việc Bán Hàng](images/sales_workspace.png)
+
+### C. Cài Đặt Tài Khoản (Accounts Settings Setup)
+![Cài Đặt Tài Khoản](images/accounts_settings.png)
+
+### D. Khu làm việc Lập Hóa Đơn (Invoicing Workspace)
+![Khu làm việc Lập Hóa Đơn](images/accounting_dashboard.png)

@@ -19,6 +19,8 @@
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe CRM.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe CRM project.
@@ -216,7 +218,7 @@ msgstr "Bí mật API"
 #: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.json
 #: frontend/src/components/Settings/Telephony/ExotelSettings.vue:53
 msgid "API Token"
-msgstr "Mã thông báo API"
+msgstr "Token API"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:459
 #: frontend/src/components/Settings/emailConfig.js:192
@@ -270,11 +272,11 @@ msgstr "Khóa Truy cập là bắt buộc cho Nhà cung cấp Dịch vụ: {0}"
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:90
 #: frontend/src/components/Settings/LeadSyncing/leadSyncSourceConfig.js:29
 msgid "Access Token"
-msgstr "Mã thông báo truy cập"
+msgstr "Token truy cập"
 
 #: crm/lead_syncing/doctype/lead_sync_source/facebook.py:145
 msgid "Access token is required"
-msgstr "Yêu cầu mã thông báo truy cập"
+msgstr "Yêu cầu token truy cập"
 
 #. Label of the account_id (Data) field in DocType 'Facebook Page'
 #: crm/lead_syncing/doctype/facebook_page/facebook_page.json
@@ -315,7 +317,7 @@ msgstr "Chức năng"
 #: frontend/src/pages/Deal.vue:560 frontend/src/pages/Lead.vue:412
 #: frontend/src/pages/MobileDeal.vue:438 frontend/src/pages/MobileLead.vue:284
 msgid "Activity"
-msgstr "Hoạt Động"
+msgstr "Nhật ký hoạt động"
 
 #: frontend/src/components/Dashboard/AddChartModal.vue:41
 #: frontend/src/components/Modals/AddExistingUserModal.vue:55
@@ -386,7 +388,7 @@ msgstr "Thêm Trường"
 #: frontend/src/components/Filter.vue:139
 #: frontend/src/components/ViewControls.vue:107
 msgid "Add Filter"
-msgstr "Thêm bộ lọc"
+msgstr "Thêm filter"
 
 #: frontend/src/components/Calendar/CalendarEventPanel.vue:430
 msgid "Add Lead or Deal"
@@ -477,7 +479,7 @@ msgstr "Thêm mô tả..."
 
 #: frontend/src/components/Modals/AddExistingUserModal.vue:12
 msgid "Add existing system users to this CRM. Assign them a role to grant access with their current credentials."
-msgstr "Thêm người dùng hệ thống hiện có vào CRM này. Gán cho họ một vai trò để cấp quyền truy cập với thông tin xác thực hiện tại của họ."
+msgstr "Thêm người dùng hệ thống hiện có vào CRM này. Gán cho họ một role để cấp quyền truy cập với thông tin xác thực hiện tại của họ."
 
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRulesList.vue:11
 #: frontend/src/components/Settings/EmailAccountList.vue:51
@@ -690,7 +692,7 @@ msgstr "Bạn chắc chắn muốn quay lại? Các thay đổi chưa lưu sẽ 
 
 #: frontend/src/composables/frappecloud.js:24
 msgid "Are you sure you want to login to your Frappe Cloud dashboard?"
-msgstr "Bạn có chắc chắn muốn đăng nhập vào bảng điều khiển Frappe Cloud của mình không?"
+msgstr "Bạn có chắc chắn muốn đăng nhập vào dashboard Frappe Cloud của mình không?"
 
 #: frontend/src/components/FieldLayoutEditor.vue:428
 msgid "Are you sure you want to remove this tab and all its content?"
@@ -725,7 +727,7 @@ msgstr "Các Điều Kiện Phân Công Không Hợp Lệ"
 #: frontend/src/components/ListBulkActions.vue:184
 #: frontend/src/components/Modals/AssignmentModal.vue:4
 msgid "Assign To"
-msgstr "Giao cho"
+msgstr "Giao việc"
 
 #: frontend/src/components/AssignToBody.vue:64
 msgid "Assign To Me"
@@ -841,7 +843,7 @@ msgstr "Đính kèm tệp..."
 #: frontend/src/pages/Deal.vue:600 frontend/src/pages/Lead.vue:452
 #: frontend/src/pages/MobileDeal.vue:474 frontend/src/pages/MobileLead.vue:319
 msgid "Attachments"
-msgstr "Tập tin đính kèm"
+msgstr "Tài liệu đính kèm"
 
 #: frontend/src/components/Modals/EventModal.vue:120
 msgid "Attendees"
@@ -1318,11 +1320,11 @@ msgstr "Đã hủy"
 
 #: crm/api/user.py:82
 msgid "Cannot assign this role"
-msgstr "Không thể gán vai trò này"
+msgstr "Không thể gán role này"
 
 #: frontend/src/components/Settings/Users.vue:120
 msgid "Cannot change role of user with Admin access"
-msgstr "Không thể thay đổi vai trò của người dùng có quyền Admin"
+msgstr "Không thể thay đổi role của người dùng có quyền Admin"
 
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.py:70
 msgid "Cannot delete standard items {0}"
@@ -1334,7 +1336,7 @@ msgstr "Không thể kích hoạt quy tắc mà không thêm người dùng vào
 
 #: crm/api/__init__.py:109
 msgid "Cannot invite for this role"
-msgstr "Không thể mời cho vai trò này"
+msgstr "Không thể mời cho role này"
 
 #: frontend/src/components/FilesUploader/FilesUploader.vue:91
 msgid "Capture"
@@ -1621,7 +1623,7 @@ msgstr "Cấu hình cài đặt chung cho ứng dụng của bạn"
 
 #: frontend/src/components/Settings/DashboardSettings.vue:10
 msgid "Configure how your dashboard calculates, formats, and displays key metrics, including forecasting, deal values, and currency settings"
-msgstr "Cấu hình cách bảng điều khiển tính toán, định dạng và hiển thị các chỉ số chính, bao gồm dự báo, giá trị giao dịch và cài đặt tiền tệ"
+msgstr "Cấu hình cách dashboard tính toán, định dạng và hiển thị các chỉ số chính, bao gồm dự báo, giá trị giao dịch và cài đặt tiền tệ"
 
 #: frontend/src/components/Settings/DashboardSettings.vue:102
 msgid "Configure the Exchange Rate Provider for your CRM"
@@ -1956,7 +1958,7 @@ msgstr "Tùy chỉnh"
 
 #: frontend/src/components/ViewControls.vue:223
 msgid "Customize Quick Filters"
-msgstr "Tùy chỉnh bộ lọc nhanh"
+msgstr "Tùy chỉnh filter nhanh"
 
 #. Option for the 'Default Calendar View' (Select) field in DocType 'FCRM
 #. Settings'
@@ -1983,7 +1985,7 @@ msgstr "Trang tổng quan"
 
 #: frontend/src/components/Settings/DashboardSettings.vue:70
 msgid "Dashboard Currency"
-msgstr "Tiền tệ trên Bảng điều khiển"
+msgstr "Tiền tệ trên Dashboard"
 
 #: frontend/src/components/Settings/DashboardSettings.vue:74
 msgid "Dashboard number cards & charts will show currency in the selected format. Once set, cannot be edited."
@@ -1991,7 +1993,7 @@ msgstr "Các thẻ số và biểu đồ trên Dashboard sẽ hiển thị tiề
 
 #: frontend/src/components/Settings/DashboardSettings.vue:224
 msgid "Dashboard settings updated successfully"
-msgstr "Cài đặt Bảng điều khiển đã được cập nhật thành công"
+msgstr "Cài đặt Dashboard đã được cập nhật thành công"
 
 #: frontend/src/components/Activities/DataFields.vue:6
 #: frontend/src/components/Layouts/AppSidebar.vue:604
@@ -2038,7 +2040,7 @@ msgstr "Ngày"
 #: frontend/src/components/Telephony/ExotelCallUI.vue:200
 #: frontend/src/pages/Tasks.vue:132
 msgid "Deal"
-msgstr "Deal"
+msgstr "Cơ hội bán hàng"
 
 #. Label of the deal_owner (Link) field in DocType 'CRM Deal'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json frontend/src/pages/Contact.vue:546
@@ -3343,7 +3345,7 @@ msgstr "Lọc"
 #. Label of the filters_tab (Tab Break) field in DocType 'CRM View Settings'
 #: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
 msgid "Filters"
-msgstr "Bộ lọc"
+msgstr "Filter"
 
 #. Label of the first_name (Data) field in DocType 'CRM Lead'
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
@@ -3638,7 +3640,7 @@ msgstr "Cao"
 #. Agreement'
 #: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
 msgid "Holiday List"
-msgstr "Danh sách ngày nghỉ"
+msgstr "Lịch nghỉ"
 
 #. Label of the holiday_list_name (Data) field in DocType 'CRM Holiday List'
 #: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
@@ -3921,7 +3923,7 @@ msgstr "Mời Agent"
 
 #: frontend/src/components/Settings/InviteUserPage.vue:53
 msgid "Invite As"
-msgstr "Mời với vai trò"
+msgstr "Mời với role"
 
 #: frontend/src/components/Settings/InviteUserPage.vue:32
 msgid "Invite By Email"
@@ -3941,7 +3943,7 @@ msgstr "Mời Người dùng"
 
 #: frontend/src/components/Settings/InviteUserPage.vue:10
 msgid "Invite users to access CRM. Specify their roles to control access and permissions"
-msgstr "Mời người dùng truy cập CRM. Chỉ định vai trò của họ để kiểm soát quyền truy cập và quyền hạn"
+msgstr "Mời người dùng truy cập CRM. Chỉ định role của họ để kiểm soát quyền truy cập và quyền hạn"
 
 #: frontend/src/components/Layouts/AppSidebar.vue:377
 msgid "Invite your team"
@@ -4194,7 +4196,7 @@ msgstr "Bố cục"
 #: frontend/src/components/Telephony/ExotelCallUI.vue:200
 #: frontend/src/pages/Tasks.vue:133
 msgid "Lead"
-msgstr "Chì"
+msgstr "Khách hàng tiềm năng"
 
 #. Label of the lead_data (Code) field in DocType 'Failed Lead Sync Log'
 #: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
@@ -4433,7 +4435,7 @@ msgstr "Ghi chú thất bại là bắt buộc khi Lý do thất bại là \"Kh�
 #: frontend/src/components/Modals/LostReasonModal.vue:4
 #: frontend/src/components/Modals/LostReasonModal.vue:18
 msgid "Lost Reason"
-msgstr "Lý do bị mất"
+msgstr "Lý do thất bại"
 
 #: frontend/src/components/Modals/LostReasonModal.vue:84
 msgid "Lost Reason is required"
@@ -4489,7 +4491,7 @@ msgstr "Khiến \"Ngày đóng dự kiến\" và \"Giá trị Deal dự kiến\"
 
 #: frontend/src/components/Settings/Users.vue:11
 msgid "Manage CRM users by adding or inviting them, and assign roles to control their access and permissions"
-msgstr "Quản lý người dùng CRM bằng cách thêm hoặc mời họ, và chỉ định vai trò để kiểm soát quyền truy cập và quyền hạn của họ"
+msgstr "Quản lý người dùng CRM bằng cách thêm hoặc mời họ, và chỉ định role để kiểm soát quyền truy cập và quyền hạn của họ"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:4
 msgid "Manage ERPNext integration settings"
@@ -5223,11 +5225,11 @@ msgstr "Deals đang diễn ra"
 
 #: crm/api/user.py:62 crm/api/user.py:95
 msgid "Only System Managers can assign the Sales Manager role"
-msgstr "Chỉ Người quản lý hệ thống mới có thể gán vai trò Giám đốc bán hàng"
+msgstr "Chỉ Người quản lý hệ thống mới có thể gán role Giám đốc bán hàng"
 
 #: crm/api/user.py:59 crm/api/user.py:89
 msgid "Only System Managers can assign the System Manager role"
-msgstr "Chỉ Người quản lý hệ thống mới có thể gán vai trò Người quản lý hệ thống"
+msgstr "Chỉ Người quản lý hệ thống mới có thể gán role Người quản lý hệ thống"
 
 #: crm/api/user.py:92 crm/api/user.py:128
 msgid "Only System Managers can modify other System Managers"
@@ -5514,7 +5516,7 @@ msgstr "Tốc độ Phát lại"
 
 #: crm/lead_syncing/doctype/lead_sync_source/facebook.py:169
 msgid "Please check your access token"
-msgstr "Vui lòng kiểm tra mã thông báo truy cập của bạn"
+msgstr "Vui lòng kiểm tra token truy cập của bạn"
 
 #: crm/integrations/twilio/twilio_handler.py:119
 msgid "Please enable twilio settings before making a call."
@@ -5759,11 +5761,11 @@ msgstr "Bố cục Nhập nhanh"
 #. Option for the 'Type' (Select) field in DocType 'CRM Global Settings'
 #: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
 msgid "Quick Filters"
-msgstr "Bộ lọc nhanh"
+msgstr "Filter nhanh"
 
 #: frontend/src/components/ViewControls.vue:740
 msgid "Quick filters updated successfully"
-msgstr "Bộ lọc nhanh đã được cập nhật thành công"
+msgstr "Filter nhanh đã được cập nhật thành công"
 
 #. Label of the rate (Currency) field in DocType 'CRM Products'
 #: crm/fcrm/doctype/crm_products/crm_products.json
@@ -5863,7 +5865,7 @@ msgstr "Từ chối Cuộc gọi"
 
 #: frontend/src/components/Kanban/KanbanView.vue:165
 msgid "Reload Columns"
-msgstr "Tải lại Cột"
+msgstr "Làm mới Cột"
 
 #: frontend/src/components/Settings/CalendarSettings.vue:67
 msgid "Reminders will be sent <b>before the event starts</b>, based on the configured time"
@@ -6065,7 +6067,7 @@ msgstr "Đang đổ chuông..."
 #: crm/fcrm/doctype/crm_invitation/crm_invitation.json
 #: frontend/src/components/Modals/AddExistingUserModal.vue:46
 msgid "Role"
-msgstr "Vai trò"
+msgstr "Role"
 
 #. Option for the 'SLA Status' (Select) field in DocType 'CRM Deal'
 #. Option for the 'SLA Status' (Select) field in DocType 'CRM Lead'
@@ -6472,7 +6474,7 @@ msgstr "Dãy"
 
 #: frontend/src/components/Layouts/AppSidebar.vue:605
 msgid "Service Level Agreement"
-msgstr "Thỏa thuận cấp độ dịch vụ"
+msgstr "SLA"
 
 #. Label of the service_provider (Select) field in DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
@@ -6847,16 +6849,16 @@ msgstr "Subdomain"
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:68
 #: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:68
 msgid "Subject"
-msgstr "Chủ đề"
+msgstr "Theme"
 
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:152
 #: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:158
 msgid "Subject is required"
-msgstr "Chủ đề là bắt buộc"
+msgstr "Theme là bắt buộc"
 
 #: frontend/src/components/Modals/EmailTemplateSelectorModal.vue:35
 msgid "Subject: {0}"
-msgstr "Chủ đề: {0}"
+msgstr "Theme: {0}"
 
 #. Option for the 'Weekly Off' (Select) field in DocType 'CRM Holiday List'
 #. Option for the 'Workday' (Select) field in DocType 'CRM Service Day'
@@ -6875,7 +6877,7 @@ msgstr "Chuyển đổi máy ảnh"
 
 #: frontend/src/components/Settings/PreferencesSettings.vue:26
 msgid "Switch between light, dark, or system theme"
-msgstr "Chuyển đổi giữa chủ đề sáng, tối hoặc hệ thống"
+msgstr "Chuyển đổi giữa theme sáng, tối hoặc hệ thống"
 
 #: frontend/src/components/Settings/Profile/UserEmailSettings.vue:55
 msgid "Switch between outgoing email accounts when sending emails"
@@ -6901,12 +6903,12 @@ msgstr "Đồng bộ Danh bạ, Email và Lịch của bạn"
 #. Option for the 'Type' (Select) field in DocType 'Failed Lead Sync Log'
 #: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
 msgid "Synced"
-msgstr "Đã đồng bộ hóa"
+msgstr "Đã sync"
 
 #. Label of the syncing_tab (Tab Break) field in DocType 'CRM Lead'
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 msgid "Syncing"
-msgstr "Đang đồng bộ hóa"
+msgstr "Đang sync"
 
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:380
 msgid "Syncing started in background"
@@ -7038,7 +7040,7 @@ msgstr "Các Lãnh thổ"
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 #: crm/fcrm/doctype/crm_organization/crm_organization.json
 msgid "Territory"
-msgstr "Lãnh thổ"
+msgstr "Khu vực bán hàng"
 
 #. Label of the territory_manager (Link) field in DocType 'CRM Territory'
 #: crm/fcrm/doctype/crm_territory/crm_territory.json
@@ -7075,7 +7077,7 @@ msgstr "Tỷ giá được sử dụng để chuyển đổi tiền tệ của t
 
 #: frontend/src/components/Settings/PreferencesSettings.vue:23
 msgid "Theme"
-msgstr "Chủ đề"
+msgstr "Theme"
 
 #: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.js:29
 msgid "There can only be one default priority in Priorities table"
@@ -7514,7 +7516,7 @@ msgstr "Tải lên"
 #: frontend/src/components/Activities/ActivityHeader.vue:55
 #: frontend/src/components/Activities/ActivityHeader.vue:156
 msgid "Upload Attachment"
-msgstr "Tải lên Tệp đính kèm"
+msgstr "Tải lên Tài liệu đính kèm"
 
 #: frontend/src/components/Activities/WhatsAppBox.vue:152
 msgid "Upload Document"
@@ -7564,7 +7566,7 @@ msgstr "Tên người dùng"
 
 #: crm/api/user.py:132
 msgid "User {0} cannot be removed as it has a Role Profile assigned to it."
-msgstr "Người dùng {0} không thể bị xóa vì nó có Hồ sơ Vai trò được gán."
+msgstr "Người dùng {0} không thể bị xóa vì nó có Hồ sơ Role được gán."
 
 #: frontend/src/components/Settings/Users.vue:288
 msgid "User {0} has been removed"
@@ -7572,7 +7574,7 @@ msgstr "Người dùng {0} đã bị xóa"
 
 #: crm/api/user.py:141
 msgid "User {0} has been removed from CRM roles."
-msgstr "Người dùng {0} đã bị xóa khỏi các vai trò CRM."
+msgstr "Người dùng {0} đã bị xóa khỏi các role CRM."
 
 #: frontend/src/components/Modals/AddExistingUserModal.vue:20
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:608
@@ -7846,7 +7848,7 @@ msgstr "Bạn sẽ được chuyển hướng đến trang mời người dùng,
 
 #: frontend/src/components/Settings/LeadSyncing/leadSyncSourceConfig.js:8
 msgid "You will need a Meta developer account and an access token to sync leads from Facebook. Read more"
-msgstr "Bạn sẽ cần tài khoản nhà phát triển Meta và mã thông báo truy cập để đồng bộ leads từ Facebook. Đọc thêm"
+msgstr "Bạn sẽ cần tài khoản nhà phát triển Meta và token truy cập để đồng bộ leads từ Facebook. Đọc thêm"
 
 #: crm/api/todo.py:100
 msgid "Your assignment on task {0} has been removed by {1}"

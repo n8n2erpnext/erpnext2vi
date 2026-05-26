@@ -21,6 +21,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 msgid ""
 msgstr ""
 
@@ -294,7 +296,7 @@ msgid ""
 "</a>"
 msgstr ""
 "<a href=\"https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\" rel=\"noopener noreferrer\">\n"
-"  Nhấp vào đây để tìm hiểu về xác thực dựa trên mã thông báo\n"
+"  Nhấp vào đây để tìm hiểu về xác thực dựa trên token\n"
 "</a>"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:601
@@ -734,9 +736,9 @@ msgid ""
 "<p>If you create a separate webform every year to capture feedback from employees add a \n"
 " field named year in doctype and add a filter <b>year = 2023</b></p>\n"
 msgstr ""
-"<p>Có thể tạo nhiều webform cho một doctype đơn lẻ. Thêm bộ lọc cụ thể cho webform này để hiển thị đúng bản ghi sau khi gửi.</p><p>Ví dụ:</p>\n"
+"<p>Có thể tạo nhiều webform cho một doctype đơn lẻ. Thêm filter cụ thể cho webform này để hiển thị đúng bản ghi sau khi gửi.</p><p>Ví dụ:</p>\n"
 "<p>Nếu Bạn tạo một webform riêng mỗi năm để thu thập phản hồi từ nhân viên, hãy thêm \n"
-" trường tên year trong doctype và thêm bộ lọc <b>year = 2023</b></p>\n"
+" trường tên year trong doctype và thêm filter <b>year = 2023</b></p>\n"
 
 #. Description of the 'Context Script' (Code) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -1133,12 +1135,12 @@ msgstr "Nhật Ký Truy Cập"
 #: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
 #: frappe/integrations/doctype/token_cache/token_cache.json
 msgid "Access Token"
-msgstr "Mã thông báo truy cập"
+msgstr "Token truy cập"
 
 #. Label of the access_token_url (Data) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Access Token URL"
-msgstr "URL mã thông báo truy cập"
+msgstr "URL token truy cập"
 
 #: frappe/auth.py:506
 msgid "Access not allowed from this IP Address"
@@ -1307,7 +1309,7 @@ msgstr "Phiên Hoạt động"
 #: frappe/public/js/frappe/form/dashboard.js:22
 #: frappe/public/js/frappe/form/footer/form_timeline.js:67
 msgid "Activity"
-msgstr "Hoạt Động"
+msgstr "Nhật ký hoạt động"
 
 #. Name of a DocType
 #. Label of a Link in the Build Workspace
@@ -1376,7 +1378,7 @@ msgstr "Thêm CSS"
 
 #: frappe/desk/doctype/number_card/number_card.js:37
 msgid "Add Card to Dashboard"
-msgstr "Thêm thẻ vào Bảng điều khiển"
+msgstr "Thêm thẻ vào Dashboard"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:211
 msgid "Add Chart to Dashboard"
@@ -1415,7 +1417,7 @@ msgstr "Thêm thẻ tùy chỉnh"
 
 #: frappe/desk/doctype/number_card/number_card.js:480
 msgid "Add Filter"
-msgstr "Thêm bộ lọc"
+msgstr "Thêm filter"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:188
 #: frappe/public/js/frappe/widgets/widget_dialog.js:716
@@ -1526,11 +1528,11 @@ msgstr "Thêm tiêu đề X-Original-From"
 
 #: frappe/public/js/frappe/ui/filters/filter_list.js:309
 msgid "Add a Filter"
-msgstr "Thêm bộ lọc"
+msgstr "Thêm filter"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:9
 msgid "Add a New Role"
-msgstr "Thêm vai trò mới"
+msgstr "Thêm role mới"
 
 #: frappe/public/js/frappe/form/form_tour.js:211
 msgid "Add a Row"
@@ -1645,7 +1647,7 @@ msgstr "Thêm {0}"
 
 #: frappe/public/js/frappe/widgets/quick_list_widget.js:67
 msgid "Add/Update Filter"
-msgstr "Thêm/Cập nhật bộ lọc"
+msgstr "Thêm/Cập nhật filter"
 
 #. Option for the 'Status' (Select) field in DocType 'Permission Log'
 #: frappe/core/doctype/permission_log/permission_log.json
@@ -1892,7 +1894,7 @@ msgstr "Hàm tổng hợp dựa trên"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:413
 msgid "Aggregate Function field is required to create a dashboard chart"
-msgstr "Cần có trường Hàm tổng hợp để tạo biểu đồ bảng điều khiển"
+msgstr "Cần có trường Hàm tổng hợp để tạo biểu đồ dashboard"
 
 #. Option for the 'Type' (Select) field in DocType 'Notification Log'
 #: frappe/desk/doctype/notification_log/notification_log.json
@@ -1991,7 +1993,7 @@ msgstr "Tất cả các trường đều cần thiết để gửi bình luận.
 #. Description of the 'Document States' (Table) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "All possible Workflow States and roles of the workflow. Docstatus Options: 0 is \"Saved\", 1 is \"Submitted\" and 2 is \"Cancelled\""
-msgstr "Tất cả các trạng thái Quy trình công việc và vai trò có thể có. Tùy chọn Docstatus: 0 là \"Đã lưu\", 1 là \"Đã gửi\" và 2 là \"Đã hủy\""
+msgstr "Tất cả các trạng thái Quy trình công việc và role có thể có. Tùy chọn Docstatus: 0 là \"Đã lưu\", 1 là \"Đã gửi\" và 2 là \"Đã hủy\""
 
 #: frappe/utils/password_strength.py:183
 msgid "All-uppercase is almost as easy to guess as all-lowercase."
@@ -2128,7 +2130,7 @@ msgstr "Cho phép đổi tên"
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 #: frappe/desk/doctype/module_onboarding/module_onboarding.json
 msgid "Allow Roles"
-msgstr "Cho phép vai trò"
+msgstr "Cho phép role"
 
 #. Label of the allow_self_approval (Check) field in DocType 'Workflow
 #. Transition'
@@ -2182,9 +2184,9 @@ msgid ""
 "\n"
 "Does nothing if a workflow isn't set up."
 msgstr ""
-"Cho phép chỉnh sửa ngay cả khi loại tài liệu đã thiết lập quy trình làm việc.\n"
+"Cho phép chỉnh sửa ngay cả khi loại tài liệu đã thiết lập workflow.\n"
 "\n"
-"Sẽ không có tác dụng gì nếu quy trình làm việc không được thiết lập."
+"Sẽ không có tác dụng gì nếu workflow không được thiết lập."
 
 #. Label of the allow_events_in_timeline (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -2300,7 +2302,7 @@ msgstr "Nguồn gốc của khách hàng công cộng được phép"
 #. Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "Allowed Roles"
-msgstr "Vai trò được phép"
+msgstr "Role được phép"
 
 #. Label of the allowed_embedding_domains (Small Text) field in DocType 'Web
 #. Form'
@@ -2354,7 +2356,7 @@ msgstr "Cho phép chia sẻ quyền truy cập tài liệu với người dùng 
 #. Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "Allows skipping authorization if a user has active tokens."
-msgstr "Cho phép bỏ qua ủy quyền nếu người dùng có mã thông báo đang hoạt động."
+msgstr "Cho phép bỏ qua ủy quyền nếu người dùng có token đang hoạt động."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:62
 msgid "Allows the user to access reports related to the document."
@@ -2574,7 +2576,7 @@ msgstr "Có thể sử dụng bất kỳ ngôn ngữ máy in dựa trên chuỗi
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:103
 msgid "Apart from System Manager, roles with Set User Permissions right can set permissions for other users for that Document Type."
-msgstr "Ngoài Trình quản lý hệ thống, các vai trò có quyền Đặt quyền của người dùng có thể đặt quyền cho những người dùng khác đối với Loại tài liệu đó."
+msgstr "Ngoài Trình quản lý hệ thống, các role có quyền Đặt quyền của người dùng có thể đặt quyền cho những người dùng khác đối với Loại tài liệu đó."
 
 #. Label of the app_tab (Tab Break) field in DocType 'System Settings'
 #. Label of the app_section (Section Break) field in DocType 'User'
@@ -2653,7 +2655,7 @@ msgstr "Nối vào có thể là một trong {0}"
 #. Description of the 'Append To' (Link) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Append as communication against this DocType (must have fields: \"Sender\" and \"Subject\"). These fields can be defined in the email settings section of the appended doctype."
-msgstr "Nối như liên lạc cho DocType này (phải có các trường: \"Người gửi\" và \"Chủ đề\"). Các trường này có thể được định nghĩa trong phần cài đặt email của doctype được nối."
+msgstr "Nối như liên lạc cho DocType này (phải có các trường: \"Người gửi\" và \"Theme\"). Các trường này có thể được định nghĩa trong phần cài đặt email của doctype được nối."
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:105
 msgid "Applicable Document Types"
@@ -2710,7 +2712,7 @@ msgstr "Áp Dụng Bộ Lọc"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:284
 msgid "Apply Module Export Filter"
-msgstr "Áp dụng Bộ lọc Xuất Mô-đun"
+msgstr "Áp dụng Filter Xuất Mô-đun"
 
 #. Label of the apply_strict_user_permissions (Check) field in DocType 'System
 #. Settings'
@@ -2848,7 +2850,7 @@ msgstr "Bạn có chắc chắn muốn xóa tất cả công việc thất bại
 
 #: frappe/public/js/frappe/list/list_filter.js:74
 msgid "Are you sure you want to remove the {0} filter?"
-msgstr "Bạn có chắc chắn muốn xóa bộ lọc {0}?"
+msgstr "Bạn có chắc chắn muốn xóa filter {0}?"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:268
 msgid "Are you sure you want to reset all customizations?"
@@ -2879,7 +2881,7 @@ msgstr "Arial"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:11
 msgid "As a best practice, do not assign the same set of permission rule to different Roles. Instead, set multiple Roles to the same User."
-msgstr "Theo thực tiễn tốt nhất, không nên gán cùng một bộ quy tắc quyền cho các vai trò khác nhau. Thay vào đó, hãy gán nhiều vai trò cho cùng một người dùng."
+msgstr "Theo thực tiễn tốt nhất, không nên gán cùng một bộ quy tắc quyền cho các role khác nhau. Thay vào đó, hãy gán nhiều role cho cùng một người dùng."
 
 #: frappe/desk/form/assign_to.py:108
 msgid "As document sharing is disabled, please give them the required permissions before assigning."
@@ -2906,11 +2908,11 @@ msgstr "Gán điều kiện"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:189
 msgid "Assign To"
-msgstr "Giao cho"
+msgstr "Giao việc"
 
 #: frappe/public/js/frappe/list/list_view.js:2231
 msgid "Assign To"
-msgstr "Giao cho"
+msgstr "Giao việc"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:199
 msgid "Assign To User Group"
@@ -3115,7 +3117,7 @@ msgstr "Đính kèm tập tin / URL và thêm vào bảng."
 #. Label of the attached_file (Code) field in DocType 'Notification Log'
 #: frappe/desk/doctype/notification_log/notification_log.json
 msgid "Attached File"
-msgstr "Tệp đính kèm"
+msgstr "Tài liệu đính kèm"
 
 #. Label of the attached_to_doctype (Link) field in DocType 'File'
 #: frappe/core/doctype/file/file.json
@@ -3139,7 +3141,7 @@ msgstr "Đính kèm vào tên phải là một chuỗi hoặc một số nguyên
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
 msgid "Attachment"
-msgstr "Tệp đính kèm"
+msgstr "Tài liệu đính kèm"
 
 #. Label of the attachment_limit (Int) field in DocType 'Email Account'
 #. Label of the attachment_limit (Int) field in DocType 'Email Domain'
@@ -3177,7 +3179,7 @@ msgstr "Cài đặt đính kèm"
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:106
 #: frappe/website/doctype/web_form/templates/web_form.html:122
 msgid "Attachments"
-msgstr "Tập tin đính kèm"
+msgstr "Tài liệu đính kèm"
 
 #: frappe/public/js/frappe/form/print_utils.js:153
 msgid "Attempting Connection to QZ Tray..."
@@ -3229,7 +3231,7 @@ msgstr "Dữ liệu URL xác thực phải là JSON hợp lệ"
 #. Label of the backend_app_flow (Check) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Authenticate as Service Principal"
-msgstr "Xác thực với vai trò Service Principal"
+msgstr "Xác thực với role Service Principal"
 
 #. Label of the authentication_column (Section Break) field in DocType 'Email
 #. Account'
@@ -3480,7 +3482,7 @@ msgstr "Tự động gán tài liệu cho người dùng"
 
 #: frappe/public/js/frappe/list/list_view.js:131
 msgid "Automatically applied a filter for recent data. You can disable this behavior from the list view settings."
-msgstr "Tự động áp dụng bộ lọc cho dữ liệu gần đây. Bạn có thể tắt hành vi này từ cài đặt chế độ xem danh sách."
+msgstr "Tự động áp dụng filter cho dữ liệu gần đây. Bạn có thể tắt hành vi này từ cài đặt chế độ xem danh sách."
 
 #. Label of the auto_account_deletion (Int) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -4248,11 +4250,11 @@ msgstr "CSV"
 #. Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Cache"
-msgstr "Bộ nhớ đệm"
+msgstr "Cache"
 
 #: frappe/sessions.py:35
 msgid "Cache Cleared"
-msgstr "Đã xóa bộ nhớ đệm"
+msgstr "Đã xóa cache"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:234
 msgid "Calculate"
@@ -4554,16 +4556,16 @@ msgstr "Không thể chỉnh sửa tài liệu đã hủy"
 
 #: frappe/website/doctype/web_form/web_form.js:367
 msgid "Cannot edit filters for standard Web Forms"
-msgstr "Không thể chỉnh sửa bộ lọc cho biểu mẫu web chuẩn"
+msgstr "Không thể chỉnh sửa filter cho biểu mẫu web chuẩn"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:378
 msgid "Cannot edit filters for standard charts"
-msgstr "Không thể chỉnh sửa bộ lọc cho biểu đồ chuẩn"
+msgstr "Không thể chỉnh sửa filter cho biểu đồ chuẩn"
 
 #: frappe/desk/doctype/number_card/number_card.js:273
 #: frappe/desk/doctype/number_card/number_card.js:355
 msgid "Cannot edit filters for standard number cards"
-msgstr "Không thể chỉnh sửa bộ lọc cho thẻ số chuẩn"
+msgstr "Không thể chỉnh sửa filter cho thẻ số chuẩn"
 
 #: frappe/client.py:193
 msgid "Cannot edit standard fields"
@@ -5001,7 +5003,7 @@ msgstr "Xóa nhật ký lỗi"
 #: frappe/desk/doctype/number_card/number_card.js:483
 #: frappe/public/js/frappe/ui/filters/filter_list.js:313
 msgid "Clear Filters"
-msgstr "Xóa bộ lọc"
+msgstr "Xóa filter"
 
 #: frappe/public/js/frappe/form/controls/link.js:17
 msgid "Clear Link"
@@ -5018,7 +5020,7 @@ msgstr "Xóa quyền của người dùng"
 
 #: frappe/public/js/frappe/list/base_list.js:1377
 msgid "Clear all filters"
-msgstr "Xóa tất cả bộ lọc"
+msgstr "Xóa tất cả filter"
 
 #: frappe/public/js/frappe/views/communication.js:492
 msgid "Clear the email message and add the template"
@@ -5072,7 +5074,7 @@ msgstr "Nhấp vào {0} để chỉnh sửa"
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:41
 #: frappe/website/doctype/website_settings/website_settings.py:161
 msgid "Click on {0} to generate Refresh Token."
-msgstr "Nhấp vào {0} để tạo Mã thông báo làm mới."
+msgstr "Nhấp vào {0} để tạo Token làm mới."
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:315
 #: frappe/desk/doctype/number_card/number_card.js:216
@@ -5086,7 +5088,7 @@ msgstr "Bấm vào bảng để chỉnh sửa"
 #: frappe/desk/doctype/number_card/number_card.js:556
 #: frappe/website/doctype/web_form/web_form.js:404
 msgid "Click to Set Dynamic Filters"
-msgstr "Nhấp để Đặt Bộ lọc Động"
+msgstr "Nhấp để Đặt Filter Động"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:373
 #: frappe/desk/doctype/number_card/number_card.js:263
@@ -5616,7 +5618,7 @@ msgstr "Đã hoàn thành"
 #. Label of the completed_by_role (Link) field in DocType 'Workflow Action'
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 msgid "Completed By Role"
-msgstr "Hoàn thành theo vai trò"
+msgstr "Hoàn thành theo role"
 
 #. Label of the completed_by (Link) field in DocType 'Workflow Action'
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
@@ -5827,16 +5829,16 @@ msgstr "Kết nối"
 #. Label of the console (Code) field in DocType 'System Console'
 #: frappe/desk/doctype/system_console/system_console.json
 msgid "Console"
-msgstr "Bảng điều khiển"
+msgstr "Dashboard"
 
 #. Name of a DocType
 #: frappe/desk/doctype/console_log/console_log.json
 msgid "Console Log"
-msgstr "Nhật ký bảng điều khiển"
+msgstr "Nhật ký dashboard"
 
 #: frappe/desk/doctype/console_log/console_log.py:24
 msgid "Console Logs can not be deleted"
-msgstr "Nhật ký bảng điều khiển không thể xóa được"
+msgstr "Nhật ký dashboard không thể xóa được"
 
 #. Label of the constraints_section (Section Break) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
@@ -5879,7 +5881,7 @@ msgstr "Điện thoại liên hệ"
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:291
 msgid "Contact Synced with Google Contacts."
-msgstr "Liên hệ được đồng bộ hóa với Danh bạ Google."
+msgstr "Liên hệ được sync với Danh bạ Google."
 
 #: frappe/www/contact.html:4
 msgid "Contact Us"
@@ -6025,7 +6027,7 @@ msgstr "Sao chép vào Khay nhớ tạm"
 
 #: frappe/core/doctype/user/user.js:504
 msgid "Copy token to clipboard"
-msgstr "Sao chép mã thông báo vào bảng nhớ tạm"
+msgstr "Sao chép token vào bảng nhớ tạm"
 
 #. Label of the copyright (Data) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -6095,7 +6097,7 @@ msgstr "Đếm các tùy chỉnh"
 #: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
 #: frappe/public/js/frappe/widgets/widget_dialog.js:525
 msgid "Count Filter"
-msgstr "Bộ lọc đếm"
+msgstr "Filter đếm"
 
 #: frappe/public/js/frappe/form/dashboard.js:520
 msgid "Count of linked documents"
@@ -6222,7 +6224,7 @@ msgstr "Tạo bảng Kanban mới"
 
 #: frappe/public/js/frappe/list/list_filter.js:119
 msgid "Create Saved Filter"
-msgstr "Tạo bộ lọc đã lưu"
+msgstr "Tạo filter đã lưu"
 
 #: frappe/core/doctype/user/user.js:277
 msgid "Create User Email"
@@ -6266,7 +6268,7 @@ msgstr "Tạo hoặc Chỉnh sửa Định dạng In"
 
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:34
 msgid "Create or Edit Workflow"
-msgstr "Tạo hoặc chỉnh sửa quy trình làm việc"
+msgstr "Tạo hoặc chỉnh sửa workflow"
 
 #: frappe/public/js/frappe/list/list_view.js:550
 msgid "Create your first {0}"
@@ -6274,7 +6276,7 @@ msgstr "Tạo {0}"
 
 #: frappe/workflow/doctype/workflow/workflow.js:16
 msgid "Create your workflow visually using the Workflow Builder."
-msgstr "Tạo quy trình làm việc của bạn một cách trực quan bằng Trình tạo quy trình làm việc."
+msgstr "Tạo workflow của bạn một cách trực quan bằng Trình tạo workflow."
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
@@ -6598,7 +6600,7 @@ msgstr "Báo cáo tùy chỉnh"
 #. Name of a DocType
 #: frappe/core/doctype/custom_role/custom_role.json
 msgid "Custom Role"
-msgstr "Vai trò tùy chỉnh"
+msgstr "Role tùy chỉnh"
 
 #. Label of the custom_scss (Code) field in DocType 'Website Theme'
 #: frappe/website/doctype/website_theme/website_theme.json
@@ -6664,11 +6666,11 @@ msgstr "Các tùy chỉnh cho <b>{0}</b> được xuất sang:<br>{1}"
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:198
 #: frappe/workspace_sidebar/website.json
 msgid "Customize"
-msgstr "Tùy chỉnh"
+msgstr "Tuỳ biến"
 
 #: frappe/public/js/frappe/list/list_view.js:2007
 msgid "Customize"
-msgstr "Tùy chỉnh"
+msgstr "Tuỳ biến"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:94
 msgid "Customize Child Table"
@@ -6676,7 +6678,7 @@ msgstr "Tùy chỉnh bảng con"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:38
 msgid "Customize Dashboard"
-msgstr "Tùy chỉnh Bảng điều khiển"
+msgstr "Tùy chỉnh Dashboard"
 
 #. Label of a Link in the Build Workspace
 #. Name of a DocType
@@ -6701,7 +6703,7 @@ msgstr "Tùy chỉnh trường biểu mẫu"
 
 #: frappe/public/js/frappe/list/list_view.js:2033
 msgid "Customize Quick Filters"
-msgstr "Tùy chỉnh bộ lọc nhanh"
+msgstr "Tùy chỉnh filter nhanh"
 
 #. Description of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
@@ -6814,7 +6816,7 @@ msgstr "Màu Tối"
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:65
 msgid "Dark Theme"
-msgstr "Chủ đề tối"
+msgstr "Theme tối"
 
 #. Label of a Link in the Build Workspace
 #. Name of a DocType
@@ -6842,7 +6844,7 @@ msgstr "Trang tổng quan"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.js:8
 msgid "Dashboard Chart"
-msgstr "Biểu đồ bảng điều khiển"
+msgstr "Biểu đồ dashboard"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_field/dashboard_chart_field.json
@@ -6852,33 +6854,33 @@ msgstr "Trường biểu đồ trên trang tổng quan"
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_link/dashboard_chart_link.json
 msgid "Dashboard Chart Link"
-msgstr "Liên kết biểu đồ bảng điều khiển"
+msgstr "Liên kết biểu đồ dashboard"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.json
 msgid "Dashboard Chart Source"
-msgstr "Nguồn biểu đồ bảng điều khiển"
+msgstr "Nguồn biểu đồ dashboard"
 
 #. Name of a role
 #: frappe/desk/doctype/dashboard/dashboard.json
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Dashboard Manager"
-msgstr "Trình quản lý bảng điều khiển"
+msgstr "Trình quản lý dashboard"
 
 #. Label of the dashboard_name (Data) field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json
 msgid "Dashboard Name"
-msgstr "Tên bảng điều khiển"
+msgstr "Tên dashboard"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_settings/dashboard_settings.json
 msgid "Dashboard Settings"
-msgstr "Cài đặt bảng điều khiển"
+msgstr "Cài đặt dashboard"
 
 #: frappe/public/js/frappe/list/base_list.js:205
 msgid "Dashboard View"
-msgstr "Chế độ xem bảng điều khiển"
+msgstr "Chế độ xem dashboard"
 
 #. Label of the tab_break_2 (Tab Break) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
@@ -7236,7 +7238,7 @@ msgstr "URI chuyển hướng mặc định"
 #. Label of the default_role (Link) field in DocType 'Portal Settings'
 #: frappe/website/doctype/portal_settings/portal_settings.json
 msgid "Default Role at Time of Signup"
-msgstr "Vai trò mặc định tại thời điểm đăng ký"
+msgstr "Role mặc định tại thời điểm đăng ký"
 
 #: frappe/email/doctype/email_account/email_account_list.js:16
 msgid "Default Sending"
@@ -7263,12 +7265,12 @@ msgstr "Mẫu mặc định cho trường"
 
 #: frappe/website/doctype/website_theme/website_theme.js:28
 msgid "Default Theme"
-msgstr "Chủ đề mặc định"
+msgstr "Theme mặc định"
 
 #. Label of the default_role (Link) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Default User Role"
-msgstr "Vai trò người dùng mặc định"
+msgstr "Role người dùng mặc định"
 
 #. Label of the default_user_type (Link) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
@@ -7292,7 +7294,7 @@ msgstr "Chế độ xem mặc định"
 #. Label of the default_workspace (Link) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Default Workspace"
-msgstr "Không gian làm việc mặc định"
+msgstr "Khu làm việc mặc định"
 
 #. Description of the 'Currency' (Link) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -7341,7 +7343,7 @@ msgstr "Mặc định là `en`"
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
 msgid "Defines actions on states and the next step and allowed roles."
-msgstr "Định nghĩa các hành động trên trạng thái, bước tiếp theo và các vai trò được phép."
+msgstr "Định nghĩa các hành động trên trạng thái, bước tiếp theo và các role được phép."
 
 #. Description of the 'Delete Background Exported Reports After (Hours)' (Int)
 #. field in DocType 'System Settings'
@@ -7352,7 +7354,7 @@ msgstr "Xác định thời gian lưu giữ các báo cáo đã xuất được 
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Defines workflow states and rules for a document."
-msgstr "Định nghĩa các trạng thái quy trình làm việc và quy tắc cho một tài liệu."
+msgstr "Định nghĩa các trạng thái workflow và quy tắc cho một tài liệu."
 
 #. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -7565,7 +7567,7 @@ msgstr "Từ chối"
 #. Label of the department (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Department"
-msgstr "Bộ phận"
+msgstr "Phòng ban"
 
 #. Label of the dependencies (Data) field in DocType 'Workspace Link'
 #: frappe/desk/doctype/workspace_link/workspace_link.json
@@ -7646,7 +7648,7 @@ msgstr "Mô tả để thông báo cho người dùng về bất kỳ hành đ�
 #. Label of the designation (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Designation"
-msgstr "Sự chỉ định"
+msgstr "Chức vụ"
 
 #. Label of the desk_access (Check) field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
@@ -7706,7 +7708,7 @@ msgstr "Người dùng bàn"
 #: frappe/public/js/frappe/ui/sidebar/sidebar_header.js:12
 #: frappe/www/me.html:86
 msgid "Desktop"
-msgstr "Máy tính để bàn"
+msgstr "Tổng quan"
 
 #. Name of a DocType
 #: frappe/desk/doctype/desktop_icon/desktop_icon.json
@@ -7789,7 +7791,7 @@ msgstr "Tắt Tự động làm mới"
 #. 'List View Settings'
 #: frappe/desk/doctype/list_view_settings/list_view_settings.json
 msgid "Disable Automatic Recency Filters"
-msgstr "Tắt Bộ lọc gần đây tự động"
+msgstr "Tắt Filter gần đây tự động"
 
 #. Label of the disable_change_log_notification (Check) field in DocType
 #. 'System Settings'
@@ -7945,7 +7947,7 @@ msgstr "Thảo luận Trả lời"
 #. Name of a DocType
 #: frappe/website/doctype/discussion_topic/discussion_topic.json
 msgid "Discussion Topic"
-msgstr "Chủ đề thảo luận"
+msgstr "Theme thảo luận"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:646
 #: frappe/templates/discussions/reply_card.html:16
@@ -8192,7 +8194,7 @@ msgstr "DocType không được hỗ trợ bởi Cài đặt nhật ký."
 #. Description of the 'Document Type' (Link) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "DocType on which this Workflow is applicable."
-msgstr "DocType mà Quy trình làm việc này được áp dụng."
+msgstr "DocType mà Workflow này được áp dụng."
 
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:4
 msgid "DocType required"
@@ -8495,7 +8497,7 @@ msgstr "Đã mở khóa tài liệu"
 
 #: frappe/database/query.py:573
 msgid "Document cannot be used as a filter value"
-msgstr "Không thể sử dụng tài liệu làm giá trị bộ lọc"
+msgstr "Không thể sử dụng tài liệu làm giá trị filter"
 
 #: frappe/desk/form/document_follow.py:62
 msgid "Document follow is not enabled for this user."
@@ -8515,7 +8517,7 @@ msgstr "Tài liệu đang ở trạng thái dự thảo"
 
 #: frappe/public/js/frappe/form/workflow.js:47
 msgid "Document is only editable by users with role"
-msgstr "Chỉ người dùng có vai trò"
+msgstr "Chỉ người dùng có role"
 
 #: frappe/core/doctype/communication/communication.js:182
 msgid "Document not Relinked"
@@ -8774,7 +8776,7 @@ msgstr "Mục nhập trùng lặp"
 
 #: frappe/public/js/frappe/list/list_filter.js:138
 msgid "Duplicate Filter Name"
-msgstr "Tên bộ lọc trùng lặp"
+msgstr "Tên filter trùng lặp"
 
 #: frappe/model/base_document.py:817 frappe/model/rename_doc.py:111
 msgid "Duplicate Name"
@@ -8824,7 +8826,7 @@ msgstr "Năng động"
 
 #: frappe/www/list.py:232
 msgid "Dynamic Filter Error"
-msgstr "Lỗi bộ lọc động"
+msgstr "Lỗi filter động"
 
 #. Label of the dynamic_filters_section (Section Break) field in DocType
 #. 'Dashboard Chart'
@@ -8833,7 +8835,7 @@ msgstr "Lỗi bộ lọc động"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Dynamic Filters"
-msgstr "Bộ lọc động"
+msgstr "Filter động"
 
 #. Label of the dynamic_filters_json (Code) field in DocType 'Dashboard Chart'
 #. Label of the dynamic_filters_json (Code) field in DocType 'Number Card'
@@ -8842,13 +8844,13 @@ msgstr "Bộ lọc động"
 #: frappe/desk/doctype/number_card/number_card.json
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Dynamic Filters JSON"
-msgstr "Bộ lọc động JSON"
+msgstr "Filter động JSON"
 
 #. Label of the dynamic_filters_section (Section Break) field in DocType
 #. 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Dynamic Filters Section"
-msgstr "Phần Bộ lọc động"
+msgstr "Phần Filter động"
 
 #. Option for the 'Type' (Select) field in DocType 'DocField'
 #. Name of a DocType
@@ -8871,7 +8873,7 @@ msgstr "Liên kết động"
 #. 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Dynamic Report Filters"
-msgstr "Bộ lọc Báo cáo Động"
+msgstr "Filter Báo cáo Động"
 
 #. Label of the dynamic_route (Check) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -8959,11 +8961,11 @@ msgstr "Chỉnh sửa hiện có"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:401
 msgid "Edit Filter"
-msgstr "Chỉnh sửa bộ lọc"
+msgstr "Chỉnh sửa filter"
 
 #: frappe/public/js/frappe/list/list_sidebar_group_by.js:26
 msgid "Edit Filters"
-msgstr "Chỉnh sửa bộ lọc"
+msgstr "Chỉnh sửa filter"
 
 #: frappe/public/js/print_format_builder/PrintFormat.vue:29
 msgid "Edit Footer"
@@ -9068,7 +9070,7 @@ msgstr "Chỉnh sửa câu trả lời của bạn"
 
 #: frappe/workflow/doctype/workflow/workflow.js:18
 msgid "Edit your workflow visually using the Workflow Builder."
-msgstr "Chỉnh sửa quy trình làm việc của bạn một cách trực quan bằng cách sử dụng Trình tạo quy trình làm việc."
+msgstr "Chỉnh sửa workflow của bạn một cách trực quan bằng cách sử dụng Trình tạo workflow."
 
 #: frappe/public/js/frappe/views/reports/report_view.js:776
 #: frappe/public/js/frappe/widgets/widget_dialog.js:52
@@ -9438,7 +9440,7 @@ msgstr "Email đang bị tắt tiếng"
 #. Description of the 'Send Email Alert' (Check) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Emails will be sent with next possible workflow actions"
-msgstr "Email sẽ được gửi kèm theo các hành động quy trình làm việc tiếp theo có thể thực hiện"
+msgstr "Email sẽ được gửi kèm theo các hành động workflow tiếp theo có thể thực hiện"
 
 #: frappe/website/doctype/web_form/web_form.js:34
 msgid "Embed code copied"
@@ -9678,7 +9680,7 @@ msgstr "Bật chế độ xem Lịch và Gantt."
 
 #: frappe/email/doctype/email_account/email_account.js:295
 msgid "Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?"
-msgstr "Bật trả lời tự động trên tài khoản email đang đến sẽ gửi các phản hồi tự động tới tất cả các email đã đồng bộ hóa. Bạn có muốn tiếp tục không?"
+msgstr "Bật trả lời tự động trên tài khoản email đang đến sẽ gửi các phản hồi tự động tới tất cả các email đã sync. Bạn có muốn tiếp tục không?"
 
 #. Description of a DocType
 #. Description of the 'Relay Settings' (Section Break) field in DocType 'Push
@@ -9823,7 +9825,7 @@ msgstr "Nhập các tham số url tĩnh tại đây (Ví dụ: sender=ERPNext, u
 
 #: frappe/public/js/form_builder/components/FieldProperties.vue:66
 msgid "Enter the fieldname of the currency field or a cached value (e.g. Company:company:default_currency)."
-msgstr "Nhập tên trường của trường tiền tệ hoặc giá trị được lưu trong bộ nhớ đệm (ví dụ: Company:company:default_currency)."
+msgstr "Nhập tên trường của trường tiền tệ hoặc giá trị được lưu trong cache (ví dụ: Company:company:default_currency)."
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
@@ -9949,7 +9951,7 @@ msgstr "Lỗi trong {0}.get_list: {1}"
 
 #: frappe/database/query.py:459
 msgid "Error parsing nested filters: {0}. {1}"
-msgstr "Lỗi phân tích cú pháp các bộ lọc lồng nhau: {0}. {1}"
+msgstr "Lỗi phân tích cú pháp các filter lồng nhau: {0}. {1}"
 
 #: frappe/desk/search.py:258
 msgid "Error validating \"Ignore User Permissions\""
@@ -10030,7 +10032,7 @@ msgstr "Lời nhắc sự kiện"
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:494
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:578
 msgid "Event Synced with Google Calendar."
-msgstr "Sự kiện được đồng bộ hóa với Lịch Google."
+msgstr "Sự kiện được sync với Lịch Google."
 
 #. Label of the event_type (Data) field in DocType 'Recorder'
 #. Label of the event_type (Select) field in DocType 'Event'
@@ -10296,11 +10298,11 @@ msgstr "Xuất ở chế độ nền"
 
 #: frappe/public/js/frappe/utils/tools.js:11
 msgid "Export not allowed. You need {0} role to export."
-msgstr "Xuất khẩu không được phép. Bạn cần có vai trò {0} để xuất."
+msgstr "Xuất khẩu không được phép. Bạn cần có role {0} để xuất."
 
 #: frappe/custom/doctype/customize_form/customize_form.js:285
 msgid "Export only customizations assigned to the selected module.<br><span class='text-muted'><strong>Note:</strong> You must set the <em>Module (for export)</em> field on Custom Field and Property Setter records before applying this filter.</span><p class='alert alert-warning'> <strong>Warning:</strong> Customizations from other modules will be excluded.</p>"
-msgstr "Chỉ xuất các tùy chỉnh được gán cho mô-đun đã chọn.<br><span class='text-muted'><strong>Lưu ý:</strong> Bạn phải đặt trường <em>Mô-đun (để xuất)</em> trên các bản ghi Custom Field và Property Setter trước khi áp dụng bộ lọc này.</span><p class='alert alert-warning'> <strong>Cảnh báo:</strong> Các tùy chỉnh từ các mô-đun khác sẽ bị loại trừ.</p>"
+msgstr "Chỉ xuất các tùy chỉnh được gán cho mô-đun đã chọn.<br><span class='text-muted'><strong>Lưu ý:</strong> Bạn phải đặt trường <em>Mô-đun (để xuất)</em> trên các bản ghi Custom Field và Property Setter trước khi áp dụng filter này.</span><p class='alert alert-warning'> <strong>Cảnh báo:</strong> Các tùy chỉnh từ các mô-đun khác sẽ bị loại trừ.</p>"
 
 #. Description of the 'Export without main header' (Check) field in DocType
 #. 'Data Export'
@@ -10320,7 +10322,7 @@ msgstr "Xuất bản ghi {0}"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:276
 msgid "Exported permissions will be force-synced on every migrate overriding any other customization."
-msgstr "Các quyền đã xuất sẽ được đồng bộ hóa bắt buộc trong mỗi lần di chuyển, ghi đè bất kỳ tùy chỉnh nào khác."
+msgstr "Các quyền đã xuất sẽ được sync bắt buộc trong mỗi lần di chuyển, ghi đè bất kỳ tùy chỉnh nào khác."
 
 #. Label of the expose_recipients (Data) field in DocType 'Email Queue'
 #: frappe/email/doctype/email_queue/email_queue.json
@@ -10449,7 +10451,7 @@ msgstr "Không kết nối được với server"
 
 #: frappe/auth.py:716
 msgid "Failed to decode token, please provide a valid base64-encoded token."
-msgstr "Không giải mã được mã thông báo, vui lòng cung cấp mã thông báo được mã hóa base64 hợp lệ."
+msgstr "Không giải mã được token, vui lòng cung cấp token được mã hóa base64 hợp lệ."
 
 #: frappe/utils/password.py:228
 msgid "Failed to decrypt key {0}"
@@ -10506,7 +10508,7 @@ msgstr "Không hiển thị được tin nhắn: {}"
 
 #: frappe/email/doctype/notification/notification.py:141
 msgid "Failed to render subject: {}"
-msgstr "Không hiển thị được chủ đề: {}"
+msgstr "Không hiển thị được theme: {}"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:103
 msgid "Failed to request login to Frappe Cloud"
@@ -10684,7 +10686,7 @@ msgstr "Trường không được phép trong truy vấn"
 #. Description of the 'Workflow State Field' (Data) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Field that represents the Workflow State of the transaction (if field is not present, a new hidden Custom Field will be created)"
-msgstr "Trường đại diện cho Trạng thái quy trình làm việc của giao dịch (nếu không có trường, Trường tùy chỉnh ẩn mới sẽ được tạo)"
+msgstr "Trường đại diện cho Trạng thái workflow của giao dịch (nếu không có trường, Trường tùy chỉnh ẩn mới sẽ được tạo)"
 
 #. Label of the track_field (Select) field in DocType 'Milestone Tracker'
 #: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
@@ -10967,18 +10969,18 @@ msgstr "Lọc dữ liệu"
 #. Label of the filter_list (HTML) field in DocType 'Data Export'
 #: frappe/core/doctype/data_export/data_export.json
 msgid "Filter List"
-msgstr "Danh sách bộ lọc"
+msgstr "Danh sách filter"
 
 #. Label of the filter_meta (Text) field in DocType 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Filter Meta"
-msgstr "Bộ lọc Meta"
+msgstr "Filter Meta"
 
 #. Label of the filter_name (Data) field in DocType 'List Filter'
 #: frappe/desk/doctype/list_filter/list_filter.json
 #: frappe/public/js/frappe/list/list_filter.js:102
 msgid "Filter Name"
-msgstr "Tên bộ lọc"
+msgstr "Tên filter"
 
 #. Label of the filter_values (HTML) field in DocType 'Prepared Report'
 #: frappe/core/doctype/prepared_report/prepared_report.json
@@ -10987,11 +10989,11 @@ msgstr "Giá trị lọc"
 
 #: frappe/database/query.py:745
 msgid "Filter condition missing after operator: {0}"
-msgstr "Tình trạng bộ lọc bị thiếu sau toán tử: {0}"
+msgstr "Tình trạng filter bị thiếu sau toán tử: {0}"
 
 #: frappe/database/query.py:832
 msgid "Filter fields have invalid backtick notation: {0}"
-msgstr "Các trường bộ lọc có ký hiệu dấu ngược không hợp lệ: {0}"
+msgstr "Các trường filter có ký hiệu dấu ngược không hợp lệ: {0}"
 
 #: frappe/printing/page/print_format_builder/print_format_builder_sidebar.html:3
 msgid "Filter..."
@@ -11041,51 +11043,51 @@ msgstr "Lọc theo: {0}."
 #: frappe/email/doctype/notification/notification.json
 #: frappe/public/js/frappe/list/list_filter.js:20
 msgid "Filters"
-msgstr "Bộ lọc"
+msgstr "Filter"
 
 #. Label of the filters_config (Code) field in DocType 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Filters Configuration"
-msgstr "Cấu hình bộ lọc"
+msgstr "Cấu hình filter"
 
 #. Label of the filters_display (HTML) field in DocType 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Filters Display"
-msgstr "Hiển thị bộ lọc"
+msgstr "Hiển thị filter"
 
 #. Label of the filters_editor (HTML) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
 msgid "Filters Editor"
-msgstr "Trình cấu hình bộ lọc"
+msgstr "Trình cấu hình filter"
 
 #. Label of the filters_json (Code) field in DocType 'Dashboard Chart'
 #. Label of the filters_json (Code) field in DocType 'Number Card'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Filters JSON"
-msgstr "Bộ lọc JSON"
+msgstr "Filter JSON"
 
 #. Label of the filters_section (Section Break) field in DocType 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Filters Section"
-msgstr "Phần Bộ lọc"
+msgstr "Phần Filter"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:225
 msgid "Filters saved"
-msgstr "Đã lưu bộ lọc"
+msgstr "Đã lưu filter"
 
 #. Description of the 'Script' (Code) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
 msgid "Filters will be accessible via <code>filters</code>. <br><br>Send output as <code>result = [result]</code>, or for old style <code>data = [columns], [result]</code>"
-msgstr "Bộ lọc sẽ có thể truy cập qua <code>filters</code>. <br><br>Gửi kết quả dưới dạng <code>result = [result]</code>, hoặc theo kiểu cũ <code>data = [columns], [result]</code>"
+msgstr "Filter sẽ có thể truy cập qua <code>filters</code>. <br><br>Gửi kết quả dưới dạng <code>result = [result]</code>, hoặc theo kiểu cũ <code>data = [columns], [result]</code>"
 
 #: frappe/public/js/frappe/ui/filters/filter_list.js:133
 msgid "Filters {0}"
-msgstr "Bộ lọc {0}"
+msgstr "Filter {0}"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1524
 msgid "Filters:"
-msgstr "Bộ lọc:"
+msgstr "Filter:"
 
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:593
 msgid "Find '{0}' in ..."
@@ -11230,7 +11232,7 @@ msgstr "Được theo dõi bởi"
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:134
 msgid "Following Report Filters have missing values:"
-msgstr "Bộ lọc Báo cáo sau đây bị thiếu giá trị:"
+msgstr "Filter Báo cáo sau đây bị thiếu giá trị:"
 
 #: frappe/desk/form/document_follow.py:69
 msgid "Following document {0}"
@@ -11412,7 +11414,7 @@ msgstr "Đối với giá trị"
 #. Description of the 'Subject' (Data) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
 msgid "For a dynamic subject, use Jinja tags like this: <code>{{ doc.name }} Delivered</code>"
-msgstr "Để có chủ đề động, sử dụng thẻ Jinja như sau: <code>{{ doc.name }} Delivered</code>"
+msgstr "Để có theme động, sử dụng thẻ Jinja như sau: <code>{{ doc.name }} Delivered</code>"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:455
 msgid ""
@@ -11938,7 +11940,7 @@ msgstr "Nhận hình đại diện được công nhận trên toàn cầu của
 #: frappe/public/js/frappe/ui/sidebar/sidebar.html:47
 #: frappe/public/js/frappe/ui/user_onboarding/OnboardingPanel.vue:235
 msgid "Getting Started"
-msgstr "Bắt đầu"
+msgstr "Hướng dẫn nhanh"
 
 #. Label of the git_branch (Data) field in DocType 'Installed Application'
 #: frappe/core/doctype/installed_application/installed_application.json
@@ -12002,11 +12004,11 @@ msgstr "Đi tới Trang"
 
 #: frappe/public/js/workflow_builder/workflow_builder.bundle.js:41
 msgid "Go to Workflow"
-msgstr "Đi tới Quy trình làm việc"
+msgstr "Đi tới Workflow"
 
 #: frappe/desk/doctype/workspace/workspace.js:18
 msgid "Go to Workspace"
-msgstr "Đi tới Không gian làm việc"
+msgstr "Đi tới Khu làm việc"
 
 #: frappe/public/js/frappe/form/form.js:145
 msgid "Go to next record"
@@ -12137,7 +12139,7 @@ msgstr "Danh bạ Google"
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:137
 msgid "Google Contacts - Could not sync contacts from Google Contacts {0}, error code {1}."
-msgstr "Danh bạ Google - Không thể đồng bộ hóa danh bạ từ Danh bạ Google {0}, mã lỗi {1}."
+msgstr "Danh bạ Google - Không thể sync danh bạ từ Danh bạ Google {0}, mã lỗi {1}."
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:294
 msgid "Google Contacts - Could not update contact in Google Contacts {0}, error code {1}."
@@ -12274,7 +12276,7 @@ msgstr "Nhóm theo loại"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:411
 msgid "Group By field is required to create a dashboard chart"
-msgstr "Trường Nhóm theo là bắt buộc để tạo biểu đồ bảng điều khiển"
+msgstr "Trường Nhóm theo là bắt buộc để tạo biểu đồ dashboard"
 
 #: frappe/database/query.py:1353
 msgid "Group By must be a string"
@@ -12426,7 +12428,7 @@ msgstr "Có điều kiện tiếp theo"
 #. Name of a DocType
 #: frappe/core/doctype/has_role/has_role.json
 msgid "Has Role"
-msgstr "Có vai trò"
+msgstr "Có role"
 
 #. Label of the has_setup_wizard (Check) field in DocType 'Installed
 #. Application'
@@ -13047,13 +13049,13 @@ msgstr "Nếu chủ sở hữu"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:92
 msgid "If a Role does not have access at Level 0, then higher levels are meaningless."
-msgstr "Nếu một vai trò không có quyền truy cập ở cấp 0, thì các cấp cao hơn không có ý nghĩa."
+msgstr "Nếu một role không có quyền truy cập ở cấp 0, thì các cấp cao hơn không có ý nghĩa."
 
 #. Description of the 'Enable Action Confirmation' (Check) field in DocType
 #. 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "If checked, a confirmation will be required before performing workflow actions."
-msgstr "Nếu được chọn, sẽ cần có xác nhận trước khi thực hiện các hành động trong quy trình làm việc."
+msgstr "Nếu được chọn, sẽ cần có xác nhận trước khi thực hiện các hành động trong workflow."
 
 #. Description of the 'Is Active' (Check) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
@@ -13075,7 +13077,7 @@ msgstr "Nếu chọn, người dùng sẽ không nhìn thấy hộp thoại Xác
 #. Description of the 'Disabled' (Check) field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
 msgid "If disabled, this role will be removed from all users."
-msgstr "Nếu bị tắt, vai trò này sẽ bị xóa khỏi tất cả người dùng."
+msgstr "Nếu bị tắt, role này sẽ bị xóa khỏi tất cả người dùng."
 
 #. Description of the 'Bypass Restricted IP Address Check If Two Factor Auth
 #. Enabled' (Check) field in DocType 'User'
@@ -13174,7 +13176,7 @@ msgstr "Nếu không được đặt, độ chính xác của tiền tệ sẽ p
 #. Description of the 'Roles' (Table) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 msgid "If set, only user with these roles can access this chart. If not set, DocType or Report permissions will be used."
-msgstr "Nếu được đặt, chỉ người dùng có các vai trò này mới có thể truy cập biểu đồ này. Nếu chưa được đặt, quyền của Loại tài liệu hoặc Báo cáo sẽ được sử dụng."
+msgstr "Nếu được đặt, chỉ người dùng có các role này mới có thể truy cập biểu đồ này. Nếu chưa được đặt, quyền của Loại tài liệu hoặc Báo cáo sẽ được sử dụng."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:83
 msgid "If the user enables the mask property for the phone number field, the value will be displayed in a masked format (e.g., 811XXXXXXX)."
@@ -13187,7 +13189,7 @@ msgstr "Nếu người dùng có quyền truy cập vào Nhân viên và bật B
 #. Description of the 'User Type' (Link) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "If the user has any role checked, then the user becomes a \"System User\". \"System User\" has access to the desktop"
-msgstr "Nếu người dùng được chọn bất kỳ vai trò nào thì người dùng đó sẽ trở thành \"Người dùng hệ thống\". \"Người dùng hệ thống\" có quyền truy cập vào máy tính để bàn"
+msgstr "Nếu người dùng được chọn bất kỳ role nào thì người dùng đó sẽ trở thành \"Người dùng hệ thống\". \"Người dùng hệ thống\" có quyền truy cập vào máy tính để bàn"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:105
 msgid "If these instructions where not helpful, please add in your suggestions on GitHub Issues."
@@ -13277,7 +13279,7 @@ msgstr "Bỏ qua quyền của người dùng"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Ignore XSS Filter"
-msgstr "Bỏ qua bộ lọc XSS"
+msgstr "Bỏ qua filter XSS"
 
 #. Description of the 'Attachment Limit (MB)' (Int) field in DocType 'Email
 #. Account'
@@ -13524,7 +13526,7 @@ msgstr "Trong Ngày"
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "In Filter"
-msgstr "Trong Bộ lọc"
+msgstr "Trong Filter"
 
 #. Label of the in_global_search (Check) field in DocType 'DocField'
 #. Label of the in_global_search (Check) field in DocType 'Custom Field'
@@ -13543,7 +13545,7 @@ msgstr "Trong Chế độ xem lưới"
 #. Label of the in_standard_filter (Check) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
 msgid "In List Filter"
-msgstr "Trong bộ lọc danh sách"
+msgstr "Trong filter danh sách"
 
 #. Label of the in_list_view (Check) field in DocType 'DocField'
 #. Label of the in_list_view (Check) field in DocType 'Custom Field'
@@ -13587,7 +13589,7 @@ msgstr "Trong Trả lời"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "In Standard Filter"
-msgstr "Trong Bộ lọc tiêu chuẩn"
+msgstr "Trong Filter tiêu chuẩn"
 
 #. Description of the 'Font Size' (Float) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -13636,7 +13638,7 @@ msgstr "Bao gồm Tìm kiếm trong Thanh trên cùng"
 
 #: frappe/website/doctype/website_theme/website_theme.js:61
 msgid "Include Theme from Apps"
-msgstr "Bao gồm Chủ đề từ Ứng dụng"
+msgstr "Bao gồm Theme từ Ứng dụng"
 
 #. Label of the attach_view_link (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -13646,7 +13648,7 @@ msgstr "Bao gồm liên kết xem web trong Email"
 #: frappe/public/js/frappe/form/print_utils.js:73
 #: frappe/public/js/frappe/views/reports/query_report.js:1748
 msgid "Include filters"
-msgstr "Bao gồm các bộ lọc"
+msgstr "Bao gồm các filter"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1770
 msgid "Include hidden columns"
@@ -13767,7 +13769,7 @@ msgstr "Mã ủy quyền lập chỉ mục"
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Indexing refresh token"
-msgstr "Mã thông báo làm mới lập chỉ mục"
+msgstr "Token làm mới lập chỉ mục"
 
 #. Label of the indicator (Select) field in DocType 'Kanban Board Column'
 #: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
@@ -13804,7 +13806,7 @@ msgstr "Thông tin:"
 #. Label of the initial_sync_count (Select) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Initial Sync Count"
-msgstr "Số lần đồng bộ hóa ban đầu"
+msgstr "Số lần sync ban đầu"
 
 #. Option for the 'Database Engine' (Select) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -14027,7 +14029,7 @@ msgstr "Biểu thức \"phụ thuộc\" không hợp lệ"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:520
 msgid "Invalid \"depends_on\" expression set in filter {0}"
-msgstr "Bộ biểu thức \"depends_on\" không hợp lệ trong bộ lọc {0}"
+msgstr "Bộ biểu thức \"depends_on\" không hợp lệ trong filter {0}"
 
 #: frappe/public/js/frappe/form/save.js:214
 msgid "Invalid \"mandatory_depends_on\" expression"
@@ -14085,15 +14087,15 @@ msgstr "URL tệp không hợp lệ"
 #: frappe/database/query.py:834 frappe/database/query.py:861
 #: frappe/database/query.py:871
 msgid "Invalid Filter"
-msgstr "Bộ lọc không hợp lệ"
+msgstr "Filter không hợp lệ"
 
 #: frappe/public/js/form_builder/store.js:244
 msgid "Invalid Filter Format for field {0} of type {1}. Try using filter icon on the field to set it correctly"
-msgstr "Định dạng bộ lọc không hợp lệ cho trường {0} thuộc loại {1}. Hãy thử sử dụng biểu tượng bộ lọc trên sân để đặt chính xác"
+msgstr "Định dạng filter không hợp lệ cho trường {0} thuộc loại {1}. Hãy thử sử dụng biểu tượng filter trên sân để đặt chính xác"
 
 #: frappe/utils/dashboard.py:61
 msgid "Invalid Filter Value"
-msgstr "Giá trị bộ lọc không hợp lệ"
+msgstr "Giá trị filter không hợp lệ"
 
 #: frappe/website/doctype/website_settings/website_settings.py:83
 msgid "Invalid Home Page"
@@ -14105,7 +14107,7 @@ msgstr "Liên kết không hợp lệ"
 
 #: frappe/www/login.py:121
 msgid "Invalid Login Token"
-msgstr "Mã thông báo đăng nhập không hợp lệ"
+msgstr "Token đăng nhập không hợp lệ"
 
 #: frappe/templates/includes/login/login.js:278
 msgid "Invalid Login. Try again."
@@ -14226,7 +14228,7 @@ msgstr "Cột không hợp lệ"
 
 #: frappe/database/query.py:768
 msgid "Invalid condition type in nested filters: {0}"
-msgstr "Loại điều kiện không hợp lệ trong các bộ lọc lồng nhau: {0}"
+msgstr "Loại điều kiện không hợp lệ trong các filter lồng nhau: {0}"
 
 #: frappe/database/query.py:1397
 msgid "Invalid direction in Order By: {0}. Must be 'ASC' or 'DESC'."
@@ -14238,7 +14240,7 @@ msgstr "Trạng thái tài liệu không hợp lệ"
 
 #: frappe/www/list.py:231
 msgid "Invalid expression in Web Form Dynamic Filter for {0}: {1}"
-msgstr "Biểu thức không hợp lệ trong Bộ lọc động của Web Form cho {0}: {1}"
+msgstr "Biểu thức không hợp lệ trong Filter động của Web Form cho {0}: {1}"
 
 #: frappe/model/workflow.py:112
 msgid "Invalid expression in Workflow Update Value: {0}"
@@ -14246,7 +14248,7 @@ msgstr "Biểu thức không hợp lệ trong Giá trị cập nhật quy trình
 
 #: frappe/public/js/frappe/utils/dashboard_utils.js:218
 msgid "Invalid expression set in filter {0} ({1})"
-msgstr "Bộ biểu thức không hợp lệ trong bộ lọc {0} ({1})"
+msgstr "Bộ biểu thức không hợp lệ trong filter {0} ({1})"
 
 #: frappe/database/query.py:2191
 msgid "Invalid field format for SELECT: {0}. Field names must be simple, backticked, table-qualified, aliased, or '*'."
@@ -14274,15 +14276,15 @@ msgstr "Đường dẫn tệp không hợp lệ: {0}"
 
 #: frappe/database/query.py:751
 msgid "Invalid filter condition: {0}. Expected a list or tuple."
-msgstr "Điều kiện bộ lọc không hợp lệ: {0}. Dự kiến ​​​​một danh sách hoặc bộ dữ liệu."
+msgstr "Điều kiện filter không hợp lệ: {0}. Dự kiến ​​​​một danh sách hoặc bộ dữ liệu."
 
 #: frappe/database/query.py:857
 msgid "Invalid filter field format: {0}. Use 'fieldname' or 'link_fieldname.target_fieldname'."
-msgstr "Định dạng trường bộ lọc không hợp lệ: {0}. Sử dụng 'tên trường' hoặc 'link_fieldname.target_fieldname'."
+msgstr "Định dạng trường filter không hợp lệ: {0}. Sử dụng 'tên trường' hoặc 'link_fieldname.target_fieldname'."
 
 #: frappe/public/js/frappe/ui/filters/filter_list.js:201
 msgid "Invalid filter: {0}"
-msgstr "Bộ lọc không hợp lệ: {0}"
+msgstr "Filter không hợp lệ: {0}"
 
 #: frappe/database/query.py:2308
 msgid "Invalid function argument type: {0}. Only strings, numbers, lists, and None are allowed."
@@ -14335,15 +14337,15 @@ msgstr "Nội dung yêu cầu không hợp lệ"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:181
 msgid "Invalid role"
-msgstr "Vai trò không hợp lệ"
+msgstr "Role không hợp lệ"
 
 #: frappe/database/query.py:808
 msgid "Invalid simple filter format: {0}"
-msgstr "Định dạng bộ lọc đơn giản không hợp lệ: {0}"
+msgstr "Định dạng filter đơn giản không hợp lệ: {0}"
 
 #: frappe/database/query.py:728
 msgid "Invalid start for filter condition: {0}. Expected a list or tuple."
-msgstr "Bắt đầu không hợp lệ cho điều kiện bộ lọc: {0}. Dự kiến ​​​​một danh sách hoặc bộ dữ liệu."
+msgstr "Bắt đầu không hợp lệ cho điều kiện filter: {0}. Dự kiến ​​​​một danh sách hoặc bộ dữ liệu."
 
 #: frappe/core/doctype/data_import/importer.py:435
 msgid "Invalid template file for import"
@@ -15159,7 +15161,7 @@ msgstr "Nhãn là bắt buộc"
 #. Label of the sb0 (Section Break) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Landing Page"
-msgstr "Trang đích"
+msgstr "Trang giới thiệu"
 
 #: frappe/public/js/frappe/form/print_utils.js:25
 msgid "Landscape"
@@ -15316,12 +15318,12 @@ msgstr "Lần chạy cuối cùng"
 #. Label of the last_sync_on (Datetime) field in DocType 'Google Contacts'
 #: frappe/integrations/doctype/google_contacts/google_contacts.json
 msgid "Last Sync On"
-msgstr "Đồng bộ hóa lần cuối bật"
+msgstr "Sync lần cuối bật"
 
 #. Label of the last_synced_on (Datetime) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 msgid "Last Synced On"
-msgstr "Đồng bộ hóa lần cuối vào"
+msgstr "Sync lần cuối vào"
 
 #. Label of the last_updated (Datetime) field in DocType 'User Session Display'
 #: frappe/core/doctype/user_session_display/user_session_display.json
@@ -15357,7 +15359,7 @@ msgstr "Năm ngoái"
 
 #: frappe/public/js/frappe/widgets/chart_widget.js:778
 msgid "Last synced {0}"
-msgstr "Đồng bộ hóa lần cuối {0}"
+msgstr "Sync lần cuối {0}"
 
 #. Label of the layout (Code) field in DocType 'Desktop Layout'
 #: frappe/desk/doctype/desktop_layout/desktop_layout.json
@@ -15717,7 +15719,7 @@ msgstr "Tên trường liên kết"
 #: frappe/custom/doctype/customize_form/customize_form.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Link Filters"
-msgstr "Bộ lọc liên kết"
+msgstr "Filter liên kết"
 
 #. Label of the link_name (Dynamic Link) field in DocType 'Activity Log'
 #. Label of the link_name (Dynamic Link) field in DocType 'Communication Link'
@@ -15850,7 +15852,7 @@ msgstr "Danh sách cột"
 #. Name of a DocType
 #: frappe/desk/doctype/list_filter/list_filter.json
 msgid "List Filter"
-msgstr "Bộ lọc danh sách"
+msgstr "Filter danh sách"
 
 #. Label of the list_settings_section (Section Break) field in DocType 'User'
 #. Label of the section_break_8 (Section Break) field in DocType 'Customize
@@ -15937,7 +15939,7 @@ msgstr "Đang tải"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:107
 msgid "Loading Filters..."
-msgstr "Đang tải bộ lọc..."
+msgstr "Đang tải filter..."
 
 #: frappe/core/doctype/data_import/data_import.js:283
 msgid "Loading import file..."
@@ -16121,7 +16123,7 @@ msgstr "Đăng nhập vào {0}"
 
 #: frappe/templates/includes/login/login.js:306
 msgid "Login token required"
-msgstr "Cần có mã thông báo đăng nhập"
+msgstr "Cần có token đăng nhập"
 
 #: frappe/www/login.html:130 frappe/www/login.html:209
 msgid "Login with Email Link"
@@ -16359,7 +16361,7 @@ msgstr "Thiếu thông tin bắt buộc:"
 
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.js:120
 msgid "Mandatory field: set role for"
-msgstr "Trường bắt buộc: đặt vai trò cho"
+msgstr "Trường bắt buộc: đặt role cho"
 
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.js:124
 msgid "Mandatory field: {0}"
@@ -16512,7 +16514,7 @@ msgstr "Tối đa 500 bản ghi cùng một lúc"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Max Attachments"
-msgstr "Tệp đính kèm tối đa"
+msgstr "Tài liệu đính kèm tối đa"
 
 #. Label of the max_file_size (Int) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -16913,7 +16915,7 @@ msgstr "Thiếu trường"
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:133
 msgid "Missing Filters Required"
-msgstr "Thiếu bộ lọc bắt buộc"
+msgstr "Thiếu filter bắt buộc"
 
 #: frappe/desk/form/assign_to.py:111
 msgid "Missing Permission"
@@ -17318,7 +17320,7 @@ msgstr "Thiết bị của tôi"
 #: frappe/desktop_icon/my_workspaces.json
 #: frappe/workspace_sidebar/my_workspaces.json
 msgid "My Workspaces"
-msgstr "Không gian làm việc của tôi"
+msgstr "Khu làm việc của tôi"
 
 #. Option for the 'Database Engine' (Select) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -17337,7 +17339,7 @@ msgstr "KHÔNG BAO GIỜ"
 
 #: frappe/workflow/doctype/workflow/workflow.js:19
 msgid "NOTE: If you add states or transitions in the table, it will be reflected in the Workflow Builder but you will have to position them manually. Also Workflow Builder is currently in <b>BETA</b>."
-msgstr "LƯU Ý: Nếu bạn thêm trạng thái hoặc chuyển tiếp vào bảng, nó sẽ được phản ánh trong Trình tạo quy trình công việc nhưng bạn sẽ phải định vị chúng theo cách thủ công. Ngoài ra, Trình tạo quy trình làm việc hiện có trong <b>BETA</b>."
+msgstr "LƯU Ý: Nếu bạn thêm trạng thái hoặc chuyển tiếp vào bảng, nó sẽ được phản ánh trong Trình tạo quy trình công việc nhưng bạn sẽ phải định vị chúng theo cách thủ công. Ngoài ra, Trình tạo workflow hiện có trong <b>BETA</b>."
 
 #. Description of the 'LDAP Group Field' (Data) field in DocType 'LDAP
 #. Settings'
@@ -17488,7 +17490,7 @@ msgstr "Cần trợ giúp?"
 
 #: frappe/desk/doctype/workspace/workspace.py:360
 msgid "Need Workspace Manager role to edit private workspace of other users"
-msgstr "Cần vai trò Trình quản lý không gian làm việc để chỉnh sửa không gian làm việc riêng tư của người dùng khác"
+msgstr "Cần role Trình quản lý không gian làm việc để chỉnh sửa không gian làm việc riêng tư của người dùng khác"
 
 #: frappe/model/document.py:998
 msgid "Negative Value"
@@ -17496,7 +17498,7 @@ msgstr "Giá trị âm"
 
 #: frappe/database/query.py:720
 msgid "Nested filters must be provided as a list or tuple."
-msgstr "Các bộ lọc lồng nhau phải được cung cấp dưới dạng danh sách hoặc bộ dữ liệu."
+msgstr "Các filter lồng nhau phải được cung cấp dưới dạng danh sách hoặc bộ dữ liệu."
 
 #: frappe/utils/nestedset.py:94
 msgid "Nested set error. Please contact the Administrator."
@@ -17636,7 +17638,7 @@ msgstr "Tên báo cáo mới"
 
 #: frappe/core/doctype/role/role.js:55
 msgid "New Role Name"
-msgstr "Tên vai trò mới"
+msgstr "Tên role mới"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:60
 msgid "New Shortcut"
@@ -17658,7 +17660,7 @@ msgstr "Tên quy trình công việc mới"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:411
 msgid "New Workspace"
-msgstr "Không gian làm việc mới"
+msgstr "Khu làm việc mới"
 
 #. Description of the 'Allowed Public Client Origins' (Small Text) field in
 #. DocType 'OAuth Settings'
@@ -17693,7 +17695,7 @@ msgstr "Mật khẩu mới không được trùng với mật khẩu hiện tạ
 
 #: frappe/core/doctype/role/role.js:78
 msgid "New role created successfully."
-msgstr "Vai trò mới đã được tạo thành công."
+msgstr "Role mới đã được tạo thành công."
 
 #: frappe/utils/change_log.py:389
 msgid "New updates are available"
@@ -17750,7 +17752,7 @@ msgstr "Đã có bản phát hành {} mới cho các ứng dụng sau"
 
 #: frappe/core/doctype/user/user.py:881
 msgid "Newly created user {0} has no roles enabled."
-msgstr "Người dùng mới được tạo {0} chưa bật vai trò nào."
+msgstr "Người dùng mới được tạo {0} chưa bật role nào."
 
 #. Name of a role
 #: frappe/email/doctype/email_group/email_group.json
@@ -17850,7 +17852,7 @@ msgstr "Điều kiện bước tiếp theo"
 #: frappe/integrations/doctype/google_calendar/google_calendar.json
 #: frappe/integrations/doctype/google_contacts/google_contacts.json
 msgid "Next Sync Token"
-msgstr "Mã thông báo đồng bộ hóa tiếp theo"
+msgstr "Token sync tiếp theo"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:701
 msgid "Next Week"
@@ -17952,7 +17954,7 @@ msgstr "Không có mục nhập nào cho Người dùng {0} được tìm thấy
 
 #: frappe/public/js/frappe/widgets/chart_widget.js:412
 msgid "No Filters Set"
-msgstr "Không có bộ lọc nào được đặt"
+msgstr "Không có filter nào được đặt"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:373
 msgid "No Google Calendar Event to sync."
@@ -18011,7 +18013,7 @@ msgstr "Không có biểu đồ được phép"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:92
 msgid "No Permitted Charts on this Dashboard"
-msgstr "Không có biểu đồ nào được phép trên Bảng điều khiển này"
+msgstr "Không có biểu đồ nào được phép trên Dashboard này"
 
 #: frappe/printing/doctype/print_settings/print_settings.js:13
 msgid "No Preview"
@@ -18039,7 +18041,7 @@ msgstr "Không tìm thấy kết quả"
 
 #: frappe/core/doctype/user/user.py:882
 msgid "No Roles Specified"
-msgstr "Không có vai trò nào được chỉ định"
+msgstr "Không có role nào được chỉ định"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:381
 msgid "No Select Field Found"
@@ -18091,7 +18093,7 @@ msgstr "Không có thay đổi nào được thực hiện vì tên cũ và mớ
 
 #: frappe/custom/doctype/doctype_layout/doctype_layout.js:59
 msgid "No changes to sync"
-msgstr "Không có thay đổi nào để đồng bộ hóa"
+msgstr "Không có thay đổi nào để sync"
 
 #: frappe/core/doctype/data_import/importer.py:303
 msgid "No changes to update"
@@ -18151,16 +18153,16 @@ msgstr "Không có tập tin đính kèm"
 
 #: frappe/desk/doctype/number_card/number_card.js:379
 msgid "No filters available for this report"
-msgstr "Không có bộ lọc nào cho báo cáo này"
+msgstr "Không có filter nào cho báo cáo này"
 
 #: frappe/public/js/frappe/list/base_list.js:1078
 #: frappe/public/js/frappe/list/list_sidebar_group_by.js:101
 msgid "No filters found"
-msgstr "Không tìm thấy bộ lọc"
+msgstr "Không tìm thấy filter"
 
 #: frappe/public/js/frappe/ui/filters/filter_list.js:303
 msgid "No filters selected"
-msgstr "Không có bộ lọc nào được chọn"
+msgstr "Không có filter nào được chọn"
 
 #: frappe/desk/form/utils.py:122
 msgid "No further records"
@@ -18247,7 +18249,7 @@ msgstr "Không có hàng nào được chọn"
 
 #: frappe/email/doctype/notification/notification.py:136
 msgid "No subject"
-msgstr "Không có chủ đề"
+msgstr "Không có theme"
 
 #: frappe/www/printview.py:468
 msgid "No template found at path: {0}"
@@ -18255,7 +18257,7 @@ msgstr "Không tìm thấy mẫu tại đường dẫn: {0}"
 
 #: frappe/core/page/permission_manager/permission_manager.js:369
 msgid "No user has the role <strong>{0}</strong>"
-msgstr "Không có người dùng nào có vai trò <strong>{0}</strong>"
+msgstr "Không có người dùng nào có role <strong>{0}</strong>"
 
 #: frappe/public/js/frappe/form/controls/multiselect_list.js:277
 #: frappe/public/js/frappe/utils/utils.js:1024
@@ -18272,7 +18274,7 @@ msgstr "Không tìm thấy {0}"
 
 #: frappe/public/js/frappe/list/list_view.js:540
 msgid "No {0} found with matching filters. Clear filters to see all {0}."
-msgstr "Không tìm thấy {0} nào có bộ lọc phù hợp. Xóa bộ lọc để xem tất cả {0}."
+msgstr "Không tìm thấy {0} nào có filter phù hợp. Xóa filter để xem tất cả {0}."
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:171
 msgid "No {0} mail"
@@ -18309,7 +18311,7 @@ msgstr "Không"
 
 #: frappe/public/js/frappe/form/workflow.js:36
 msgid "None: End of Workflow"
-msgstr "Không có: Kết thúc quy trình làm việc"
+msgstr "Không có: Kết thúc workflow"
 
 #. Label of the normalized_copies (Int) field in DocType 'Recorder Query'
 #: frappe/core/doctype/recorder_query/recorder_query.json
@@ -18421,7 +18423,7 @@ msgstr "Không phải hình ảnh người dùng hợp lệ."
 
 #: frappe/model/workflow.py:135
 msgid "Not a valid Workflow Action"
-msgstr "Hành động quy trình làm việc không hợp lệ"
+msgstr "Hành động workflow không hợp lệ"
 
 #: frappe/workflow/doctype/workflow/workflow_list.js:7
 msgid "Not active"
@@ -18775,7 +18777,7 @@ msgstr "ID OAuth Client"
 #. Name of a DocType
 #: frappe/integrations/doctype/oauth_client_role/oauth_client_role.json
 msgid "OAuth Client Role"
-msgstr "Vai trò OAuth Client"
+msgstr "Role OAuth Client"
 
 #: frappe/email/oauth.py:30
 msgid "OAuth Error"
@@ -19216,7 +19218,7 @@ msgstr "Mở một mô-đun hoặc công cụ"
 
 #: frappe/public/js/frappe/ui/keyboard.js:369
 msgid "Open console"
-msgstr "Mở bảng điều khiển"
+msgstr "Mở dashboard"
 
 #. Label of the open_in_new_tab (Check) field in DocType 'Workspace Sidebar
 #. Item'
@@ -20179,11 +20181,11 @@ msgstr "Quyền được tự động áp dụng cho Báo cáo chuẩn và tìm 
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:5
 msgid "Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions."
-msgstr "Quyền được thiết lập trên Vai trò và Các loại tài liệu (gọi là DocTypes) bằng cách đặt các quyền như Đọc, Viết, Tạo, Xóa, Gửi, Hủy, Sửa đổi, Báo cáo, Nhập liệu, Xuất khẩu, In, Email và Đặt quyền người dùng."
+msgstr "Quyền được thiết lập trên Role và Các loại tài liệu (gọi là DocTypes) bằng cách đặt các quyền như Đọc, Viết, Tạo, Xóa, Gửi, Hủy, Sửa đổi, Báo cáo, Nhập liệu, Xuất khẩu, In, Email và Đặt quyền người dùng."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:93
 msgid "Permissions at higher levels are Field Level permissions. All Fields have a Permission Level set against them and the rules defined at that permissions apply to the field. This is useful in case you want to hide or make certain field read-only for certain Roles."
-msgstr "Quyền ở các cấp cao hơn là quyền ở cấp trường. Tất cả các trường đều có một cấp phép được gán và các quy tắc được định nghĩa ở cấp đó áp dụng cho trường. Điều này hữu ích khi bạn muốn ẩn hoặc đặt một số trường thành chỉ đọc cho một số vai trò nhất định."
+msgstr "Quyền ở các cấp cao hơn là quyền ở cấp trường. Tất cả các trường đều có một cấp phép được gán và các quy tắc được định nghĩa ở cấp đó áp dụng cho trường. Điều này hữu ích khi bạn muốn ẩn hoặc đặt một số trường thành chỉ đọc cho một số role nhất định."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:91
 msgid "Permissions at level 0 are Document Level permissions, i.e. they are primary for access to the document."
@@ -20191,7 +20193,7 @@ msgstr "Quyền ở cấp 0 là quyền ở cấp tài liệu, tức là chúng 
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:6
 msgid "Permissions get applied on Users based on what Roles they are assigned."
-msgstr "Quyền được áp dụng cho người dùng dựa trên vai trò được gán cho họ."
+msgstr "Quyền được áp dụng cho người dùng dựa trên role được gán cho họ."
 
 #. Name of a report
 #. Label of a Link in the Users Workspace
@@ -20204,7 +20206,7 @@ msgstr "Tài liệu được phép cho người dùng"
 #. Action'
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 msgid "Permitted Roles"
-msgstr "Vai trò được phép"
+msgstr "Role được phép"
 
 #. Option for the 'Address Type' (Select) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
@@ -20315,7 +20317,7 @@ msgstr "Vui lòng ủy quyền OAuth cho Tài khoản Email {}"
 
 #: frappe/website/doctype/website_theme/website_theme.py:77
 msgid "Please Duplicate this Website Theme to customize."
-msgstr "Vui lòng sao chép chủ đề trang web này để tùy chỉnh."
+msgstr "Vui lòng sao chép theme trang web này để tùy chỉnh."
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:162
 msgid "Please Install the ldap3 library via pip to use ldap functionality."
@@ -20331,7 +20333,7 @@ msgstr "Vui lòng cập nhật cài đặt SMS"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:622
 msgid "Please add a subject to your email"
-msgstr "Vui lòng thêm chủ đề vào email của bạn"
+msgstr "Vui lòng thêm theme vào email của bạn"
 
 #: frappe/templates/includes/comments/comments.html:168
 msgid "Please add a valid comment."
@@ -20339,7 +20341,7 @@ msgstr "Vui lòng thêm một nhận xét hợp lệ."
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1557
 msgid "Please adjust filters to include some data"
-msgstr "Vui lòng điều chỉnh bộ lọc để bao gồm một số dữ liệu"
+msgstr "Vui lòng điều chỉnh filter để bao gồm một số dữ liệu"
 
 #: frappe/core/doctype/user/user.py:1163
 msgid "Please ask your administrator to verify your sign-up"
@@ -20363,7 +20365,7 @@ msgstr "Vui lòng đính kèm gói"
 
 #: frappe/utils/dashboard.py:58
 msgid "Please check the filter values set for Dashboard Chart: {}"
-msgstr "Vui lòng kiểm tra các giá trị bộ lọc được đặt cho Biểu đồ trang tổng quan: {}"
+msgstr "Vui lòng kiểm tra các giá trị filter được đặt cho Biểu đồ trang tổng quan: {}"
 
 #: frappe/model/base_document.py:1143
 msgid "Please check the value of \"Fetch From\" set for field {0}"
@@ -20458,7 +20460,7 @@ msgstr "Vui lòng đảm bảo rằng hồ sơ của bạn có địa chỉ emai
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:83
 msgid "Please enter Access Token URL"
-msgstr "Vui lòng nhập URL mã thông báo truy cập"
+msgstr "Vui lòng nhập URL token truy cập"
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:81
 msgid "Please enter Authorize URL"
@@ -20578,7 +20580,7 @@ msgstr "Vui lòng chọn các trường X và Y"
 
 #: frappe/public/js/form_builder/components/Field.vue:158
 msgid "Please select a DocType in options before setting filters"
-msgstr "Vui lòng chọn Loại tài liệu trong tùy chọn trước khi cài đặt bộ lọc"
+msgstr "Vui lòng chọn Loại tài liệu trong tùy chọn trước khi cài đặt filter"
 
 #: frappe/desk/doctype/number_card/number_card.js:365
 msgid "Please select a Document Type first"
@@ -20606,7 +20608,7 @@ msgstr "Vui lòng chọn một tập tin CSV hợp lệ có dữ liệu"
 
 #: frappe/utils/data.py:309
 msgid "Please select a valid date filter"
-msgstr "Vui lòng chọn bộ lọc ngày hợp lệ"
+msgstr "Vui lòng chọn filter ngày hợp lệ"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:203
 msgid "Please select applicable Doctypes"
@@ -20644,11 +20646,11 @@ msgstr "Vui lòng đặt ánh xạ máy in cho định dạng in này trong Cài
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1468
 msgid "Please set filters"
-msgstr "Vui lòng đặt bộ lọc"
+msgstr "Vui lòng đặt filter"
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:273
 msgid "Please set filters value in Report Filter table."
-msgstr "Vui lòng đặt giá trị bộ lọc trong bảng Bộ lọc Báo cáo."
+msgstr "Vui lòng đặt giá trị filter trong bảng Filter Báo cáo."
 
 #: frappe/model/naming.py:593
 msgid "Please set the document name"
@@ -20656,7 +20658,7 @@ msgstr "Hãy đặt tên tài liệu"
 
 #: frappe/desk/doctype/dashboard/dashboard.py:120
 msgid "Please set the following documents in this Dashboard as standard first."
-msgstr "Trước tiên, vui lòng đặt các tài liệu sau trong Bảng điều khiển này làm tiêu chuẩn."
+msgstr "Trước tiên, vui lòng đặt các tài liệu sau trong Dashboard này làm tiêu chuẩn."
 
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.py:120
 msgid "Please set the series to be used."
@@ -20725,7 +20727,7 @@ msgstr "Vui lòng cập nhật {} trước khi tiếp tục."
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:335
 msgid "Please use a valid LDAP search filter"
-msgstr "Vui lòng sử dụng bộ lọc tìm kiếm LDAP hợp lệ"
+msgstr "Vui lòng sử dụng filter tìm kiếm LDAP hợp lệ"
 
 #: frappe/templates/emails/file_backup_notification.html:4
 msgid "Please use following links to download file backup."
@@ -21712,7 +21714,7 @@ msgstr "Trợ giúp nhanh để thiết lập quyền"
 #. List'
 #: frappe/desk/doctype/workspace_quick_list/workspace_quick_list.json
 msgid "Quick List Filter"
-msgstr "Bộ lọc danh sách nhanh"
+msgstr "Filter danh sách nhanh"
 
 #. Label of the quick_lists_tab (Tab Break) field in DocType 'Workspace'
 #. Label of the quick_lists (Table) field in DocType 'Workspace'
@@ -21940,7 +21942,7 @@ msgstr "Đã nhận"
 
 #: frappe/integrations/doctype/token_cache/token_cache.py:49
 msgid "Received an invalid token type."
-msgstr "Đã nhận được loại mã thông báo không hợp lệ."
+msgstr "Đã nhận được loại token không hợp lệ."
 
 #. Label of the receiver_by_document_field (Select) field in DocType
 #. 'Notification Recipient'
@@ -21952,7 +21954,7 @@ msgstr "Người nhận theo trường tài liệu"
 #. Recipient'
 #: frappe/email/doctype/notification_recipient/notification_recipient.json
 msgid "Receiver By Role"
-msgstr "Người nhận theo vai trò"
+msgstr "Người nhận theo role"
 
 #. Label of the receiver_parameter (Data) field in DocType 'SMS Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
@@ -22342,7 +22344,7 @@ msgstr "Làm mới Xem trước bản in"
 #: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
 #: frappe/integrations/doctype/token_cache/token_cache.json
 msgid "Refresh Token"
-msgstr "Làm mới mã thông báo"
+msgstr "Làm mới token"
 
 #: frappe/public/js/frappe/list/list_view.js:577
 msgid "Refreshing"
@@ -22403,15 +22405,15 @@ msgstr "Đã liên kết lại"
 #: frappe/custom/doctype/customize_form/customize_form.js:129
 #: frappe/public/js/frappe/form/toolbar.js:483
 msgid "Reload"
-msgstr "Tải lại"
+msgstr "Làm mới"
 
 #: frappe/public/js/frappe/list/base_list.js:249
 msgid "Reload List"
-msgstr "Tải lại danh sách"
+msgstr "Làm mới danh sách"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:101
 msgid "Reload Report"
-msgstr "Tải lại báo cáo"
+msgstr "Làm mới báo cáo"
 
 #. Label of the remember_last_selected_value (Check) field in DocType
 #. 'DocField'
@@ -22467,7 +22469,7 @@ msgstr "Xóa trường"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:404
 msgid "Remove Filter"
-msgstr "Xóa bộ lọc"
+msgstr "Xóa filter"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:429
 msgid "Remove Section"
@@ -22524,7 +22526,7 @@ msgstr "Biểu tượng đã xóa"
 #: frappe/public/js/frappe/model/model.js:735
 #: frappe/public/js/frappe/views/treeview.js:320
 msgid "Rename"
-msgstr "Đổi tên"
+msgstr "Đổi mã"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:117
 #: frappe/custom/doctype/custom_field/custom_field.js:137
@@ -22605,11 +22607,11 @@ msgstr "Sao chép"
 
 #: frappe/core/doctype/role/role.js:40 frappe/core/doctype/role/role.js:52
 msgid "Replicate Role"
-msgstr "Sao chép vai trò"
+msgstr "Sao chép role"
 
 #: frappe/core/doctype/role/role.js:63
 msgid "Replicating Role..."
-msgstr "Đang sao chép vai trò..."
+msgstr "Đang sao chép role..."
 
 #. Option for the 'Status' (Select) field in DocType 'Contact'
 #. Option for the 'Status' (Select) field in DocType 'Communication'
@@ -22721,13 +22723,13 @@ msgstr "Báo cáo tài liệu lỗi"
 #. Name of a DocType
 #: frappe/core/doctype/report_filter/report_filter.json
 msgid "Report Filter"
-msgstr "Bộ lọc báo cáo"
+msgstr "Filter báo cáo"
 
 #. Label of the report_filters (Section Break) field in DocType 'Auto Email
 #. Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Report Filters"
-msgstr "Bộ lọc Báo cáo"
+msgstr "Filter Báo cáo"
 
 #. Label of the report_hide (Check) field in DocType 'DocField'
 #. Label of the report_hide (Check) field in DocType 'Custom Field'
@@ -22802,7 +22804,7 @@ msgstr "Báo cáo lỗi"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:208
 #: frappe/desk/doctype/number_card/number_card.js:189
 msgid "Report has no data, please modify the filters or change the Report Name"
-msgstr "Báo cáo không có dữ liệu, vui lòng sửa đổi bộ lọc hoặc thay đổi Tên báo cáo"
+msgstr "Báo cáo không có dữ liệu, vui lòng sửa đổi filter hoặc thay đổi Tên báo cáo"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:196
 #: frappe/desk/doctype/number_card/number_card.js:184
@@ -22877,7 +22879,7 @@ msgstr "Đại diện cho Người dùng trong hệ thống."
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 msgid "Represents the states allowed in one document and role assigned to change the state."
-msgstr "Đại diện cho các trạng thái được phép trong một tài liệu và vai trò được gán để thay đổi trạng thái."
+msgstr "Đại diện cho các trạng thái được phép trong một tài liệu và role được gán để thay đổi trạng thái."
 
 #: frappe/integrations/doctype/webhook/webhook.js:101
 msgid "Request Body"
@@ -23000,7 +23002,7 @@ msgstr "Đặt lại biểu đồ"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:39
 msgid "Reset Dashboard Customizations"
-msgstr "Đặt lại các tùy chỉnh bảng điều khiển"
+msgstr "Đặt lại các tùy chỉnh dashboard"
 
 #: frappe/public/js/frappe/list/list_settings.js:233
 msgid "Reset Fields"
@@ -23291,51 +23293,51 @@ msgstr "Robots.txt"
 #: frappe/workflow/doctype/workflow_action_permitted_role/workflow_action_permitted_role.json
 #: frappe/workspace_sidebar/users.json
 msgid "Role"
-msgstr "Vai trò"
+msgstr "Role"
 
 #: frappe/core/doctype/role/role.js:8
 msgid "Role 'All' will be given to all system + website users."
-msgstr "Vai trò 'Tất cả' sẽ được cấp cho tất cả người dùng hệ thống + website."
+msgstr "Role 'Tất cả' sẽ được cấp cho tất cả người dùng hệ thống + website."
 
 #: frappe/core/doctype/role/role.js:13
 msgid "Role 'Desk User' will be given to all system users."
-msgstr "Vai trò 'Người dùng bàn' sẽ được trao cho tất cả người dùng hệ thống."
+msgstr "Role 'Người dùng bàn' sẽ được trao cho tất cả người dùng hệ thống."
 
 #. Label of the role_name (Data) field in DocType 'Role'
 #. Label of the role_profile (Data) field in DocType 'Role Profile'
 #: frappe/core/doctype/role/role.json
 #: frappe/core/doctype/role_profile/role_profile.json
 msgid "Role Name"
-msgstr "Tên vai trò"
+msgstr "Tên role"
 
 #. Name of a DocType
 #. Label of a Link in the Users Workspace
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 #: frappe/core/workspace/users/users.json
 msgid "Role Permission for Page and Report"
-msgstr "Quyền Vai trò cho Trang và Báo cáo"
+msgstr "Quyền Role cho Trang và Báo cáo"
 
 #. Label of the permissions_section (Section Break) field in DocType 'User
 #. Document Type'
 #: frappe/core/doctype/user_document_type/user_document_type.json
 #: frappe/public/js/frappe/roles_editor.js:142
 msgid "Role Permissions"
-msgstr "Quyền của vai trò"
+msgstr "Quyền của role"
 
 #: frappe/core/page/permission_manager/permission_manager.js:611
 msgid "Role Permissions Activity Log"
-msgstr "Nhật ký hoạt động quyền theo vai trò"
+msgstr "Nhật ký hoạt động quyền theo role"
 
 #. Label of a Link in the Users Workspace
 #: frappe/core/doctype/role/role.js:21
 #: frappe/core/page/permission_manager/permission_manager.js:4
 #: frappe/core/workspace/users/users.json
 msgid "Role Permissions Manager"
-msgstr "Trình quản lý quyền của vai trò"
+msgstr "Trình quản lý quyền của role"
 
 #: frappe/public/js/frappe/list/list_view.js:1993
 msgid "Role Permissions Manager"
-msgstr "Quản lý vai trò"
+msgstr "Quản lý role"
 
 #. Name of a DocType
 #. Label of the role_profile_name (Link) field in DocType 'User'
@@ -23344,12 +23346,12 @@ msgstr "Quản lý vai trò"
 #: frappe/core/doctype/user/user.json
 #: frappe/core/doctype/user_role_profile/user_role_profile.json
 msgid "Role Profile"
-msgstr "Hồ sơ vai trò"
+msgstr "Hồ sơ role"
 
 #. Label of the role_profiles (Table MultiSelect) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Role Profiles"
-msgstr "Hồ sơ vai trò"
+msgstr "Hồ sơ role"
 
 #. Label of the role_and_level (Section Break) field in DocType 'Custom
 #. DocPerm'
@@ -23357,11 +23359,11 @@ msgstr "Hồ sơ vai trò"
 #: frappe/core/doctype/custom_docperm/custom_docperm.json
 #: frappe/core/doctype/docperm/docperm.json
 msgid "Role and Level"
-msgstr "Vai trò và Cấp"
+msgstr "Role và Cấp"
 
 #: frappe/core/doctype/user/user.py:429
 msgid "Role has been set as per the user type {0}"
-msgstr "Vai trò đã được đặt theo loại người dùng {0}"
+msgstr "Role đã được đặt theo loại người dùng {0}"
 
 #. Label of the roles (Table) field in DocType 'Page'
 #. Label of the roles (Table) field in DocType 'Report'
@@ -23387,36 +23389,36 @@ msgstr "Vai trò đã được đặt theo loại người dùng {0}"
 #: frappe/desk/doctype/desktop_icon/desktop_icon.json
 #: frappe/desk/doctype/workspace/workspace.json
 msgid "Roles"
-msgstr "Vai trò"
+msgstr "Role"
 
 #. Label of the roles_permissions_tab (Tab Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Roles & Permissions"
-msgstr "Vai trò & Quyền"
+msgstr "Role & Quyền"
 
 #. Label of the roles (Table) field in DocType 'Role Profile'
 #. Label of the roles (Table) field in DocType 'User'
 #: frappe/core/doctype/role_profile/role_profile.json
 #: frappe/core/doctype/user/user.json
 msgid "Roles Assigned"
-msgstr "Vai trò được giao"
+msgstr "Role được giao"
 
 #. Label of the roles_html (HTML) field in DocType 'Role Profile'
 #. Label of the roles_html (HTML) field in DocType 'User'
 #: frappe/core/doctype/role_profile/role_profile.json
 #: frappe/core/doctype/user/user.json
 msgid "Roles HTML"
-msgstr "Vai trò HTML"
+msgstr "Role HTML"
 
 #. Label of the roles_html (HTML) field in DocType 'Role Permission for Page
 #. and Report'
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 msgid "Roles Html"
-msgstr "Vai trò Html"
+msgstr "Role Html"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:7
 msgid "Roles can be set for users from their User page."
-msgstr "Vai trò có thể được đặt cho người dùng từ trang Người dùng của họ."
+msgstr "Role có thể được đặt cho người dùng từ trang Người dùng của họ."
 
 #: frappe/utils/nestedset.py:297
 msgid "Root {0} cannot be deleted"
@@ -23491,7 +23493,7 @@ msgstr "Hàng #"
 #: frappe/core/doctype/doctype/doctype.py:1973
 #: frappe/core/doctype/doctype/doctype.py:1983
 msgid "Row # {0}: Non-administrator users cannot add the role {1} to a custom DocType."
-msgstr "Hàng # {0}: Người dùng không phải quản trị viên không thể thêm vai trò {1} vào Loại tài liệu tùy chỉnh."
+msgstr "Hàng # {0}: Người dùng không phải quản trị viên không thể thêm role {1} vào Loại tài liệu tùy chỉnh."
 
 #: frappe/model/base_document.py:1174
 msgid "Row #{0}:"
@@ -23571,7 +23573,7 @@ msgstr "Điều kiện quy tắc"
 
 #: frappe/permissions.py:700
 msgid "Rule for this doctype, role, permlevel and if-owner combination already exists."
-msgstr "Quy tắc cho doctype, vai trò, permlevel và kết hợp if-owner này đã tồn tại."
+msgstr "Quy tắc cho doctype, role, permlevel và kết hợp if-owner này đã tồn tại."
 
 #. Group in DocType's connections
 #: frappe/core/doctype/doctype/doctype.json
@@ -23581,13 +23583,13 @@ msgstr "Quy tắc"
 #. Description of the 'Transitions' (Table) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Rules defining transition of state in the workflow."
-msgstr "Các quy tắc xác định sự chuyển đổi trạng thái trong quy trình làm việc."
+msgstr "Các quy tắc xác định sự chuyển đổi trạng thái trong workflow."
 
 #. Description of the 'Transition Rules' (Section Break) field in DocType
 #. 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Rules for how states are transitions, like next state and which role is allowed to change state etc."
-msgstr "Quy tắc cho cách chuyển đổi trạng thái, như trạng thái tiếp theo và vai trò nào được phép thay đổi trạng thái, v.v."
+msgstr "Quy tắc cho cách chuyển đổi trạng thái, như trạng thái tiếp theo và role nào được phép thay đổi trạng thái, v.v."
 
 #. Description of the 'Priority' (Int) field in DocType 'Document Naming Rule'
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
@@ -23820,7 +23822,7 @@ msgstr "Lưu báo cáo"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:108
 msgid "Save filters"
-msgstr "Lưu bộ lọc"
+msgstr "Lưu filter"
 
 #. Label of the save_on_complete (Check) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
@@ -23841,7 +23843,7 @@ msgstr "Đã lưu"
 
 #: frappe/public/js/frappe/list/list_filter.js:22
 msgid "Saved Filters"
-msgstr "Bộ lọc đã lưu"
+msgstr "Filter đã lưu"
 
 #: frappe/public/js/frappe/list/list_settings.js:41
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:47
@@ -24335,7 +24337,7 @@ msgstr "Chọn tất cả"
 #: frappe/public/js/frappe/views/interaction.js:93
 #: frappe/public/js/frappe/views/interaction.js:155
 msgid "Select Attachments"
-msgstr "Chọn Tệp đính kèm"
+msgstr "Chọn Tài liệu đính kèm"
 
 #: frappe/custom/doctype/client_script/client_script.js:31
 #: frappe/custom/doctype/client_script/client_script.js:34
@@ -24363,7 +24365,7 @@ msgstr "Chọn loại tiền tệ"
 #: frappe/desk/doctype/form_tour/form_tour.json
 #: frappe/public/js/frappe/utils/dashboard_utils.js:236
 msgid "Select Dashboard"
-msgstr "Chọn Bảng điều khiển"
+msgstr "Chọn Dashboard"
 
 #. Option for the 'Timespan' (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
@@ -24389,7 +24391,7 @@ msgstr "Chọn loại tài liệu"
 
 #: frappe/core/page/permission_manager/permission_manager.js:185
 msgid "Select Document Type or Role to start."
-msgstr "Chọn Loại tài liệu hoặc Vai trò để bắt đầu."
+msgstr "Chọn Loại tài liệu hoặc Role để bắt đầu."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:101
 msgid "Select Document Types to set which User Permissions are used to limit access."
@@ -24425,7 +24427,7 @@ msgstr "Chọn trường để cập nhật"
 
 #: frappe/public/js/frappe/list/list_view.js:2051
 msgid "Select Filters"
-msgstr "Chọn Bộ lọc"
+msgstr "Chọn Filter"
 
 #: frappe/desk/doctype/event/event.py:113
 msgid "Select Google Calendar to which event should be synced."
@@ -24433,7 +24435,7 @@ msgstr "Chọn Google Calendar để đồng bộ sự kiện."
 
 #: frappe/contacts/doctype/contact/contact.py:79
 msgid "Select Google Contacts to which contact should be synced."
-msgstr "Chọn Danh bạ Google mà liên hệ sẽ được đồng bộ hóa."
+msgstr "Chọn Danh bạ Google mà liên hệ sẽ được sync."
 
 #: frappe/public/js/frappe/ui/group_by/group_by.html:10
 msgid "Select Group By..."
@@ -24500,12 +24502,12 @@ msgstr "Chọn Giao dịch"
 
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:68
 msgid "Select Workflow"
-msgstr "Chọn Quy trình làm việc"
+msgstr "Chọn Workflow"
 
 #. Label of the workspace_name (Link) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
 msgid "Select Workspace"
-msgstr "Chọn Không gian làm việc"
+msgstr "Chọn Khu làm việc"
 
 #: frappe/website/doctype/website_settings/website_settings.js:27
 msgid "Select a Brand Image first."
@@ -24529,7 +24531,7 @@ msgstr "Chọn Trường người gửi hợp lệ để tạo tài liệu từ 
 
 #: frappe/core/doctype/doctype/doctype.py:2068
 msgid "Select a valid Subject field for creating documents from Email"
-msgstr "Chọn trường Chủ đề hợp lệ để tạo tài liệu từ Email"
+msgstr "Chọn trường Theme hợp lệ để tạo tài liệu từ Email"
 
 #: frappe/public/js/frappe/form/form_tour.js:321
 msgid "Select an Image"
@@ -25024,19 +25026,19 @@ msgstr "Đặt Tùy chọn Mặc định cho tất cả biểu đồ trên Dashb
 #: frappe/desk/doctype/number_card/number_card.js:413
 #: frappe/website/doctype/web_form/web_form.js:370
 msgid "Set Dynamic Filters"
-msgstr "Đặt bộ lọc động"
+msgstr "Đặt filter động"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:381
 #: frappe/desk/doctype/number_card/number_card.js:276
 #: frappe/public/js/form_builder/components/Field.vue:80
 #: frappe/website/doctype/web_form/web_form.js:292
 msgid "Set Filters"
-msgstr "Đặt bộ lọc"
+msgstr "Đặt filter"
 
 #: frappe/public/js/frappe/widgets/chart_widget.js:441
 #: frappe/public/js/frappe/widgets/quick_list_widget.js:105
 msgid "Set Filters for {0}"
-msgstr "Đặt Bộ lọc cho {0}"
+msgstr "Đặt Filter cho {0}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2272
 msgid "Set Level"
@@ -25090,7 +25092,7 @@ msgstr "Đặt số lượng"
 #. Page and Report'
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 msgid "Set Role For"
-msgstr "Đặt vai trò cho"
+msgstr "Đặt role cho"
 
 #: frappe/core/doctype/user/user.js:134
 #: frappe/core/page/permission_manager/permission_manager.js:72
@@ -25117,7 +25119,7 @@ msgstr "Đặt làm mặc định"
 
 #: frappe/website/doctype/website_theme/website_theme.js:33
 msgid "Set as Default Theme"
-msgstr "Đặt làm chủ đề mặc định"
+msgstr "Đặt làm theme mặc định"
 
 #. Option for the 'Naming Rule' (Select) field in DocType 'DocType'
 #. Option for the 'Naming Rule' (Select) field in DocType 'Customize Form'
@@ -25128,11 +25130,11 @@ msgstr "Được đặt bởi người dùng"
 
 #: frappe/website/doctype/web_form/web_form.js:353
 msgid "Set dynamic filter values as Python expressions."
-msgstr "Đặt giá trị bộ lọc động dưới dạng biểu thức Python."
+msgstr "Đặt giá trị filter động dưới dạng biểu thức Python."
 
 #: frappe/public/js/frappe/utils/dashboard_utils.js:163
 msgid "Set dynamic filter values in JavaScript for the required fields here."
-msgstr "Đặt giá trị bộ lọc động trong JavaScript cho các trường bắt buộc tại đây."
+msgstr "Đặt giá trị filter động trong JavaScript cho các trường bắt buộc tại đây."
 
 #. Description of the 'Precision' (Select) field in DocType 'Custom Field'
 #. Description of the 'Precision' (Select) field in DocType 'Customize Form
@@ -25186,7 +25188,7 @@ msgid ""
 "}]\n"
 "</code></pre>"
 msgstr ""
-"Đặt bộ lọc ở đây. Ví dụ:\n"
+"Đặt filter ở đây. Ví dụ:\n"
 "<pre class=\"small text-muted\"><code>\n"
 "[{\n"
 "\tfieldname: \"company\",\n"
@@ -25682,7 +25684,7 @@ msgstr "Hiển thị trong Siêu dữ liệu tài nguyên"
 #. Label of the show_in_filter (Check) field in DocType 'Web Form Field'
 #: frappe/website/doctype/web_form_field/web_form_field.json
 msgid "Show in filter"
-msgstr "Hiển thị trong bộ lọc"
+msgstr "Hiển thị trong filter"
 
 #. Label of the show_document_link (Check) field in DocType 'Slack Webhook URL'
 #: frappe/integrations/doctype/slack_webhook_url/slack_webhook_url.json
@@ -25707,7 +25709,7 @@ msgstr "Hiển thị nút điều hướng"
 #. Label of the show_on_timeline (Check) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
 msgid "Show on Timeline"
-msgstr "Hiển thị trên Dòng thời gian"
+msgstr "Hiển thị trên Lịch sử"
 
 #. Description of the 'Stats Time Interval' (Select) field in DocType 'Number
 #. Card'
@@ -25938,7 +25940,7 @@ msgstr "Bỏ qua cột {0}"
 
 #: frappe/modules/utils.py:219
 msgid "Skipping fixture syncing for doctype {0} from file {1}"
-msgstr "Bỏ qua việc đồng bộ hóa lịch thi đấu cho loại tài liệu {0} từ tệp {1}"
+msgstr "Bỏ qua việc sync lịch thi đấu cho loại tài liệu {0} từ tệp {1}"
 
 #: frappe/core/doctype/data_import/data_import.js:39
 msgid "Skipping {0} of {1}, {2}"
@@ -26111,7 +26113,7 @@ msgstr "Đã xảy ra lỗi"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:133
 msgid "Something went wrong during the token generation. Click on {0} to generate a new one."
-msgstr "Đã xảy ra lỗi trong quá trình tạo mã thông báo. Nhấp vào {0} để tạo một cái mới."
+msgstr "Đã xảy ra lỗi trong quá trình tạo token. Nhấp vào {0} để tạo một cái mới."
 
 #: frappe/templates/includes/login/login.js:281
 msgid "Something went wrong."
@@ -26317,11 +26319,11 @@ msgstr "Trình soạn thảo văn bản đa dạng thức tiêu chuẩn có đi�
 
 #: frappe/core/doctype/role/role.py:47
 msgid "Standard roles cannot be disabled"
-msgstr "Không thể tắt vai trò tiêu chuẩn"
+msgstr "Không thể tắt role tiêu chuẩn"
 
 #: frappe/core/doctype/role/role.py:33
 msgid "Standard roles cannot be renamed"
-msgstr "Không thể đổi tên các vai trò tiêu chuẩn"
+msgstr "Không thể đổi tên các role tiêu chuẩn"
 
 #: frappe/core/doctype/user_type/user_type.py:61
 msgid "Standard user type {0} can not be deleted."
@@ -26658,7 +26660,7 @@ msgstr "Domain phụ"
 #: frappe/public/js/frappe/views/communication.js:131
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:63
 msgid "Subject"
-msgstr "Chủ đề"
+msgstr "Theme"
 
 #. Label of the subject_field (Data) field in DocType 'DocType'
 #. Label of the subject_field (Data) field in DocType 'Customize Form'
@@ -26667,11 +26669,11 @@ msgstr "Chủ đề"
 #: frappe/custom/doctype/customize_form/customize_form.json
 #: frappe/desk/doctype/calendar_view/calendar_view.json
 msgid "Subject Field"
-msgstr "Trường chủ đề"
+msgstr "Trường theme"
 
 #: frappe/core/doctype/doctype/doctype.py:2077
 msgid "Subject Field type should be Data, Text, Long Text, Small Text, Text Editor"
-msgstr "Loại Trường Chủ đề phải là Data, Text, Long Text, Small Text, Text Editor"
+msgstr "Loại Trường Theme phải là Data, Text, Long Text, Small Text, Text Editor"
 
 #. Name of a DocType
 #: frappe/core/doctype/submission_queue/submission_queue.json
@@ -26947,7 +26949,7 @@ msgstr "Chuyển đổi máy ảnh"
 #: frappe/public/js/frappe/desk.js:98
 #: frappe/public/js/frappe/ui/theme_switcher.js:11
 msgid "Switch Theme"
-msgstr "Chuyển chủ đề"
+msgstr "Chuyển theme"
 
 #: frappe/templates/includes/navbar/navbar_login.html:17
 msgid "Switch To Desk"
@@ -26975,7 +26977,7 @@ msgstr "Ký hiệu"
 #: frappe/integrations/doctype/google_calendar/google_calendar.json
 #: frappe/integrations/doctype/google_contacts/google_contacts.json
 msgid "Sync"
-msgstr "Đồng bộ hóa"
+msgstr "Sync"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.js:28
 msgid "Sync Calendar"
@@ -26983,7 +26985,7 @@ msgstr "Đồng bộ lịch"
 
 #: frappe/integrations/doctype/google_contacts/google_contacts.js:28
 msgid "Sync Contacts"
-msgstr "Đồng bộ hóa danh bạ"
+msgstr "Sync danh bạ"
 
 #. Label of the sync_as_public (Check) field in DocType 'Google Calendar'
 #: frappe/integrations/doctype/google_calendar/google_calendar.json
@@ -26992,7 +26994,7 @@ msgstr "Đồng bộ sự kiện từ Google thành công khai"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:269
 msgid "Sync on Migrate"
-msgstr "Đồng bộ hóa khi di chuyển"
+msgstr "Sync khi di chuyển"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:312
 msgid "Sync token was invalid and has been reset, Retry syncing."
@@ -27001,29 +27003,29 @@ msgstr "Token đồng bộ không hợp lệ và đã được đặt lại, th�
 #. Label of the sync_with_google_calendar (Check) field in DocType 'Event'
 #: frappe/desk/doctype/event/event.json
 msgid "Sync with Google Calendar"
-msgstr "Đồng bộ hóa với Lịch Google"
+msgstr "Sync với Lịch Google"
 
 #. Label of the sync_with_google_contacts (Check) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Sync with Google Contacts"
-msgstr "Đồng bộ hóa với Danh bạ Google"
+msgstr "Sync với Danh bạ Google"
 
 #: frappe/custom/doctype/doctype_layout/doctype_layout.js:46
 msgid "Sync {0} Fields"
-msgstr "Đồng bộ hóa các trường {0}"
+msgstr "Sync các trường {0}"
 
 #: frappe/custom/doctype/doctype_layout/doctype_layout.js:100
 msgid "Synced Fields"
-msgstr "Trường được đồng bộ hóa"
+msgstr "Trường được sync"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.js:31
 #: frappe/integrations/doctype/google_contacts/google_contacts.js:31
 msgid "Syncing"
-msgstr "Đang đồng bộ hóa"
+msgstr "Đang sync"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.js:19
 msgid "Syncing {0} of {1}"
-msgstr "Đang đồng bộ hóa {0} của {1}"
+msgstr "Đang sync {0} của {1}"
 
 #: frappe/utils/data.py:2645
 msgid "Syntax Error"
@@ -27088,7 +27090,7 @@ msgstr "Nhân viên báo cáo tình trạng hệ thống"
 #. Label of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "System Logs"
-msgstr "Nhật ký hệ thống"
+msgstr "Log"
 
 #. Name of a role
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
@@ -27818,7 +27820,7 @@ msgstr "Tài nguyên bạn đang tìm kiếm không có sẵn"
 
 #: frappe/core/doctype/user_type/user_type.py:115
 msgid "The role {0} should be a custom role."
-msgstr "Vai trò {0} phải là một vai trò tùy chỉnh."
+msgstr "Role {0} phải là một role tùy chỉnh."
 
 #: frappe/core/doctype/audit_trail/audit_trail.py:46
 msgid "The selected document {0} is not a {1}."
@@ -27830,7 +27832,7 @@ msgstr "Hệ thống đang được cập nhật. Vui lòng làm mới lại sau
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:9
 msgid "The system provides many pre-defined roles. You can add new roles to set finer permissions."
-msgstr "Hệ thống cung cấp nhiều vai trò được xác định trước. Bạn có thể thêm vai trò mới để đặt quyền tốt hơn."
+msgstr "Hệ thống cung cấp nhiều role được xác định trước. Bạn có thể thêm role mới để đặt quyền tốt hơn."
 
 #: frappe/core/doctype/user_type/user_type.py:98
 msgid "The total number of user document types limit has been crossed."
@@ -27892,7 +27894,7 @@ msgstr "{0} đã được tự động lặp lại {1}"
 #: frappe/website/doctype/website_settings/website_settings.json
 #: frappe/website/doctype/website_theme/website_theme.json
 msgid "Theme"
-msgstr "Chủ đề"
+msgstr "Theme"
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:130
 msgid "Theme Changed"
@@ -27902,12 +27904,12 @@ msgstr "Chủ Đề Đã Thay Đổi"
 #. Theme'
 #: frappe/website/doctype/website_theme/website_theme.json
 msgid "Theme Configuration"
-msgstr "Cấu hình chủ đề"
+msgstr "Cấu hình theme"
 
 #. Label of the theme_url (Data) field in DocType 'Website Theme'
 #: frappe/website/doctype/website_theme/website_theme.json
 msgid "Theme URL"
-msgstr "URL chủ đề"
+msgstr "URL theme"
 
 #: frappe/workflow/doctype/workflow/workflow.js:157
 msgid "There are documents which have workflow states that do not exist in this Workflow. It is recommended that you add these states to the Workflow and change their states before removing these states."
@@ -27923,7 +27925,7 @@ msgstr "Không có {0} cho {1} này, tại sao bạn không bắt đầu một c
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1006
 msgid "There are {0} with the same filters already in the queue:"
-msgstr "Có {0} với các bộ lọc tương tự đã có trong queue:"
+msgstr "Có {0} với các filter tương tự đã có trong queue:"
 
 #: frappe/website/doctype/web_form/web_form.js:82
 #: frappe/website/doctype/web_form/web_form.js:441
@@ -27956,7 +27958,7 @@ msgstr "Có một số vấn đề với URL tệp: {0}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1003
 msgid "There is {0} with the same filters already in the queue:"
-msgstr "Có {0} với các bộ lọc tương tự đã có trong queue:"
+msgstr "Có {0} với các filter tương tự đã có trong queue:"
 
 #: frappe/core/page/permission_manager/permission_manager.py:173
 msgid "There must be atleast one permission rule."
@@ -27968,7 +27970,7 @@ msgstr "Đã xảy ra lỗi khi xây dựng trang này"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:219
 msgid "There was an error saving filters"
-msgstr "Đã xảy ra lỗi khi lưu bộ lọc"
+msgstr "Đã xảy ra lỗi khi lưu filter"
 
 #: frappe/public/js/frappe/form/sidebar/attachments.js:226
 msgid "There were errors"
@@ -28173,7 +28175,7 @@ msgstr "Điều này vượt lên trên trình chiếu."
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2349
 msgid "This is a background report. Please set the appropriate filters and then generate a new one."
-msgstr "Đây là báo cáo nền. Vui lòng đặt các bộ lọc phù hợp và sau đó tạo một báo cáo mới."
+msgstr "Đây là báo cáo nền. Vui lòng đặt các filter phù hợp và sau đó tạo một báo cáo mới."
 
 #: frappe/utils/password_strength.py:158
 msgid "This is a top-10 common password."
@@ -28466,7 +28468,7 @@ msgstr "Hết thời gian chờ (Tính bằng giây)"
 #. Label of the timeseries (Check) field in DocType 'Dashboard Chart Source'
 #: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.json
 msgid "Timeseries"
-msgstr "Dòng thời gian"
+msgstr "Lịch sử"
 
 #. Label of the timespan (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
@@ -28482,7 +28484,7 @@ msgstr "Dấu thời gian"
 
 #: frappe/desk/doctype/system_console/system_console.js:41
 msgid "Tip: Try the new dropdown console using"
-msgstr "Mẹo: Hãy thử bảng điều khiển thả xuống mới bằng cách sử dụng"
+msgstr "Mẹo: Hãy thử dashboard thả xuống mới bằng cách sử dụng"
 
 #. Label of the title (Data) field in DocType 'DocType State'
 #. Label of the method (Data) field in DocType 'Error Log'
@@ -28653,7 +28655,7 @@ msgstr "Để in đầu ra, hãy sử dụng <code>print(text)</code>"
 
 #: frappe/core/doctype/user_type/user_type.py:294
 msgid "To set the role {0} in the user {1}, kindly set the {2} field as {3} in one of the {4} record."
-msgstr "Để đặt vai trò {0} cho người dùng {1}, vui lòng đặt trường {2} thành {3} trong một trong các bản ghi {4}."
+msgstr "Để đặt role {0} cho người dùng {1}, vui lòng đặt trường {2} thành {3} trong một trong các bản ghi {4}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.js:8
 msgid "To use Google Calendar, enable {0}."
@@ -28714,32 +28716,32 @@ msgstr "Chuyển đổi thanh bên"
 #. Option for the 'Response Type' (Select) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "Token"
-msgstr "Mã thông báo"
+msgstr "Token"
 
 #. Name of a DocType
 #: frappe/integrations/doctype/token_cache/token_cache.json
 msgid "Token Cache"
-msgstr "Bộ đệm mã thông báo"
+msgstr "Bộ đệm token"
 
 #. Label of the token_endpoint_auth_method (Select) field in DocType 'OAuth
 #. Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "Token Endpoint Auth Method"
-msgstr "Phương thức xác thực điểm cuối mã thông báo"
+msgstr "Phương thức xác thực điểm cuối token"
 
 #. Label of the token_type (Data) field in DocType 'Token Cache'
 #: frappe/integrations/doctype/token_cache/token_cache.json
 msgid "Token Type"
-msgstr "Loại mã thông báo"
+msgstr "Loại token"
 
 #. Label of the token_uri (Data) field in DocType 'Connected App'
 #: frappe/integrations/doctype/connected_app/connected_app.json
 msgid "Token URI"
-msgstr "URI mã thông báo"
+msgstr "URI token"
 
 #: frappe/utils/oauth.py:214
 msgid "Token is missing"
-msgstr "Mã thông báo bị thiếu"
+msgstr "Token bị thiếu"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:748
 msgid "Tomorrow"
@@ -28825,7 +28827,7 @@ msgstr "Trên cùng bên phải"
 #. Label of the topic (Link) field in DocType 'Discussion Reply'
 #: frappe/website/doctype/discussion_reply/discussion_reply.json
 msgid "Topic"
-msgstr "Chủ đề"
+msgstr "Theme"
 
 #: frappe/desk/query_report.py:755
 #: frappe/public/js/frappe/views/reports/print_grid.html:50
@@ -29064,7 +29066,7 @@ msgstr "Kích hoạt hành động chính"
 
 #: frappe/tests/test_translate.py:55
 msgid "Trigger caching"
-msgstr "Bộ nhớ đệm kích hoạt"
+msgstr "Cache kích hoạt"
 
 #. Description of the 'Trigger Method' (Data) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -29594,7 +29596,7 @@ msgstr "Cập nhật bộ đếm loạt"
 #. Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Update Series Number"
-msgstr "Cập nhật số sê-ri"
+msgstr "Cập nhật serial"
 
 #. Option for the 'Action' (Select) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
@@ -29892,7 +29894,7 @@ msgstr "Người dùng"
 
 #: frappe/core/doctype/has_role/has_role.py:25
 msgid "User '{0}' already has the role '{1}'"
-msgstr "Người dùng '{0}' đã có vai trò '{1}'"
+msgstr "Người dùng '{0}' đã có role '{1}'"
 
 #. Name of a DocType
 #: frappe/core/doctype/report/user_activity_report.json
@@ -30052,12 +30054,12 @@ msgstr "Quyền người dùng được tạo thành công"
 #: frappe/core/doctype/user_role/user_role.json
 #: frappe/integrations/doctype/ldap_group_mapping/ldap_group_mapping.json
 msgid "User Role"
-msgstr "Vai trò của người dùng"
+msgstr "Role của người dùng"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_role_profile/user_role_profile.json
 msgid "User Role Profile"
-msgstr "Hồ sơ vai trò người dùng"
+msgstr "Hồ sơ role người dùng"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_select_document_type/user_select_document_type.json
@@ -30158,11 +30160,11 @@ msgstr "Người dùng {0} không có quyền truy cập vào tài liệu này"
 
 #: frappe/permissions.py:171
 msgid "User {0} does not have doctype access via role permission for document {1}"
-msgstr "Người dùng {0} không có quyền truy cập loại tài liệu thông qua quyền vai trò đối với tài liệu {1}"
+msgstr "Người dùng {0} không có quyền truy cập loại tài liệu thông qua quyền role đối với tài liệu {1}"
 
 #: frappe/desk/doctype/workspace/workspace.py:309
 msgid "User {0} does not have the permission to create a Workspace."
-msgstr "Người dùng {0} không có quyền tạo Không gian làm việc."
+msgstr "Người dùng {0} không có quyền tạo Khu làm việc."
 
 #: frappe/templates/emails/data_deletion_approval.html:1
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:112
@@ -30652,7 +30654,7 @@ msgstr "Bạn muốn thảo luận?"
 #. Option for the 'Address Type' (Select) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
 msgid "Warehouse"
-msgstr "Kho hàng"
+msgstr "Kho"
 
 #. Option for the 'Button Color' (Select) field in DocType 'DocField'
 #. Option for the 'Button Color' (Select) field in DocType 'Custom Field'
@@ -30747,7 +30749,7 @@ msgstr "Cột Danh sách Web Form"
 #: frappe/website/doctype/web_page/web_page.json
 #: frappe/workspace_sidebar/website.json
 msgid "Web Page"
-msgstr "Trang web"
+msgstr "Trang nội dung"
 
 #. Name of a DocType
 #: frappe/website/doctype/web_page_block/web_page_block.json
@@ -31163,7 +31165,7 @@ msgstr "Chiều rộng có thể đặt bằng px hoặc %."
 #. Label of the wildcard_filter (Check) field in DocType 'Report Filter'
 #: frappe/core/doctype/report_filter/report_filter.json
 msgid "Wildcard Filter"
-msgstr "Bộ lọc ký tự đại diện"
+msgstr "Filter ký tự đại diện"
 
 #. Description of the 'Wildcard Filter' (Check) field in DocType 'Report
 #. Filter'
@@ -31210,42 +31212,42 @@ msgstr "Tên công nhân"
 #: frappe/workflow/doctype/workflow/workflow.json
 #: frappe/workspace_sidebar/build.json
 msgid "Workflow"
-msgstr "Quy trình làm việc"
+msgstr "Workflow"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 #: frappe/workflow/doctype/workflow_action/workflow_action.py:499
 msgid "Workflow Action"
-msgstr "Hành động của quy trình làm việc"
+msgstr "Hành động của workflow"
 
 #. Name of a DocType
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_action_master/workflow_action_master.json
 msgid "Workflow Action Master"
-msgstr "Bậc thầy hành động quy trình làm việc"
+msgstr "Bậc thầy hành động workflow"
 
 #. Label of the workflow_action_name (Data) field in DocType 'Workflow Action
 #. Master'
 #: frappe/workflow/doctype/workflow_action_master/workflow_action_master.json
 msgid "Workflow Action Name"
-msgstr "Tên hành động quy trình làm việc"
+msgstr "Tên hành động workflow"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_action_permitted_role/workflow_action_permitted_role.json
 msgid "Workflow Action Permitted Role"
-msgstr "Vai trò được phép hành động của quy trình làm việc"
+msgstr "Role được phép hành động của workflow"
 
 #. Description of the 'Is Optional State' (Check) field in DocType 'Workflow
 #. Document State'
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 msgid "Workflow Action is not created for optional states"
-msgstr "Hành động quy trình làm việc không được tạo cho các trạng thái tùy chọn"
+msgstr "Hành động workflow không được tạo cho các trạng thái tùy chọn"
 
 #: frappe/public/js/workflow_builder/store.js:136
 #: frappe/workflow/doctype/workflow/workflow.js:34
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:4
 msgid "Workflow Builder"
-msgstr "Trình tạo quy trình làm việc"
+msgstr "Trình tạo workflow"
 
 #. Label of the workflow_builder_id (Data) field in DocType 'Workflow Document
 #. State'
@@ -31254,7 +31256,7 @@ msgstr "Trình tạo quy trình làm việc"
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
 msgid "Workflow Builder ID"
-msgstr "ID trình tạo quy trình làm việc"
+msgstr "ID trình tạo workflow"
 
 #: frappe/workflow/doctype/workflow/workflow.js:11
 msgid "Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update their properties from the sidebar."
@@ -31263,11 +31265,11 @@ msgstr "Trình tạo Quy trình cho phép bạn tạo quy trình công việc m�
 #. Label of the workflow_data (JSON) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Workflow Data"
-msgstr "Dữ liệu quy trình làm việc"
+msgstr "Dữ liệu workflow"
 
 #: frappe/public/js/workflow_builder/components/Properties.vue:53
 msgid "Workflow Details"
-msgstr "Chi tiết quy trình làm việc"
+msgstr "Chi tiết workflow"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
@@ -31276,64 +31278,64 @@ msgstr "Trạng thái tài liệu quy trình công việc"
 
 #: frappe/model/workflow.py:113
 msgid "Workflow Evaluation Error"
-msgstr "Lỗi đánh giá quy trình làm việc"
+msgstr "Lỗi đánh giá workflow"
 
 #. Label of the workflow_name (Data) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Workflow Name"
-msgstr "Tên quy trình làm việc"
+msgstr "Tên workflow"
 
 #. Label of the workflow_state (Data) field in DocType 'Workflow Action'
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 msgid "Workflow State"
-msgstr "Trạng thái quy trình làm việc"
+msgstr "Trạng thái workflow"
 
 #: frappe/workflow/doctype/workflow/workflow.py:100
 msgid "Workflow State '{0}' has Document Status {1}, but DocType '{2}' is not submittable. Only Document Status 0 (Draft) is allowed for non-submittable DocTypes."
-msgstr "Trạng thái quy trình làm việc '{0}' có Trạng thái tài liệu {1}, nhưng Loại tài liệu '{2}' không thể gửi duyệt. Chỉ Trạng thái tài liệu 0 (Bản nháp) được phép cho các DocTypes không thể gửi duyệt."
+msgstr "Trạng thái workflow '{0}' có Trạng thái tài liệu {1}, nhưng Loại tài liệu '{2}' không thể gửi duyệt. Chỉ Trạng thái tài liệu 0 (Bản nháp) được phép cho các DocTypes không thể gửi duyệt."
 
 #. Label of the workflow_state_field (Data) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Workflow State Field"
-msgstr "Trường trạng thái quy trình làm việc"
+msgstr "Trường trạng thái workflow"
 
 #: frappe/model/workflow.py:67
 msgid "Workflow State not set"
-msgstr "Trạng thái quy trình làm việc chưa được đặt"
+msgstr "Trạng thái workflow chưa được đặt"
 
 #: frappe/model/workflow.py:285 frappe/model/workflow.py:293
 msgid "Workflow State transition not allowed from {0} to {1}"
-msgstr "Không được phép chuyển đổi trạng thái quy trình làm việc từ {0} sang {1}"
+msgstr "Không được phép chuyển đổi trạng thái workflow từ {0} sang {1}"
 
 #: frappe/workflow/doctype/workflow/workflow.js:168
 msgid "Workflow States Don't Exist"
-msgstr "Trạng thái quy trình làm việc không tồn tại"
+msgstr "Trạng thái workflow không tồn tại"
 
 #: frappe/model/workflow.py:409
 msgid "Workflow Status"
-msgstr "Trạng thái quy trình làm việc"
+msgstr "Trạng thái workflow"
 
 #. Option for the 'Script Type' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "Workflow Task"
-msgstr "Nhiệm vụ quy trình làm việc"
+msgstr "Nhiệm vụ workflow"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
 msgid "Workflow Transition"
-msgstr "Chuyển đổi quy trình làm việc"
+msgstr "Chuyển đổi workflow"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_transition_task/workflow_transition_task.json
 msgid "Workflow Transition Task"
-msgstr "Nhiệm vụ chuyển đổi quy trình làm việc"
+msgstr "Nhiệm vụ chuyển đổi workflow"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_transition_tasks/workflow_transition_tasks.json
 msgid "Workflow Transition Tasks"
-msgstr "Nhiệm vụ chuyển đổi quy trình làm việc"
+msgstr "Nhiệm vụ chuyển đổi workflow"
 
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
@@ -31342,7 +31344,7 @@ msgstr "Trạng thái quy trình công việc thể hiện trạng thái hiện 
 
 #: frappe/public/js/workflow_builder/store.js:87
 msgid "Workflow updated successfully"
-msgstr "Quy trình làm việc được cập nhật thành công"
+msgstr "Workflow được cập nhật thành công"
 
 #. Label of the workspace_section (Section Break) field in DocType 'User'
 #. Label of a Link in the Build Workspace
@@ -31359,11 +31361,11 @@ msgstr "Quy trình làm việc được cập nhật thành công"
 #: frappe/public/js/frappe/views/workspace/workspace.js:10
 #: frappe/workspace_sidebar/build.json
 msgid "Workspace"
-msgstr "Không gian làm việc"
+msgstr "Khu làm việc"
 
 #: frappe/public/js/frappe/router.js:180
 msgid "Workspace <b>{0}</b> does not exist"
-msgstr "Không gian làm việc <b>{0}</b> không tồn tại"
+msgstr "Khu làm việc <b>{0}</b> không tồn tại"
 
 #. Name of a DocType
 #: frappe/desk/doctype/workspace_chart/workspace_chart.json
@@ -31416,16 +31418,16 @@ msgstr "Mục thanh bên của không gian làm việc"
 
 #: frappe/desk/doctype/workspace/workspace.js:58
 msgid "Workspace added to desktop"
-msgstr "Không gian làm việc đã được thêm vào máy tính để bàn"
+msgstr "Khu làm việc đã được thêm vào máy tính để bàn"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:562
 msgid "Workspace {0} created"
-msgstr "Không gian làm việc {0} đã được tạo"
+msgstr "Khu làm việc {0} đã được tạo"
 
 #. Option for the 'View' (Select) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
 msgid "Workspaces"
-msgstr "Không gian làm việc"
+msgstr "Khu làm việc"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:762
 msgid "Would you like to publish this comment? This means it will become visible to website/portal users."
@@ -31621,7 +31623,7 @@ msgstr "Bạn không được phép xóa Thông báo tiêu chuẩn. Bạn có th
 
 #: frappe/website/doctype/website_theme/website_theme.py:73
 msgid "You are not allowed to delete a standard Website Theme"
-msgstr "Bạn không được phép xóa Chủ đề Website Tiêu chuẩn"
+msgstr "Bạn không được phép xóa Theme Website Tiêu chuẩn"
 
 #: frappe/core/doctype/report/report.py:458
 msgid "You are not allowed to edit the report."
@@ -31777,7 +31779,7 @@ msgstr "Bạn có thể đặt giá trị cao ở đây nếu nhiều người d
 
 #: frappe/desk/query_report.py:401
 msgid "You can try changing the filters of your report."
-msgstr "Bạn có thể thử thay đổi bộ lọc của báo cáo."
+msgstr "Bạn có thể thử thay đổi filter của báo cáo."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:94
 msgid "You can use Customize Form to set levels on fields."
@@ -31921,7 +31923,7 @@ msgstr "Bạn chưa thấy {0}"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:192
 msgid "You haven't added any Dashboard Charts or Number Cards yet."
-msgstr "Bạn chưa thêm bất kỳ Biểu đồ bảng điều khiển hoặc Thẻ số nào."
+msgstr "Bạn chưa thêm bất kỳ Biểu đồ dashboard hoặc Thẻ số nào."
 
 #: frappe/public/js/frappe/list/list_view.js:544
 msgid "You haven't created a {0} yet"
@@ -31954,11 +31956,11 @@ msgstr "Bạn cần có quyền '{0}' trên {1} {2} để thực hiện hành đ
 #: frappe/desk/doctype/workspace/workspace.py:140
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.py:75
 msgid "You need to be Workspace Manager to delete a public workspace."
-msgstr "Bạn cần là Quản lý Không gian làm việc để xóa không gian làm việc công khai."
+msgstr "Bạn cần là Quản lý Khu làm việc để xóa không gian làm việc công khai."
 
 #: frappe/desk/doctype/workspace/workspace.py:78
 msgid "You need to be Workspace Manager to edit this document"
-msgstr "Bạn cần là Quản lý Không gian làm việc để chỉnh sửa tài liệu này"
+msgstr "Bạn cần là Quản lý Khu làm việc để chỉnh sửa tài liệu này"
 
 #: frappe/www/attribution.py:15
 msgid "You need to be a system user to access this page."
@@ -31970,7 +31972,7 @@ msgstr "Bạn cần ở chế độ nhà phát triển để chỉnh sửa Web F
 
 #: frappe/utils/response.py:281
 msgid "You need to be logged in and have System Manager Role to be able to access backups."
-msgstr "Bạn cần đăng nhập và có Vai trò Quản lý Hệ thống để truy cập bản sao lưu."
+msgstr "Bạn cần đăng nhập và có Role Quản lý Hệ thống để truy cập bản sao lưu."
 
 #: frappe/www/me.py:13 frappe/www/third_party_apps.py:10
 msgid "You need to be logged in to access this page"
@@ -32082,7 +32084,7 @@ msgstr "YouTube"
 
 #: frappe/core/doctype/prepared_report/prepared_report.js:57
 msgid "Your CSV file is being generated and will appear in the Attachments section once ready. Additionally, you will get notified when the file is available for download."
-msgstr "Tệp CSV của bạn đang được tạo và sẽ xuất hiện trong phần Tệp đính kèm khi sẵn sàng. Ngoài ra, bạn sẽ được thông báo khi tệp có sẵn để tải xuống."
+msgstr "Tệp CSV của bạn đang được tạo và sẽ xuất hiện trong phần Tài liệu đính kèm khi sẵn sàng. Ngoài ra, bạn sẽ được thông báo khi tệp có sẵn để tải xuống."
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:416
 msgid "Your Country"
@@ -32238,7 +32240,7 @@ msgstr "màu xanh"
 
 #: frappe/public/js/frappe/form/workflow.js:35
 msgid "by Role"
-msgstr "theo vai trò"
+msgstr "theo role"
 
 #. Label of the profile (Code) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
@@ -32903,7 +32905,7 @@ msgstr "wkhtmltopdf 0.12.x (với qt patched)."
 #. Option for the 'Doc Event' (Select) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
 msgid "workflow_transition"
-msgstr "quy trình làm việc_transition"
+msgstr "workflow_transition"
 
 #. Option for the 'Permission Type' (Select) field in DocType 'Permission
 #. Inspector'
@@ -33361,7 +33363,7 @@ msgstr "{0} không phải là tệp zip"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:182
 msgid "{0} is not an allowed role for {1}"
-msgstr "{0} không phải là vai trò được phép cho {1}"
+msgstr "{0} không phải là role được phép cho {1}"
 
 #: frappe/public/js/frappe/form/controls/link.js:746
 msgid "{0} is not an ancestor of {1}"
@@ -33572,7 +33574,7 @@ msgstr "{0} tài liệu bị hạn chế"
 
 #: frappe/public/js/frappe/roles_editor.js:93
 msgid "{0} role does not have permission on any doctype"
-msgstr "Vai trò {0} không có quyền đối với bất kỳ loại tài liệu nào"
+msgstr "Role {0} không có quyền đối với bất kỳ loại tài liệu nào"
 
 #: frappe/model/document.py:2155
 msgid "{0} row #{1}:"
@@ -33667,7 +33669,7 @@ msgstr "{0} tuần trước"
 
 #: frappe/core/page/permission_manager/permission_manager.js:385
 msgid "{0} with the role <strong>{1}</strong>"
-msgstr "{0} với vai trò <strong>_{1}</strong>"
+msgstr "{0} với role <strong>_{1}</strong>"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:41
 msgid "{0} y"
@@ -33760,7 +33762,7 @@ msgstr "{0}: Chưa đặt quyền cơ bản"
 
 #: frappe/core/doctype/doctype/doctype.py:1861
 msgid "{0}: Only one rule allowed with the same Role, Level and {1}"
-msgstr "{0}: Chỉ cho phép một quy tắc với cùng Vai trò, Cấp độ và {1}"
+msgstr "{0}: Chỉ cho phép một quy tắc với cùng Role, Cấp độ và {1}"
 
 #: frappe/core/doctype/doctype/doctype.py:1387
 msgid "{0}: Options must be a valid DocType for field {1} in row {2}"

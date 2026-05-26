@@ -23,6 +23,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe HR.
 # Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe HR project.
@@ -646,7 +648,7 @@ msgstr "Tạm ứng đã thanh toán (Tiền tệ công ty)"
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 msgid "Advanced Filters"
-msgstr "Bộ lọc nâng cao"
+msgstr "Filter nâng cao"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:422
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
@@ -760,7 +762,7 @@ msgstr "Cho phép theo dõi vị trí"
 #. Label of the applicable_after (Int) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Allow Leave Application After (Working Days)"
-msgstr "Cho phép nộp đơn xin nghỉ phép sau (Số ngày làm việc)"
+msgstr "Cho phép nộp Đơn nghỉ phép sau (Số ngày làm việc)"
 
 #. Label of the allow_multiple_shift_assignments (Check) field in DocType 'HR
 #. Settings'
@@ -1887,11 +1889,11 @@ msgstr "Kiểm tra Nhật ký lỗi {0} để biết thêm chi tiết."
 
 #: frontend/src/components/CheckInPanel.vue:123
 msgid "Check In"
-msgstr "Check in"
+msgstr "Ghi nhận vào ca"
 
 #: frontend/src/components/CheckInPanel.vue:122
 msgid "Check Out"
-msgstr "Kiểm tra"
+msgstr "Ghi nhận ra ca"
 
 #. Label of the check_vacancies (Check) field in DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
@@ -5185,11 +5187,11 @@ msgstr "Vòng phỏng vấn"
 
 #: hrms/hr/doctype/job_applicant/job_applicant.py:72
 msgid "Interview Round {0} is only applicable for the Designation {1}"
-msgstr "Vòng phỏng vấn {0} chỉ áp dụng cho Chức danh {1}"
+msgstr "Vòng phỏng vấn {0} chỉ áp dụng cho Chức vụ {1}"
 
 #: hrms/hr/doctype/interview/interview.py:52
 msgid "Interview Round {0} is only for Designation {1}. Job Applicant has applied for the role {2}"
-msgstr "Vòng phỏng vấn {0} chỉ dành cho Chức danh {1}. Ứng viên đã ứng tuyển vào vai trò {2}"
+msgstr "Vòng phỏng vấn {0} chỉ dành cho Chức vụ {1}. Ứng viên đã ứng tuyển vào Role {2}"
 
 #: hrms/hr/doctype/interview_feedback/interview_feedback.py:40
 msgid "Interview Scheduled Date"
@@ -5753,7 +5755,7 @@ msgstr "Phân bổ nghỉ phép"
 #: hrms/hr/doctype/leave_application/leave_application.json
 #: hrms/hr/workspace/hr/hr.json hrms/hr/workspace/leaves/leaves.json
 msgid "Leave Application"
-msgstr "Đơn xin nghỉ phép"
+msgstr "Đơn nghỉ phép"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:757
 msgid "Leave Application period cannot be across two non-consecutive leave allocations {0} and {1}."
@@ -5781,7 +5783,7 @@ msgstr "Người phê duyệt nghỉ phép"
 #. DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Leave Approver Mandatory In Leave Application"
-msgstr "Người phê duyệt nghỉ phép bắt buộc trong Đơn xin nghỉ phép"
+msgstr "Người phê duyệt nghỉ phép bắt buộc trong Đơn nghỉ phép"
 
 #. Label of the leave_approver_name (Data) field in DocType 'Leave Application'
 #: hrms/hr/doctype/leave_application/leave_application.json
@@ -5843,7 +5845,7 @@ msgstr "Nghỉ phép bị chặn"
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
 #: hrms/hr/workspace/leaves/leaves.json
 msgid "Leave Control Panel"
-msgstr "Bảng điều khiển nghỉ phép"
+msgstr "Dashboard nghỉ phép"
 
 #. Label of the leave_details (Table) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
@@ -6036,7 +6038,7 @@ msgstr "Phân bổ nghỉ phép bị bỏ qua cho {0}, vì số ngày nghỉ đ�
 
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:54
 msgid "Leave allocation {0} is linked with the Leave Application {1}"
-msgstr "Phân bổ nghỉ phép {0} được liên kết với Đơn xin nghỉ phép {1}"
+msgstr "Phân bổ nghỉ phép {0} được liên kết với Đơn nghỉ phép {1}"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:90
 msgid "Leave already have been assigned for this Leave Policy Assignment"
@@ -6046,7 +6048,7 @@ msgstr "Nghỉ phép đã được phân bổ cho Phân bổ chính sách nghỉ
 #. DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Leave and Expense Claim Settings"
-msgstr "Cài đặt nghỉ phép và yêu cầu bồi hoàn chi phí"
+msgstr "Cài đặt nghỉ phép và đề nghị thanh toán chi phí"
 
 #: hrms/hr/doctype/leave_type/leave_type.py:27
 msgid "Leave application is linked with leave allocations {0}. Leave application cannot be set as leave without pay"
@@ -8141,7 +8143,7 @@ msgstr "Email khảo sát đã gửi"
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 msgid "Quick Filters"
-msgstr "Bộ lọc nhanh"
+msgstr "Filter nhanh"
 
 #: frontend/src/components/QuickLinks.vue:3 frontend/src/views/Home.vue:6
 msgid "Quick Links"
@@ -8536,7 +8538,7 @@ msgstr "Lương CTC đã điều chỉnh"
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 #: hrms/hr/doctype/leave_application/leave_application.py:171
 msgid "Role Allowed to Create Backdated Leave Application"
-msgstr "Vai trò được phép tạo đơn nghỉ phép ngày quá khứ"
+msgstr "Role được phép tạo đơn nghỉ phép ngày quá khứ"
 
 #. Label of a shortcut in the Shift & Attendance Workspace
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
@@ -9235,7 +9237,7 @@ msgstr "Đặt ngày nghỉ việc cho nhân viên: {0}"
 #. 'Employee Attendance Tool'
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 msgid "Set filters to fetch employees"
-msgstr "Đặt bộ lọc để lấy nhân viên"
+msgstr "Đặt filter để lấy nhân viên"
 
 #. Description of the 'Opening Balances' (Section Break) field in DocType
 #. 'Salary Structure Assignment'
@@ -9247,7 +9249,7 @@ msgstr "Đặt số dư mở đầu cho thu nhập và thuế từ công ty trư
 #. Cycle'
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgid "Set optional filters to fetch employees in the appraisee list"
-msgstr "Đặt bộ lọc tùy chọn để lấy nhân viên trong danh sách người được đánh giá"
+msgstr "Đặt filter tùy chọn để lấy nhân viên trong danh sách người được đánh giá"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:702
 msgid "Set the default account for the {0} {1}"
@@ -9403,7 +9405,7 @@ msgstr "Người phê duyệt yêu cầu thay đổi"
 #. 'Shift Assignment Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Shift Request Filters"
-msgstr "Bộ lọc yêu cầu ca"
+msgstr "Filter yêu cầu ca"
 
 #. Description of the 'From Date' (Date) field in DocType 'Shift Assignment
 #. Tool'

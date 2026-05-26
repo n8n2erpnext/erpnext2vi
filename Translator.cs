@@ -21,6 +21,112 @@ public class PoTranslator
         }
     }
 
+    private static Dictionary<string, string> dictExact = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+    {
+        // System UI & Navigation
+        { "Desktop", "Tổng quan" },
+        { "Workspace", "Khu làm việc" },
+        { "Reload", "Làm mới" },
+        { "Global Defaults", "Thiết lập chung" },
+        { "User Settings", "Thiết lập tài khoản" },
+        { "Assign To", "Giao việc" },
+        { "Attachments", "Tài liệu đính kèm" },
+        { "Activity", "Nhật ký hoạt động" },
+        { "Timeline", "Lịch sử" },
+        { "Rename", "Đổi mã" },
+        { "Customize", "Tuỳ biến" },
+        { "Getting Started", "Hướng dẫn nhanh" },
+
+        // CRM
+        { "Lead", "Khách hàng tiềm năng" },
+        { "Deal", "Cơ hội bán hàng" },
+        { "Opportunity", "Cơ hội kinh doanh" },
+        { "Contact", "Liên hệ" },
+        { "Call Logs", "Lịch sử cuộc gọi" },
+        { "Notes", "Ghi chú" },
+        { "Campaign", "Chiến dịch" },
+        { "Prospect", "Khách tiềm năng" },
+        { "Pipeline", "Quy trình bán hàng" },
+        { "Stage", "Giai đoạn" },
+        { "Lost Reason", "Lý do thất bại" },
+
+        // HR / HRMS
+        { "Employee", "Nhân viên" },
+        { "Attendance", "Chấm công" },
+        { "Shift", "Ca làm" },
+        { "Leave Application", "Đơn nghỉ phép" },
+        { "Payroll", "Bảng lương" },
+        { "Salary Slip", "Phiếu lương" },
+        { "Expense Claim", "Đề nghị thanh toán" },
+        { "Department", "Phòng ban" },
+        { "Designation", "Chức vụ" },
+        { "Holiday List", "Lịch nghỉ" },
+        { "Check In", "Ghi nhận vào ca" },
+        { "Check Out", "Ghi nhận ra ca" },
+
+        // Kho / Stock
+        { "Stock Entry", "Phiếu kho" },
+        { "Material Request", "Yêu cầu vật tư" },
+        { "Delivery Note", "Phiếu giao hàng" },
+        { "Purchase Receipt", "Phiếu nhập hàng" },
+        { "Pick List", "Danh sách lấy hàng" },
+        { "Item", "Mặt hàng" },
+        { "Item Group", "Nhóm mặt hàng" },
+        { "Warehouse", "Kho" },
+        { "Reorder Level", "Mức tồn tối thiểu" },
+        { "Stock Ledger", "Sổ kho" },
+        { "Stock Reconciliation", "Đối soát tồn kho" },
+        { "Stock Aging", "Tuổi tồn kho" },
+        { "UOM", "Đơn vị tính" },
+
+        // Buying
+        { "Supplier", "Nhà cung cấp" },
+        { "Request for Quotation", "Yêu cầu báo giá" },
+        { "Supplier Quotation", "Báo giá nhà cung cấp" },
+        { "Purchase Order", "Đơn mua hàng" },
+        { "Purchase Invoice", "Hoá đơn mua hàng" },
+        { "Landed Cost Voucher", "Chi phí nhập hàng" },
+
+        // Selling
+        { "Customer", "Khách hàng" },
+        { "Quotation", "Báo giá" },
+        { "Sales Order", "Đơn bán hàng" },
+        { "Sales Invoice", "Hoá đơn bán hàng" },
+        { "Pricing Rule", "Chính sách giá" },
+        { "Territory", "Khu vực bán hàng" },
+
+        // Accounting
+        { "Journal Entry", "Bút toán" },
+        { "Payment Entry", "Phiếu thanh toán" },
+        { "Fiscal Year", "Năm tài chính" },
+        { "Cost Center", "Trung tâm chi phí" },
+        { "Chart of Accounts", "Hệ thống tài khoản" },
+        { "General Ledger", "Sổ cái" },
+        { "Receivable", "Công nợ phải thu" },
+        { "Payable", "Công nợ phải trả" },
+        { "Outstanding Amount", "Công nợ còn lại" },
+
+        // Manufacturing
+        { "BOM", "Định mức nguyên vật liệu" },
+        { "Work Order", "Lệnh sản xuất" },
+        { "Job Card", "Phiếu công đoạn" },
+        { "Production Plan", "Kế hoạch sản xuất" },
+        { "Routing", "Quy trình sản xuất" },
+
+        // Helpdesk / Support
+        { "Ticket", "Phiếu hỗ trợ" },
+        { "Issue", "Sự cố" },
+        { "Resolution", "Hướng xử lý" },
+        { "Escalation", "Chuyển cấp xử lý" },
+
+        // Website / CMS
+        { "Blog Post", "Bài viết" },
+        { "Web Page", "Trang nội dung" },
+        { "Landing Page", "Trang giới thiệu" },
+        { "Navigation", "Điều hướng" },
+        { "Footer", "Chân trang" }
+    };
+
     private static string DecodePoString(List<string> rawLines)
     {
         StringBuilder sb = new StringBuilder();
@@ -101,7 +207,6 @@ public class PoTranslator
             string line = lines[i];
             string trimmed = line.Trim();
 
-            // If we haven't seen msgid yet, everything is header (project info, versions, etc.)
             if (entries.Count == 0 && !trimmed.StartsWith("msgid ") && !trimmed.StartsWith("#") && !trimmed.StartsWith("\"") && trimmed != "")
             {
                 headerLines.Add(line);
@@ -200,327 +305,213 @@ public class PoTranslator
         }
     }
 
-    public static void ProcessErpNext(string path)
+    private static string ApplyGlobalReplacements(string text, string msgid)
+    {
+        if (string.IsNullOrEmpty(text)) return text;
+
+        // Table 1: Technical & Operational Terms to Keep
+        text = text.Replace("Thỏa thuận cấp độ dịch vụ", "SLA")
+                   .Replace("Thoả thuận cấp độ dịch vụ", "SLA")
+                   .Replace("Thỏa thuận Cấp độ Dịch vụ", "SLA")
+                   .Replace("thỏa thuận cấp độ dịch vụ", "SLA");
+        
+        text = text.Replace("Điểm bán hàng (POS)", "POS")
+                   .Replace("Điểm bán hàng", "POS")
+                   .Replace("điểm bán hàng", "POS")
+                   .Replace("Điểm bán lẻ", "POS");
+
+        text = text.Replace("Bảng điều khiển", "Dashboard")
+                   .Replace("bảng điều khiển", "dashboard");
+
+        text = text.Replace("Quy trình làm việc", "Workflow")
+                   .Replace("quy trình làm việc", "workflow");
+
+        text = text.Replace("Đồng bộ hóa", "Sync")
+                   .Replace("Đồng bộ hoá", "Sync")
+                   .Replace("đồng bộ hóa", "sync")
+                   .Replace("đồng bộ hoá", "sync");
+
+        text = text.Replace("Nhật ký hệ thống", "Log")
+                   .Replace("nhật ký hệ thống", "log");
+
+        text = text.Replace("Số sê-ri", "Serial")
+                   .Replace("Số sê ri", "Serial")
+                   .Replace("Số seri", "Serial")
+                   .Replace("số sê-ri", "serial")
+                   .Replace("số sê ri", "serial")
+                   .Replace("số seri", "serial");
+
+        text = text.Replace("Số lô", "Batch")
+                   .Replace("Lô hàng", "Batch")
+                   .Replace("số lô", "batch")
+                   .Replace("lô hàng", "batch");
+
+        text = text.Replace("Nhập khẩu tệp", "Import tệp")
+                   .Replace("Nhập khẩu dữ liệu", "Import dữ liệu")
+                   .Replace("Nhập dữ liệu từ tệp", "Import dữ liệu");
+
+        text = text.Replace("Xuất khẩu tệp", "Export tệp")
+                   .Replace("Xuất khẩu dữ liệu", "Export dữ liệu");
+
+        text = text.Replace("Bộ lọc", "Filter")
+                   .Replace("bộ lọc", "filter");
+
+        text = text.Replace("Chủ đề", "Theme")
+                   .Replace("chủ đề", "theme");
+
+        text = text.Replace("Vai trò", "Role")
+                   .Replace("vai trò", "role");
+
+        text = text.Replace("Phiên làm việc", "Session")
+                   .Replace("phiên làm việc", "session");
+
+        text = text.Replace("Mã thông báo", "Token")
+                   .Replace("mã thông báo", "token");
+
+        text = text.Replace("Hàng đợi", "Queue")
+                   .Replace("hàng đợi", "queue");
+
+        text = text.Replace("Bộ nhớ đệm", "Cache")
+                   .Replace("bộ nhớ đệm", "cache");
+
+        text = text.Replace("Móc web", "Webhook")
+                   .Replace("móc web", "webhook");
+
+        text = text.Replace("Tên miền", "Domain")
+                   .Replace("tên miền", "domain");
+
+        text = text.Replace("Máy chủ", "Server")
+                   .Replace("máy chủ", "server");
+
+        // Subcontracting (Gia công ngoài)
+        if (msgid.Contains("Subcontract") || msgid.Contains("subcontract") || msgid.Contains("Job Worker") || msgid.Contains("Job worker"))
+        {
+            text = text
+                .Replace("Ký gửi phụ", "Gia công ngoài")
+                .Replace("ký gửi phụ", "gia công ngoài")
+                .Replace("Đơn hàng vào ký gửi phụ", "Đơn nhận gia công")
+                .Replace("Đơn bán hàng ký gửi phụ", "Đơn bán hàng gia công")
+                .Replace("Đơn ký gửi phụ", "Đơn đặt gia công")
+                .Replace("PO Ký gửi phụ", "PO gia công")
+                .Replace("Biên nhận Ký gửi", "Biên nhận gia công")
+                .Replace("Đơn nhập ký gửi", "Đơn nhận gia công")
+                .Replace("Công nhân ký gửi", "Đơn vị gia công")
+                .Replace("công nhân ký gửi", "đơn vị gia công")
+                .Replace("Đơn mua hàng ký gửi", "Đơn mua hàng gia công")
+                .Replace("Đơn mua hàng Ký gửi", "Đơn mua hàng gia công")
+                .Replace("mặt hàng ký gửi", "mặt hàng gia công ngoài")
+                .Replace("nguyên vật liệu ký gửi", "nguyên vật liệu gia công ngoài")
+                .Replace("Đơn bán hàng ký gửi", "Đơn bán hàng gia công")
+                .Replace("Đơn ký gửi", "Đơn đặt gia công")
+                .Replace("Đơn hàng Ký gửi", "Đơn đặt gia công")
+                .Replace("đơn mua hàng ký gửi", "đơn mua hàng gia công");
+        }
+
+        // Table 2 to 11 Replacements (inside translations to clean up)
+        text = text.Replace("Không gian làm việc", "Khu làm việc");
+        text = text.Replace("Mặc định toàn cục", "Thiết lập chung");
+        text = text.Replace("Cài đặt người dùng", "Thiết lập tài khoản");
+        text = text.Replace("Tệp đính kèm", "Tài liệu đính kèm");
+        text = text.Replace("Dòng thời gian", "Lịch sử");
+        text = text.Replace("Tải lại", "Làm mới");
+        text = text.Replace("Sơ đồ tài khoản", "Hệ thống tài khoản");
+        text = text.Replace("Sơ đồ Tài khoản", "Hệ thống tài khoản");
+        text = text.Replace("sơ đồ tài khoản", "hệ thống tài khoản");
+        text = text.Replace("Biên nhận mua hàng", "Phiếu nhập hàng");
+        text = text.Replace("Phiếu nhận mua hàng", "Phiếu nhập hàng");
+        text = text.Replace("Phiếu nhập kho mua hàng", "Phiếu nhập hàng");
+        text = text.Replace("Yêu cầu nguyên vật liệu", "Yêu cầu vật tư");
+        text = text.Replace("Yêu cầu vật liệu", "Yêu cầu vật tư");
+        text = text.Replace("Yêu cầu chào giá", "Yêu cầu báo giá");
+        text = text.Replace("Đơn xin nghỉ phép", "Đơn nghỉ phép");
+        text = text.Replace("Đơn đăng ký nghỉ phép", "Đơn nghỉ phép");
+        text = text.Replace("Bảng thanh toán lương", "Bảng lương");
+        text = text.Replace("Yêu cầu thanh toán chi phí", "Đề nghị thanh toán");
+        text = text.Replace("Yêu cầu chi phí", "Đề nghị thanh toán");
+        text = text.Replace("Bảng lương của nhân viên", "Bảng lương");
+        text = text.Replace("Thẻ công việc", "Phiếu công đoạn");
+        text = text.Replace("Định tuyến", "Quy trình sản xuất");
+        text = text.Replace("Lý do mất", "Lý do thất bại");
+        text = text.Replace("Công nợ còn lại", "Công nợ còn lại");
+        text = text.Replace("Đảng chung", "Đối tác chung");
+        text = text.Replace("Sức khỏe sổ cái", "Trạng thái sổ cái");
+        text = text.Replace("sức khỏe sổ cái", "trạng thái sổ cái");
+
+        return text;
+    }
+
+    private static void ProcessFile(string path, string appName)
     {
         List<string> headers;
         List<PoEntry> entries = Parse(path, out headers);
-        Console.WriteLine("Loaded " + entries.Count + " entries from erpnext_vi.po");
+        Console.WriteLine("Loaded " + entries.Count + " entries from " + Path.GetFileName(path));
 
         foreach (var entry in entries)
         {
             if (string.IsNullOrEmpty(entry.MsgId)) continue;
 
-            // 1. Fix line 21 negative stock message
-            if (entry.MsgId.Contains("The Batch {0} of an item {1} has negative stock"))
+            // 1. Exact Glossary Override (Case-Insensitive Match)
+            if (dictExact.ContainsKey(entry.MsgId))
+            {
+                entry.MsgStr = dictExact[entry.MsgId];
+                continue;
+            }
+
+            // 2. ErpNext line 21 specific case
+            if (appName == "erpnext" && entry.MsgId.Contains("The Batch {0} of an item {1} has negative stock"))
             {
                 entry.MsgStr = "\n\t\t\tLô {0} của mặt hàng {1} đang bị âm kho trong kho {2}{3}.\n\t\t\tVui lòng bổ sung số lượng tồn kho là {4} để tiếp tục thực hiện bút toán này.\n\t\t\tNếu không thể tạo bút toán điều chỉnh, vui lòng bật 'Cho phép âm kho theo Lô' trong Cấu hình Kho để tiếp tục.\n\t\t\tTuy nhiên, việc bật cấu hình này có thể dẫn đến âm kho trong hệ thống.\n\t\t\tVì vậy, hãy đảm bảo số lượng tồn kho được điều chỉnh sớm nhất có thể để duy trì tỷ giá định giá chính xác.";
                 continue;
             }
 
-            // 2. Queue replacements
-            if (entry.MsgStr.Contains("hàng đợi") || entry.MsgStr.Contains("Hàng đợi"))
+            // 3. Frappe syntax fixes
+            if (appName == "frappe")
             {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("được xếp hàng đợi", "được xếp vào queue")
-                    .Replace("đưa vào hàng đợi", "đưa vào queue")
-                    .Replace("xếp hàng đợi", "đưa vào queue")
-                    .Replace("hàng đợi", "queue")
-                    .Replace("Hàng đợi", "Queue");
-            }
-
-            // 3. Server replacements
-            if (entry.MsgStr.Contains("máy chủ") || entry.MsgStr.Contains("Máy chủ"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("máy chủ", "server")
-                    .Replace("Máy chủ", "Server");
-            }
-
-            // 4. Plaid warning / dashboard
-            if (entry.MsgId.Contains("There was an issue connecting to Plaid's authentication server"))
-            {
-                entry.MsgStr = "Đã xảy ra sự cố khi kết nối với server xác thực của Plaid. Kiểm tra console trình duyệt để biết thêm thông tin";
-            }
-            if (entry.MsgStr.Contains("Bảng điều khiển nhà máy"))
-            {
-                entry.MsgStr = entry.MsgStr.Replace("Bảng điều khiển nhà máy", "Dashboard nhà máy");
-            }
-            if (entry.MsgStr.Contains("Bảng điều khiển trạm làm việc"))
-            {
-                entry.MsgStr = entry.MsgStr.Replace("Bảng điều khiển trạm làm việc", "Dashboard máy trạm");
-            }
-
-            // 5. Sức khỏe -> Trạng thái
-            if (entry.MsgStr.Contains("sức khỏe") || entry.MsgStr.Contains("Sức khỏe"))
-            {
-                if (entry.MsgStr.Contains("Sức khỏe sổ cái"))
-                    entry.MsgStr = entry.MsgStr.Replace("Sức khỏe sổ cái", "Trạng thái sổ cái");
-                if (entry.MsgStr.Contains("sức khỏe sổ cái"))
-                    entry.MsgStr = entry.MsgStr.Replace("sức khỏe sổ cái", "trạng thái sổ cái");
-                if (entry.MsgStr.Contains("Giám sát Sức khỏe"))
-                    entry.MsgStr = entry.MsgStr.Replace("Giám sát Sức khỏe", "Giám sát Trạng thái");
-                if (entry.MsgStr.Contains("giám sát sức khỏe"))
-                    entry.MsgStr = entry.MsgStr.Replace("giám sát sức khỏe", "giám sát trạng thái");
-            }
-
-            // 6. Common Party -> Đối tác chung
-            if (entry.MsgStr.Contains("Đảng chung"))
-            {
-                entry.MsgStr = entry.MsgStr.Replace("Đảng chung", "Đối tác chung");
-            }
-
-            // 7. Subcontracting -> Gia công / Gia công ngoài
-            if (entry.MsgStr.Contains("ký gửi") || entry.MsgStr.Contains("Ký gửi"))
-            {
-                if (entry.MsgId.Contains("Subcontract") || entry.MsgId.Contains("subcontract") || 
-                    entry.MsgId.Contains("Job Worker") || entry.MsgId.Contains("Job worker"))
+                if (entry.MsgStr.Contains("{% nếu nhận xét %}"))
                 {
-                    entry.MsgStr = entry.MsgStr
-                        .Replace("Ký gửi phụ", "Gia công ngoài")
-                        .Replace("ký gửi phụ", "gia công ngoài")
-                        .Replace("Đơn hàng vào ký gửi phụ", "Đơn nhận gia công")
-                        .Replace("Đơn bán hàng ký gửi phụ", "Đơn bán hàng gia công")
-                        .Replace("Đơn ký gửi phụ", "Đơn đặt gia công")
-                        .Replace("PO Ký gửi phụ", "PO gia công")
-                        .Replace("Biên nhận Ký gửi", "Biên nhận gia công")
-                        .Replace("Đơn nhập ký gửi", "Đơn nhận gia công")
-                        .Replace("Công nhân ký gửi", "Đơn vị gia công")
-                        .Replace("công nhân ký gửi", "đơn vị gia công")
-                        .Replace("Đơn mua hàng ký gửi", "Đơn mua hàng gia công")
-                        .Replace("Đơn mua hàng Ký gửi", "Đơn mua hàng gia công")
-                        .Replace("mặt hàng ký gửi", "mặt hàng gia công ngoài")
-                        .Replace("nguyên vật liệu ký gửi", "nguyên vật liệu gia công ngoài")
-                        .Replace("Đơn bán hàng ký gửi", "Đơn bán hàng gia công")
-                        .Replace("Đơn ký gửi", "Đơn đặt gia công")
-                        .Replace("Đơn hàng Ký gửi", "Đơn đặt gia công")
-                        .Replace("đơn mua hàng ký gửi", "đơn mua hàng gia công");
+                    entry.MsgStr = entry.MsgStr.Replace("{% nếu nhận xét %}", "{% if comments %}");
                 }
-                
-                if (entry.MsgId.Contains("Outstanding Checks and Deposits to clear"))
+                if (entry.MsgStr.Contains("${skip_list ? \"\" : loại}"))
                 {
-                    entry.MsgStr = entry.MsgStr.Replace("Ký gửi", "Tiền gửi");
+                    entry.MsgStr = entry.MsgStr.Replace("${skip_list ? \"\" : loại}", "${skip_list ? \"\" : type}");
                 }
             }
+
+            // 4. Apply general replacement rules to translated strings
+            entry.MsgStr = ApplyGlobalReplacements(entry.MsgStr, entry.MsgId);
         }
 
         Save(path, entries, headers);
-        Console.WriteLine("Saved erpnext_vi.po successfully.");
+        Console.WriteLine("Saved " + Path.GetFileName(path) + " successfully.");
+    }
+
+    public static void ProcessErpNext(string path)
+    {
+        ProcessFile(path, "erpnext");
     }
 
     public static void ProcessFrappe(string path)
     {
-        List<string> headers;
-        List<PoEntry> entries = Parse(path, out headers);
-        Console.WriteLine("Loaded " + entries.Count + " entries from frappe_vi.po");
-
-        foreach (var entry in entries)
-        {
-            if (string.IsNullOrEmpty(entry.MsgId)) continue;
-
-            // 1. Fix line 616 syntax error
-            if (entry.MsgStr.Contains("{% nếu nhận xét %}"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("{% nếu nhận xét %}", "{% if comments %}");
-            }
-
-            // 2. Fix line 32912 syntax error
-            if (entry.MsgStr.Contains("${skip_list ? \"\" : loại}"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("${skip_list ? \"\" : loại}", "${skip_list ? \"\" : type}");
-            }
-
-            // 3. Queue replacements
-            if (entry.MsgStr.Contains("hàng đợi") || entry.MsgStr.Contains("Hàng đợi"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("được xếp hàng đợi", "được đưa vào queue")
-                    .Replace("xếp hàng đợi", "đưa vào queue")
-                    .Replace("đưa vào hàng đợi", "đưa vào queue")
-                    .Replace("hàng đợi", "queue")
-                    .Replace("Hàng đợi", "Queue");
-            }
-
-            // 4. Server replacements
-            if (entry.MsgStr.Contains("máy chủ") || entry.MsgStr.Contains("Máy chủ"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("phía máy chủ", "phía server")
-                    .Replace("máy chủ email", "server email")
-                    .Replace("máy chủ SMTP", "server SMTP")
-                    .Replace("máy chủ xác thực", "server xác thực")
-                    .Replace("máy chủ", "server")
-                    .Replace("Máy chủ", "Server");
-            }
-
-            // 5. Domain replacements
-            if (entry.MsgStr.Contains("tên miền") || entry.MsgStr.Contains("Tên miền"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("Tên miền email", "Domain email")
-                    .Replace("tên miền email", "domain email")
-                    .Replace("Cài đặt tên miền", "Cài đặt domain")
-                    .Replace("Tên miền HTML", "Domain HTML")
-                    .Replace("tên miền HTML", "domain HTML")
-                    .Replace("Tên miền", "Domain")
-                    .Replace("tên miền", "domain");
-            }
-
-            // 6. Webhook replacements
-            if (entry.MsgStr.Contains("móc web") || entry.MsgStr.Contains("Móc web"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("móc web", "webhook")
-                    .Replace("Móc web", "Webhook");
-            }
-        }
-
-        Save(path, entries, headers);
-        Console.WriteLine("Saved frappe_vi.po successfully.");
+        ProcessFile(path, "frappe");
     }
 
     public static void ProcessHrms(string path)
     {
-        List<string> headers;
-        List<PoEntry> entries = Parse(path, out headers);
-        Console.WriteLine("Loaded " + entries.Count + " entries from hrms_vi.po");
-
-        foreach (var entry in entries)
-        {
-            if (string.IsNullOrEmpty(entry.MsgId)) continue;
-
-            if (entry.MsgStr.Contains("hàng đợi") || entry.MsgStr.Contains("Hàng đợi"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("được xếp hàng đợi", "được đưa vào queue")
-                    .Replace("xếp hàng đợi", "đưa vào queue")
-                    .Replace("đưa vào hàng đợi", "đưa vào queue")
-                    .Replace("hàng đợi", "queue")
-                    .Replace("Hàng đợi", "Queue");
-            }
-        }
-
-        Save(path, entries, headers);
-        Console.WriteLine("Saved hrms_vi.po successfully.");
+        ProcessFile(path, "hrms");
     }
 
     public static void ProcessCrm(string path)
     {
-        List<string> headers;
-        List<PoEntry> entries = Parse(path, out headers);
-        Console.WriteLine("Loaded " + entries.Count + " entries from crm_vi.po");
-
-        foreach (var entry in entries)
-        {
-            if (string.IsNullOrEmpty(entry.MsgId)) continue;
-
-            // Domain replacements
-            if (entry.MsgStr.Contains("tên miền") || entry.MsgStr.Contains("Tên miền"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("Tên miền phụ", "Subdomain")
-                    .Replace("tên miền phụ", "subdomain")
-                    .Replace("Tên miền", "Domain")
-                    .Replace("tên miền", "domain");
-            }
-
-            // Server replacements
-            if (entry.MsgStr.Contains("máy chủ") || entry.MsgStr.Contains("Máy chủ"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("máy chủ", "server")
-                    .Replace("Máy chủ", "Server");
-            }
-        }
-
-        Save(path, entries, headers);
-        Console.WriteLine("Saved crm_vi.po successfully.");
+        ProcessFile(path, "crm");
     }
 
     public static void ProcessHelpdesk(string path)
     {
-        List<string> headers;
-        List<PoEntry> entries = Parse(path, out headers);
-        Console.WriteLine("Loaded " + entries.Count + " entries from helpdesk_vi.po");
-
-        foreach (var entry in entries)
-        {
-            if (string.IsNullOrEmpty(entry.MsgId)) continue;
-
-            // Queue replacements
-            if (entry.MsgStr.Contains("hàng đợi") || entry.MsgStr.Contains("Hàng đợi"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("thêm nó vào hàng đợi", "thêm vào queue")
-                    .Replace("thêm vào hàng đợi", "thêm vào queue")
-                    .Replace("hàng đợi email", "queue email")
-                    .Replace("được xếp hàng đợi", "được đưa vào queue")
-                    .Replace("xếp hàng đợi", "đưa vào queue")
-                    .Replace("đưa vào hàng đợi", "đưa vào queue")
-                    .Replace("hàng đợi", "queue")
-                    .Replace("Hàng đợi", "Queue");
-            }
-
-            // Domain replacements
-            if (entry.MsgStr.Contains("tên miền") || entry.MsgStr.Contains("Tên miền"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("Chỉnh sửa tên miền", "Chỉnh sửa domain")
-                    .Replace("Chỉnh sửa Tên miền", "Chỉnh sửa Domain")
-                    .Replace("Tên miền", "Domain")
-                    .Replace("tên miền", "domain");
-            }
-
-            // Server replacements
-            if (entry.MsgStr.Contains("máy chủ") || entry.MsgStr.Contains("Máy chủ"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("máy chủ", "server")
-                    .Replace("Máy chủ", "Server");
-            }
-        }
-
-        Save(path, entries, headers);
-        Console.WriteLine("Saved helpdesk_vi.po successfully.");
+        ProcessFile(path, "helpdesk");
     }
 
     public static void ProcessInsights(string path)
     {
-        List<string> headers;
-        List<PoEntry> entries = Parse(path, out headers);
-        Console.WriteLine("Loaded " + entries.Count + " entries from insights_vi.po");
-
-        foreach (var entry in entries)
-        {
-            if (string.IsNullOrEmpty(entry.MsgId)) continue;
-
-            // Queue replacements
-            if (entry.MsgStr.Contains("hàng đợi") || entry.MsgStr.Contains("Hàng đợi"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("Hàng đợi nhập hàng loạt", "Queue nhập hàng loạt")
-                    .Replace("hàng đợi nhập hàng loạt", "queue nhập hàng loạt")
-                    .Replace("Tiến độ hàng đợi hàng loạt", "Tiến độ queue hàng loạt")
-                    .Replace("tiến độ hàng đợi hàng loạt", "tiến độ queue hàng loạt")
-                    .Replace("đưa vào hàng đợi", "đưa vào queue")
-                    .Replace("Đưa vào hàng đợi", "Đưa vào queue")
-                    .Replace("được xếp hàng đợi", "được đưa vào queue")
-                    .Replace("xếp hàng đợi", "đưa vào queue")
-                    .Replace("hàng đợi", "queue")
-                    .Replace("Hàng đợi", "Queue");
-            }
-
-            // Server replacements
-            if (entry.MsgStr.Contains("máy chủ") || entry.MsgStr.Contains("Máy chủ"))
-            {
-                entry.MsgStr = entry.MsgStr
-                    .Replace("máy chủ", "server")
-                    .Replace("Máy chủ", "Server");
-            }
-        }
-
-        Save(path, entries, headers);
-        Console.WriteLine("Saved insights_vi.po successfully.");
+        ProcessFile(path, "insights");
     }
 }

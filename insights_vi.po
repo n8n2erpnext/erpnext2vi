@@ -17,6 +17,8 @@
 "X-Crowdin-File-ID: 152\n"
 "Language: vi_VN\n"
 
+msgstr ""
+
 msgid ""
 msgstr ""
 
@@ -40,7 +42,7 @@ msgstr "Cấu hình API"
 #. Data Source v3'
 #: insights/insights/doctype/insights_data_source_v3/insights_data_source_v3.json
 msgid "API Key / Bearer Token"
-msgstr "Khóa API / Mã thông báo Bearer"
+msgstr "Khóa API / Token Bearer"
 
 #. Label of the api_password (Password) field in DocType 'Insights Data Source
 #. v3'
@@ -51,7 +53,7 @@ msgstr "Mật khẩu API"
 #. Label of the api_token (Password) field in DocType 'Insights Data Source v3'
 #: insights/insights/doctype/insights_data_source_v3/insights_data_source_v3.json
 msgid "API Token"
-msgstr "Mã thông báo API"
+msgstr "Token API"
 
 #. Label of the api_username (Data) field in DocType 'Insights Data Source v3'
 #: insights/insights/doctype/insights_data_source_v3/insights_data_source_v3.json
@@ -106,7 +108,7 @@ msgstr "Thêm nguồn dữ liệu"
 
 #: frontend/src2/query/components/FiltersSelector.vue:137
 msgid "Add Filter"
-msgstr "Thêm bộ lọc"
+msgstr "Thêm filter"
 
 #: frontend/src2/query/components/AddOperationPopover.vue:62
 msgid "Add New Column"
@@ -247,7 +249,7 @@ msgstr "Bạn có chắc chắn muốn đăng xuất?"
 
 #: frontend/src2/components/UserDropdown.vue:81
 msgid "Are you sure you want to login to your Frappe Cloud dashboard?"
-msgstr "Bạn có chắc chắn muốn đăng nhập vào bảng điều khiển Frappe Cloud của mình không?"
+msgstr "Bạn có chắc chắn muốn đăng nhập vào dashboard Frappe Cloud của mình không?"
 
 #. Label of the api_authentication_type (Select) field in DocType 'Insights
 #. Data Source v3'
@@ -501,7 +503,7 @@ msgstr "Cột"
 #. Settings'
 #: insights/insights/doctype/insights_settings/insights_settings.json
 msgid "Comma seperated URLs to whitelist for embedding charts & dashboards"
-msgstr "URL cách nhau bởi dấu phẩy để cho phép nhúng biểu đồ & bảng điều khiển"
+msgstr "URL cách nhau bởi dấu phẩy để cho phép nhúng biểu đồ & dashboard"
 
 #: frontend/src2/dashboard/DashboardBuilder.vue:151
 msgid "Compact Layout"
@@ -634,7 +636,7 @@ msgstr "Tạo nhóm"
 
 #: frontend/src2/dashboard/DashboardList.vue:96
 msgid "Create a dashboard in your workbook to view it here."
-msgstr "Hãy tạo một bảng điều khiển trong sổ làm việc của bạn để xem nó ở đây."
+msgstr "Hãy tạo một dashboard trong sổ làm việc của bạn để xem nó ở đây."
 
 #: frontend/src2/data_source/DataSourceList.vue:119
 msgid "Created"
@@ -708,7 +710,7 @@ msgstr "Hàng ngày"
 
 #: frontend/src2/dashboard/DashboardShareDialog.vue:48
 msgid "Dashboard Access Updated"
-msgstr "Đã cập nhật quyền truy cập bảng điều khiển"
+msgstr "Đã cập nhật quyền truy cập dashboard"
 
 #: frontend/src2/components/AppSidebar.vue:74
 #: frontend/src2/dashboard/Dashboard.vue:46
@@ -899,7 +901,7 @@ msgstr "Chỉnh sửa"
 
 #: frontend/src2/dashboard/DashboardFilterEditor.vue:152
 msgid "Edit Filter"
-msgstr "Chỉnh sửa bộ lọc"
+msgstr "Chỉnh sửa filter"
 
 #: frontend/src2/dashboard/DashboardText.vue:24
 msgid "Edit Text"
@@ -923,7 +925,7 @@ msgstr "Email được gửi tại"
 
 #: frontend/src2/query/components/FiltersSelector.vue:134
 msgid "Empty - Click 'Add Filter' to add a filter"
-msgstr "Trống - Nhấp 'Thêm bộ lọc' để thêm bộ lọc"
+msgstr "Trống - Nhấp 'Thêm filter' để thêm filter"
 
 #: frontend/src2/query/components/AlertSetupDialog.vue:123
 msgid "Enable Alert"
@@ -969,7 +971,7 @@ msgstr "Nhập tên tập tin"
 
 #: frontend/src2/dashboard/DashboardFilterEditor.vue:177
 msgid "Enter filter label..."
-msgstr "Nhập nhãn bộ lọc..."
+msgstr "Nhập nhãn filter..."
 
 #: frontend/src2/query/components/FormatRule.vue:443
 msgid "Enter text"
@@ -1101,7 +1103,7 @@ msgstr "Yêu thích"
 #: frontend/src2/query/components/QueryBuilderToolbar.vue:80
 #: frontend/src2/query/components/ScriptQueryEditor.vue:128
 msgid "Fetched from cache"
-msgstr "Lấy từ bộ nhớ đệm"
+msgstr "Lấy từ cache"
 
 #: frontend/src2/query/components/NativeQueryEditor.vue:228
 #: frontend/src2/query/components/QueryBuilderToolbar.vue:83
@@ -1123,7 +1125,7 @@ msgstr "Lọc"
 
 #: frontend/src2/dashboard/DashboardFilterEditor.vue:224
 msgid "Filter Icon"
-msgstr "Biểu tượng bộ lọc"
+msgstr "Biểu tượng filter"
 
 #: frontend/src2/query/components/AddOperationPopover.vue:44
 msgid "Filter Rows"
@@ -1136,7 +1138,7 @@ msgstr "Lọc dòng dựa trên cột hoặc biểu thức"
 #. Label of the filters (JSON) field in DocType 'Insights Query'
 #: insights/insights/doctype/insights_query/insights_query.json
 msgid "Filters"
-msgstr "Bộ lọc"
+msgstr "Filter"
 
 #. Label of the fiscal_year_start (Date) field in DocType 'Insights Settings'
 #: insights/insights/doctype/insights_settings/insights_settings.json
@@ -1763,7 +1765,7 @@ msgstr "Đồng bộ gần nhất"
 #: insights/insights/doctype/insights_table_v3/insights_table_v3.js:60
 #: insights/insights/doctype/insights_table_v3/insights_table_v3.json
 msgid "Last Synced On"
-msgstr "Đồng bộ hóa lần cuối vào"
+msgstr "Sync lần cuối vào"
 
 #. Description of the 'Last Sync Bookmark' (Data) field in DocType 'Insights
 #. Table v3'
@@ -1954,7 +1956,7 @@ msgstr "Biểu đồ mới"
 
 #: frontend/src2/workbook/WorkbookTabSwitcher.vue:64
 msgid "New Dashboard"
-msgstr "Bảng điều khiển mới"
+msgstr "Dashboard mới"
 
 #: frontend/src2/data_source/DataSourceList.vue:133
 #: frontend/src2/data_source/DataSourceList.vue:148
@@ -1982,7 +1984,7 @@ msgstr "Không"
 
 #: frontend/src2/dashboard/DashboardList.vue:94
 msgid "No Dashboards"
-msgstr "Không có bảng điều khiển"
+msgstr "Không có dashboard"
 
 #: frontend/src2/query/components/source_selector/WorkbookQueryList.vue:90
 msgid "No Queries Found"
@@ -2677,7 +2679,7 @@ msgstr "Chia sẻ biểu đồ"
 
 #: frontend/src2/dashboard/DashboardShareDialog.vue:83
 msgid "Share Dashboard"
-msgstr "Chia sẻ bảng điều khiển"
+msgstr "Chia sẻ dashboard"
 
 #. Label of the share_link (Data) field in DocType 'Insights Dashboard v3'
 #: insights/insights/doctype/insights_dashboard_v3/insights_dashboard_v3.json
@@ -2811,7 +2813,7 @@ msgstr "Chuyển sang Insights v2"
 
 #: insights/insights/doctype/insights_table_v3/insights_table_v3.js:58
 msgid "Sync"
-msgstr "Đồng bộ hóa"
+msgstr "Sync"
 
 #. Label of the sync_from (Datetime) field in DocType 'Insights Table v3'
 #: insights/insights/doctype/insights_table_v3/insights_table_v3.json

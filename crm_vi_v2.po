@@ -37,6 +37,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe CRM.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe CRM project.
@@ -1473,7 +1475,7 @@ msgstr "Xóa Tất Cả Bộ Lọc"
 #: frontend/src/components/ListBulkActions.vue:142
 #: frontend/src/components/ListBulkActions.vue:188
 msgid "Clear Assignment"
-msgstr "Xóa nhiệm vụ"
+msgstr "Hủy giao"
 
 #: frontend/src/components/Layouts/AppSidebar.vue:92
 #: frontend/src/composables/demoData.js:20
@@ -7868,11 +7870,11 @@ msgstr "Bạn sẽ cần tài khoản nhà phát triển Meta và token truy c�
 
 #: crm/api/todo.py:100
 msgid "Your assignment on task {0} has been removed by {1}"
-msgstr "Phân công của bạn trên công việc {0} đã bị xóa bởi {1}"
+msgstr "Phân công của bạn trên công việc {0} đã bị hủy bởi {1}"
 
 #: crm/api/todo.py:37 crm/api/todo.py:78
 msgid "Your assignment on {0} {1} has been removed by {2}"
-msgstr "Phân công của bạn trên {0} {1} đã bị xóa bởi {2}"
+msgstr "Phân công của bạn trên {0} {1} đã bị hủy bởi {2}"
 
 #: crm/templates/emails/helpdesk_invitation.html:6
 msgid "Your login id is"

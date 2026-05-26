@@ -41,6 +41,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe Framework.
 # Copyright (C) 2026 Frappe Technologies
 # This file is distributed under the same license as the Frappe Framework project.
@@ -2792,7 +2794,7 @@ msgstr "Bạn có chắc chắn muốn hủy lời mời không?"
 
 #: frappe/public/js/frappe/list/list_view.js:2250
 msgid "Are you sure you want to clear the assignments?"
-msgstr "Bạn có chắc chắn muốn xóa phân công này không?"
+msgstr "Bạn có chắc chắn muốn hủy giao không?"
 
 #: frappe/public/js/frappe/form/grid.js:319
 msgid "Are you sure you want to delete all {0} rows?"
@@ -4987,7 +4989,7 @@ msgstr "Xóa hết"
 
 #: frappe/public/js/frappe/list/list_view.js:2247
 msgid "Clear Assignment"
-msgstr "Xóa nhiệm vụ"
+msgstr "Hủy giao"
 
 #: frappe/public/js/frappe/ui/keyboard.js:289
 msgid "Clear Cache and Reload"
@@ -20447,7 +20449,7 @@ msgstr "Hãy lưu lại tài liệu trước khi làm bài"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:83
 msgid "Please save the document before removing assignment"
-msgstr "Vui lòng lưu tài liệu trước khi xóa phân công"
+msgstr "Vui lòng lưu tài liệu trước khi hủy giao"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.js:89
 msgid "Please save the form before previewing the message"
@@ -24468,7 +24470,7 @@ msgstr "Chọn bản ghi để phân công"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:260
 msgid "Select records for removing assignment"
-msgstr "Chọn bản ghi để xóa phân công"
+msgstr "Chọn bản ghi để hủy giao"
 
 #. Description of the 'Insert After' (Select) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
@@ -31886,7 +31888,7 @@ msgstr "Tài khoản của bạn đã bị khóa và sẽ tiếp tục sau {0} g
 
 #: frappe/desk/form/assign_to.py:279
 msgid "Your assignment on {0} {1} has been removed by {2}"
-msgstr "Phân công của bạn trên {0} {1} đã bị xóa bởi {2}"
+msgstr "Phân công của bạn trên {0} {1} đã bị hủy bởi {2}"
 
 #: frappe/core/doctype/file/file.js:94
 msgid "Your browser does not support the audio element."
@@ -33326,7 +33328,7 @@ msgstr "{0} đã xóa tệp đính kèm {1}"
 
 #: frappe/desk/doctype/todo/todo.py:58
 msgid "{0} removed their assignment."
-msgstr "{0} đã xóa phân công của họ."
+msgstr "{0} đã hủy giao của họ."
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:296
 msgid "{0} removed {1} rows from {2}"

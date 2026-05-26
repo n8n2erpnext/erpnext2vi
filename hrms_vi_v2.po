@@ -37,6 +37,10 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
+msgstr ""
+
 # Translations template for Frappe HR.
 # Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe HR project.
@@ -3463,7 +3467,7 @@ msgstr "Nhân viên làm việc vào ngày lễ"
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 #: hrms/setup.py:186 hrms/templates/generators/job_opening.html:141
 msgid "Employment Type"
-msgstr "Loại việc làm"
+msgstr "Hình thức làm việc"
 
 #. Label of the enable_auto_attendance (Check) field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json

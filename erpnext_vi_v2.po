@@ -37,6 +37,10 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
+msgstr ""
+
 # Translations template for ERPNext.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the ERPNext project.
@@ -14637,7 +14641,7 @@ msgstr "Ngày phát hành"
 #. Label of the date_of_joining (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Date of Joining"
-msgstr "Ngày tham gia"
+msgstr "Ngày vào làm"
 
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:272
 msgid "Date of Transaction"
@@ -18888,7 +18892,7 @@ msgstr "Khách hàng Hiện có"
 #. Label of the exit (Tab Break) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Exit"
-msgstr "Thoát"
+msgstr "Thôi việc"
 
 #. Label of the held_on (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -26977,7 +26981,7 @@ msgstr "Công việc: {0} đã được kích hoạt để xử lý các giao d�
 #. Label of the employment_details (Tab Break) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Joining"
-msgstr "Gia nhập"
+msgstr "Nhận việc"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -47293,7 +47297,7 @@ msgstr "Các serialal không có sẵn cho Mặt hàng {0} trong kho {1}. Vui l�
 #: erpnext/support/doctype/issue/issue.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Series"
-msgstr "Dãy"
+msgstr "Chuỗi đặt tên"
 
 #. Label of the series_for_depreciation_entry (Data) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json

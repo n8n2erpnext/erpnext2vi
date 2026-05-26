@@ -37,6 +37,10 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
+msgstr ""
+
 # Translations template for Frappe Framework.
 # Copyright (C) 2026 Frappe Technologies
 # This file is distributed under the same license as the Frappe Framework project.
@@ -2788,7 +2792,7 @@ msgstr "Bạn có chắc chắn muốn hủy lời mời không?"
 
 #: frappe/public/js/frappe/list/list_view.js:2250
 msgid "Are you sure you want to clear the assignments?"
-msgstr "Bạn có chắc chắn muốn xóa bài tập không?"
+msgstr "Bạn có chắc chắn muốn xóa phân công này không?"
 
 #: frappe/public/js/frappe/form/grid.js:319
 msgid "Are you sure you want to delete all {0} rows?"
@@ -2982,12 +2986,12 @@ msgstr "Đang giao..."
 #. Option for the 'Type' (Select) field in DocType 'Notification Log'
 #: frappe/desk/doctype/notification_log/notification_log.json
 msgid "Assignment"
-msgstr "Bài tập"
+msgstr "Phân công"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
 msgid "Assignment Completed"
-msgstr "Bài tập đã hoàn thành"
+msgstr "Phân công đã hoàn thành"
 
 #. Label of the sb (Section Break) field in DocType 'Assignment Rule'
 #. Label of the assignment_days (Table) field in DocType 'Assignment Rule'
@@ -3001,7 +3005,7 @@ msgstr "Ngày phân công"
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 #: frappe/desk/doctype/todo/todo.json frappe/workspace_sidebar/automation.json
 msgid "Assignment Rule"
-msgstr "Quy tắc Chỉ định"
+msgstr "Quy tắc phân công"
 
 #. Name of a DocType
 #: frappe/automation/doctype/assignment_rule_day/assignment_rule_day.json
@@ -8686,7 +8690,7 @@ msgstr "Tải xuống các vCard"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:46
 msgid "Dr"
-msgstr "Tiến sĩ"
+msgstr "Dr"
 
 #: frappe/public/js/frappe/model/indicator.js:73
 #: frappe/public/js/frappe/ui/filters/filter.js:547
@@ -11092,7 +11096,7 @@ msgstr "Ngày Đầu Tuần"
 #: frappe/core/web_form/edit_profile/edit_profile.json
 #: frappe/www/complete_signup.html:15
 msgid "First Name"
-msgstr "Họ Tên"
+msgstr "Họ"
 
 #. Label of the first_success_message (Data) field in DocType 'Success Action'
 #: frappe/core/doctype/success_action/success_action.json
@@ -15224,7 +15228,7 @@ msgstr "Tháng trước"
 #: frappe/core/web_form/edit_profile/edit_profile.json
 #: frappe/www/complete_signup.html:19
 msgid "Last Name"
-msgstr "Họ"
+msgstr "Tên"
 
 #. Label of the last_password_reset_date (Date) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -16172,7 +16176,7 @@ msgstr "Giấy phép MIT"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:48
 msgid "Madam"
-msgstr "Thưa bà"
+msgstr "Madam"
 
 #. Label of the main_section (Text Editor) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -16826,7 +16830,7 @@ msgstr "Bị định cấu hình sai"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:49
 msgid "Miss"
-msgstr "Cô"
+msgstr "Miss"
 
 #: frappe/desk/form/meta.py:197
 msgid "Missing DocType"
@@ -17171,15 +17175,15 @@ msgstr "Mozilla không hỗ trợ :has() nên bạn có thể truyền bộ ch�
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:43
 msgid "Mr"
-msgstr "Ông"
+msgstr "Mr"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:47
 msgid "Mrs"
-msgstr "Bà"
+msgstr "Mrs"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:44
 msgid "Ms"
-msgstr "Cô"
+msgstr "Ms"
 
 #: frappe/utils/nestedset.py:348
 msgid "Multiple root nodes not allowed."
@@ -17643,11 +17647,11 @@ msgstr "Giá trị mới được đặt"
 #: frappe/public/js/frappe/widgets/widget_dialog.js:72
 #: frappe/website/doctype/web_form/web_form.py:454
 msgid "New {0}"
-msgstr "Mới {0}"
+msgstr "{0} mới"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:394
 msgid "New {0} Created"
-msgstr "Mới {0} Đã tạo"
+msgstr "Đã tạo {0} mới"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:386
 msgid "New {0} {1} added to Dashboard {2}"
@@ -17659,7 +17663,7 @@ msgstr "{0} {1} mới được tạo"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:416
 msgid "New {0}: {1}"
-msgstr "Mới {0}: {1}"
+msgstr "{0} mới: {1}"
 
 #: frappe/utils/change_log.py:375
 msgid "New {} releases for the following apps are available"
@@ -20443,7 +20447,7 @@ msgstr "Hãy lưu lại tài liệu trước khi làm bài"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:83
 msgid "Please save the document before removing assignment"
-msgstr "Vui lòng lưu tài liệu trước khi xóa bài tập"
+msgstr "Vui lòng lưu tài liệu trước khi xóa phân công"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.js:89
 msgid "Please save the form before previewing the message"
@@ -24464,7 +24468,7 @@ msgstr "Chọn bản ghi để phân công"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:260
 msgid "Select records for removing assignment"
-msgstr "Chọn bản ghi để xóa bài tập"
+msgstr "Chọn bản ghi để xóa phân công"
 
 #. Description of the 'Insert After' (Select) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
@@ -31882,7 +31886,7 @@ msgstr "Tài khoản của bạn đã bị khóa và sẽ tiếp tục sau {0} g
 
 #: frappe/desk/form/assign_to.py:279
 msgid "Your assignment on {0} {1} has been removed by {2}"
-msgstr "Bài tập của bạn trên {0} {1} đã bị {2}"
+msgstr "Phân công của bạn trên {0} {1} đã bị xóa bởi {2}"
 
 #: frappe/core/doctype/file/file.js:94
 msgid "Your browser does not support the audio element."
@@ -33322,7 +33326,7 @@ msgstr "{0} đã xóa tệp đính kèm {1}"
 
 #: frappe/desk/doctype/todo/todo.py:58
 msgid "{0} removed their assignment."
-msgstr "{0} đã xóa bài tập của họ."
+msgstr "{0} đã xóa phân công của họ."
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:296
 msgid "{0} removed {1} rows from {2}"

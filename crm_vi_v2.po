@@ -33,6 +33,10 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
+msgstr ""
+
 # Translations template for Frappe CRM.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe CRM project.
@@ -761,7 +765,7 @@ msgstr "Người được giao"
 #. Option for the 'Type' (Select) field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
 msgid "Assignment"
-msgstr "Bài tập"
+msgstr "Phân công"
 
 #: frontend/src/components/ListBulkActions.vue:152
 msgid "Assignment Cleared Successfully"
@@ -786,7 +790,7 @@ msgstr "Yêu cầu Ngày Phân Công"
 #: frontend/src/components/Layouts/AppSidebar.vue:606
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRulesList.vue:16
 msgid "Assignment Rule"
-msgstr "Quy tắc Chỉ định"
+msgstr "Quy tắc phân công"
 
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:698
 msgid "Assignment Rule Created"
@@ -3367,7 +3371,7 @@ msgstr "Filter"
 #: frontend/src/components/SortBy.vue:102
 #: frontend/src/components/SortBy.vue:136
 msgid "First Name"
-msgstr "Họ Tên"
+msgstr "Họ"
 
 #: frontend/src/components/Modals/LeadModal.vue:129
 msgid "First Name is mandatory"
@@ -3405,7 +3409,7 @@ msgstr "Thời gian phản hồi đầu tiên"
 #. Label of the first_name (Data) field in DocType 'CRM Deal'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 msgid "First name"
-msgstr "Họ tên"
+msgstr "Họ"
 
 #: frontend/src/components/Settings/DefaultsSettings.vue:92
 msgid "Float Precision"
@@ -4140,7 +4144,7 @@ msgstr "Tháng trước"
 #. Label of the last_name (Data) field in DocType 'CRM Lead'
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 msgid "Last Name"
-msgstr "Họ"
+msgstr "Tên"
 
 #: frontend/src/components/Filter.vue:657
 msgid "Last Quarter"
@@ -4184,7 +4188,7 @@ msgstr "Năm ngoái"
 #. Label of the last_name (Data) field in DocType 'CRM Deal'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 msgid "Last name"
-msgstr "Họ"
+msgstr "Tên"
 
 #: frontend/src/components/Settings/AssignmentRules/AssigneeRules.vue:101
 msgid "Last user assigned by this rule"
@@ -4867,7 +4871,7 @@ msgstr "Mật khẩu mới không được trùng với mật khẩu hiện tạ
 
 #: frontend/src/components/Modals/CreateDocumentModal.vue:84
 msgid "New {0}"
-msgstr "Mới {0}"
+msgstr "{0} mới"
 
 #: frontend/src/components/Filter.vue:709
 msgid "Next 6 Months"
@@ -6482,7 +6486,7 @@ msgstr "Dấu phân cách"
 #. Label of the naming_series (Select) field in DocType 'CRM Lead'
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 msgid "Series"
-msgstr "Dãy"
+msgstr "Chuỗi đặt tên"
 
 #: frontend/src/components/Layouts/AppSidebar.vue:605
 msgid "Service Level Agreement"
@@ -7864,11 +7868,11 @@ msgstr "Bạn sẽ cần tài khoản nhà phát triển Meta và token truy c�
 
 #: crm/api/todo.py:100
 msgid "Your assignment on task {0} has been removed by {1}"
-msgstr "Bài tập của bạn trên công việc {0} đã bị xóa bởi {1}"
+msgstr "Phân công của bạn trên công việc {0} đã bị xóa bởi {1}"
 
 #: crm/api/todo.py:37 crm/api/todo.py:78
 msgid "Your assignment on {0} {1} has been removed by {2}"
-msgstr "Bài tập của bạn trên {0} {1} đã bị {2}"
+msgstr "Phân công của bạn trên {0} {1} đã bị xóa bởi {2}"
 
 #: crm/templates/emails/helpdesk_invitation.html:6
 msgid "Your login id is"

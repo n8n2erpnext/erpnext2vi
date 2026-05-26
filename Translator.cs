@@ -27,6 +27,12 @@ public class PoTranslator
         { "Frappe", "Frappe" },
         { "Frappe Support", "Hỗ trợ Frappe" },
 
+        // Timesheet / Project Settings fixes
+        { "Ignore Employee Time Overlap", "Bỏ qua trùng lặp thời gian nhân viên" },
+        { "Ignore User Time Overlap", "Bỏ qua trùng lặp thời gian người dùng" },
+        { "Ignore Workstation Time Overlap", "Bỏ qua trùng lặp thời gian trạm làm việc" },
+        { "Enabling the check box will fetch timesheet on select of a Project in Sales Invoice", "Bật hộp kiểm sẽ lấy bảng chấm công khi chọn Dự án trong Hóa đơn bán hàng" },
+
         // System UI & Navigation
         { "Desktop", "Tổng quan" },
         { "Workspace", "Khu làm việc" },

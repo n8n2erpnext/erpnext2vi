@@ -27,6 +27,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe Framework.
 # Copyright (C) 2026 Frappe Technologies
 # This file is distributed under the same license as the Frappe Framework project.

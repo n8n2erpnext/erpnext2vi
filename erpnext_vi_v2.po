@@ -27,6 +27,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for ERPNext.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the ERPNext project.
@@ -18247,7 +18249,7 @@ msgstr "Bật theo dõi hoa hồng bán hàng"
 #. DocType 'Projects Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Enabling the check box will fetch timesheet on select of a Project in Sales Invoice"
-msgstr "Bật hộp kiểm sẽ lấy bảng chấm công khi chọn Dự án trong Hóa đơn Bán"
+msgstr "Bật hộp kiểm sẽ lấy bảng chấm công khi chọn Dự án trong Hóa đơn bán hàng"
 
 #. Description of the 'Enforce Time Logs' (Check) field in DocType
 #. 'Manufacturing Settings'
@@ -22822,7 +22824,7 @@ msgstr "Bỏ qua mẫu điều khoản thanh toán mặc định"
 #. Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Ignore Employee Time Overlap"
-msgstr "Bỏ qua chồng chéo thời gian nhân viên"
+msgstr "Bỏ qua trùng lặp thời gian nhân viên"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js:145
 msgid "Ignore Empty Stock"
@@ -22906,7 +22908,7 @@ msgstr "Bỏ qua ngưỡng khấu lưu thuế"
 #. Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Ignore User Time Overlap"
-msgstr "Bỏ qua chồng chéo thời gian người dùng"
+msgstr "Bỏ qua trùng lặp thời gian người dùng"
 
 #. Description of the 'Add Manually' (Check) field in DocType 'Repost Payment
 #. Ledger'
@@ -22918,7 +22920,7 @@ msgstr "Bỏ qua filter loại chứng từ và chọn chứng từ thủ công"
 #. 'Projects Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Ignore Workstation Time Overlap"
-msgstr "Bỏ qua chồng chéo thời gian trạm làm việc"
+msgstr "Bỏ qua trùng lặp thời gian trạm làm việc"
 
 #. Description of the 'Ignore Is Opening check for reporting' (Check) field in
 #. DocType 'Accounts Settings'

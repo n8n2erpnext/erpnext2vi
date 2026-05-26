@@ -1,98 +1,127 @@
-# ERPNext Ecosystem Localization Guide (English → Vietnamese)
+# ERPNext / Frappe Vietnamese Localization Guide & Translation Catalogs
 
-Repository này chứa các tệp dịch thuật (`.po`) đã được chuẩn hóa ngữ cảnh doanh nghiệp, hạ tầng DevOps và hệ thống ERPNext dành cho các doanh nghiệp vừa và nhỏ (SME).
-
----
-
-## 1. Nguyên Tắc Dịch Thuật & Chuẩn Hóa Ngữ Cảnh
-
-Để đảm bảo tính nhất quán trên toàn bộ hệ sinh thái, các bản dịch tuân thủ nghiêm ngặt các nguyên tắc sau:
-
-### Giữ nguyên các thuật ngữ kỹ thuật toàn cầu (English technical terms)
-Tránh việc dịch thô/dịch máy gây khó hiểu cho người vận hành (operator).
-- `hàng đợi` $\rightarrow$ **`queue`** (ví dụ: `đưa vào queue`, `queue email`)
-- `máy chủ` $\rightarrow$ **`server`** (ví dụ: `server xác thực`, `phía server`)
-- `tên miền` $\rightarrow$ **`domain`** (ví dụ: `domain email`, `domain đang hoạt động`)
-- `móc web` $\rightarrow$ **`webhook`** (ví dụ: `webhook chấm công`)
-- `bảng điều khiển` (trong ngữ cảnh IT/Dashboard) $\rightarrow$ **`dashboard` / `console`** (ví dụ: `dashboard trạm làm việc`, `console trình duyệt`)
-- Các thuật ngữ DevOps khác: `Docker`, `container`, `API`, `topology`, `cluster`, `proxy`, `gateway`, `token`, `session`, `pipeline`, `edge`, `node`, `audit`, `replay`, `offline`, `online`, `realtime`, `Zero Trust`, `NetBird`, `PostgreSQL`, `Redis`, `SQLite`, `n8n`.
-
-### Sửa đổi các thuật ngữ Nghiệp vụ & ERP dịch sai (Business & ERP)
-- **Subcontracting (Gia công ngoài)**: Thay thế hoàn toàn các bản dịch máy sai lệch từ `"ký gửi" / "ký gửi phụ"` sang đúng nghĩa nghiệp vụ ERP:
-  - `Job Worker` $\rightarrow$ **`Đơn vị gia công`** (thay vì "Công nhân ký gửi")
-  - `Subcontracting Order` $\rightarrow$ **`Đơn đặt gia công`**
-  - `Subcontracting Inward Order` $\rightarrow$ **`Đơn nhận gia công`**
-  - `Subcontracting Receipt` $\rightarrow$ **`Biên nhận gia công`**
-  - `Subcontracted Item` $\rightarrow$ **`Mặt hàng gia công ngoài`**
-- **Common Party**: Sửa đổi `"Đảng chung"` $\rightarrow$ **`Đối tác chung`** (đối tác vừa là khách hàng vừa là nhà cung cấp).
-- **Ledger Health**: Sửa đổi `"Sức khỏe sổ cái"` $\rightarrow$ **`Trạng thái sổ cái`** / **`Giám sát trạng thái`** để phù hợp với ngữ cảnh kỹ thuật.
-- **Reconciliation**: Sử dụng **`Đối soát`**.
-- **Audit log**: Sử dụng **`Nhật ký kiểm toán`**.
+Repository này chứa các tệp dịch thuật đã được chuẩn hóa phiên bản 2 (`*_vi_v2.po`) cho hệ sinh thái **Frappe/ERPNext v16**. Các bản dịch được tối ưu hóa đặc biệt theo đặc thù vận hành của các doanh nghiệp vừa và nhỏ (SME) tại Việt Nam, đảm bảo tính trực quan, tự nhiên và chuyên nghiệp.
 
 ---
 
-## 2. Danh Sách Các File Dịch & Module Tương Ứng
+## 1. Triết Lý & Nguyên Tắc Dịch Thuật
 
-| Tệp Dịch | Module/Ứng Dụng Frappe | Đường Dẫn Cài Đặt Trong App |
+Bản dịch tuân thủ triết lý: **Không dịch word-by-word máy móc mà dịch theo ngữ cảnh và thói quen sử dụng thực tế của người dùng.**
+
+### A. Những từ giữ nguyên ở Tiếng Anh (Technical / Operational Terms)
+Các thuật ngữ kỹ thuật, hạ tầng hoặc giao diện đã quá phổ biến với người vận hành sẽ được giữ nguyên để tránh tạo cảm giác gượng gạo:
+* **Hạ tầng & Hệ thống**: `ERP`, `CRM`, `POS`, `SLA`, `API`, `Zero Trust`, `Edge Gateway`, `Docker`, `Container`, `Stack`, `Deploy`, `MCP`, `Redis`, `PostgreSQL`, `NetBird`, `ERPNext`, `Frappe`.
+* **Giao diện & UI**: `Dashboard`, `Workflow`, `Sync`, `Log`, `Serial`, `Batch`, `Import`, `Export`, `Filter`, `Theme`, `Plugin`, `Widget`, `Webhook`, `Queue`, `Cache`, `AI Agent`, `Audit`.
+* **Xác thực & Bảo mật**: `Role`, `Permission`, `Session`, `Token`.
+
+### B. Những từ dịch Việt hóa (Sát với SME Việt Nam)
+Các thuật ngữ nghiệp vụ và giao diện điều hướng được dịch sang tiếng Việt tự nhiên và chuẩn văn phong doanh nghiệp:
+
+| Phân hệ / Module | Thuật ngữ gốc | Bản dịch chuẩn Việt hóa |
 | :--- | :--- | :--- |
-| **`frappe_vi.po`** | Khung phát triển Frappe Framework | `apps/frappe/frappe/locale/vi.po` |
-| **`erpnext_vi.po`** | Lõi ERPNext (Mua/Bán/Kho/Kế toán...) | `apps/erpnext/erpnext/locale/vi.po` |
-| **`hrms_vi.po`** | Module Nhân sự & Chấm công (HRMS) | `apps/hrms/hrms/locale/vi.po` |
-| **`crm_vi.po`** | Module Quản lý quan hệ khách hàng (CRM) | `apps/crm/crm/locale/vi.po` |
-| **`helpdesk_vi.po`** | Module Hỗ trợ kỹ thuật (Helpdesk) | `apps/helpdesk/helpdesk/locale/vi.po` |
-| **`insights_vi.po`** | Module Báo cáo thông minh (Insights) | `apps/insights/insights/locale/vi.po` |
+| **System UI & Navigation** | Desktop | Tổng quan |
+| | Workspace | Khu làm việc |
+| | Reload | Làm mới |
+| | Global Defaults | Thiết lập chung |
+| | User Settings | Thiết lập tài khoản |
+| | Assign To | Giao việc |
+| | Attachments | Tài liệu đính kèm |
+| | Activity | Nhật ký hoạt động |
+| | Timeline | Lịch sử |
+| | Rename | Đổi mã |
+| | Customize | Tuỳ biến |
+| | Getting Started | Hướng dẫn nhanh |
+| **CRM** | Lead / Prospect | Khách hàng tiềm năng / Khách tiềm năng |
+| | Deal / Opportunity | Cơ hội bán hàng / Cơ hội kinh doanh |
+| | Contact / Note / Campaign | Liên hệ / Ghi chú / Chiến dịch |
+| | Pipeline / Stage / Lost Reason | Quy trình bán hàng / Giai đoạn / Lý do thất bại |
+| **HR / HRMS** | Employee / Attendance / Shift | Nhân viên / Chấm công / Ca làm |
+| | Leave Application | Đơn nghỉ phép |
+| | Payroll / Salary Slip | Bảng lương / Phiếu lương |
+| | Expense Claim | Đề nghị thanh toán |
+| | Department / Designation | Phòng ban / Chức vụ |
+| | Holiday List | Lịch nghỉ |
+| | Check In / Check Out | Ghi nhận vào ca / Ghi nhận ra ca |
+| **Kho / Stock** | Stock Entry | Phiếu kho |
+| | Material Request | Yêu cầu vật tư |
+| | Delivery Note / Purchase Receipt | Phiếu giao hàng / Phiếu nhập hàng |
+| | Pick List | Danh sách lấy hàng |
+| | Item / Item Group | Mặt hàng / Nhóm mặt hàng |
+| | Warehouse | Kho |
+| | Reorder Level | Mức tồn tối thiểu |
+| | Stock Ledger / Stock Aging | Sổ kho / Tuổi tồn kho |
+| | Stock Reconciliation / UOM | Đối soát tồn kho / Đơn vị tính |
+| **Buying** | Supplier | Nhà cung cấp |
+| | Request for Quotation | Yêu cầu báo giá |
+| | Supplier Quotation | Báo giá nhà cung cấp |
+| | Purchase Order / Purchase Invoice | Đơn mua hàng / Hoá đơn mua hàng |
+| | Landed Cost Voucher | Chi phí nhập hàng |
+| **Selling** | Customer / Quotation | Khách hàng / Báo giá |
+| | Sales Order / Sales Invoice | Đơn bán hàng / Hoá đơn bán hàng |
+| | Pricing Rule / Territory | Chính sách giá / Khu vực bán hàng |
+| **Accounting** | Journal Entry / Payment Entry | Bút toán / Phiếu thanh toán |
+| | Fiscal Year / Cost Center | Năm tài chính / Trung tâm chi phí |
+| | Chart of Accounts | Hệ thống tài khoản |
+| | General Ledger / Outstanding Amount | Sổ cái / Công nợ còn lại |
+| | Receivable / Payable | Công nợ phải thu / Công nợ phải trả |
+| **Manufacturing** | BOM | Định mức nguyên vật liệu |
+| | Work Order / Job Card | Lệnh sản xuất / Phiếu công đoạn |
+| | Production Plan / Routing | Kế hoạch sản xuất / Quy trình sản xuất |
+| | Subcontracting | Gia công ngoài / Gia công |
+| **Helpdesk & CMS** | Ticket / Issue / Resolution | Phiếu hỗ trợ / Sự cố / Hướng xử lý |
+| | Escalation | Chuyển cấp xử lý |
+| | Blog Post / Web Page / Landing Page | Bài viết / Trang nội dung / Trang giới thiệu |
+
+---
+
+## 2. Danh Sách Các File Dịch Phiên Bản 2 (v2)
+
+| Tệp Dịch gốc (v2) | Ứng Dụng tương ứng | Đường Dẫn cài đặt trong App (trên VPS) |
+| :--- | :--- | :--- |
+| **`frappe_vi_v2.po`** | Frappe Framework | `apps/frappe/frappe/locale/vi.po` |
+| **`erpnext_vi_v2.po`** | ERPNext | `apps/erpnext/erpnext/locale/vi.po` |
+| **`hrms_vi_v2.po`** | HRMS (Nhân sự) | `apps/hrms/hrms/locale/vi.po` |
+| **`crm_vi_v2.po`** | CRM (Khách hàng) | `apps/crm/crm/locale/vi.po` |
+| **`insights_vi_v2.po`** | Insights (Báo cáo) | `apps/insights/insights/locale/vi.po` |
 
 ---
 
 ## 3. Hướng Dẫn Cài Đặt File Dịch Vào Frappe / ERPNext
 
-### Bước 1: Sao chép tệp dịch vào đúng module tương ứng
-Sao chép đè các file `.po` trong repository này vào các thư mục locale tương ứng của từng app trong thư mục cài đặt ERPNext của bạn:
+### Bước 1: Sao chép file dịch `.po` vào đúng vị trí
+Sao chép các file bản dịch `_v2` trong repository này vào các thư mục locale tương ứng của từng app (lưu ý đổi tên tệp đích thành `vi.po`):
 
 ```bash
-# Ví dụ sao chép cho module erpnext và frappe
-cp erpnext_vi.po apps/erpnext/erpnext/locale/vi.po
-cp frappe_vi.po apps/frappe/frappe/locale/vi.po
-cp hrms_vi.po apps/hrms/hrms/locale/vi.po
-cp crm_vi.po apps/crm/crm/locale/vi.po
-cp helpdesk_vi.po apps/helpdesk/helpdesk/locale/vi.po
-cp insights_vi.po apps/insights/insights/locale/vi.po
+cp erpnext_vi_v2.po apps/erpnext/erpnext/locale/vi.po
+cp frappe_vi_v2.po apps/frappe/frappe/locale/vi.po
+cp hrms_vi_v2.po apps/hrms/hrms/locale/vi.po
+cp crm_vi_v2.po apps/crm/crm/locale/vi.po
+cp insights_vi_v2.po apps/insights/insights/locale/vi.po
 ```
 
-### Bước 2: Xóa bộ nhớ cache của hệ thống
-Frappe lưu trữ bản dịch trong cache để tăng tốc độ tải trang. Bạn cần xóa cache để áp dụng bản dịch mới:
-
+### Bước 2: Biên dịch các file `.po` sang `.mo` (Quan trọng)
+Frappe v16 đọc bản dịch từ file nhị phân compiled `.mo` để tối ưu hiệu năng. Bạn cần chạy lệnh biên dịch:
 ```bash
+bench compile-po-to-mo
+```
+
+### Bước 3: Di trú Cơ sở dữ liệu và Xóa cache
+Nhiều nhãn DocType, Sidebar và Workspace được nạp trực tiếp vào cơ sở dữ liệu. Cần chạy lệnh migrate để cập nhật các nhãn này sang tiếng Việt, sau đó clear cache:
+```bash
+bench --site [ten-site-cua-ban] migrate
 bench --site [ten-site-cua-ban] clear-cache
 ```
 
-### Bước 3: Khởi động lại dịch vụ Bench
-Khởi động lại các tiến độ nền để tải lại cấu trúc dịch thuật mới:
-
-```bash
-bench restart
-```
-*(Nếu chạy bằng Docker/Production, hãy reload hoặc restart các container tương ứng).*
+*Lưu ý: Sau khi thực hiện xong, bạn hãy thực hiện **Hard Refresh (Ctrl + F5 / Ctrl + Shift + R)** hoặc đăng xuất và đăng nhập lại trên trình duyệt để nạp file dịch thuật JS mới.*
 
 ---
 
-## 4. Công Cụ Xác Thực Dịch Thuật (Validation Suite)
+## 4. Công Cụ Hỗ Trợ & Xác Thực (Validation Suite)
 
-Để kiểm tra chất lượng file dịch trước khi commit hoặc đưa vào sử dụng, repository cung cấp sẵn một kịch bản xác thực tự động thông qua **`validate_translations.ps1`**. Kịch bản thực hiện 5 bài kiểm tra cốt lõi:
-
-1. **Placeholder Validation (Kiểm tra tham số)**:
-   Xác thực xem toàn bộ các tham số như `{0}`, `{name}` hoặc các biến định dạng dạng `%s`, `%d` trong `msgid` có được giữ nguyên và xuất hiện đầy đủ trong `msgstr` hay không.
-2. **Jinja Validation (Kiểm tra thẻ Jinja)**:
-   Đảm bảo các thẻ biểu thức Jinja `{{ ... }}` và các thẻ cấu trúc điều khiển `{% ... %}` (như `{% if comments %}`) không bị dịch sai cú pháp (ví dụ tránh lỗi dịch sai thành `{% nếu nhận xét %}`).
-3. **JS Template Validation (Kiểm tra JS Template)**:
-   Xác minh các biểu thức JavaScript template string dạng `${type}` được giữ nguyên ký tự biến để tránh phát sinh lỗi `ReferenceError` khi chạy trên giao diện trình duyệt.
-4. **Forbidden Literal Translation Detection (Phát hiện dịch thô bị cấm)**:
-   Tự động cảnh báo khi phát hiện các từ dịch thô/dịch máy bị cấm như `"hàng đợi"`, `"máy chủ"`, `"móc web"`, `"Đảng chung"` và đề xuất thay bằng thuật ngữ chuẩn.
-5. **msgfmt Compile Test (Kiểm tra biên dịch gettext)**:
-   Tự động phát hiện và gọi công cụ biên dịch chuẩn gettext `msgfmt` để biên dịch thử các tệp `.po` thành `.mo`, đảm bảo không có lỗi cú pháp định dạng file nào trước khi hệ thống Frappe nạp file.
-
-### Cách chạy kiểm tra:
-Trong PowerShell, chạy lệnh sau tại thư mục chứa repository:
-```powershell
-powershell -ExecutionPolicy Bypass -File validate_translations.ps1
-```
+Repository này đi kèm với các công cụ tự động phục vụ việc cập nhật và kiểm tra lỗi định dạng file:
+1. **`Translator.cs`**: Chương trình xử lý tự động để sửa các bản dịch máy thô, chuẩn hóa thuật ngữ tiếng Anh theo bộ quy tắc.
+2. **`MergePo.cs`**: Công cụ đồng bộ hóa file `.pot` tiếng Anh mới của hệ thống với bản dịch hiện tại, tích hợp các cơ chế fallback thuật ngữ.
+3. **`validate_translations.ps1`**: Bộ kiểm tra tự động trước khi commit. Chạy lệnh sau để kiểm tra lỗi biến truyền, cú pháp Jinja/JS và phát hiện các từ dịch thô bị cấm:
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File validate_translations.ps1
+   ```

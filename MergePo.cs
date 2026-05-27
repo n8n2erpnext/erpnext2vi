@@ -179,6 +179,7 @@ public class PoMerger
         { "Date of Joining", "Ngày vào làm" },
         { "Joining", "Nhận việc" },
         { "Exit", "Thôi việc" },
+        { "Left", "Chờ thôi việc" },
         { "Employment Type", "Hình thức làm việc" },
 
         // Manufacturing

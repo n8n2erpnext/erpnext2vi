@@ -39,6 +39,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Insights.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Insights project.
@@ -1802,7 +1804,7 @@ msgstr "Giá trị con trỏ đồng bộ gần nhất (tự động đặt)"
 #: frontend/src2/charts/components/FunnelChartConfigForm.vue:56
 #: frontend/src2/charts/components/SankeyChartConfigForm.vue:70
 msgid "Left"
-msgstr "Còn lại"
+msgstr "Chờ thôi việc"
 
 #. Label of the left_column (Data) field in DocType 'Insights Table Link v3'
 #: frontend/src2/query/components/JoinSelectorDialog.vue:280

@@ -43,6 +43,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe HR.
 # Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe HR project.
@@ -6157,7 +6159,7 @@ msgstr "Ngày nghỉ phép bạn có thể sử dụng cho ngày lễ bạn đã
 #: hrms/hr/report/employee_leave_balance_summary/employee_leave_balance_summary.js:43
 #: hrms/hr/report/leave_ledger/leave_ledger.js:41
 msgid "Left"
-msgstr "Còn lại"
+msgstr "Chờ thôi việc"
 
 #: hrms/overrides/dashboard_overrides.py:16
 msgid "Lifecycle"

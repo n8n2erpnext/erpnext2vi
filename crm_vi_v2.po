@@ -39,6 +39,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe CRM.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Frappe CRM project.
@@ -4308,7 +4310,7 @@ msgstr "Tìm hiểu về điều kiện"
 #. Label of the lft (Int) field in DocType 'CRM Territory'
 #: crm/fcrm/doctype/crm_territory/crm_territory.json
 msgid "Left"
-msgstr "Còn lại"
+msgstr "Chờ thôi việc"
 
 #: frontend/src/components/Filter.vue:367
 msgid "Less than"

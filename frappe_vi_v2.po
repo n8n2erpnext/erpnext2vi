@@ -43,6 +43,8 @@ msgstr ""
 
 msgstr ""
 
+msgstr ""
+
 # Translations template for Frappe Framework.
 # Copyright (C) 2026 Frappe Technologies
 # This file is distributed under the same license as the Frappe Framework project.
@@ -15351,12 +15353,12 @@ msgstr "Sổ Cái"
 #: frappe/printing/doctype/letter_head/letter_head.json
 #: frappe/website/doctype/web_page/web_page.json
 msgid "Left"
-msgstr "Còn lại"
+msgstr "Chờ thôi việc"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:485
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:155
 msgid "Left"
-msgstr "Còn lại"
+msgstr "Chờ thôi việc"
 
 #. Option for the 'Position' (Select) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json

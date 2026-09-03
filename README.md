@@ -45,7 +45,9 @@ Không Việt hóa cực đoan. Những thuật ngữ kỹ thuật hoặc vận 
 
 ## UI JSON override bundle
 
-Một số label chuẩn của Frappe không đi qua PO catalog. Ví dụ tên `Dashboard Chart`, `Number Card`, `Dashboard` và `Workspace` được sync từ JSON của app vào database. Frappe hỗ trợ `export-json` / `import-doc`, vì vậy project đóng gói chúng thành **5 doclist JSON có thể cài lại độc lập**, không cần sửa source app.
+Một số label chuẩn của Frappe không đi qua PO catalog. Ví dụ `Dashboard Chart`, `Number Card`, `Dashboard` và `Workspace` được sync từ JSON của app vào database. Project đóng gói snapshot hiển thị thành **5 UI JSON bundle** và áp chúng bằng `apply_ui_json_overrides.py`, không sửa source app và không đổi khóa reference.
+
+> **Lưu ý:** `bench import-doc` không phải đường cài cho các standard object này trên site production vì Frappe chặn sửa `Dashboard Chart`/`Dashboard` standard khi `developer_mode` tắt. Installer của project dùng Frappe DB API để cập nhật đúng field hiển thị, không gọi `save()` và không thay `is_standard`.
 
 | File | App | Object hiện có |
 | --- | --- | ---: |
@@ -57,7 +59,9 @@ Một số label chuẩn của Frappe không đi qua PO catalog. Ví dụ tên `
 
 Bundle **giữ nguyên `name` và các key liên kết gốc** (`link_to`, `chart_name` trong Workspace content, `number_card_name`, `card_name`...) để không phá reference. Chỉ field hiển thị như `chart_name`, `label`, `dashboard_name` và header/label của Workspace được Việt hóa. Insights hiện không có standard object thuộc 4 loại này ở version đã audit nên file là `[]`; file vẫn được giữ để cấu trúc 5-app nhất quán và sẵn sàng cho lần rebuild sau.
 
-Baseline dùng để tạo bundle hiện tại: Frappe 16.17.0, ERPNext 16.16.0, HRMS 16.5.4, CRM 2.0.0-dev (`4213ae6`) và Insights 3.3.1 (`0418003`). Sau khi nâng app hoặc chạy migrate làm upstream fixture ghi đè label, chỉ cần import lại bundle phù hợp.
+Baseline dùng để tạo bundle hiện tại: Frappe 16.17.0, ERPNext 16.16.0, HRMS 16.5.4, CRM 2.0.0-dev (`4213ae6`) và Insights 3.3.1 (`0418003`). Sau khi nâng app hoặc chạy migrate làm upstream fixture ghi đè label, chạy lại installer ở `--dry-run` trước rồi áp lại bundle nếu object structure vẫn khớp.
+
+Mặc định installer chỉ áp `Dashboard Chart`, `Number Card` và `Dashboard`. `Workspace` là **opt-in** vì chứa nhiều child label/content và phải được review theo đúng version app trước khi ghi DB.
 
 ## Semantic v3 QA
 
@@ -93,6 +97,7 @@ PASS: semantic glossary and format invariants are clean
 - `validate_semantics.py`: semantic/format/cross-app QA chính cho PO catalog.
 - `build_ui_json_bundles.py`: dựng lại 5 UI JSON bundle từ snapshot `export-json` và glossary PO Semantic v3.
 - `validate_ui_json.py`: kiểm cấu trúc, baseline object count và các label UI nhạy cảm của JSON bundle.
+- `apply_ui_json_overrides.py`: installer DB-level an toàn cho standard UI objects; hỗ trợ `--dry-run` và lọc `--doctypes`.
 - `validate_translations.ps1`, `verify_po.ps1`: bộ kiểm tra PowerShell bổ sung cho môi trường Windows.
 
 Một nguyên tắc quan trọng của `Translator.cs`: **không replace theo tiếng Việt một cách global nếu một từ có nhiều nghĩa**. Mọi family nhạy cảm như `Theme/Subject`, `Lead/Deal`, `Employee Checkin`, `Landed Cost`, `Dashboard` đều được gate bằng English `msgid`.
@@ -117,18 +122,36 @@ bench build-message-files
 bench --site [site-name] clear-cache
 ```
 
-Với UI JSON bundle, import theo app đang cài trên site:
+Với UI JSON bundle, đứng ở thư mục bench và chạy installer bằng Python trong virtualenv của bench. Luôn dry-run trước:
 
 ```bash
-bench --site [site-name] import-doc /path/to/ui_json/frappe_vi_ui_v3.json
-bench --site [site-name] import-doc /path/to/ui_json/erpnext_vi_ui_v3.json
-bench --site [site-name] import-doc /path/to/ui_json/hrms_vi_ui_v3.json
-bench --site [site-name] import-doc /path/to/ui_json/crm_vi_ui_v3.json
-# insights_vi_ui_v3.json hiện rỗng, không cần import
-bench --site [site-name] clear-cache
+env/bin/python /path/to/apply_ui_json_overrides.py \
+  --bench-path "$PWD" \
+  --site [site-name] \
+  --bundle-dir /path/to/ui_json \
+  --dry-run
 ```
 
-`import-doc` dùng `name` gốc để insert/update document, nên bundle có thể chạy lại sau khi app update hoặc fixture sync trả label về English. Không cần chạy `migrate` chỉ để áp PO/JSON localization; hãy chạy migrate theo quy trình nâng app riêng của bench. Sau khi deploy, hard refresh trình duyệt hoặc đăng xuất/đăng nhập lại. Nếu site không cài một app thì bỏ qua catalog và JSON bundle của app đó.
+Nếu preview đúng, bỏ `--dry-run` để áp. Mặc định chỉ cập nhật `Dashboard Chart`, `Number Card`, `Dashboard`:
+
+```bash
+env/bin/python /path/to/apply_ui_json_overrides.py \
+  --bench-path "$PWD" \
+  --site [site-name] \
+  --bundle-dir /path/to/ui_json
+```
+
+Muốn opt-in Workspace sau khi đã review đúng version app:
+
+```bash
+env/bin/python /path/to/apply_ui_json_overrides.py \
+  --bench-path "$PWD" \
+  --site [site-name] \
+  --bundle-dir /path/to/ui_json \
+  --doctypes "Dashboard Chart,Number Card,Dashboard,Workspace"
+```
+
+Installer giữ nguyên `name`, reference, filter/query và `is_standard`; chỉ cập nhật field hiển thị rồi clear cache. Không cần chạy `migrate` chỉ để áp PO/JSON localization; migrate thuộc quy trình nâng app riêng. Sau khi deploy, hard refresh trình duyệt hoặc đăng xuất/đăng nhập lại.
 
 ## Hình ảnh minh họa giao diện
 

@@ -906,7 +906,7 @@
     "function": "Count",
     "is_public": 1,
     "is_standard": 1,
-    "label": "Thời gian lấp đầy",
+    "label": "Thời gian tuyển đủ vị trí",
     "method": "hrms.hr.doctype.job_requisition.job_requisition.get_avg_time_to_fill",
     "modified": "2025-09-17 19:05:34.012311",
     "module": "HR",
@@ -2302,7 +2302,7 @@
   {
     "aggregate_function_based_on": null,
     "based_on": "end_date",
-    "chart_name": "Lương Thanh Toán",
+    "chart_name": "Lương chi trả",
     "chart_type": "Sum",
     "color": null,
     "currency": null,

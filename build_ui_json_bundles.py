@@ -14,6 +14,8 @@ MANUAL={
 'Masters & Reports':'Danh mục & Báo cáo','Transactions & Reports':'Giao dịch & Báo cáo','Subcontracting Inward and Outward':'Nhận gia công và thuê gia công','PORTAL':'CỔNG THÔNG TIN','This module is scheduled for deprecation and will be completely removed in version 17, please use Frappe CRM instead.':'Phân hệ này dự kiến ngừng hỗ trợ và sẽ bị gỡ hoàn toàn ở phiên bản 17; vui lòng sử dụng Frappe CRM thay thế.','This module is scheduled for deprecation and will be completely removed in version 17, please use Frappe Helpdesk instead.':'Phân hệ này dự kiến ngừng hỗ trợ và sẽ bị gỡ hoàn toàn ở phiên bản 17; vui lòng sử dụng Frappe Helpdesk thay thế.'
 }
 
+MANUAL.update({'Average Order Values': 'Giá trị đơn hàng trung bình', 'Open Work Orders': 'Lệnh sản xuất đang mở', 'Purchase Orders to Bill': 'Đơn mua hàng chờ lập hóa đơn', 'Sales Orders to Bill': 'Đơn bán hàng chờ lập hóa đơn', 'Sales Orders to Deliver': 'Đơn bán hàng chờ giao', 'Time to Fill': 'Thời gian tuyển đủ vị trí', 'Outgoing Salary': 'Lương chi trả'})
+
 def po_map():
     out={}
     for fn in PO_FILES:

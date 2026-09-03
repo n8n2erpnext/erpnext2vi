@@ -1,6 +1,6 @@
 # ERPNext / Frappe Vietnamese Localization
 
-Bộ bản địa hóa tiếng Việt cho hệ sinh thái **Frappe / ERPNext v16**, tập trung vào cách dùng thực tế của doanh nghiệp Việt Nam thay vì dịch từng từ máy móc. Repository giữ nguyên tên file `*_vi_v2.po` để tương thích với quy trình hiện tại, nhưng nội dung đã trải qua đợt **Semantic v3 QA**: chuẩn hóa nghiệp vụ ERP, làm sạch giao diện Anh–Việt lẫn lộn và kiểm tra cách các chuỗi từ nhiều app ghép với nhau ở runtime.
+Bộ bản địa hóa tiếng Việt cho hệ sinh thái **Frappe / ERPNext v16**, tập trung vào cách dùng thực tế của doanh nghiệp Việt Nam thay vì dịch từng từ máy móc. Repository có hai lớp cài độc lập: **PO/MO catalog** cho chuỗi dịch runtime và **UI JSON override bundle** cho các object chuẩn như Dashboard Chart, Number Card, Dashboard và Workspace vốn được lưu trong database. Nội dung hiện đã trải qua đợt **Semantic v3 QA**: chuẩn hóa nghiệp vụ ERP, làm sạch giao diện Anh–Việt lẫn lộn và kiểm tra cách các chuỗi từ nhiều app ghép với nhau ở runtime.
 
 ## Mục tiêu
 
@@ -43,6 +43,22 @@ Không Việt hóa cực đoan. Những thuật ngữ kỹ thuật hoặc vận 
 | `crm_vi_v2.po` | Frappe CRM | `apps/crm/crm/locale/vi.po` |
 | `insights_vi_v2.po` | Frappe Insights | `apps/insights/insights/locale/vi.po` |
 
+## UI JSON override bundle
+
+Một số label chuẩn của Frappe không đi qua PO catalog. Ví dụ tên `Dashboard Chart`, `Number Card`, `Dashboard` và `Workspace` được sync từ JSON của app vào database. Frappe hỗ trợ `export-json` / `import-doc`, vì vậy project đóng gói chúng thành **5 doclist JSON có thể cài lại độc lập**, không cần sửa source app.
+
+| File | App | Object hiện có |
+| --- | --- | ---: |
+| `ui_json/frappe_vi_ui_v3.json` | Frappe | 20 |
+| `ui_json/erpnext_vi_ui_v3.json` | ERPNext | 107 |
+| `ui_json/hrms_vi_ui_v3.json` | HRMS | 80 |
+| `ui_json/crm_vi_ui_v3.json` | Frappe CRM | 1 |
+| `ui_json/insights_vi_ui_v3.json` | Frappe Insights | 0 |
+
+Bundle **giữ nguyên `name` và các key liên kết gốc** (`link_to`, `chart_name` trong Workspace content, `number_card_name`, `card_name`...) để không phá reference. Chỉ field hiển thị như `chart_name`, `label`, `dashboard_name` và header/label của Workspace được Việt hóa. Insights hiện không có standard object thuộc 4 loại này ở version đã audit nên file là `[]`; file vẫn được giữ để cấu trúc 5-app nhất quán và sẵn sàng cho lần rebuild sau.
+
+Baseline dùng để tạo bundle hiện tại: Frappe 16.17.0, ERPNext 16.16.0, HRMS 16.5.4, CRM 2.0.0-dev (`4213ae6`) và Insights 3.3.1 (`0418003`). Sau khi nâng app hoặc chạy migrate làm upstream fixture ghi đè label, chỉ cần import lại bundle phù hợp.
+
 ## Semantic v3 QA
 
 Validator hiện kiểm **19.916 translation entry** trên 5 catalog và **19.146 unique msgid**. Các lớp kiểm chính:
@@ -59,6 +75,7 @@ Chạy validator không cần dependency ngoài Python chuẩn:
 
 ```bash
 python3 validate_semantics.py
+python3 validate_ui_json.py
 ```
 
 Trạng thái chuẩn trước khi commit phải là:
@@ -73,7 +90,9 @@ PASS: semantic glossary and format invariants are clean
 
 - `Translator.cs`: post-processor source-aware, có dictionary ERP canonical và repair rules cho lỗi dịch máy đã biết.
 - `MergePo.cs`: đồng bộ catalog khi upstream thay đổi.
-- `validate_semantics.py`: semantic/format/cross-app QA chính.
+- `validate_semantics.py`: semantic/format/cross-app QA chính cho PO catalog.
+- `build_ui_json_bundles.py`: dựng lại 5 UI JSON bundle từ snapshot `export-json` và glossary PO Semantic v3.
+- `validate_ui_json.py`: kiểm cấu trúc, baseline object count và các label UI nhạy cảm của JSON bundle.
 - `validate_translations.ps1`, `verify_po.ps1`: bộ kiểm tra PowerShell bổ sung cho môi trường Windows.
 
 Một nguyên tắc quan trọng của `Translator.cs`: **không replace theo tiếng Việt một cách global nếu một từ có nhiều nghĩa**. Mọi family nhạy cảm như `Theme/Subject`, `Lead/Deal`, `Employee Checkin`, `Landed Cost`, `Dashboard` đều được gate bằng English `msgid`.
@@ -90,15 +109,26 @@ cp crm_vi_v2.po apps/crm/crm/locale/vi.po
 cp insights_vi_v2.po apps/insights/insights/locale/vi.po
 ```
 
-Sau đó compile và làm mới site:
+Sau đó compile catalog, build message files phía client và làm mới cache:
 
 ```bash
-bench compile-po-to-mo
-bench --site [site-name] migrate
+bench compile-po-to-mo --force --locale vi
+bench build-message-files
 bench --site [site-name] clear-cache
 ```
 
-Sau khi deploy, hard refresh trình duyệt hoặc đăng xuất/đăng nhập lại để nạp bundle dịch mới. Nếu site không cài một app trong danh sách trên thì bỏ qua catalog của app đó.
+Với UI JSON bundle, import theo app đang cài trên site:
+
+```bash
+bench --site [site-name] import-doc /path/to/ui_json/frappe_vi_ui_v3.json
+bench --site [site-name] import-doc /path/to/ui_json/erpnext_vi_ui_v3.json
+bench --site [site-name] import-doc /path/to/ui_json/hrms_vi_ui_v3.json
+bench --site [site-name] import-doc /path/to/ui_json/crm_vi_ui_v3.json
+# insights_vi_ui_v3.json hiện rỗng, không cần import
+bench --site [site-name] clear-cache
+```
+
+`import-doc` dùng `name` gốc để insert/update document, nên bundle có thể chạy lại sau khi app update hoặc fixture sync trả label về English. Không cần chạy `migrate` chỉ để áp PO/JSON localization; hãy chạy migrate theo quy trình nâng app riêng của bench. Sau khi deploy, hard refresh trình duyệt hoặc đăng xuất/đăng nhập lại. Nếu site không cài một app thì bỏ qua catalog và JSON bundle của app đó.
 
 ## Hình ảnh minh họa giao diện
 

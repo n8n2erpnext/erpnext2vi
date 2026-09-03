@@ -96,6 +96,12 @@ public class PoTranslator
         { "Department", "Phòng ban" },
         { "Designation", "Chức vụ" },
         { "Holiday List", "Lịch nghỉ" },
+        { "Holiday List Name", "Tên lịch nghỉ" },
+        { "Applicable Holiday List", "Lịch nghỉ áp dụng" },
+        { "Default Holiday List", "Lịch nghỉ mặc định" },
+        { "Create New Holiday List", "Tạo lịch nghỉ mới" },
+        { "Select Holiday List", "Chọn lịch nghỉ" },
+        { "No holiday list found", "Không tìm thấy lịch nghỉ" },
         { "Check In", "Ghi nhận vào ca" },
         { "Check Out", "Ghi nhận ra ca" },
 
@@ -105,6 +111,10 @@ public class PoTranslator
         { "Delivery Note", "Phiếu giao hàng" },
         { "Purchase Receipt", "Phiếu nhập hàng" },
         { "Pick List", "Danh sách lấy hàng" },
+        { "Create Pick List", "Tạo danh sách lấy hàng" },
+        { "Against Pick List", "Theo danh sách lấy hàng" },
+        { "Pick List Incomplete", "Danh sách lấy hàng chưa hoàn tất" },
+        { "Pick List Item", "Mặt hàng trong danh sách lấy hàng" },
         { "Item", "Mặt hàng" },
         { "Item Group", "Nhóm mặt hàng" },
         { "Warehouse", "Kho" },
@@ -112,6 +122,12 @@ public class PoTranslator
         { "Stock Ledger", "Sổ kho" },
         { "Stock Reconciliation", "Đối soát tồn kho" },
         { "Stock Aging", "Tuổi tồn kho" },
+        { "Valuation Rate", "Đơn giá định giá" },
+        { "Allow Zero Valuation Rate", "Cho phép đơn giá định giá bằng không" },
+        { "Current Valuation Rate", "Đơn giá định giá hiện tại" },
+        { "Posting Date", "Ngày hạch toán" },
+        { "Posting Time", "Giờ hạch toán" },
+        { "Posting Datetime", "Thời điểm hạch toán" },
         { "UOM", "Đơn vị tính" },
 
         // Buying
@@ -127,6 +143,16 @@ public class PoTranslator
         { "Quotation", "Báo giá" },
         { "Sales Order", "Đơn bán hàng" },
         { "Sales Invoice", "Hoá đơn bán hàng" },
+        { "Buying Price List", "Bảng giá mua" },
+        { "Selling Price List", "Bảng giá bán" },
+        { "Sales Price List", "Bảng giá bán" },
+        { "Purchase Price List", "Bảng giá mua" },
+        { "Default Buying Price List", "Bảng giá mua mặc định" },
+        { "Price List Rate", "Đơn giá bảng giá" },
+        { "Price List Rate (Company Currency)", "Đơn giá bảng giá (Tiền tệ công ty)" },
+        { "Avg. Buying Price List Rate", "Đơn giá mua trung bình" },
+        { "Avg. Selling Price List Rate", "Đơn giá bán trung bình" },
+        { "Item-wise Price List Rate", "Đơn giá bảng giá theo mặt hàng" },
         { "Pricing Rule", "Chính sách giá" },
         { "Territory", "Khu vực bán hàng" },
 
@@ -183,6 +209,19 @@ public class PoTranslator
         { "Employment Type", "Hình thức làm việc" },
 
         // Manufacturing
+        { "Subcontract", "Gia công" },
+        { "Sub-contracting", "Gia công" },
+        { "Subcontracting", "Gia công" },
+        { "Subcontracted Item", "Mặt hàng gia công" },
+        { "Subcontracting Order", "Đơn gia công" },
+        { "Subcontracting Inward", "Nhận gia công" },
+        { "Subcontracting Inward Order", "Đơn nhận gia công" },
+        { "Subcontracting Outward Order", "Đơn thuê gia công" },
+        { "Subcontracting Receipt", "Phiếu nhận gia công" },
+        { "Subcontracting Purchase Order", "Đơn mua hàng gia công" },
+        { "Subcontracting Sales Order", "Đơn bán hàng gia công" },
+        { "Subcontracting BOM", "Định mức gia công" },
+        { "Job Worker", "Đơn vị gia công" },
         { "BOM", "Định mức nguyên vật liệu" },
         { "Work Order", "Lệnh sản xuất" },
         { "Job Card", "Phiếu công đoạn" },
@@ -198,6 +237,40 @@ public class PoTranslator
         // Website / CMS
         { "Blog Post", "Bài viết" },
         { "Web Page", "Trang nội dung" },
+        { "Web Form", "Biểu mẫu web" },
+        { "Web Form Field", "Trường biểu mẫu web" },
+        { "Web Form Fields", "Các trường biểu mẫu web" },
+        { "Web Form List Column", "Cột danh sách biểu mẫu web" },
+        { "Website", "Trang web" },
+        { "Website Manager", "Quản lý trang web" },
+        { "Website Settings", "Cài đặt trang web" },
+        { "Website Sidebar", "Thanh bên trang web" },
+        { "Website Sidebar Item", "Mục thanh bên trang web" },
+        { "Website Slideshow", "Trình chiếu trang web" },
+        { "Website Slideshow Item", "Mục trình chiếu trang web" },
+        { "Website Theme", "Theme trang web" },
+        { "Website Theme Ignore App", "Ứng dụng bỏ qua Theme trang web" },
+        { "Website Theme Image", "Hình ảnh Theme trang web" },
+        { "Website Themes Available", "Theme trang web khả dụng" },
+        { "Website Users", "Người dùng trang web" },
+        { "Website Visits", "Lượt truy cập trang web" },
+        { "Menu", "Trình đơn" },
+        { "Sidebar", "Thanh bên" },
+        { "Child Table", "Bảng con" },
+        { "System Console", "Console hệ thống" },
+        { "Authenticate as Service Principal", "Xác thực bằng Service Principal" },
+        { "Popover or Modal Description", "Mô tả cửa sổ nổi hoặc hộp thoại" },
+        { "Round Robin", "Luân phiên" },
+        { "Show Auth Server Metadata", "Hiển thị siêu dữ liệu Server xác thực" },
+        { "SocketIO Ping Check", "Kiểm tra ping SocketIO" },
+        { "SocketIO Transport Mode", "Chế độ truyền tải SocketIO" },
+        { "Top", "Trên" },
+        { "Top 10", "10 mục hàng đầu" },
+        { "Top Bar Items", "Các mục trên thanh trên cùng" },
+        { "Pull Emails", "Nhận email" },
+        { "User Menu", "Trình đơn người dùng" },
+        { "Portal Menu", "Trình đơn cổng thông tin" },
+        { "Portal Menu Item", "Mục trình đơn cổng thông tin" },
         { "Landing Page", "Trang giới thiệu" },
         { "Navigation", "Điều hướng" },
         { "Footer", "Chân trang" }
@@ -381,9 +454,20 @@ public class PoTranslator
         }
     }
 
+    private static bool ContainsIgnoreCase(string source, string value)
+    {
+        return source != null && source.IndexOf(value, StringComparison.OrdinalIgnoreCase) >= 0;
+    }
+
     private static string ApplyGlobalReplacements(string text, string msgid)
     {
         if (string.IsNullOrEmpty(text)) return text;
+
+        // Obvious machine-translation artifacts; these are never valid ERP terminology.
+        text = text.Replace("Serialal", "Serial")
+                   .Replace("serialal", "serial")
+                   .Replace("Tài liệu trẻ em", "Tài liệu con")
+                   .Replace("tài liệu trẻ em", "tài liệu con");
 
         // Table 1: Technical & Operational Terms to Keep
         text = text.Replace("Thỏa thuận cấp độ dịch vụ", "SLA")
@@ -459,10 +543,353 @@ public class PoTranslator
         text = text.Replace("Máy chủ", "Server")
                    .Replace("máy chủ", "server");
 
+        // ERP semantic phrase families: source msgid gates every replacement.
+        if (ContainsIgnoreCase(msgid, "Holiday List"))
+        {
+            text = text.Replace("Danh Sách Ngày Lễ", "Lịch nghỉ")
+                       .Replace("Danh sách Ngày lễ", "Lịch nghỉ")
+                       .Replace("Danh sách ngày lễ", "Lịch nghỉ")
+                       .Replace("danh sách ngày lễ", "lịch nghỉ")
+                       .Replace("Danh sách ngày nghỉ", "Lịch nghỉ")
+                       .Replace("danh sách ngày nghỉ", "lịch nghỉ");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Pick List"))
+        {
+            text = text.Replace("Danh sách chọn", "Danh sách lấy hàng")
+                       .Replace("danh sách chọn", "danh sách lấy hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Price List"))
+        {
+            text = text.Replace("Danh sách Giá", "Bảng giá")
+                       .Replace("Danh sách giá", "Bảng giá")
+                       .Replace("Tiền tệ danh sách giá", "Tiền tệ bảng giá")
+                       .Replace("tiền tệ danh sách giá", "tiền tệ bảng giá")
+                       .Replace("danh sách Giá", "bảng giá")
+                       .Replace("danh sách giá", "bảng giá");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Price List Rate"))
+        {
+            text = text.Replace("Tỷ giá Bảng giá", "Đơn giá bảng giá")
+                       .Replace("Tỷ giá bảng giá", "Đơn giá bảng giá")
+                       .Replace("tỷ giá bảng giá", "đơn giá bảng giá")
+                       .Replace("Tỷ lệ bảng giá", "Đơn giá bảng giá")
+                       .Replace("tỷ lệ bảng giá", "đơn giá bảng giá");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Sales Order"))
+        {
+            text = text.Replace("Đơn hàng Bán", "Đơn bán hàng")
+                       .Replace("Đơn hàng bán", "Đơn bán hàng")
+                       .Replace("đơn hàng bán", "đơn bán hàng")
+                       .Replace("Đơn đặt hàng", "Đơn bán hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Landed Cost"))
+        {
+            text = text.Replace("chi phí đã đáp tàu", "chi phí nhập hàng")
+                       .Replace("Chi phí đã đáp tàu", "Chi phí nhập hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Expense Claim"))
+        {
+            text = text.Replace("Claim chi phí", "Đề nghị thanh toán")
+                       .Replace("claim chi phí", "đề nghị thanh toán")
+                       .Replace("Claims chi phí", "các Đề nghị thanh toán")
+                       .Replace("claims chi phí", "các đề nghị thanh toán");
+        }
+
+        if (ContainsIgnoreCase(msgid, "booked"))
+        {
+            text = text.Replace("đã book", "đã hạch toán")
+                       .Replace("đã định sổ", "đã hạch toán")
+                       .Replace("Đã định sổ", "Đã hạch toán");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Workspace"))
+        {
+            text = text.Replace("Không gian làm việc", "Khu làm việc")
+                       .Replace("không gian làm việc", "khu làm việc");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Attachment"))
+        {
+            text = text.Replace("Tập tin đính kèm", "Tài liệu đính kèm")
+                       .Replace("tập tin đính kèm", "tài liệu đính kèm")
+                       .Replace("Tệp đính kèm", "Tài liệu đính kèm")
+                       .Replace("tệp đính kèm", "tài liệu đính kèm");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Timeline"))
+        {
+            text = text.Replace("Dòng thời gian", "Lịch sử")
+                       .Replace("dòng thời gian", "lịch sử")
+                       .Replace("Mốc thời gian", "Lịch sử")
+                       .Replace("mốc thời gian", "lịch sử");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Leave Application"))
+        {
+            text = text.Replace("Đơn Xin Nghỉ Phép", "Đơn nghỉ phép")
+                       .Replace("Đơn xin nghỉ phép", "Đơn nghỉ phép")
+                       .Replace("đơn xin nghỉ phép", "đơn nghỉ phép");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Stock Entry"))
+        {
+            text = text.Replace("Bút toán Kho", "Phiếu kho")
+                       .Replace("Bút toán kho", "Phiếu kho")
+                       .Replace("bút toán kho", "phiếu kho")
+                       .Replace("Mục Kho", "Phiếu kho")
+                       .Replace("Mục kho", "Phiếu kho")
+                       .Replace("mục kho", "phiếu kho")
+                       .Replace("Mục tồn kho", "Phiếu kho")
+                       .Replace("mục tồn kho", "phiếu kho")
+                       .Replace("Mục nhập kho", "Phiếu kho")
+                       .Replace("mục nhập kho", "phiếu kho")
+                       .Replace("Bảng nhập kho", "Phiếu kho")
+                       .Replace("Bút toán tồn kho", "Phiếu kho")
+                       .Replace("bút toán tồn kho", "phiếu kho")
+                       .Replace("Mục Hàng tồn kho", "Phiếu kho")
+                       .Replace("Mục nhập tồn kho", "Phiếu kho")
+                       .Replace("mục nhập tồn kho", "phiếu kho")
+                       .Replace("Nhập kho", "Phiếu kho");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Material Request"))
+        {
+            text = text.Replace("Yêu cầu Vật liệu", "Yêu cầu vật tư")
+                       .Replace("yêu cầu vật liệu", "yêu cầu vật tư")
+                       .Replace("Yêu cầu Nguyên vật liệu", "Yêu cầu vật tư")
+                       .Replace("Yêu cầu Nguyên liệu", "Yêu cầu vật tư");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Delivery Note"))
+        {
+            text = text.Replace("Ghi chú giao hàng", "Phiếu giao hàng")
+                       .Replace("ghi chú giao hàng", "phiếu giao hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Purchase Receipt"))
+        {
+            text = text.Replace("Biên nhận Mua hàng", "Phiếu nhập hàng")
+                       .Replace("Biên nhận mua hàng", "Phiếu nhập hàng")
+                       .Replace("biên nhận mua hàng", "phiếu nhập hàng")
+                       .Replace("Phiếu nhận hàng mua", "Phiếu nhập hàng")
+                       .Replace("Phiếu nhận hàng", "Phiếu nhập hàng")
+                       .Replace("phiếu nhận hàng", "phiếu nhập hàng")
+                       .Replace("Phiếu nhập hàng mua", "Phiếu nhập hàng")
+                       .Replace("phiếu nhập hàng mua", "phiếu nhập hàng")
+                       .Replace("Biên lai mua hàng", "Phiếu nhập hàng")
+                       .Replace("biên lai mua hàng", "phiếu nhập hàng")
+                       .Replace("Phiếu nhận mua", "Phiếu nhập hàng")
+                       .Replace("phiếu nhận mua", "phiếu nhập hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Stock Ledger"))
+        {
+            text = text.Replace("Sổ cái Tồn kho", "Sổ kho")
+                       .Replace("Sổ cái tồn kho", "Sổ kho")
+                       .Replace("sổ cái tồn kho", "sổ kho")
+                       .Replace("Sổ tồn kho", "Sổ kho")
+                       .Replace("sổ tồn kho", "sổ kho")
+                       .Replace("Sổ cái chứng khoán", "Sổ kho");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Stock Reconciliation"))
+        {
+            text = text.Replace("Đối soát Kho", "Đối soát tồn kho")
+                       .Replace("Đối soát Hàng tồn kho", "Đối soát tồn kho")
+                       .Replace("đối soát hàng tồn kho", "đối soát tồn kho");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Supplier Quotation"))
+        {
+            text = text.Replace("Báo giá từ Nhà cung cấp", "Báo giá nhà cung cấp")
+                       .Replace("Báo giá từ nhà cung cấp", "Báo giá nhà cung cấp")
+                       .Replace("báo giá từ nhà cung cấp", "báo giá nhà cung cấp");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Purchase Order"))
+        {
+            text = text.Replace("Đơn đặt hàng", "Đơn mua hàng")
+                       .Replace("đơn đặt hàng", "đơn mua hàng")
+                       .Replace("Purchase Order", "Đơn mua hàng")
+                       .Replace("Đơn hàng mua", "Đơn mua hàng")
+                       .Replace("đơn hàng mua", "đơn mua hàng")
+                       .Replace("Đơn bán hàng Mua", "Đơn mua hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Purchase Invoice"))
+        {
+            text = text.Replace("Hóa đơn Mua hàng", "Hoá đơn mua hàng")
+                       .Replace("Hóa đơn mua hàng", "Hoá đơn mua hàng")
+                       .Replace("hóa đơn mua hàng", "hoá đơn mua hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Landed Cost Voucher"))
+        {
+            text = text.Replace("Chứng từ Chi phí Hạ cánh", "Chi phí nhập hàng")
+                       .Replace("Phiếu chi phí vận chuyển", "Chi phí nhập hàng")
+                       .Replace("Phiếu chi phí hạ tầng", "Chi phí nhập hàng")
+                       .Replace("Chi phí Landed", "Chi phí nhập hàng")
+                       .Replace("chi phí Landed", "chi phí nhập hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Sales Invoice"))
+        {
+            text = text.Replace("Hóa đơn Bán hàng", "Hoá đơn bán hàng")
+                       .Replace("Hóa đơn bán hàng", "Hoá đơn bán hàng")
+                       .Replace("hóa đơn bán hàng", "hoá đơn bán hàng");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Pricing Rule"))
+        {
+            text = text.Replace("Quy tắc Định giá", "Chính sách giá")
+                       .Replace("Quy tắc định giá", "Chính sách giá")
+                       .Replace("quy tắc định giá", "chính sách giá")
+                       .Replace("Quy tắc giá", "Chính sách giá")
+                       .Replace("quy tắc giá", "chính sách giá")
+                       .Replace("Pricing Rules", "Chính sách giá")
+                       .Replace("Pricing Rule", "Chính sách giá");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Payment Entry"))
+        {
+            text = text.Replace("Bút toán Thanh toán", "Phiếu thanh toán")
+                       .Replace("Bút toán thanh toán", "Phiếu thanh toán")
+                       .Replace("bút toán thanh toán", "phiếu thanh toán")
+                       .Replace("Mục Thanh toán", "Phiếu thanh toán")
+                       .Replace("Mục thanh toán", "Phiếu thanh toán")
+                       .Replace("mục thanh toán", "phiếu thanh toán")
+                       .Replace("Payment Entry", "Phiếu thanh toán");
+        }
+
+        if (ContainsIgnoreCase(msgid, "GL Entry"))
+        {
+            text = text.Replace("Các mục GL", "Các bút toán sổ cái")
+                       .Replace("các mục GL", "các bút toán sổ cái")
+                       .Replace("Mục GL", "Bút toán sổ cái")
+                       .Replace("mục GL", "bút toán sổ cái");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Work Order"))
+        {
+            text = text.Replace("Lệnh Công việc", "Lệnh sản xuất")
+                       .Replace("Lệnh công việc", "Lệnh sản xuất")
+                       .Replace("lệnh công việc", "lệnh sản xuất")
+                       .Replace("Work Order", "Lệnh sản xuất")
+                       .Replace("work order", "lệnh sản xuất")
+                       .Replace("Đơn đặt hàng công việc", "Lệnh sản xuất")
+                       .Replace("đơn đặt hàng công việc", "lệnh sản xuất")
+                       .Replace("Đơn hàng công việc", "Lệnh sản xuất")
+                       .Replace("đơn hàng công việc", "lệnh sản xuất");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Job Card"))
+        {
+            text = text.Replace("Thẻ công việc", "Phiếu công đoạn")
+                       .Replace("thẻ công việc", "phiếu công đoạn");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Valuation Rate"))
+        {
+            text = text.Replace("Tỷ giá Định giá", "Đơn giá định giá")
+                       .Replace("Tỷ giá định giá", "Đơn giá định giá")
+                       .Replace("tỷ giá định giá", "đơn giá định giá")
+                       .Replace("Tỷ lệ Định giá", "Đơn giá định giá")
+                       .Replace("Tỷ lệ định giá", "Đơn giá định giá")
+                       .Replace("tỷ lệ định giá", "đơn giá định giá");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Posting Date") || ContainsIgnoreCase(msgid, "Posting Datetime"))
+        {
+            text = text.Replace("Ngày Đăng", "Ngày hạch toán")
+                       .Replace("Ngày đăng", "Ngày hạch toán")
+                       .Replace("ngày đăng", "ngày hạch toán")
+                       .Replace("Ngày giờ đăng", "Thời điểm hạch toán")
+                       .Replace("ngày giờ đăng", "thời điểm hạch toán");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Posting Time") || ContainsIgnoreCase(msgid, "Posting Timestamp"))
+        {
+            text = text.Replace("Thời gian đăng", "Giờ hạch toán")
+                       .Replace("thời gian đăng", "giờ hạch toán")
+                       .Replace("Giờ đăng", "Giờ hạch toán")
+                       .Replace("giờ đăng", "giờ hạch toán")
+                       .Replace("Dấu thời gian đăng", "Thời điểm hạch toán")
+                       .Replace("dấu thời gian đăng", "thời điểm hạch toán");
+        }
+
+        // Core Frappe UI families: translate ordinary UI nouns, retain project-approved technical terms.
+        if (ContainsIgnoreCase(msgid, "Web Form"))
+        {
+            text = text.Replace("Web Forms", "Biểu mẫu web")
+                       .Replace("Web Form", "Biểu mẫu web")
+                       .Replace("web forms", "biểu mẫu web")
+                       .Replace("web form", "biểu mẫu web");
+        }
+        if (ContainsIgnoreCase(msgid, "Website"))
+        {
+            text = text.Replace("Website", "Trang web")
+                       .Replace("website", "trang web");
+        }
+        if (ContainsIgnoreCase(msgid, "Menu"))
+        {
+            text = text.Replace("Menu", "Trình đơn")
+                       .Replace("menu", "trình đơn");
+        }
+        if (ContainsIgnoreCase(msgid, "Sidebar"))
+        {
+            text = text.Replace("Sidebar", "Thanh bên")
+                       .Replace("sidebar", "thanh bên");
+        }
+        if (ContainsIgnoreCase(msgid, "Timeline"))
+        {
+            text = text.Replace("Timeline", "Lịch sử")
+                       .Replace("timeline", "lịch sử");
+        }
+        if (ContainsIgnoreCase(msgid, "Child Table"))
+        {
+            text = text.Replace("Child Table", "Bảng con")
+                       .Replace("child table", "bảng con");
+        }
+        if (ContainsIgnoreCase(msgid, "developer mode"))
+        {
+            text = text.Replace("chế độ developer", "chế độ nhà phát triển")
+                       .Replace("Chế độ Developer", "Chế độ Nhà phát triển");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Onboarding"))
+        {
+            text = text.Replace("Onboarding", "giới thiệu")
+                       .Replace("onboarding", "giới thiệu");
+        }
+        if (ContainsIgnoreCase(msgid, "ToDo"))
+        {
+            text = text.Replace("ToDo", "Việc cần làm");
+        }
+        if (ContainsIgnoreCase(msgid, "Blog Post"))
+        {
+            text = text.Replace("Blog Post", "Bài viết");
+        }
+
         // Subcontracting (Gia công ngoài)
-        if (msgid.Contains("Subcontract") || msgid.Contains("subcontract") || msgid.Contains("Job Worker") || msgid.Contains("Job worker"))
+        if (ContainsIgnoreCase(msgid, "Subcontract") || ContainsIgnoreCase(msgid, "Sub-contract") || ContainsIgnoreCase(msgid, "Job Worker"))
         {
             text = text
+                .Replace("Ký gửi", "Gia công")
+                .Replace("ký gửi", "gia công")
+                .Replace("Giao việc ngoài", "Gia công")
+                .Replace("giao việc ngoài", "gia công")
+                .Replace("Đơn hàng phụ thuộc vào", "Đơn nhận gia công")
+                .Replace("Đơn vị Gia công phụ", "Đơn vị gia công")
+                .Replace("đơn vị gia công phụ", "đơn vị gia công")
+                .Replace("Công nhân Việc", "Đơn vị gia công")
+                .Replace("Gia công phụ", "Gia công")
+                .Replace("gia công phụ", "gia công")
                 .Replace("Ký gửi phụ", "Gia công ngoài")
                 .Replace("ký gửi phụ", "gia công ngoài")
                 .Replace("Đơn hàng vào ký gửi phụ", "Đơn nhận gia công")

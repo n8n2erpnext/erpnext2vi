@@ -678,7 +678,7 @@ msgstr "Bạn có chắc chắn muốn xóa dữ liệu demo? Hành động này
 
 #: frontend/src/components/Activities/AttachmentArea.vue:128
 msgid "Are you sure you want to delete this attachment?"
-msgstr "Bạn có chắc chắn muốn xóa tệp đính kèm này?"
+msgstr "Bạn có chắc chắn muốn xóa tài liệu đính kèm này?"
 
 #: frontend/src/pages/MobileContact.vue:271
 msgid "Are you sure you want to delete this contact?"
@@ -1134,7 +1134,7 @@ msgstr "Ngày Lễ CRM"
 #. Name of a DocType
 #: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
 msgid "CRM Holiday List"
-msgstr "Danh Sách Ngày Lễ CRM"
+msgstr "Lịch nghỉ CRM"
 
 #. Name of a DocType
 #: crm/fcrm/doctype/crm_industry/crm_industry.json
@@ -1871,7 +1871,7 @@ msgstr "Tạo mới"
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:66
 msgid "Create New Holiday List"
-msgstr "Tạo Danh sách Ngày lễ mới"
+msgstr "Tạo lịch nghỉ mới"
 
 #: frontend/src/components/Modals/NoteModal.vue:8
 msgid "Create Note"
@@ -2288,7 +2288,7 @@ msgstr "Xóa tất cả"
 #: frontend/src/components/Activities/AttachmentArea.vue:58
 #: frontend/src/components/Activities/AttachmentArea.vue:127
 msgid "Delete Attachment"
-msgstr "Xóa tệp đính kèm"
+msgstr "Xóa tài liệu đính kèm"
 
 #: frontend/src/pages/MobileContact.vue:270
 msgid "Delete Contact"
@@ -3665,7 +3665,7 @@ msgstr "Lịch nghỉ"
 #. Label of the holiday_list_name (Data) field in DocType 'CRM Holiday List'
 #: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
 msgid "Holiday List Name"
-msgstr "Tên Danh sách ngày nghỉ"
+msgstr "Tên lịch nghỉ"
 
 #. Label of the holidays_section (Section Break) field in DocType 'CRM Holiday
 #. List'
@@ -4495,7 +4495,7 @@ msgstr "Gọi điện"
 
 #: frontend/src/components/Activities/AttachmentArea.vue:98
 msgid "Make attachment {0}"
-msgstr "Tạo tệp đính kèm {0}"
+msgstr "Tạo tài liệu đính kèm {0}"
 
 #: frontend/src/components/Activities/AttachmentArea.vue:107
 msgid "Make {0}"
@@ -4994,7 +4994,7 @@ msgstr "Không có sự kiện nào sắp tới. Tạo một sự kiện mới �
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:57
 msgid "No holiday list found"
-msgstr "Không tìm thấy danh sách ngày lễ nào"
+msgstr "Không tìm thấy lịch nghỉ"
 
 #: frontend/src/components/Calendar/Attendee.vue:211
 #: frontend/src/components/Controls/EmailMultiSelect.vue:133
@@ -6379,7 +6379,7 @@ msgstr "Chọn loại tiền tệ"
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:20
 msgid "Select Holiday List"
-msgstr "Chọn Danh sách Ngày lễ"
+msgstr "Chọn lịch nghỉ"
 
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:54
 msgid "Select Medium"
@@ -7852,7 +7852,7 @@ msgstr "Bạn không có quyền truy cập tài liệu này"
 
 #: crm/api/__init__.py:143
 msgid "You don't have permission to delete this attachment"
-msgstr "Bạn không có quyền xóa tệp đính kèm này"
+msgstr "Bạn không có quyền xóa tài liệu đính kèm này"
 
 #: crm/api/user.py:17
 msgid "You must be logged in to change your password"

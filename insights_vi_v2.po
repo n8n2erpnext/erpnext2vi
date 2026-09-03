@@ -100,7 +100,7 @@ msgstr "Đã Chấp Nhận"
 #. Invitation'
 #: insights/insights/doctype/insights_user_invitation/insights_user_invitation.json
 msgid "Accepted At"
-msgstr "Chấp Nhận Lúc"
+msgstr "Thời điểm chấp nhận"
 
 #: frontend/src2/workbook/WorkbookList.vue:47
 msgid "Access"
@@ -743,7 +743,7 @@ msgstr "Đã cập nhật quyền truy cập dashboard"
 #: frontend/src2/dashboard/Dashboard.vue:46
 #: frontend/src2/workbook/WorkbookSidebar.vue:75
 msgid "Dashboards"
-msgstr "Trang tổng quan"
+msgstr "Dashboard"
 
 #. Label of the data_backup (JSON) field in DocType 'Insights Workbook'
 #: insights/insights/doctype/insights_workbook/insights_workbook.json
@@ -852,7 +852,7 @@ msgstr "Giá trị mặc định"
 #: frontend/src2/dashboard/DashboardItemActions.vue:19
 #: frontend/src2/workbook/WorkbookNavbarActions.vue:72
 msgid "Delete"
-msgstr "Đã cập nhật giá trị mặc định"
+msgstr "Xóa"
 
 #: frontend/src2/components/DemoDataBanner.vue:26
 #: frontend/src2/settings/GeneralSettings.vue:22
@@ -948,7 +948,7 @@ msgstr "Email"
 #. Invitation'
 #: insights/insights/doctype/insights_user_invitation/insights_user_invitation.json
 msgid "Email Sent At"
-msgstr "Email được gửi tại"
+msgstr "Email đã gửi lúc"
 
 #: frontend/src2/query/components/FiltersSelector.vue:134
 msgid "Empty - Click 'Add Filter' to add a filter"
@@ -1174,7 +1174,7 @@ msgstr "Bắt đầu năm tài chính"
 
 #: insights/api/workbooks.py:241
 msgid "Folder and item must belong to the same workbook"
-msgstr "Thư mục và mục phải thuộc cùng workbook"
+msgstr "Thư mục và mục phải thuộc cùng sổ làm việc"
 
 #: frontend/src2/dashboard/DashboardBuilder.vue:145
 msgid "Force Refresh"
@@ -1294,7 +1294,7 @@ msgstr "Mã số"
 
 #: frontend/src2/data_store/ImportTableDialog.vue:93
 msgid "Import"
-msgstr "Nhập dữ liệu"
+msgstr "Import"
 
 #: frontend/src2/data_source/UploadCSVFileDialog.vue:71
 msgid "Import Failed"
@@ -1370,12 +1370,12 @@ msgstr "Ấn Độ"
 #: insights/insights/doctype/insights_user_invitation/insights_user_invitation.json
 #: insights/insights/doctype/insights_workbook/insights_workbook.json
 msgid "Insights Admin"
-msgstr "Insights Admin"
+msgstr "Quản trị Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_alert/insights_alert.json
 msgid "Insights Alert"
-msgstr "Insights Alert"
+msgstr "Cảnh báo Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_chart/insights_chart.json
@@ -1385,167 +1385,167 @@ msgstr "Biểu đồ phân tích"
 #. Name of a DocType
 #: insights/insights/doctype/insights_chart_v3/insights_chart_v3.json
 msgid "Insights Chart v3"
-msgstr "Insights Chart v3"
+msgstr "Biểu đồ Insights v3"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_dashboard/insights_dashboard.json
 msgid "Insights Dashboard"
-msgstr "Insights Dashboard"
+msgstr "Dashboard Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_dashboard_chart_v3/insights_dashboard_chart_v3.json
 msgid "Insights Dashboard Chart v3"
-msgstr "Insights Dashboard Chart v3"
+msgstr "Biểu đồ Dashboard Insights v3"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_dashboard_item/insights_dashboard_item.json
 msgid "Insights Dashboard Item"
-msgstr "Insights Dashboard Item"
+msgstr "Mục Dashboard Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_dashboard_v3/insights_dashboard_v3.json
 msgid "Insights Dashboard v3"
-msgstr "Insights Dashboard v3"
+msgstr "Dashboard Insights v3"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_data_source/insights_data_source.json
 msgid "Insights Data Source"
-msgstr "Insights Data Source"
+msgstr "Nguồn dữ liệu Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_data_source_v3/insights_data_source_v3.json
 msgid "Insights Data Source v3"
-msgstr "Insights Data Source v3"
+msgstr "Nguồn dữ liệu Insights v3"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_folder/insights_folder.json
 msgid "Insights Folder"
-msgstr "Insights Folder"
+msgstr "Thư mục Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_notebook/insights_notebook.json
 msgid "Insights Notebook"
-msgstr "Insights Notebook"
+msgstr "Notebook Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_notebook_page/insights_notebook_page.json
 msgid "Insights Notebook Page"
-msgstr "Insights Notebook Page"
+msgstr "Trang Notebook Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query/insights_query.json
 msgid "Insights Query"
-msgstr "Insights Query"
+msgstr "Truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_chart/insights_query_chart.json
 msgid "Insights Query Chart"
-msgstr "Insights Query Chart"
+msgstr "Biểu đồ truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_column/insights_query_column.json
 msgid "Insights Query Column"
-msgstr "Insights Query Column"
+msgstr "Cột truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_execution_log/insights_query_execution_log.json
 msgid "Insights Query Execution Log"
-msgstr "Insights Query Execution Log"
+msgstr "Log thực thi truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_reference/insights_query_reference.json
 msgid "Insights Query Reference"
-msgstr "Insights Query Reference"
+msgstr "Tham chiếu truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_result/insights_query_result.json
 msgid "Insights Query Result"
-msgstr "Insights Query Result"
+msgstr "Kết quả truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_table/insights_query_table.json
 msgid "Insights Query Table"
-msgstr "Insights Query Table"
+msgstr "Bảng truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_transform/insights_query_transform.json
 msgid "Insights Query Transform"
-msgstr "Insights Query Transform"
+msgstr "Biến đổi truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_variable/insights_query_variable.json
 msgid "Insights Query Variable"
-msgstr "Insights Query Variable"
+msgstr "Biến truy vấn Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_query_v3/insights_query_v3.json
 msgid "Insights Query v3"
-msgstr "Insights Query v3"
+msgstr "Truy vấn Insights v3"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_resource_permission/insights_resource_permission.json
 msgid "Insights Resource Permission"
-msgstr "Insights Resource Permission"
+msgstr "Permission tài nguyên Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_secret_key/insights_secret_key.json
 msgid "Insights Secret Key"
-msgstr "Insights Secret Key"
+msgstr "Khóa bí mật Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_settings/insights_settings.json
 msgid "Insights Settings"
-msgstr "Insights Settings"
+msgstr "Cài đặt Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_table/insights_table.json
 msgid "Insights Table"
-msgstr "Insights Table"
+msgstr "Bảng Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_table_column/insights_table_column.json
 msgid "Insights Table Column"
-msgstr "Insights Table Column"
+msgstr "Cột bảng Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_table_import/insights_table_import.json
 msgid "Insights Table Import"
-msgstr "Insights Table Import"
+msgstr "Import bảng Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_table_import_job/insights_table_import_job.json
 msgid "Insights Table Import Job"
-msgstr "Insights Table Import Job"
+msgstr "Tác vụ Import bảng Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_table_import_log/insights_table_import_log.json
 msgid "Insights Table Import Log"
-msgstr "Insights Table Import Log"
+msgstr "Log Import bảng Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_table_link/insights_table_link.json
 msgid "Insights Table Link"
-msgstr "Insights Table Link"
+msgstr "Liên kết bảng Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_table_link_v3/insights_table_link_v3.json
 msgid "Insights Table Link v3"
-msgstr "Insights Table Link v3"
+msgstr "Liên kết bảng Insights v3"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_table_v3/insights_table_v3.json
 msgid "Insights Table v3"
-msgstr "Insights Table v3"
+msgstr "Bảng Insights v3"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_team/insights_team.json
 msgid "Insights Team"
-msgstr "Insights Team"
+msgstr "Nhóm Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_team_member/insights_team_member.json
 msgid "Insights Team Member"
-msgstr "Insights Team Member"
+msgstr "Thành viên nhóm Insights"
 
 #. Name of a role
 #: insights/insights/doctype/insights_alert/insights_alert.json
@@ -1577,12 +1577,12 @@ msgstr "Thông tin chi tiết người dùng"
 #. Name of a DocType
 #: insights/insights/doctype/insights_user_invitation/insights_user_invitation.json
 msgid "Insights User Invitation"
-msgstr "Insights User Invitation"
+msgstr "Lời mời người dùng Insights"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_workbook/insights_workbook.json
 msgid "Insights Workbook"
-msgstr "Insights Workbook"
+msgstr "Sổ làm việc Insights"
 
 #. Option for the 'Type' (Select) field in DocType 'Insights Table Column'
 #: insights/insights/doctype/insights_table_column/insights_table_column.json
@@ -1882,7 +1882,7 @@ msgstr "Quản lý nhóm"
 
 #: frontend/src2/workbook/WorkbookShareDialog.vue:92
 msgid "Manage Workbook Access"
-msgstr "Quản lý quyền truy cập Workbook"
+msgstr "Quản lý quyền truy cập Sổ làm việc"
 
 #. Option for the 'Database Type' (Select) field in DocType 'Insights Data
 #. Source'
@@ -1998,7 +1998,7 @@ msgstr "Truy vấn mới"
 #: frontend/src2/workbook/WorkbookList.vue:116
 #: frontend/src2/workbook/WorkbookList.vue:151
 msgid "New Workbook"
-msgstr "Workbook mới"
+msgstr "Sổ làm việc mới"
 
 #. Label of the next_execution (Datetime) field in DocType 'Insights Alert'
 #: insights/insights/doctype/insights_alert/insights_alert.json
@@ -2028,7 +2028,7 @@ msgstr "Chưa có bảng nào được lưu trữ"
 
 #: frontend/src2/workbook/WorkbookList.vue:113
 msgid "No Workbooks"
-msgstr "Không có Workbook"
+msgstr "Không có Sổ làm việc"
 
 #: frontend/src2/query/components/QueryAlertsDialog.vue:76
 msgid "No alerts"
@@ -2080,17 +2080,17 @@ msgstr "Không có người dùng."
 
 #: frontend/src2/home/HomeWorkbookList.vue:66
 msgid "No workbooks created"
-msgstr "Chưa tạo workbook nào"
+msgstr "Chưa tạo sổ làm việc nào"
 
 #: frontend/src2/workbook/WorkbookList.vue:114
 msgid "No workbooks to display."
-msgstr "Không có workbook để hiển thị."
+msgstr "Không có sổ làm việc để hiển thị."
 
 #. Option for the 'Authentication Type' (Select) field in DocType 'Insights
 #. Data Source v3'
 #: insights/insights/doctype/insights_data_source_v3/insights_data_source_v3.json
 msgid "None"
-msgstr "Không có"
+msgstr "Không"
 
 #. Label of the notebook (Link) field in DocType 'Insights Notebook Page'
 #: insights/insights/doctype/insights_notebook_page/insights_notebook_page.json
@@ -2115,7 +2115,7 @@ msgstr "Hoàn tất onboarding"
 #: frontend/src2/dashboard/Dashboard.vue:68
 #: frontend/src2/dashboard/DashboardList.vue:22
 msgid "Open Workbook"
-msgstr "Mở Workbook"
+msgstr "Mở Sổ làm việc"
 
 #: frontend/src2/charts/components/ChartBuilderToolbar.vue:65
 #: frontend/src2/workbook/WorkbookNavbarActions.vue:79
@@ -2519,11 +2519,11 @@ msgstr "SQLite"
 
 #: frontend/src2/settings/GeneralSettings.vue:23
 msgid "Sample data and workbook have been set up successfully"
-msgstr "Đã thiết lập dữ liệu mẫu và workbook thành công"
+msgstr "Đã thiết lập dữ liệu mẫu và sổ làm việc thành công"
 
 #: frontend/src2/components/DemoDataBanner.vue:27
 msgid "Sample data with workbook has been set up successfully"
-msgstr "Đã thiết lập dữ liệu mẫu với workbook thành công"
+msgstr "Đã thiết lập dữ liệu mẫu với sổ làm việc thành công"
 
 #. Option for the 'Week Starts On' (Select) field in DocType 'Insights
 #. Settings'
@@ -3063,7 +3063,7 @@ msgstr "Hôm nay"
 
 #: frontend/src2/charts/components/DonutChartConfigForm.vue:57
 msgid "Top"
-msgstr "Đứng đầu"
+msgstr "Trên"
 
 #: frontend/src2/query/components/FormatRule.vue:201
 msgid "Top N percent"
@@ -3307,13 +3307,13 @@ msgstr "Hàng tuần"
 #: insights/insights/doctype/insights_folder/insights_folder.json
 #: insights/insights/doctype/insights_query_v3/insights_query_v3.json
 msgid "Workbook"
-msgstr "Workbook"
+msgstr "Sổ làm việc"
 
 #: frontend/src2/components/AppSidebar.vue:79
 #: frontend/src2/home/HomeWorkbookList.vue:36
 #: frontend/src2/workbook/WorkbookList.vue:148
 msgid "Workbooks"
-msgstr "Workbook"
+msgstr "Sổ làm việc"
 
 #: frontend/src2/charts/components/MapChartConfigForm.vue:54
 msgid "World Map"
@@ -3341,15 +3341,15 @@ msgstr "Bạn không có quyền truy cập tài nguyên này"
 #: insights/api/workbooks.py:198 insights/api/workbooks.py:225
 #: insights/api/workbooks.py:236 insights/api/workbooks.py:250
 msgid "You do not have permission to modify this workbook"
-msgstr "Bạn không có quyền sửa đổi workbook này"
+msgstr "Bạn không có quyền sửa đổi sổ làm việc này"
 
 #: insights/api/workbooks.py:79 insights/api/workbooks.py:132
 msgid "You do not have permission to share this workbook"
-msgstr "Bạn không có quyền chia sẻ workbook này"
+msgstr "Bạn không có quyền chia sẻ sổ làm việc này"
 
 #: frontend/src2/home/HomeWorkbookList.vue:68
 msgid "Your workbooks will appear here. Create a new workbook to get started."
-msgstr "Workbook của bạn sẽ hiển thị ở đây. Tạo workbook mới để bắt đầu."
+msgstr "Sổ làm việc của bạn sẽ hiển thị ở đây. Tạo sổ làm việc mới để bắt đầu."
 
 #: frontend/src2/query/components/FormatRule.vue:194
 msgid "after date"

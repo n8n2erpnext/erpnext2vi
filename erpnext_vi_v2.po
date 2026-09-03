@@ -61,13 +61,7 @@ msgid ""
 "\t\t\tIf it is not possible to make an adjustment entry, please enable 'Allow Negative Stock for Batch' in Stock Settings to proceed.\n"
 "\t\t\tHowever, enabling this setting may lead to negative stock in the system.\n"
 "\t\t\tSo please ensure the stock levels are adjusted as soon as possible to maintain the correct valuation rate."
-msgstr ""
-"\n"
-"\t\t\tLô {0} của mặt hàng {1} đang bị âm kho trong kho {2}{3}.\n"
-"\t\t\tVui lòng bổ sung số lượng tồn kho là {4} để tiếp tục thực hiện bút toán này.\n"
-"\t\t\tNếu không thể tạo bút toán điều chỉnh, vui lòng bật 'Cho phép âm kho theo Lô' trong Cấu hình Kho để tiếp tục.\n"
-"\t\t\tTuy nhiên, việc bật cấu hình này có thể dẫn đến âm kho trong hệ thống.\n"
-"\t\t\tVì vậy, hãy đảm bảo số lượng tồn kho được điều chỉnh sớm nhất có thể để duy trì đơn giá định giá chính xác."
+msgstr "\n\t\t\tLô {0} của mặt hàng {1} đang bị âm kho trong kho {2}{3}.\n\t\t\tVui lòng bổ sung số lượng tồn kho là {4} để tiếp tục thực hiện bút toán này.\n\t\t\tNếu không thể tạo bút toán điều chỉnh, vui lòng bật 'Cho phép âm kho theo Lô' trong Cấu hình Kho để tiếp tục.\n\t\t\tTuy nhiên, việc bật cấu hình này có thể dẫn đến âm kho trong hệ thống.\n\t\t\tVì vậy, hãy đảm bảo số lượng tồn kho được điều chỉnh sớm nhất có thể để duy trì đơn giá định giá chính xác."
 
 #. Label of the column_break_32 (Column Break) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -683,23 +677,7 @@ msgid ""
 "<pre><code>Hello {{ customer.customer_name }},<br>PFA your Statement Of Accounts from {{ doc.from_date }} to {{ doc.to_date }}.</code> </pre></li>\n"
 "</ul>\n"
 "<!-- {% endraw %} -->"
-msgstr ""
-"<br>\n"
-"<h4>Ghi chú</h4>\n"
-"<ul>\n"
-"<li>\n"
-"Bạn có thể sử dụng <a href=\"https://jinja.palletsprojects.com/en/2.11.x/\" target=\"_blank\">thẻ Jinja</a> trong các trường <b>Tiêu đề</b> và <b>Nội dung</b> cho các giá trị động.\n"
-"</li><li>\n"
-"    Tất cả các trường trong doctype này có sẵn under the <b>doc</b> object và tất cả các trường cho khách hàng mà email sẽ được gửi đến có sẵn under the <b>customer</b> object.\n"
-"</li></ul>\n"
-"<h4> Ví dụ</h4>\n"
-"<!-- {% raw %} -->\n"
-"<ul>\n"
-"    <li><b>Tiêu đề</b>:<br><br><pre><code>Bảng Sao kê Tài khoản cho {{ customer.customer_name }}</code></pre><br></li>\n"
-"    <li><b>Nội dung</b>: <br><br>\n"
-"<pre><code>Xin chào {{ customer.customer_name }},<br>Đính kèm là Bảng Sao kê Tài khoản của Bạn từ {{ doc.from_date }} đến {{ doc.to_date }}.</code> </pre></li>\n"
-"</ul>\n"
-"<!-- {% endraw %} -->"
+msgstr "<br>\n<h4>Ghi chú</h4>\n<ul>\n<li>\nBạn có thể sử dụng <a href=\"https://jinja.palletsprojects.com/en/2.11.x/\" target=\"_blank\">thẻ Jinja</a> trong các trường <b>Tiêu đề</b> và <b>Nội dung</b> cho các giá trị động.\n</li><li>\n    Tất cả các trường trong doctype này có sẵn under the <b>doc</b> object và tất cả các trường cho khách hàng mà email sẽ được gửi đến có sẵn under the <b>customer</b> object.\n</li></ul>\n<h4> Ví dụ</h4>\n<!-- {% raw %} -->\n<ul>\n    <li><b>Tiêu đề</b>:<br><br><pre><code>Bảng Sao kê Tài khoản cho {{ customer.customer_name }}</code></pre><br></li>\n    <li><b>Nội dung</b>: <br><br>\n<pre><code>Xin chào {{ customer.customer_name }},<br>Đính kèm là Bảng Sao kê Tài khoản của Bạn từ {{ doc.from_date }} đến {{ doc.to_date }}.</code> </pre></li>\n</ul>\n<!-- {% endraw %} -->"
 
 #. Content of the 'Other Details' (HTML) field in DocType 'Purchase Receipt'
 #. Content of the 'Other Details' (HTML) field in DocType 'Subcontracting
@@ -725,10 +703,7 @@ msgid ""
 "<div>\n"
 "<h3> All dimensions in centimeter only </h3>\n"
 "</div>"
-msgstr ""
-"<div>\n"
-"<h3> Tất cả kích thước bằng centimét only </h3>\n"
-"</div>"
+msgstr "<div>\n<h3> Tất cả kích thước bằng centimét only </h3>\n</div>"
 
 #. Content of the 'about' (HTML) field in DocType 'Product Bundle'
 #: erpnext/selling/doctype/product_bundle/product_bundle.json
@@ -739,13 +714,7 @@ msgid ""
 "<p>The package <b>Item</b> will have <code>Is Stock Item</code> as <b>No</b> and <code>Is Sales Item</code> as <b>Yes</b>.</p>\n"
 "<h4>Example:</h4>\n"
 "<p>If you are selling Laptops and Backpacks separately and have a special price if the customer buys both, then the Laptop + Backpack will be a new Product Bundle Item.</p>"
-msgstr ""
-"<h3>Về Gói sản phẩm</h3>\n"
-"\n"
-"<p>Nhóm tổng hợp các <b>Mặt hàng</b> thành một <b>Mặt hàng</b> khác. Điều này hữu ích khi bạn gói một số <b>Mặt hàng</b> nhất định thành một gói và bạn duy trì tồn kho của các <b>Mặt hàng</b> đã đóng gói thay vì <b>Mặt hàng</b> tổng hợp.</p>\n"
-"<p><b>Mặt hàng</b> gói sẽ có <code> Là Mặt hàng Tồn kho</code> là <b>Không</b> và <code>Là Mặt hàng Bán</code> là <b>Có</b>.</p>\n"
-"<h4>Ví dụ:</h4>\n"
-"<p>Nếu bạn bán Máy tính xách tay và Ba lô riêng lẻ và có giá đặc biệt nếu khách hàng mua cả hai, thì Máy tính xách tay + Ba lô sẽ là một Mặt hàng Gói sản phẩm mới.</p>"
+msgstr "<h3>Về Gói sản phẩm</h3>\n\n<p>Nhóm tổng hợp các <b>Mặt hàng</b> thành một <b>Mặt hàng</b> khác. Điều này hữu ích khi bạn gói một số <b>Mặt hàng</b> nhất định thành một gói và bạn duy trì tồn kho của các <b>Mặt hàng</b> đã đóng gói thay vì <b>Mặt hàng</b> tổng hợp.</p>\n<p><b>Mặt hàng</b> gói sẽ có <code> Là Mặt hàng Tồn kho</code> là <b>Không</b> và <code>Là Mặt hàng Bán</code> là <b>Có</b>.</p>\n<h4>Ví dụ:</h4>\n<p>Nếu bạn bán Máy tính xách tay và Ba lô riêng lẻ và có giá đặc biệt nếu khách hàng mua cả hai, thì Máy tính xách tay + Ba lô sẽ là một Mặt hàng Gói sản phẩm mới.</p>"
 
 #. Content of the 'Help' (HTML) field in DocType 'Currency Exchange Settings'
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
@@ -754,11 +723,7 @@ msgid ""
 "<p>There are 3 variables that could be used within the endpoint, result key and in values of the parameter.</p>\n"
 "<p>Exchange rate between {from_currency} and {to_currency} on {transaction_date} is fetched by the API.</p>\n"
 "<p>Example: If your endpoint is exchange.com/2021-08-01, then, you will have to input exchange.com/{transaction_date}</p>"
-msgstr ""
-"<h3>Trợ giúp Cài đặt Tỷ giá Tiền tệ</h3>\n"
-"<p>Có 3 biến có thể được sử dụng trong endpoint, khóa kết quả và trong giá trị của tham số.</p>\n"
-"<p>Tỷ giá hối đoái giữa {from_currency} và {to_currency} vào ngày {transaction_date} được API lấy về.</p>\n"
-"<p>Ví dụ: Nếu endpoint của bạn là exchange.com/2021-08-01, thì bạn cần nhập exchange.com/{transaction_date}</p>"
+msgstr "<h3>Trợ giúp Cài đặt Tỷ giá Tiền tệ</h3>\n<p>Có 3 biến có thể được sử dụng trong endpoint, khóa kết quả và trong giá trị của tham số.</p>\n<p>Tỷ giá hối đoái giữa {from_currency} và {to_currency} vào ngày {transaction_date} được API lấy về.</p>\n<p>Ví dụ: Nếu endpoint của bạn là exchange.com/2021-08-01, thì bạn cần nhập exchange.com/{transaction_date}</p>"
 
 #. Content of the 'Body and Closing Text Help' (HTML) field in DocType 'Dunning
 #. Letter Text'
@@ -775,18 +740,7 @@ msgid ""
 "<h4>Templating</h4>\n"
 "\n"
 "<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
-msgstr ""
-"<h4>Ví dụ về Nội dung và Kết thúc</h4>\n"
-"\n"
-"<div>Chúng tôi đã nhận thấy rằng bạn chưa thanh toán hóa đơn {{sales_invoice}} cho {{frappe.db.get_value(\"Currency\", currency, \"symbol\")}} {{outstanding_amount}}. Đây là lời nhắc thân thiện rằng hóa đơn đã đến hạn vào {{due_date}}. Vui lòng thanh toán số tiền còn nợ ngay để tránh chi phí đòi nợ thêm.</div>\n"
-"\n"
-"<h4>Cách lấy tên trường</h4>\n"
-"\n"
-"<p>Các tên trường bạn có thể sử dụng trong mẫu là các trường trong tài liệu. Bạn có thể tìm hiểu các trường của bất kỳ tài liệu nào qua Thiết lập &gt; Tùy chỉnh Form View và chọn loại tài liệu (ví dụ: Hóa đơn Bán)</p>\n"
-"\n"
-"<h4>Mẫu Template</h4>\n"
-"\n"
-"<p>Các mẫu được biên soạn bằng Ngôn ngữ Template Jinja. Để tìm hiểu thêm về Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">đọc tài liệu này.</a></p>"
+msgstr "<h4>Ví dụ về Nội dung và Kết thúc</h4>\n\n<div>Chúng tôi đã nhận thấy rằng bạn chưa thanh toán hóa đơn {{sales_invoice}} cho {{frappe.db.get_value(\"Currency\", currency, \"symbol\")}} {{outstanding_amount}}. Đây là lời nhắc thân thiện rằng hóa đơn đã đến hạn vào {{due_date}}. Vui lòng thanh toán số tiền còn nợ ngay để tránh chi phí nhắc nợ thêm.</div>\n\n<h4>Cách lấy tên trường</h4>\n\n<p>Các tên trường bạn có thể sử dụng trong mẫu là các trường trong tài liệu. Bạn có thể tìm hiểu các trường của bất kỳ tài liệu nào qua Thiết lập &gt; Tùy chỉnh Form View và chọn loại tài liệu (ví dụ: Hoá đơn bán hàng)</p>\n\n<h4>Mẫu Template</h4>\n\n<p>Các mẫu được biên soạn bằng Ngôn ngữ Template Jinja. Để tìm hiểu thêm về Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">đọc tài liệu này.</a></p>"
 
 #. Content of the 'Contract Template Help' (HTML) field in DocType 'Contract
 #. Template'
@@ -807,22 +761,7 @@ msgid ""
 "<h4>Templating</h4>\n"
 "\n"
 "<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
-msgstr ""
-"<h4>Ví dụ Mẫu Hợp đồng</h4>\n"
-"\n"
-"<pre>Hợp đồng cho Khách hàng {{ party_name }}\n"
-"\n"
-"-Có hiệu lực từ : {{ start_date }} \n"
-"-Có hiệu lực đến : {{ end_date }}\n"
-"</pre>\n"
-"\n"
-"<h4>Cách lấy tên trường</h4>\n"
-"\n"
-"<p>Các tên trường bạn có thể sử dụng trong Mẫu Hợp đồng là các trường trong Hợp đồng mà bạn đang tạo mẫu. Bạn có thể tìm hiểu các trường của bất kỳ tài liệu nào qua Thiết lập &gt; Tùy chỉnh Form View và chọn loại tài liệu (ví dụ: Hợp đồng)</p>\n"
-"\n"
-"<h4>Mẫu Template</h4>\n"
-"\n"
-"<p>Các mẫu được biên soạn bằng Ngôn ngữ Template Jinja. Để tìm hiểu thêm về Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">đọc tài liệu này.</a></p>"
+msgstr "<h4>Ví dụ Mẫu Hợp đồng</h4>\n\n<pre>Hợp đồng cho Khách hàng {{ party_name }}\n\n-Có hiệu lực từ : {{ start_date }} \n-Có hiệu lực đến : {{ end_date }}\n</pre>\n\n<h4>Cách lấy tên trường</h4>\n\n<p>Các tên trường bạn có thể sử dụng trong Mẫu Hợp đồng là các trường trong Hợp đồng mà bạn đang tạo mẫu. Bạn có thể tìm hiểu các trường của bất kỳ tài liệu nào qua Thiết lập &gt; Tùy chỉnh Form View và chọn loại tài liệu (ví dụ: Hợp đồng)</p>\n\n<h4>Mẫu Template</h4>\n\n<p>Các mẫu được biên soạn bằng Ngôn ngữ Template Jinja. Để tìm hiểu thêm về Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">đọc tài liệu này.</a></p>"
 
 #. Content of the 'Terms and Conditions Help' (HTML) field in DocType 'Terms
 #. and Conditions'
@@ -843,22 +782,7 @@ msgid ""
 "<h4>Templating</h4>\n"
 "\n"
 "<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
-msgstr ""
-"<h4>Ví dụ Điều khoản và Điều kiện Tiêu chuẩn</h4>\n"
-"\n"
-"<pre>Điều khoản Giao hàng cho Số đơn hàng {{ name }}\n"
-"\n"
-"-Ngày đặt hàng : {{ transaction_date }} \n"
-"-Ngày Giao hàng Dự kiến : {{ delivery_date }}\n"
-"</pre>\n"
-"\n"
-"<h4>Cách lấy tên trường</h4>\n"
-"\n"
-"<p>Các tên trường bạn có thể sử dụng trong mẫu email là các trường trong tài liệu mà bạn đang gửi email. Bạn có thể tìm hiểu các trường của bất kỳ tài liệu nào qua Thiết lập &gt; Tùy chỉnh Form View và chọn loại tài liệu (ví dụ: Hóa đơn Bán)</p>\n"
-"\n"
-"<h4>Mẫu Template</h4>\n"
-"\n"
-"<p>Các mẫu được biên soạn bằng Ngôn ngữ Template Jinja. Để tìm hiểu thêm về Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">đọc tài liệu này.</a></p>"
+msgstr "<h4>Ví dụ Điều khoản và Điều kiện Tiêu chuẩn</h4>\n\n<pre>Điều khoản Giao hàng cho Số đơn hàng {{ name }}\n\n-Ngày đặt hàng : {{ transaction_date }} \n-Ngày Giao hàng Dự kiến : {{ delivery_date }}\n</pre>\n\n<h4>Cách lấy tên trường</h4>\n\n<p>Các tên trường bạn có thể sử dụng trong mẫu email là các trường trong tài liệu mà bạn đang gửi email. Bạn có thể tìm hiểu các trường của bất kỳ tài liệu nào qua Thiết lập &gt; Tùy chỉnh Form View và chọn loại tài liệu (ví dụ: Hoá đơn bán hàng)</p>\n\n<h4>Mẫu Template</h4>\n\n<p>Các mẫu được biên soạn bằng Ngôn ngữ Template Jinja. Để tìm hiểu thêm về Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">đọc tài liệu này.</a></p>"
 
 #. Content of the 'account_no_settings' (HTML) field in DocType 'Cheque Print
 #. Template'
@@ -929,27 +853,7 @@ msgid ""
 "    </ul>\n"
 "<p></p>\n"
 "<p>Apart from these, you can access all values in this RFQ, like <code>{{ message_for_supplier }}</code> or <code>{{ terms }}</code>.</p>"
-msgstr ""
-"<p>Trong <b>Mẫu Email</b> của bạn, bạn có thể sử dụng các biến đặc biệt sau:\n"
-"</p>\n"
-"<ul>\n"
-"        <li>\n"
-"            <code>{{ update_password_link }}</code>: Một liên kết nơi nhà cung cấp của bạn có thể đặt mật khẩu mới để đăng nhập vào cổng thông tin của bạn.\n"
-"        </li>\n"
-"        <li>\n"
-"            <code>{{ portal_link }}</code>: Một liên kết đến RFQ này trong cổng thông tin nhà cung cấp của bạn.\n"
-"        </li>\n"
-"        <li>\n"
-"            <code>{{ supplier_name }}</code>: Tên công ty của nhà cung cấp của bạn.\n"
-"        </li>\n"
-"        <li>\n"
-"            <code>{{ contact.salutation }} {{ contact.last_name }}</code>: Người liên hệ của nhà cung cấp của bạn.\n"
-"        </li><li>\n"
-"            <code>{{ user_fullname }}</code>: Tên đầy đủ của bạn.\n"
-"        </li>\n"
-"    </ul>\n"
-"<p></p>\n"
-"<p>Ngoài những điều này, bạn có thể truy cập tất cả các giá trị trong RFQ này, như <code>{{ message_for_supplier }}</code> hoặc <code>{{ terms }}</code>.</p>"
+msgstr "<p>Trong <b>Mẫu Email</b> của bạn, bạn có thể sử dụng các biến đặc biệt sau:\n</p>\n<ul>\n        <li>\n            <code>{{ update_password_link }}</code>: Một liên kết nơi nhà cung cấp của bạn có thể đặt mật khẩu mới để đăng nhập vào cổng thông tin của bạn.\n        </li>\n        <li>\n            <code>{{ portal_link }}</code>: Một liên kết đến RFQ này trong cổng thông tin nhà cung cấp của bạn.\n        </li>\n        <li>\n            <code>{{ supplier_name }}</code>: Tên công ty của nhà cung cấp của bạn.\n        </li>\n        <li>\n            <code>{{ contact.salutation }} {{ contact.last_name }}</code>: Người liên hệ của nhà cung cấp của bạn.\n        </li><li>\n            <code>{{ user_fullname }}</code>: Tên đầy đủ của bạn.\n        </li>\n    </ul>\n<p></p>\n<p>Ngoài những điều này, bạn có thể truy cập tất cả các giá trị trong RFQ này, như <code>{{ message_for_supplier }}</code> hoặc <code>{{ terms }}</code>.</p>"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:118
 msgid "<p>Please correct the following row(s):</p><ul>"
@@ -982,18 +886,7 @@ msgid ""
 "&lt;a href=\"{{ payment_url }}\"&gt; click here to pay &lt;/a&gt;\n"
 "\n"
 "</pre>\n"
-msgstr ""
-"<pre><h5>Ví dụ về tin nhắn</h5>\n"
-"\n"
-"&lt;p&gt; Cảm ơn bạn đã là một phần của {{ doc.company }}! Chúng tôi hy vọng bạn hài lòng với dịch vụ này.&lt;/p&gt;\n"
-"\n"
-"&lt;p&gt; Vui lòng xem bản kê khai Hóa đơn điện tử kèm theo. Số tiền còn nợ là {{ doc.grand_total }}.&lt;/p&gt;\n"
-"\n"
-"&lt;p&gt; Chúng tôi không muốn bạn mất thời gian chạy loanh quanh để trả hóa đơn.<br>Sau tất cả, cuộc sống thật tươi đẹp và bạn nên dành thời gian trong tay để tận hưởng nó!<br>Vì vậy, đây là những cách nhỏ của chúng tôi để giúp bạn có thêm thời gian cho cuộc sống! &lt;/p&gt;\n"
-"\n"
-"&lt;a href=\"{{ payment_url }}\"&gt; bấm vào đây để thanh toán &lt;/a&gt;\n"
-"\n"
-"</pre>"
+msgstr "<pre><h5>Ví dụ về tin nhắn</h5>\n\n&lt;p&gt; Cảm ơn bạn đã là một phần của {{ doc.company }}! Chúng tôi hy vọng bạn hài lòng với dịch vụ này.&lt;/p&gt;\n\n&lt;p&gt; Vui lòng xem bản kê khai Hóa đơn điện tử kèm theo. Số tiền còn nợ là {{ doc.grand_total }}.&lt;/p&gt;\n\n&lt;p&gt; Chúng tôi không muốn bạn mất thời gian chạy loanh quanh để trả hóa đơn.<br>Sau tất cả, cuộc sống thật tươi đẹp và bạn nên dành thời gian trong tay để tận hưởng nó!<br>Vì vậy, đây là những cách nhỏ của chúng tôi để giúp bạn có thêm thời gian cho cuộc sống! &lt;/p&gt;\n\n&lt;a href=\"{{ payment_url }}\"&gt; bấm vào đây để thanh toán &lt;/a&gt;\n\n</pre>"
 
 #. Content of the 'Message Examples' (HTML) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -1007,16 +900,7 @@ msgid ""
 "&lt;a href=\"{{ payment_url }}\"&gt; click here to pay &lt;/a&gt;\n"
 "\n"
 "</pre>\n"
-msgstr ""
-"<pre><h5>Ví dụ Thông điệp</h5>\n"
-"\n"
-"&lt;p&gt;Kính gửi {{ doc.contact_person }},&lt;/p&gt;\n"
-"\n"
-"&lt;p&gt;Yêu cầu thanh toán cho {{ doc.doctype }}, {{ doc.name }} cho {{ doc.grand_total }}.&lt;/p&gt;\n"
-"\n"
-"&lt;a href=\"{{ payment_url }}\"&gt; nhấp vào đây để thanh toán &lt;/a&gt;\n"
-"\n"
-"</pre>"
+msgstr "<pre><h5>Ví dụ Thông điệp</h5>\n\n&lt;p&gt;Kính gửi {{ doc.contact_person }},&lt;/p&gt;\n\n&lt;p&gt;Yêu cầu thanh toán cho {{ doc.doctype }}, {{ doc.name }} cho {{ doc.grand_total }}.&lt;/p&gt;\n\n&lt;a href=\"{{ payment_url }}\"&gt; nhấp vào đây để thanh toán &lt;/a&gt;\n\n</pre>"
 
 #. Header text in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json
@@ -1059,14 +943,7 @@ msgid ""
 "\t\t\n"
 "\t\t\t\n"
 "\t\t</b></span>"
-msgstr ""
-"<span class=\"h4\"><b>Lối tắt của Bạn\n"
-"\t\t\t\n"
-"\t\t\n"
-"\t\t\t\n"
-"\t\t\n"
-"\t\t\t\n"
-"\t\t</b></span>"
+msgstr "<span class=\"h4\"><b>Lối tắt của Bạn\n\t\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t</b></span>"
 
 #. Header text in the Manufacturing Workspace
 #. Header text in the Home Workspace
@@ -1121,36 +998,7 @@ msgid ""
 "\n"
 "\n"
 "\n"
-msgstr ""
-"<table class=\"table table-bordered table-condensed\">\n"
-"<thead>\n"
-"  <tr>\n"
-"         <th class=\"table-sr\" style=\"width: 50%;\">Tài liệu con</th>\n"
-"         <th class=\"table-sr\" style=\"width: 50%;\">Tài liệu không dành cho trẻ em</th>\n"
-"   </tr>\n"
-"</thead>\n"
-"<tbody>\n"
-"<tr>\n"
-"         <td>\n"
-"                  <p> Để truy cập trường tài liệu cha, hãy sử dụng parent.fieldname và để truy cập trường tài liệu của bảng con, hãy sử dụng doc.fieldname </p>\n"
-"\n"
-"         </td>\n"
-"         <td>\n"
-"                    <p>Để truy cập trường tài liệu, hãy sử dụng doc.fieldname </p>\n"
-"         </td>\n"
-"</tr>\n"
-"<tr>\n"
-"        <td>\n"
-"                   <p><b>Ví dụ: </b> parent.doctype == \"Phiếu kho\" và doc.item_code == \"Kiểm tra\" </p>\n"
-"\n"
-"        </td>\n"
-"         <td>\n"
-"                   <p><b>Ví dụ: </b> doc.doctype == \"Phiếu kho\" và doc.Purpose == \"Sản xuất\"</p>    \n"
-"          </td>\n"
-"</tr>\n"
-"\n"
-"</tbody>\n"
-"</table>"
+msgstr "<table class=\"table table-bordered table-condensed\">\n<thead>\n  <tr>\n         <th class=\"table-sr\" style=\"width: 50%;\">Tài liệu con</th>\n         <th class=\"table-sr\" style=\"width: 50%;\">Tài liệu không dành cho trẻ em</th>\n   </tr>\n</thead>\n<tbody>\n<tr>\n         <td>\n                  <p> Để truy cập trường tài liệu cha, hãy sử dụng parent.fieldname và để truy cập trường tài liệu của bảng con, hãy sử dụng doc.fieldname </p>\n\n         </td>\n         <td>\n                    <p>Để truy cập trường tài liệu, hãy sử dụng doc.fieldname </p>\n         </td>\n</tr>\n<tr>\n        <td>\n                   <p><b>Ví dụ: </b> parent.doctype == \"Phiếu kho\" và doc.item_code == \"Kiểm tra\" </p>\n\n        </td>\n         <td>\n                   <p><b>Ví dụ: </b> doc.doctype == \"Phiếu kho\" và doc.Purpose == \"Sản xuất\"</p>    \n          </td>\n</tr>\n\n</tbody>\n</table>"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:213
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:116
@@ -3206,12 +3054,7 @@ msgid ""
 "\t\t\t\t\tTo fix this, increase the percentage value\n"
 "\t\t\t\t\tof the field 'Transfer Extra Raw Materials to WIP'\n"
 "\t\t\t\t\tin Manufacturing Settings."
-msgstr ""
-"Số lượng chuyển thêm {0}\n"
-"\t\t\t\t\tkhông thể lớn hơn {1}.\n"
-"\t\t\t\t\tĐể sửa lỗi này, tăng giá trị phần trăm\n"
-"\t\t\t\t\tcủa trường 'Chuyển Nguyên liệu thô Thêm vào WIP'\n"
-"\t\t\t\t\ttrong Cài đặt Sản xuất."
+msgstr "Số lượng chuyển thêm {0}\n\t\t\t\t\tkhông thể lớn hơn {1}.\n\t\t\t\t\tĐể sửa lỗi này, tăng giá trị phần trăm\n\t\t\t\t\tcủa trường 'Chuyển Nguyên liệu thô Thêm vào WIP'\n\t\t\t\t\ttrong Cài đặt Sản xuất."
 
 #. Description of the 'Customer Details' (Text) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -3413,7 +3256,7 @@ msgstr "Tạm ứng đã trả"
 #. Label of the advance_paid (Currency) field in DocType 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 msgid "Advance Paid (Company Currency)"
-msgstr "Tạm ứng đã trả (Tiền tệ Công ty)"
+msgstr "Tạm ứng đã thanh toán (Tiền tệ công ty)"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order_list.js:75
 #: erpnext/selling/doctype/sales_order/sales_order_list.js:122
@@ -4195,7 +4038,7 @@ msgstr "Cho phép mục được thêm nhiều lần trong một giao dịch"
 #. 'CRM Settings'
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 msgid "Allow Lead Duplication based on Emails"
-msgstr "Cho phép Trùng lặp Lead dựa trên Emails"
+msgstr "Cho phép tạo trùng khách hàng tiềm năng dựa trên email"
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:9
 msgid "Allow Multiple Material Consumption"
@@ -4406,7 +4249,7 @@ msgstr "Cho phép giao hàng với số lượng vượt quá kế hoạch"
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow editing Price List rate in transactions"
-msgstr "Cho phép chỉnh sửa giá danh mục trong giao dịch"
+msgstr "Cho phép chỉnh sửa đơn giá bảng giá trong giao dịch"
 
 #. Label of the allow_existing_serial_no (Check) field in DocType 'Stock
 #. Settings'
@@ -6691,11 +6534,11 @@ msgstr "Tỷ lệ Trung bình (Tồn kho Cân bằng)"
 
 #: erpnext/stock/report/item_variant_details/item_variant_details.py:96
 msgid "Avg. Buying Price List Rate"
-msgstr "Đơn giá mua trung bình"
+msgstr "Đơn giá mua trung bình theo bảng giá"
 
 #: erpnext/stock/report/item_variant_details/item_variant_details.py:102
 msgid "Avg. Selling Price List Rate"
-msgstr "Đơn giá bán trung bình"
+msgstr "Đơn giá bán trung bình theo bảng giá"
 
 #: erpnext/accounts/report/gross_profit/gross_profit.py:347
 msgid "Avg. Selling Rate"
@@ -10205,7 +10048,7 @@ msgstr "Lỗi Tham chiếu Vòng tròn"
 #. 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Claimed Landed Cost Amount (Company Currency)"
-msgstr "Số tiền Chi phí Đã ghi nhận (Đơn vị tiền tệ Công ty)"
+msgstr "Số tiền chi phí nhập hàng đã ghi nhận (Tiền tệ công ty)"
 
 #. Label of the class_per (Data) field in DocType 'Employee Education'
 #: erpnext/setup/doctype/employee_education/employee_education.json
@@ -13188,17 +13031,13 @@ msgstr "Tạo <b><a href='/app/{0}'>{1}(s)</a></b> thành công"
 msgid ""
 "Creation of {0} failed.\n"
 "\t\t\t\tCheck <b><a href=\"/app/bulk-transaction-log\">Bulk Transaction Log</a></b>"
-msgstr ""
-"Tạo {0} thất bại.\n"
-"\t\t\t\tKiểm tra <b><a href=\"/app/bulk-transaction-log\">Nhật ký Giao dịch Hàng loạt</a></b>"
+msgstr "Tạo {0} thất bại.\n\t\t\t\tKiểm tra <b><a href=\"/app/bulk-transaction-log\">Nhật ký Giao dịch Hàng loạt</a></b>"
 
 #: erpnext/utilities/bulk_transaction.py:218
 msgid ""
 "Creation of {0} partially successful.\n"
 "\t\t\t\tCheck <b><a href=\"/app/bulk-transaction-log\">Bulk Transaction Log</a></b>"
-msgstr ""
-"Tạo {0} một phần thành công.\n"
-"\t\t\t\tKiểm tra <b><a href=\"/app/bulk-transaction-log\">Nhật ký Giao dịch Hàng loạt</a></b>"
+msgstr "Tạo {0} một phần thành công.\n\t\t\t\tKiểm tra <b><a href=\"/app/bulk-transaction-log\">Nhật ký Giao dịch Hàng loạt</a></b>"
 
 #. Option for the 'Balance must be' (Select) field in DocType 'Account'
 #. Label of the credit_in_account_currency (Currency) field in DocType 'Journal
@@ -17371,40 +17210,40 @@ msgstr "Do bút toán đóng kho {0}, bạn không thể đăng lại định gi
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:156
 #: erpnext/workspace_sidebar/banking.json
 msgid "Dunning"
-msgstr "Dunning"
+msgstr "Nhắc nợ"
 
 #. Label of the dunning_amount (Currency) field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
 msgid "Dunning Amount"
-msgstr "Số tiền Dunning"
+msgstr "Số tiền nhắc nợ"
 
 #. Label of the base_dunning_amount (Currency) field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
 msgid "Dunning Amount (Company Currency)"
-msgstr "Số tiền Dunning (Tiền tệ Công ty)"
+msgstr "Số tiền nhắc nợ (Tiền tệ Công ty)"
 
 #. Label of the dunning_fee (Currency) field in DocType 'Dunning'
 #. Label of the dunning_fee (Currency) field in DocType 'Dunning Type'
 #: erpnext/accounts/doctype/dunning/dunning.json
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json
 msgid "Dunning Fee"
-msgstr "Phí Dunning"
+msgstr "Phí nhắc nợ"
 
 #. Label of the text_block_section (Section Break) field in DocType 'Dunning
 #. Type'
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json
 msgid "Dunning Letter"
-msgstr "Thư Dunning"
+msgstr "Thư nhắc nợ"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
 msgid "Dunning Letter Text"
-msgstr "Văn bản Thư Dunning"
+msgstr "Văn bản Thư nhắc nợ"
 
 #. Label of the dunning_level (Int) field in DocType 'Overdue Payment'
 #: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
 msgid "Dunning Level"
-msgstr "Cấp độ Dunning"
+msgstr "Cấp độ nhắc nợ"
 
 #. Label of the dunning_type (Link) field in DocType 'Dunning'
 #. Name of a DocType
@@ -17414,7 +17253,7 @@ msgstr "Cấp độ Dunning"
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json
 #: erpnext/workspace_sidebar/banking.json
 msgid "Dunning Type"
-msgstr "Loại Dunning"
+msgstr "Loại nhắc nợ"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:170
 msgid "Duplicate Customer Group"
@@ -18191,7 +18030,7 @@ msgstr "Bật UTM"
 #. Description of the 'Enable UTM' (Check) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Enable Urchin Tracking Module parameters in Quotation, Sales Order, Sales Invoice, POS Invoice, Lead,  and Delivery Note."
-msgstr "Bật tham số Mô-đun theo dõi Urchin trong Báo giá, Đơn bán hàng, Hóa đơn Bán, Hóa đơn POS, Cơ hội và Phiếu giao hàng."
+msgstr "Bật tham số Mô-đun theo dõi Urchin trong Báo giá, Đơn bán hàng, Hoá đơn bán hàng, Hóa đơn POS, Cơ hội và Phiếu giao hàng."
 
 #. Label of the enable_youtube_tracking (Check) field in DocType 'Video
 #. Settings'
@@ -18305,13 +18144,7 @@ msgid ""
 "<li>Calculate the prices of all <a href=\"/desk/product-bundle\" rel=\"noopener noreferrer\">Product Bundles</a> in the Items table, based on the prices of its child Items, specified in the Packed/Bundle Items table. </li>\n"
 "</ul>\n"
 "Note: If this is enabled, updating the rate of the Product Bundle in the Items table will not change its price. It will get reset to the price based on its Child Items on saving the doc."
-msgstr ""
-"Bật chức năng này sẽ thực hiện các điều sau:\n"
-"<ul style=\"padding-left:16px\">\n"
-"<li>Cho phép chỉnh sửa cột đơn giá của tất cả bảng Mặt hàng Đóng gói/Bộ sản phẩm.</li>\n"
-"<li>Tính giá của tất cả <a href=\"/desk/product-bundle\" rel=\"noopener noreferrer\">Bộ sản phẩm</a> trong bảng Mặt hàng, dựa trên giá của các Mặt hàng con được chỉ định trong bảng Mặt hàng Đóng gói/Bộ sản phẩm.</li>\n"
-"</ul>\n"
-"Lưu ý: Nếu bật, việc cập nhật đơn giá Bộ sản phẩm trong bảng Mặt hàng sẽ không thay đổi giá của nó. Giá sẽ được đặt lại theo Mặt hàng con khi lưu tài liệu."
+msgstr "Bật chức năng này sẽ thực hiện các điều sau:\n<ul style=\"padding-left:16px\">\n<li>Cho phép chỉnh sửa cột đơn giá của tất cả bảng Mặt hàng Đóng gói/Bộ sản phẩm.</li>\n<li>Tính giá của tất cả <a href=\"/desk/product-bundle\" rel=\"noopener noreferrer\">Bộ sản phẩm</a> trong bảng Mặt hàng, dựa trên giá của các Mặt hàng con được chỉ định trong bảng Mặt hàng Đóng gói/Bộ sản phẩm.</li>\n</ul>\nLưu ý: Nếu bật, việc cập nhật đơn giá Bộ sản phẩm trong bảng Mặt hàng sẽ không thay đổi giá của nó. Giá sẽ được đặt lại theo Mặt hàng con khi lưu tài liệu."
 
 #. Label of the encashment_date (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -18416,7 +18249,7 @@ msgstr "Nhập Serial Nos"
 #: erpnext/manufacturing/doctype/job_card/job_card.js:479
 #: erpnext/manufacturing/doctype/workstation/workstation.js:312
 msgid "Enter Value"
-msgstr "Nhập Giá trị"
+msgstr "Nhập giá trị"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.js:96
 msgid "Enter Visit Details"
@@ -18475,10 +18308,7 @@ msgid ""
 "Enter the Operation, the table will fetch the Operation details like Hourly Rate, Workstation automatically.\n"
 "\n"
 " After that, set the Operation Time in minutes and the table will calculate the Operation Costs based on the Hourly Rate and Operation Time."
-msgstr ""
-"Nhập Hoạt động, bảng sẽ tự động lấy chi tiết Hoạt động như Đơn giá theo giờ, Trạm làm việc.\n"
-"\n"
-" Sau đó, đặt Thời gian Hoạt động tính bằng phút và bảng sẽ tính Chi phí Hoạt động dựa trên Đơn giá theo giờ và Thời gian Hoạt động."
+msgstr "Nhập Hoạt động, bảng sẽ tự động lấy chi tiết Hoạt động như Đơn giá theo giờ, Trạm làm việc.\n\n Sau đó, đặt Thời gian Hoạt động tính bằng phút và bảng sẽ tính Chi phí Hoạt động dựa trên Đơn giá theo giờ và Thời gian Hoạt động."
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:53
 msgid "Enter the name of the Beneficiary before submitting."
@@ -18596,10 +18426,7 @@ msgid ""
 "Error: This asset already has {0} depreciation periods booked.\n"
 "\t\t\t\t\tThe `depreciation start` date must be at least {1} periods after the `available for use` date.\n"
 "\t\t\t\t\tPlease correct the dates accordingly."
-msgstr ""
-"Lỗi: Tài sản này đã có {0} kỳ khấu hao được đặt.\n"
-"\t\t\t\t\tNgày `bắt đầu khấu hao` phải ít nhất {1} kỳ sau ngày `sẵn sàng sử dụng`.\n"
-"\t\t\t\t\tVui lòng sửa các ngày cho phù hợp."
+msgstr "Lỗi: Tài sản này đã có {0} kỳ khấu hao được đặt.\n\t\t\t\t\tNgày `bắt đầu khấu hao` phải ít nhất {1} kỳ sau ngày `sẵn sàng sử dụng`.\n\t\t\t\t\tVui lòng sửa các ngày cho phù hợp."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:987
 msgid "Error: {0} is mandatory field"
@@ -18656,9 +18483,7 @@ msgstr "Ví dụ của tài liệu được liên kết: {0}"
 msgid ""
 "Example: ABCD.#####\n"
 "If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank."
-msgstr ""
-"Ví dụ: ABCD.#####\n"
-"Nếu series được đặt và Serial No không được đề cập trong giao dịch, thì serial number tự động sẽ được tạo dựa trên series này. Nếu bạn luôn muốn đề cập rõ ràng Serial Nos cho mặt hàng này, hãy để trống."
+msgstr "Ví dụ: ABCD.#####\nNếu series được đặt và Serial No không được đề cập trong giao dịch, thì serial number tự động sẽ được tạo dựa trên series này. Nếu bạn luôn muốn đề cập rõ ràng Serial Nos cho mặt hàng này, hãy để trống."
 
 #. Description of the 'Batch Number Series' (Data) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -20218,7 +20043,7 @@ msgstr "Đối với mặt hàng {0}, số lượng phải là số dương"
 #. Description of the 'Income Account' (Link) field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
 msgid "For dunning fee and interest"
-msgstr "Cho phí đòi nợ và lãi"
+msgstr "Cho phí nhắc nợ và lãi"
 
 #. Description of the 'Year Name' (Data) field in DocType 'Fiscal Year'
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
@@ -22367,9 +22192,7 @@ msgstr "Nếu chọn \"Tháng\", một khoản cố định sẽ được ghi nh
 msgid ""
 "If <b>Enabled</b> - Reconciliation happens on the <b>Advance Payment posting date</b><br>\n"
 "If <b>Disabled</b> - Reconciliation happens on oldest of 2 Dates: <b>Invoice Date</b> or the <b>Advance Payment posting date</b><br>\n"
-msgstr ""
-"Nếu <b>Đã bật</b> - Việc hòa giải diễn ra vào <b>Ngày hạch toán Thanh toán tạm ứng</b><br>\n"
-"Nếu <b>Đã tắt</b> - Việc đối chiếu diễn ra vào ngày cũ nhất trong 2 ngày: <b>Ngày lập hóa đơn</b> hoặc <b>Ngày hạch toán khoản thanh toán tạm ứng</b><br>"
+msgstr "Nếu <b>Đã bật</b> - Việc hòa giải diễn ra vào <b>Ngày hạch toán Thanh toán tạm ứng</b><br>\nNếu <b>Đã tắt</b> - Việc đối chiếu diễn ra vào ngày cũ nhất trong 2 ngày: <b>Ngày lập hóa đơn</b> hoặc <b>Ngày hạch toán khoản thanh toán tạm ứng</b><br>"
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:34
 msgid "If Auto Opt In is checked, then the customers will be automatically linked with the concerned Loyalty Program (on save)"
@@ -22481,9 +22304,7 @@ msgstr "Nếu được bật, tất cả các tệp đính kèm vào tài liệu
 msgid ""
 "If enabled, do not update serial / batch values in the stock transactions on creation of auto Serial \n"
 " / Batch Bundle. "
-msgstr ""
-"Nếu được bật, không cập nhật giá trị serial / lô trong các giao dịch kho khi tạo Bó Serial \n"
-" / Lô tự động. "
+msgstr "Nếu được bật, không cập nhật giá trị serial / lô trong các giao dịch kho khi tạo Bó Serial \n / Lô tự động. "
 
 #. Description of the 'Consider Projected Qty in Calculation' (Check) field in
 #. DocType 'Production Plan'
@@ -22491,9 +22312,7 @@ msgstr ""
 msgid ""
 "If enabled, formula for <b>Qty to Order</b>: <br>\n"
 "Required Qty (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Projected Qty</a>. <br> This helps avoid over-ordering."
-msgstr ""
-"Nếu được bật, công thức cho <b>Số lượng đặt</b>: <br>\n"
-"Số lượng yêu cầu (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Số lượng dự kiến</a>. <br> Điều này giúp tránh đặt quá nhiều."
+msgstr "Nếu được bật, công thức cho <b>Số lượng đặt</b>: <br>\nSố lượng yêu cầu (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Số lượng dự kiến</a>. <br> Điều này giúp tránh đặt quá nhiều."
 
 #. Description of the 'Consider Projected Qty in Calculation (RM)' (Check)
 #. field in DocType 'Production Plan'
@@ -22501,9 +22320,7 @@ msgstr ""
 msgid ""
 "If enabled, formula for <b>Required Qty</b>: <br>\n"
 "Required Qty (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Projected Qty</a>. <br> This helps avoid over-ordering."
-msgstr ""
-"Nếu được bật, công thức cho <b>Số lượng yêu cầu</b>: <br>\n"
-"Số lượng yêu cầu (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Số lượng dự kiến</a>. <br> Điều này giúp tránh đặt quá nhiều."
+msgstr "Nếu được bật, công thức cho <b>Số lượng yêu cầu</b>: <br>\nSố lượng yêu cầu (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Số lượng dự kiến</a>. <br> Điều này giúp tránh đặt quá nhiều."
 
 #. Description of the 'Create Ledger Entries for Change Amount' (Check) field
 #. in DocType 'POS Settings'
@@ -23981,7 +23798,7 @@ msgstr "Thu nhập lãi"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2986
 msgid "Interest and/or dunning fee"
-msgstr "Lãi và/hoặc phí đòi nợ"
+msgstr "Lãi và/hoặc phí nhắc nợ"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:147
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:244
@@ -25216,7 +25033,7 @@ msgstr "Loại Vấn đề"
 #. DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Issue a debit note with 0 qty against an existing Sales Invoice"
-msgstr "Phát hành bút toán ghi nợ với 0 số lượng đối với Hóa đơn bán hiện có"
+msgstr "Phát hành bút toán ghi nợ với 0 số lượng đối với Hoá đơn bán hàng hiện có"
 
 #. Option for the 'Current State' (Select) field in DocType 'Share Balance'
 #. Option for the 'Status' (Select) field in DocType 'Material Request'
@@ -27224,41 +27041,41 @@ msgstr "LIFO"
 #. Label of the taxes (Table) field in DocType 'Landed Cost Voucher'
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
 msgid "Landed Cost"
-msgstr "Chi phí hạ tầng"
+msgstr "Chi phí nhập hàng"
 
 #. Label of the landed_cost_help (HTML) field in DocType 'Landed Cost Voucher'
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
 msgid "Landed Cost Help"
-msgstr "Trợ giúp Chi phí hạ tầng"
+msgstr "Trợ giúp chi phí nhập hàng"
 
 #: erpnext/stock/report/landed_cost_report/landed_cost_report.py:18
 msgid "Landed Cost Id"
-msgstr "Mã Chi phí hạ tầng"
+msgstr "Mã chi phí nhập hàng"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
 msgid "Landed Cost Item"
-msgstr "Mục Chi phí hạ tầng"
+msgstr "Mục chi phí nhập hàng"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/landed_cost_purchase_receipt/landed_cost_purchase_receipt.json
 msgid "Landed Cost Purchase Receipt"
-msgstr "Phiếu nhập hàng Chi phí hạ tầng"
+msgstr "Phiếu nhập hàng của chi phí nhập hàng"
 
 #. Name of a report
 #: erpnext/stock/report/landed_cost_report/landed_cost_report.json
 msgid "Landed Cost Report"
-msgstr "Báo cáo Chi phí hạ tầng"
+msgstr "Báo cáo chi phí nhập hàng"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/landed_cost_taxes_and_charges/landed_cost_taxes_and_charges.json
 msgid "Landed Cost Taxes and Charges"
-msgstr "Thuế và Phí Chi phí hạ tầng"
+msgstr "Thuế và phí của chi phí nhập hàng"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/landed_cost_vendor_invoice/landed_cost_vendor_invoice.json
 msgid "Landed Cost Vendor Invoice"
-msgstr "Hóa đơn Nhà cung cấp Chi phí hạ tầng"
+msgstr "Hóa đơn nhà cung cấp của chi phí nhập hàng"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -27568,9 +27385,7 @@ msgstr "Đã thanh toán phép?"
 msgid ""
 "Leave blank for home.\n"
 "This is relative to site URL, for example \"about\" will redirect to \"https://yoursitename.com/about\""
-msgstr ""
-"Để trống cho trang chủ.\n"
-"Đây là đường dẫn tương đối so với URL site, ví dụ \"about\" sẽ chuyển hướng đến \"https://yoursitename.com/about\""
+msgstr "Để trống cho trang chủ.\nĐây là đường dẫn tương đối so với URL site, ví dụ \"about\" sẽ chuyển hướng đến \"https://yoursitename.com/about\""
 
 #. Description of the 'Release Date' (Date) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
@@ -28067,7 +27882,7 @@ msgstr "Đổi điểm trung thành"
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:16
 msgid "Loyalty Points will be calculated from the spent done (via the Sales Invoice), based on collection factor mentioned."
-msgstr "Điểm trung thành sẽ được tính từ số tiền đã chi tiêu (qua Hóa đơn Bán), dựa trên hệ số tích lũy được đề cập."
+msgstr "Điểm trung thành sẽ được tính từ số tiền đã chi tiêu (qua Hoá đơn bán hàng), dựa trên hệ số tích lũy được đề cập."
 
 #: erpnext/public/js/utils.js:200
 msgid "Loyalty Points: {0}"
@@ -28462,7 +28277,7 @@ msgstr "Tạo Bút toán Trả lại"
 #. Label of the make_sales_invoice (Check) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Make Sales Invoice"
-msgstr "Tạo Hóa đơn bán"
+msgstr "Tạo Hoá đơn bán hàng"
 
 #. Label of the make_serial_no_batch_from_work_order (Check) field in DocType
 #. 'Manufacturing Settings'
@@ -30794,7 +30609,7 @@ msgstr "Báo giá mới"
 #. Label of the sales_invoice (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "New Sales Invoice"
-msgstr "Hóa đơn bán mới"
+msgstr "Hoá đơn bán hàng mới"
 
 #. Label of the sales_order (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -31948,9 +31763,7 @@ msgstr "Chỉ dùng cho quy trình nhận gia công."
 msgid ""
 "Only values between [0,1) are allowed. Like {0.00, 0.04, 0.09, ...}\n"
 "Ex: If allowance is set at 0.07, accounts that have balance of 0.07 in either of the currencies will be considered as zero balance account"
-msgstr ""
-"Chỉ các giá trị giữa [0,1) được cho phép. Ví dụ {0.00, 0.04, 0.09, ...}\n"
-"Ví dụ: Nếu khoảng cho phép được đặt là 0.07, các tài khoản có số dư là 0.07 trong bất kỳ đồng tiền nào sẽ được coi là tài khoản số dư bằng không"
+msgstr "Chỉ các giá trị giữa [0,1) được cho phép. Ví dụ {0.00, 0.04, 0.09, ...}\nVí dụ: Nếu khoảng cho phép được đặt là 0.07, các tài khoản có số dư là 0.07 trong bất kỳ đồng tiền nào sẽ được coi là tài khoản số dư bằng không"
 
 #: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.py:43
 msgid "Only {0} are supported"
@@ -35136,9 +34949,7 @@ msgstr "Mỗi ngày"
 msgid ""
 "Per Day\n"
 "Shift Time (In Hours) * No of Workstations * No of Shift"
-msgstr ""
-"Mỗi ngày\n"
-"Thời gian ca (tính bằng giờ) * Số trạm làm việc * Số ca"
+msgstr "Mỗi ngày\nThời gian ca (tính bằng giờ) * Số trạm làm việc * Số ca"
 
 #. Option for the 'Evaluation Period' (Select) field in DocType 'Supplier
 #. Scorecard'
@@ -42079,9 +41890,7 @@ msgstr "Thay thế BOM"
 msgid ""
 "Replace a particular BOM in all other BOMs where it is used. It will replace the old BOM link, update cost and regenerate \"BOM Explosion Item\" table as per new BOM.\n"
 "It also updates latest price in all the BOMs."
-msgstr ""
-"Thay thế một BOM cụ thể trong tất cả các BOM khác nơi nó được sử dụng. Nó sẽ thay thế liên kết BOM cũ, cập nhật chi phí và tái tạo bảng \"Mục BOM nổ\" theo BOM mới.\n"
-"Nó cũng cập nhật giá mới nhất trong tất cả các BOM."
+msgstr "Thay thế một BOM cụ thể trong tất cả các BOM khác nơi nó được sử dụng. Nó sẽ thay thế liên kết BOM cũ, cập nhật chi phí và tái tạo bảng \"Mục BOM nổ\" theo BOM mới.\nNó cũng cập nhật giá mới nhất trong tất cả các BOM."
 
 #. Label of the report_date (Date) field in DocType 'Quality Inspection'
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:75
@@ -44104,7 +43913,7 @@ msgstr "Hàng #{0}: Loại tài liệu tham chiếu phải là một trong Đơn
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1244
 msgid "Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice, Journal Entry or Dunning"
-msgstr "Hàng #{0}: Loại tài liệu tham chiếu phải là một trong Đơn bán hàng, Hoá đơn bán hàng, Bút toán nhật ký hoặc Đòi nợ"
+msgstr "Hàng #{0}: Loại tài liệu tham chiếu phải là một trong Đơn bán hàng, Hoá đơn bán hàng, Bút toán nhật ký hoặc nhắc nợ"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:577
 msgid "Row #{0}: Rejected Qty cannot be set for Secondary Item {1}."
@@ -44140,11 +43949,7 @@ msgid ""
 "\t\t\t\t\tSelling {3} should be atleast {4}.<br><br>Alternatively,\n"
 "\t\t\t\t\tyou can disable '{5}' in {6} to bypass\n"
 "\t\t\t\t\tthis validation."
-msgstr ""
-"Hàng #{0}: Đơn giá bán cho mặt hàng {1} thấp hơn {2}.\n"
-"\t\t\t\t\tBán {3} phải ít nhất là {4}.<br><br>Ngoài ra,\n"
-"\t\t\t\t\tbạn có thể tắt '{5}' trong {6} để bỏ qua\n"
-"\t\t\t\t\txác thực này."
+msgstr "Hàng #{0}: Đơn giá bán cho mặt hàng {1} thấp hơn {2}.\n\t\t\t\t\tBán {3} phải ít nhất là {4}.<br><br>Ngoài ra,\n\t\t\t\t\tbạn có thể tắt '{5}' trong {6} để bỏ qua\n\t\t\t\t\txác thực này."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:285
 msgid "Row #{0}: Sequence ID must be {1} or {2} for Operation {3}."
@@ -44476,9 +44281,7 @@ msgstr "Hàng {0}: Cả giá trị Nợ và Có không thể bằng không"
 msgid ""
 "Row {0}: Consumed Qty {1} {2} must be less than or equal to Available Qty For Consumption\n"
 "\t\t\t\t\t{3} {4} in Consumed Items Table."
-msgstr ""
-"Hàng {0}: Số lượng tiêu thụ {1} {2} phải nhỏ hơn hoặc bằng Số lượng có sẵn để tiêu thụ\n"
-"\t\t\t\t\t{3} {4} trong Bảng mặt hàng tiêu thụ."
+msgstr "Hàng {0}: Số lượng tiêu thụ {1} {2} phải nhỏ hơn hoặc bằng Số lượng có sẵn để tiêu thụ\n\t\t\t\t\t{3} {4} trong Bảng mặt hàng tiêu thụ."
 
 #: erpnext/controllers/selling_controller.py:288
 msgid "Row {0}: Conversion Factor is mandatory"
@@ -46020,10 +45823,7 @@ msgid ""
 "Scorecard variables can be used, as well as:\n"
 "{total_score} (the total score from that period),\n"
 "{period_number} (the number of periods to present day)\n"
-msgstr ""
-"Các biến thẻ điểm có thể được sử dụng, cũng như:\n"
-"{total_score} (tổng điểm từ kỳ đó),\n"
-"{period_number} (số kỳ đến ngày hiện tại)\n"
+msgstr "Các biến thẻ điểm có thể được sử dụng, cũng như:\n{total_score} (tổng điểm từ kỳ đó),\n{period_number} (số kỳ đến ngày hiện tại)\n"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard_dashboard.py:10
 msgid "Scorecards"
@@ -46521,9 +46321,7 @@ msgstr "Chọn mã mục biến thể cho mục mẫu {0}"
 msgid ""
 "Select whether to get items from a Sales Order or a Material Request. For now select <b>Sales Order</b>.\n"
 " A Production Plan can also be created manually where you can select the Items to manufacture."
-msgstr ""
-"Chọn có lấy mặt hàng từ Đơn bán hàng hay Yêu cầu vật tư. Hiện tại chọn <b>Đơn bán hàng</b>.\n"
-" Một Kế hoạch Sản xuất cũng có thể được tạo thủ công nơi bạn có thể chọn các Mặt hàng cần sản xuất."
+msgstr "Chọn có lấy mặt hàng từ Đơn bán hàng hay Yêu cầu vật tư. Hiện tại chọn <b>Đơn bán hàng</b>.\n Một Kế hoạch Sản xuất cũng có thể được tạo thủ công nơi bạn có thể chọn các Mặt hàng cần sản xuất."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:65
 msgid "Select your weekly off day"
@@ -48552,10 +48350,7 @@ msgid ""
 "Simple Python formula applied on Reading fields.<br> Numeric eg. 1: <b>reading_1 &gt; 0.2 and reading_1 &lt; 0.5</b><br>\n"
 "Numeric eg. 2: <b>mean &gt; 3.5</b> (mean of populated fields)<br>\n"
 "Value based eg.:  <b>reading_value in (\"A\", \"B\", \"C\")</b>"
-msgstr ""
-"Công thức Python đơn giản được áp dụng trên các trường Reading.<br> Ví dụ số 1: <b>reading_1 &gt; 0.2 and reading_1 &lt; 0.5</b><br>\n"
-"Ví dụ số 2: <b>mean &gt; 3.5</b> (trung bình của các trường đã điền)<br>\n"
-"Ví dụ dựa trên giá trị: <b>reading_value in (\"A\", \"B\", \"C\")</b>"
+msgstr "Công thức Python đơn giản được áp dụng trên các trường Reading.<br> Ví dụ số 1: <b>reading_1 &gt; 0.2 and reading_1 &lt; 0.5</b><br>\nVí dụ số 2: <b>mean &gt; 3.5</b> (trung bình của các trường đã điền)<br>\nVí dụ dựa trên giá trị: <b>reading_value in (\"A\", \"B\", \"C\")</b>"
 
 #. Option for the 'Call Routing' (Select) field in DocType 'Incoming Call
 #. Settings'
@@ -51342,9 +51137,7 @@ msgstr "Hệ thống sẽ tự động tạo Serial/Batch cho Thành phẩm khi 
 msgid ""
 "System will do an implicit conversion using the pegged currency. <br>\n"
 "Ex: Instead of AED -&gt; INR, system will do AED -&gt; USD -&gt; INR using the pegged exchange rate of AED against USD."
-msgstr ""
-"Hệ thống sẽ thực hiện chuyển đổi ngầm bằng cách sử dụng đơn vị tiền tệ neo. <br>\n"
-"Ví dụ: Thay vì AED -&gt; INR, hệ thống sẽ thực hiện AED -&gt; USD -&gt; INR sử dụng tỷ giá neo của AED so với USD."
+msgstr "Hệ thống sẽ thực hiện chuyển đổi ngầm bằng cách sử dụng đơn vị tiền tệ neo. <br>\nVí dụ: Thay vì AED -&gt; INR, hệ thống sẽ thực hiện AED -&gt; USD -&gt; INR sử dụng tỷ giá neo của AED so với USD."
 
 #. Description of the 'Invoice Limit' (Int) field in DocType 'Payment
 #. Reconciliation'
@@ -52009,9 +51802,7 @@ msgstr "Các tỷ lệ khấu giữ thuế"
 msgid ""
 "Tax detail table fetched from item master as a string and stored in this field.\n"
 "Used for Taxes and Charges"
-msgstr ""
-"Bảng chi tiết thuế được lấy từ master mặt hàng dưới dạng chuỗi và lưu trữ trong trường này.\n"
-"Được sử dụng cho Thuế và Phí"
+msgstr "Bảng chi tiết thuế được lấy từ master mặt hàng dưới dạng chuỗi và lưu trữ trong trường này.\nĐược sử dụng cho Thuế và Phí"
 
 #. Description of the 'Only Deduct Tax On Excess Amount ' (Check) field in
 #. DocType 'Tax Withholding Category'
@@ -52660,7 +52451,7 @@ msgstr "Số lượng hoàn thành {0} của thao tác {1} không thể lớn h�
 
 #: erpnext/accounts/doctype/dunning/dunning.py:87
 msgid "The currency of invoice {} ({}) is different from the currency of this dunning ({})."
-msgstr "Tiền tệ của hóa đơn {} ({}) khác với tiền tệ của đòi nợ này ({})."
+msgstr "Tiền tệ của hóa đơn {} ({}) khác với tiền tệ của chứng từ nhắc nợ này ({})."
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:209
 msgid "The current POS opening entry is outdated. Please close it and create a new one."
@@ -52748,9 +52539,7 @@ msgstr "Các Chính sách giá không hợp lệ sau đã bị xóa:"
 msgid ""
 "The following payment schedule(s) already exist:\n"
 "{0}"
-msgstr ""
-"Các lịch thanh toán sau đã tồn tại:\n"
-"{0}"
+msgstr "Các lịch thanh toán sau đã tồn tại:\n{0}"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:112
 msgid "The following rows are duplicates:"
@@ -53334,7 +53123,7 @@ msgstr "Lịch trình này được tạo khi ca của Tài sản {0} được �
 #. 'Dunning Type'
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json
 msgid "This section allows the user to set the Body and Closing text of the Dunning Letter for the Dunning Type based on language, which can be used in Print."
-msgstr "Phần này cho phép người dùng đặt văn bản Nội dung và Kết thúc của Thư đòi nợ cho Loại đòi nợ dựa trên ngôn ngữ, có thể được sử dụng trong In."
+msgstr "Phần này cho phép người dùng đặt văn bản Nội dung và Kết thúc của Thư nhắc nợ cho Loại nhắc nợ dựa trên ngôn ngữ, có thể được sử dụng trong In."
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:493
 msgid "This table is used to set details about the 'Item', 'Qty', 'Basic Rate', etc."
@@ -59169,7 +58958,7 @@ msgstr "{0} đối ứng Đơn mua hàng {1}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1042
 msgid "{0} against Sales Invoice {1}"
-msgstr "{0} đối ứng Hóa đơn bán {1}"
+msgstr "{0} đối ứng Hoá đơn bán hàng {1}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1049
 msgid "{0} against Sales Order {1}"

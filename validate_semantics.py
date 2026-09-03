@@ -15,6 +15,15 @@ from pathlib import Path
 
 PO_FILES = sorted(glob.glob("*_vi_v2.po"))
 
+# Identical English keys should compose consistently across apps.
+# Explicit exceptions are only for genuinely context-ambiguous upstream keys.
+CROSS_APP_CONTEXT_COLLISIONS = {
+    "{0} M": {
+        "crm_vi_v2.po": "{0} Phút",
+        "frappe_vi_v2.po": "{0} tháng",
+    },
+}
+
 FORMAT_TOKEN = re.compile(r"(?<!\{)\{(?:\d+|[A-Za-z_][\w.]*|)\}(?!\})|%\([^)]+\)[#0 +\-]*\d*(?:\.\d+)?[diouxXeEfFgGcrs]|(?<!%)%[sdif]")
 JINJA_TOKEN = re.compile(r"\{\{.*?\}\}|\{%.*?%\}", re.S)
 JS_TEMPLATE = re.compile(r"\$\{.*?\}", re.S)
@@ -31,7 +40,7 @@ SOURCE_RULES = [
     ("Stock Entry", ["bút toán kho", "bút toán tồn kho", "mục kho", "mục hàng tồn kho", "mục nhập kho", "mục nhập tồn kho", "bảng nhập kho"], "Phiếu kho"),
     ("Stock Ledger", ["sổ cái tồn kho", "sổ tồn kho", "sổ cái chứng khoán"], "Sổ kho"),
     ("Supplier Quotation", ["báo giá từ nhà cung cấp"], "Báo giá nhà cung cấp"),
-    ("Landed Cost", ["chi phí đã đáp tàu", "chi phí hạ cánh"], "Chi phí nhập hàng"),
+    ("Landed Cost", ["chi phí đã đáp tàu", "chi phí hạ cánh", "chi phí hạ tầng"], "Chi phí nhập hàng"),
     ("Pricing Rule", ["quy tắc định giá", "quy tắc giá", "pricing rule"], "Chính sách giá"),
     ("Expense Claim", ["claim chi phí", "yêu cầu hoàn chi"], "Đề nghị thanh toán"),
     ("Subcontract", ["ký gửi", "giao việc ngoài", "gia công phụ", "công nhân việc", "phụ thuộc vào"], "Gia công"),
@@ -47,8 +56,8 @@ SOURCE_RULES = [
 
 FRAPPE_ALLOWED_UNCHANGED_EXACT = {
     "&lt;head&gt; HTML", "API", "Ar", "Arial", "B", "BCC", "Beta", "Bot", "C5E", "CC", "CMD", "CSS", "CSV", "Cache", "Comm10E", "Cr", "Cron", "DLE",
-    "DocField", "DocPerm", "DocShare", "Domain", "Dr", "ESC", "Email", "Excel", "Facebook", "Fax", "Filter Meta", "Frappe", "Frappe Mail", "GMail",
-    "GNU Affero General Public License", "Gantt", "GitHub", "Google", "Google Calendar", "Google Drive", "HTML", "Helvetica", "Helvetica Neue", "InnoDB", "Instagram",
+    "Dashboard", "DocField", "DocPerm", "DocShare", "Domain", "Dr", "ESC", "Email", "Excel", "Facebook", "Fax", "Filter Meta", "Frappe", "Frappe Mail", "GMail",
+    "GNU Affero General Public License", "Gantt", "GitHub", "Google", "Google Calendar", "Google Drive", "HTML", "Helvetica", "Helvetica Neue", "InnoDB", "Instagram", "Import",
     "JS", "JSON", "JavaScript", "Javascript", "Jinja", "Kanban", "Kh", "L", "LinkedIn", "M", "Madam", "Meta", "Miss", "Mr", "Mrs", "Ms", "Mx", "MyISAM",
     "Nomatim", "OAuth", "OAuth Bearer Token", "OAuth Client", "OpenLDAP", "Outlook.com", "PDF", "PID", "Python", "Re:", "Robots.txt", "Role", "SQL", "Security.txt", "Skype",
     "SparkPost", "StartTLS", "Sync", "T", "Tab", "Theme", "Token", "UID", "UIDNEXT", "UIDVALIDITY", "URL", "UUID", "Verdana", "Webhook", "Webhook URL",
@@ -71,6 +80,131 @@ def frappe_unchanged_is_allowed(text: str) -> bool:
     if text in FRAPPE_ALLOWED_UNCHANGED_EXACT:
         return True
     return any(pattern.fullmatch(text) for pattern in FRAPPE_ALLOWED_UNCHANGED_PATTERNS)
+
+
+def unchanged_english_is_allowed(path: str, text: str) -> bool:
+    name = Path(path).name
+    if name == "frappe_vi_v2.po":
+        return frappe_unchanged_is_allowed(text)
+    return text in APP_ALLOWED_UNCHANGED_EXACT.get(name, set())
+
+# Reviewed exact-English entries intentionally preserved per app.
+# Any new untranslated English UI string must be explicitly reviewed before being added.
+APP_ALLOWED_UNCHANGED_EXACT = {
+    'crm_vi_v2.po': {
+        '%John%', '<b>META</b>', 'BCC', 'CC', 'CSV',
+        'Dashboard', 'ERPNext', 'Email', 'Excel', 'Exotel',
+        'Facebook', 'Favicon', 'Frappe CRM', 'GMT+5:30', 'Import',
+        'JSON', 'John Doe', 'John, Jane, Doe', 'Kanban', 'Role',
+        'SLA', 'Theme', 'TwiML SID', 'Twilio', 'WhatsApp',
+        'exchangerate-api', 'exchangerate.host', 'fawazahmed-exchange-api', 'frankfurter.app', 'john@doe.com',
+        'kanban',
+    },
+    'erpnext_vi_v2.po': {
+        '<div class="text-muted text-center">{0}</div>', '<li>{}</li>', 'A - B', 'A - C', 'A+',
+        'A-', 'AB+', 'AB-', 'ACC-PINV-.YYYY.-', 'Abampere',
+        'Ampere', 'Are', 'Arshin', 'B+', 'B-',
+        'BFS', 'BOM 1', 'BOM 2', 'Barleycorn', 'Biot',
+        'Btu (It)', 'Btu (Th)', 'Bushel (UK)', 'Bushel (US Dry Level)', 'CODE-39',
+        'CRM', 'Caballeria', 'Calibre', 'Calorie (It)', 'Calorie (Th)',
+        'Carat', 'Celsius', 'Cental', 'Centiarea', 'Coulomb',
+        'Cr', 'D - E', 'DFS', 'Decigram/Litre', 'Decilitre',
+        'Decimeter', 'Diesel', 'Dram', 'Dyne', 'EAN',
+        'EAN-13', 'EAN-8', 'ERPNext', 'Email:', 'Ems(Pica)',
+        'Erg', 'FIFO', 'Fahrenheit', 'Faraday', 'Fathom',
+        'Fluid Ounce (UK)', 'Fluid Ounce (US)', 'Foot', 'Foot Of Water', 'Furlong',
+        'G - D', 'GS1', 'GTIN', 'GTIN-14', 'Gallon (UK)',
+        'Gallon Dry (US)', 'Gallon Liquid (US)', 'Gamma', 'Gauss', 'Grain',
+        'Grain/Cubic Foot', 'Grain/Gallon (UK)', 'Grain/Gallon (US)', 'Gram', 'Gram-Force',
+        'Gram/Cubic Centimeter', 'Gram/Cubic Meter', 'Gram/Cubic Millimeter', 'Gram/Litre', 'H - F',
+        'Hand', 'Hectopascal', 'Hertz', 'I - J', 'I - K',
+        'IBAN', 'IRS 1099', 'ISBN', 'ISBN-10', 'ISBN-13',
+        'ISSN', 'Id', 'Inch', 'Inch Pound-Force', 'Inches Of Mercury',
+        'Incoterm', 'JAN', 'Joule', 'Kelvin', 'Kg',
+        'Kiloampere', 'Kilocalorie', 'Kilocoulomb', 'Kilogram-Force', 'Kilohertz',
+        'Kilojoule', 'Kilopascal', 'Kilopond', 'Kilopound-Force', 'Kilowatt',
+        'Kip', 'Knot', 'LIFO', 'MPS', 'Megacoulomb',
+        'Megahertz', 'Megajoule', 'Megawatt', 'Microbar', 'Microgram',
+        'Milibar', 'Milliampere', 'Millicoulomb', 'Milligram', 'Millihertz',
+        'Nanocoulomb', 'Nanohertz', 'Newton', 'O+', 'O-',
+        'PCV', 'PIN', 'POS', 'PZN', 'Pascal',
+        'Pond', 'Pood', 'Pound', 'Pound-Force', 'Pound/Gallon (UK)',
+        'Pound/Gallon (US)', 'Poundal', 'Psi/1000 Feet', 'Rgt', 'Rod',
+        'Sazhen', 'Serial / Batch', 'Serial No', 'Serial No / Batch', 'Stone',
+        'Tesla', 'Torr', 'UAE VAT 201', 'UPC', 'UPC-A',
+        'Vara', 'Versta', 'Video', 'Vimeo', 'Volt-Ampere',
+        'Watt', 'WhatsApp', 'Yard', 'exchangerate.host', 'frankfurter.dev',
+        'lft', 'rgt',
+    },
+    'hrms_vi_v2.po': {
+        '<hr>', "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>", 'Frappe HR', 'HRMS', 'IFSC',
+        'Internet', 'KRA', 'KRAs', 'MICR', 'Taxi',
+    },
+    'insights_vi_v2.po': {
+        '1:N', 'BigQuery', 'BigQuery Dataset ID', 'BigQuery Project ID', 'CSV',
+        'ClickHouse', 'Cron', 'DuckDB', 'Email', 'Excel',
+        'Frappe Insights', 'HTTP Headers', 'Import', 'JSON', 'MariaDB',
+        'N:1', 'N:N', 'Notebook', 'Pivot', 'PostgreSQL',
+        'REST API', 'SQL', 'SQLite', 'Schema', 'Sync',
+        'Telegram', 'Unpivot', 'nodes', 'sort_order',
+    },
+}
+
+# Runtime composition grammar for Frappe fragments that receive labels from other apps.
+FRAPPE_COMPOSITION_EXPECTED = {
+    "{0} Calendar": "Lịch {0}",
+    "{0} Chart": "Biểu đồ {0}",
+    "{0} Dashboard": "Dashboard {0}",
+    "{0} Fields": "{0} trường",       # {0} is a count
+    "{0} List": "Danh sách {0}",      # {0} is a DocType/object label
+    "{0} List View Settings": "Thiết lập giao diện danh sách {0}",
+    "{0} Map": "Bản đồ {0}",
+    "{0} Name": "Tên {0}",
+    "{0} Report": "Báo cáo {0}",
+    "{0} Reports": "{0} báo cáo",     # {0} is a count
+    "{0} Settings": "Cài đặt {0}",
+    "{0} Tree": "Cây {0}",
+    "New {0}": "{0} mới",
+    "New {0} Created": "Đã tạo {0} mới",
+    "Go to {0} List": "Đi tới danh sách {0}",
+    "Create a new {0}": "Tạo {0}",
+    "{0} record deleted": "Đã xóa {0} bản ghi",
+    "{0} records deleted": "Đã xóa {0} bản ghi",
+    "{0} records will be exported": "Sẽ Export {0} bản ghi",
+    "{0} items selected": "Đã chọn {0} mục",
+    "{0} values selected": "Đã chọn {0} giá trị",
+}
+
+# App/domain-specific semantic regressions that simple placeholder checks cannot catch.
+APP_SEMANTIC_RULES = {
+    "crm_vi_v2.po": [
+        (r"(?<!\w)Deals?(?!\w)", [r"(?<!\w)deals?(?!\w)"], "Cơ hội bán hàng"),
+        (r"(?<!\w)Leads?(?!\w)", [r"(?<!\w)leads?(?!\w)"], "Khách hàng tiềm năng"),
+        (r"(?<!\w)Website(?!\w)", [r"(?<!\w)website(?!\w)"], "trang web"),
+        (r"Form Script", [r"Form Script"], "tập lệnh biểu mẫu"),
+        (r"Access Token", [r"Access Token", r"Access token"], "Token truy cập"),
+    ],
+    "erpnext_vi_v2.po": [
+        (r"(?<!\w)Dunning(?!\w)", [r"(?<!\w)Dunning(?!\w)", r"đòi nợ"], "Nhắc nợ"),
+        (r"(?<!\w)Lead(?!\w)", [r"(?<!\w)Lead(?!\w)"], "Khách hàng tiềm năng"),
+    ],
+    "hrms_vi_v2.po": [
+        (r"(?<!\w)Designation(?!\w)", [r"chức danh"], "Chức vụ"),
+        (r"(?<!\w)Attendance(?!\w)", [r"điểm danh"], "Chấm công"),
+        (r"Employee Check-?in", [r"(?<!\w)check-?ins?(?!\w)"], "Ghi nhận chấm công nhân viên"),
+        (r"(?<!\w)Payroll Entry(?!\w)", [r"mục nhập lương"], "Bảng lương"),
+    ],
+    "insights_vi_v2.po": [
+        (r"(?<!\w)Workbooks?(?!\w)", [r"(?<!\w)workbooks?(?!\w)"], "Sổ làm việc"),
+    ],
+}
+
+# Cross-cutting source concepts: these English terms are intentionally kept or translated
+# consistently no matter which app supplies the string.
+CROSS_SOURCE_RULES = [
+    (r"(?<!\w)Subject(?!\w)", [r"(?<!\w)theme(?!\w)"], "Chủ đề"),
+    (r"(?<!\w)Dashboards?(?!\w)", [r"trang tổng quan", r"bảng điều khiển"], "Dashboard"),
+]
 
 FRAPPE_SOURCE_RULES = [
     ("Web Form", ["web form", "web forms"], "Biểu mẫu web"),
@@ -156,9 +290,9 @@ def validate_entry(path: str, line: int, msgid: str, msgstr: str):
         errors.append("empty translation")
         return errors
 
-    if Path(path).name == "frappe_vi_v2.po" and msgid == msgstr and re.search(r"[A-Za-z]", msgid):
-        if not frappe_unchanged_is_allowed(msgid):
-            errors.append("untranslated English entry is not in the approved Frappe allowlist")
+    if msgid == msgstr and re.search(r"[A-Za-z]", msgid):
+        if not unchanged_english_is_allowed(path, msgid):
+            errors.append(f"untranslated English entry is not in the approved {Path(path).name} allowlist")
 
     for label, pattern in (
         ("format placeholders", FORMAT_TOKEN),
@@ -182,6 +316,25 @@ def validate_entry(path: str, line: int, msgid: str, msgstr: str):
         errors.append(f"HTML tags differ: EN={dict(en_tags)} VI={dict(vi_tags)}")
 
     low_id, low_vi = msgid.lower(), msgstr.lower()
+
+    app_name = Path(path).name
+    if app_name == "frappe_vi_v2.po" and msgid in FRAPPE_COMPOSITION_EXPECTED:
+        expected = FRAPPE_COMPOSITION_EXPECTED[msgid]
+        if msgstr != expected:
+            errors.append(f"Frappe composition drift: expected {expected!r}, got {msgstr!r}")
+
+    for source_rx, bad_regexes, expected in CROSS_SOURCE_RULES:
+        if re.search(source_rx, msgid, re.I):
+            for bad_rx in bad_regexes:
+                if re.search(bad_rx, msgstr, re.I):
+                    errors.append(f"cross-source semantic drift (expected concept: {expected})")
+
+    for source_rx, bad_regexes, expected in APP_SEMANTIC_RULES.get(app_name, []):
+        if re.search(source_rx, msgid, re.I):
+            for bad_rx in bad_regexes:
+                if re.search(bad_rx, msgstr, re.I):
+                    errors.append(f"{app_name} semantic drift (expected concept: {expected})")
+
     for source_term, bad_forms, expected in SOURCE_RULES:
         source_pattern = r"(?<!\w)" + re.escape(source_term.lower()) + r"(?!\w)"
         if re.search(source_pattern, low_id):
@@ -220,8 +373,9 @@ def main() -> int:
         return 2
     total = 0
     failures = []
+    parsed = {path: parse_po(path) for path in PO_FILES}
     for path in PO_FILES:
-        entries = parse_po(path)
+        entries = parsed[path]
         total += len(entries)
         count = 0
         for line, msgid, msgstr in entries:
@@ -230,6 +384,37 @@ def main() -> int:
                 count += len(errs)
                 failures.append((path, line, msgid, errs))
         print(f"{path}: {len(entries)} entries, {count} semantic/format errors")
+
+    # Cross-app composition gate: identical msgids should not change wording by app.
+    shared = collections.defaultdict(list)
+    for path, entries in parsed.items():
+        for line, msgid, msgstr in entries:
+            if msgid:
+                shared[msgid].append((Path(path).name, line, msgstr))
+    cross_errors = 0
+    for msgid, rows in shared.items():
+        apps = {app for app, _, _ in rows}
+        if len(apps) < 2:
+            continue
+        if msgid in CROSS_APP_CONTEXT_COLLISIONS:
+            expected = CROSS_APP_CONTEXT_COLLISIONS[msgid]
+            for app, line, msgstr in rows:
+                if app not in expected:
+                    failures.append((app, line, msgid, ["ambiguous cross-app msgid used by an unreviewed app"]))
+                    cross_errors += 1
+                elif msgstr != expected[app]:
+                    failures.append((app, line, msgid, [f"context collision drift: expected {expected[app]!r}, got {msgstr!r}"]))
+                    cross_errors += 1
+            continue
+        variants = collections.defaultdict(list)
+        for app, line, msgstr in rows:
+            variants[msgstr].append((app, line))
+        if len(variants) > 1:
+            detail = "; ".join(f"{text!r} @ {locs}" for text, locs in variants.items())
+            app, line, _ = rows[0]
+            failures.append((app, line, msgid, [f"cross-app translation conflict: {detail}"]))
+            cross_errors += 1
+    print(f"Cross-app composition: {len(shared)} unique msgids checked, {cross_errors} conflicts")
 
     print(f"Checked {total} entries across {len(PO_FILES)} files")
     if failures:

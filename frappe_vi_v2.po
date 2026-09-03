@@ -173,16 +173,7 @@ msgid ""
 "3 - safely unguessable: moderate protection from offline slow-hash scenario.\n"
 "<br>\n"
 "4 - very unguessable: strong protection from offline slow-hash scenario."
-msgstr ""
-"0 - quá dễ đoán: mật khẩu rủi ro.\n"
-"<br>\n"
-"1 - rất dễ đoán: bảo vệ khỏi tấn công trực tuyến có giới hạn.\n"
-"<br>\n"
-"2 - hơi dễ đoán: bảo vệ khỏi tấn công trực tuyến không giới hạn.\n"
-"<br>\n"
-"3 - khó đoán: bảo vệ vừa phải khỏi kịch bản offline slow-hash.\n"
-"<br>\n"
-"4 - rất khó đoán: bảo vệ mạnh khỏi kịch bản offline slow-hash."
+msgstr "0 - quá dễ đoán: mật khẩu rủi ro.\n<br>\n1 - rất dễ đoán: bảo vệ khỏi tấn công trực tuyến có giới hạn.\n<br>\n2 - hơi dễ đoán: bảo vệ khỏi tấn công trực tuyến không giới hạn.\n<br>\n3 - khó đoán: bảo vệ vừa phải khỏi kịch bản offline slow-hash.\n<br>\n4 - rất khó đoán: bảo vệ mạnh khỏi kịch bản offline slow-hash."
 
 #. Description of the 'Priority' (Int) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -198,9 +189,7 @@ msgstr "1 = Đúng & 0 = Sai"
 msgid ""
 "1 Currency = [?] Fraction\n"
 "For e.g. 1 USD = 100 Cent"
-msgstr ""
-"1 Tiền tệ = [?] Phân số\n"
-"Ví dụ: 1 USD = 100 xu"
+msgstr "1 Tiền tệ = [?] Phân số\nVí dụ: 1 USD = 100 xu"
 
 #: frappe/public/js/frappe/form/reminders.js:19
 msgid "1 Day"
@@ -321,10 +310,7 @@ msgid ""
 "<a href=\"https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
 "  Click here to learn about token-based authentication\n"
 "</a>"
-msgstr ""
-"<a href=\"https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n"
-"  Nhấp vào đây để tìm hiểu về xác thực dựa trên token\n"
-"</a>"
+msgstr "<a href=\"https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication\" target=\"_blank\">\n  Nhấp vào đây để tìm hiểu về xác thực dựa trên token\n</a>"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:601
 msgid "<b>{0}</b> is not a valid URL"
@@ -388,46 +374,7 @@ msgid ""
 "    </ul>\n"
 "</div>\n"
 "<br>\n"
-msgstr ""
-"<div class=\"well\">\n"
-"    Chỉnh sửa danh sách các chuỗi trong ô. Quy tắc:\n"
-"    <ul>\n"
-"        <li>Mỗi tiền tố chuỗi trên một dòng mới.</li>\n"
-"        <li>Các ký tự đặc biệt được phép là \"/\" và \"-\"</li>\n"
-"        <li>\n"
-"            Tùy chọn, đặt số chữ số trong chuỗi bằng dấu chấm (.)\n"
-"            theo sau bởi dấu thăng (#). Ví dụ, \".####\" có nghĩa là chuỗi\n"
-"            sẽ có bốn chữ số. Mặc định là năm chữ số.\n"
-"        </li>\n"
-"        <li>\n"
-"            Bạn cũng có thể sử dụng biến trong tên chuỗi bằng cách đặt chúng\n"
-"            giữa các (.) dấu chấm\n"
-"            <br>\n"
-"            Các biến được hỗ trợ:\n"
-"            <ul>\n"
-"                <li><code>.YYYY.</code> - Năm gồm 4 chữ số</li>\n"
-"                <li><code>.YY.</code> - Năm gồm 2 chữ số</li>\n"
-"                <li><code>.MM.</code> - Tháng</li>\n"
-"                <li><code>.DD.</code> - Ngày trong tháng</li>\n"
-"                <li><code>.WW.</code> - Tuần trong năm</li>\n"
-"                <li>\n"
-"                    <code>.{fieldname}.</code> - tên trường trên tài liệu, ví dụ\n"
-"                    <code>branch</code>\n"
-"                </li>\n"
-"                <li><code>.FY.</code> - Năm tài chính (yêu cầu cài đặt ERPNext)</li>\n"
-"                <li><code>.ABBR.</code> - Viết tắt công ty (yêu cầu cài đặt ERPNext)</li>\n"
-"            </ul>\n"
-"        </li>\n"
-"    </ul>\n"
-"    Ví dụ:\n"
-"    <ul>\n"
-"        <li>INV-</li>\n"
-"        <li>INV-10-</li>\n"
-"        <li>INVK-</li>\n"
-"        <li>INV-.YYYY.-.{branch}.-.MM.-.####</li>\n"
-"    </ul>\n"
-"</div>\n"
-"<br>\n"
+msgstr "<div class=\"well\">\n    Chỉnh sửa danh sách các chuỗi trong ô. Quy tắc:\n    <ul>\n        <li>Mỗi tiền tố chuỗi trên một dòng mới.</li>\n        <li>Các ký tự đặc biệt được phép là \"/\" và \"-\"</li>\n        <li>\n            Tùy chọn, đặt số chữ số trong chuỗi bằng dấu chấm (.)\n            theo sau bởi dấu thăng (#). Ví dụ, \".####\" có nghĩa là chuỗi\n            sẽ có bốn chữ số. Mặc định là năm chữ số.\n        </li>\n        <li>\n            Bạn cũng có thể sử dụng biến trong tên chuỗi bằng cách đặt chúng\n            giữa các (.) dấu chấm\n            <br>\n            Các biến được hỗ trợ:\n            <ul>\n                <li><code>.YYYY.</code> - Năm gồm 4 chữ số</li>\n                <li><code>.YY.</code> - Năm gồm 2 chữ số</li>\n                <li><code>.MM.</code> - Tháng</li>\n                <li><code>.DD.</code> - Ngày trong tháng</li>\n                <li><code>.WW.</code> - Tuần trong năm</li>\n                <li>\n                    <code>.{fieldname}.</code> - tên trường trên tài liệu, ví dụ\n                    <code>branch</code>\n                </li>\n                <li><code>.FY.</code> - Năm tài chính (yêu cầu cài đặt ERPNext)</li>\n                <li><code>.ABBR.</code> - Viết tắt công ty (yêu cầu cài đặt ERPNext)</li>\n            </ul>\n        </li>\n    </ul>\n    Ví dụ:\n    <ul>\n        <li>INV-</li>\n        <li>INV-10-</li>\n        <li>INVK-</li>\n        <li>INV-.YYYY.-.{branch}.-.MM.-.####</li>\n    </ul>\n</div>\n<br>\n"
 
 #. Content of the 'Custom HTML Help' (HTML) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
@@ -453,28 +400,7 @@ msgid ""
 "\n"
 "<pre><code>.section-break { padding: 30px 0px; border-bottom: 1px solid #eee; }\n"
 ".section-break:last-child { padding-bottom: 0px; border-bottom: 0px;  }</code></pre>\n"
-msgstr ""
-"<h3>Trợ giúp CSS Tùy chỉnh</h3>\n"
-"\n"
-"<p>Ghi chú:</p>\n"
-"\n"
-"<ol>\n"
-"<li>Tất cả nhóm trường (nhãn + giá trị) đều có attributes <code>data-fieldtype</code> và <code>data-fieldname</code></li>\n"
-"<li>Tất cả giá trị đều được gán class <code>value</code></li>\n"
-"<li>Tất cả Section Breaks đều được gán class <code>section-break</code></li>\n"
-"<li>Tất cả Column Breaks đều được gán class <code>column-break</code></li>\n"
-"</ol>\n"
-"\n"
-"<h4>Ví dụ</h4>\n"
-"\n"
-"<p>1. Căn trái số nguyên</p>\n"
-"\n"
-"<pre><code>[data-fieldtype=\"Int\"] .value { text-align: left; }</code></pre>\n"
-"\n"
-"<p>1. Thêm đường viền cho các phần trừ phần cuối cùng</p>\n"
-"\n"
-"<pre><code>.section-break { padding: 30px 0px; border-bottom: 1px solid #eee; }\n"
-".section-break:last-child { padding-bottom: 0px; border-bottom: 0px;  }</code></pre>\n"
+msgstr "<h3>Trợ giúp CSS Tùy chỉnh</h3>\n\n<p>Ghi chú:</p>\n\n<ol>\n<li>Tất cả nhóm trường (nhãn + giá trị) đều có attributes <code>data-fieldtype</code> và <code>data-fieldname</code></li>\n<li>Tất cả giá trị đều được gán class <code>value</code></li>\n<li>Tất cả Section Breaks đều được gán class <code>section-break</code></li>\n<li>Tất cả Column Breaks đều được gán class <code>column-break</code></li>\n</ol>\n\n<h4>Ví dụ</h4>\n\n<p>1. Căn trái số nguyên</p>\n\n<pre><code>[data-fieldtype=\"Int\"] .value { text-align: left; }</code></pre>\n\n<p>1. Thêm đường viền cho các phần trừ phần cuối cùng</p>\n\n<pre><code>.section-break { padding: 30px 0px; border-bottom: 1px solid #eee; }\n.section-break:last-child { padding-bottom: 0px; border-bottom: 0px;  }</code></pre>\n"
 
 #. Content of the 'Print Format Help' (HTML) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
@@ -546,73 +472,7 @@ msgid ""
 "\t\t</tr>\n"
 "\t</tbody>\n"
 "</table>\n"
-msgstr ""
-"<h3>Trợ giúp định dạng in</h3>\n"
-"<hr>\n"
-"<h4>Giới thiệu</h4>\n"
-"<p>Các định dạng in được hiển thị ở phía server bằng ngôn ngữ mẫu Jinja. Tất cả các biểu mẫu đều có quyền truy cập vào đối tượng <code>doc</code> chứa thông tin về tài liệu đang được định dạng. Bạn cũng có thể truy cập các tiện ích phổ biến thông qua mô-đun <code>frappe</code>.</p>\n"
-"<p>Để tạo kiểu, framework CSS Bootstrap được cung cấp và bạn có thể tận dụng đầy đủ các lớp.</p>\n"
-"<hr>\n"
-"<h4>Tham khảo</h4>\n"
-"<ol>\n"
-"\t<li><a href=\"http://jinja.pocoo.org/docs/templates/\" target=\"_blank\">Ngôn ngữ mẫu Jinja</a></li>\n"
-"\t<li><a href=\"http://getbootstrap.com\" target=\"_blank\">Framework CSS Bootstrap</a></li>\n"
-"</ol>\n"
-"<hr>\n"
-"<h4>Ví dụ</h4>\n"
-"<pre><code>&lt;h3&gt;{{ doc.select_print_heading or \"Hóa đơn\" }}&lt;/h3&gt;\n"
-"&lt;div class=\"row\"&gt;\n"
-"\t&lt;div class=\"col-md-3 text-right\"&gt;Tên khách hàng&lt;/div&gt;\n"
-"\t&lt;div class=\"col-md-9\"&gt;{{ doc.customer_name }}&lt;/div&gt;\n"
-"&lt;/div&gt;\n"
-"&lt;div class=\"row\"&gt;\n"
-"\t&lt;div class=\"col-md-3 text-right\"&gt;Ngày&lt;/div&gt;\n"
-"\t&lt;div class=\"col-md-9\"&gt;{{ doc.get_formatted(\"invoice_date\") }}&lt;/div&gt;\n"
-"&lt;/div&gt;\n"
-"&lt;table class=\"table table-bordered\"&gt;\n"
-"\t&lt;tbody&gt;\n"
-"\t\t&lt;tr&gt;\n"
-"\t\t\t&lt;th&gt;STT&lt;/th&gt;\n"
-"\t\t\t&lt;th&gt;Tên mục&lt;/th&gt;\n"
-"\t\t\t&lt;th&gt;Mô tả&lt;/th&gt;\n"
-"\t\t\t&lt;th class=\"text-right\"&gt;SL&lt;/th&gt;\n"
-"\t\t\t&lt;th class=\"text-right\"&gt;Đơn giá&lt;/th&gt;\n"
-"\t\t\t&lt;th class=\"text-right\"&gt;Số tiền&lt;/th&gt;\n"
-"\t\t&lt;/tr&gt;\n"
-"\t\t{%- for row in doc.items -%}\n"
-"\t\t&lt;tr&gt;\n"
-"\t\t\t&lt;td style=\"width: 3%;\"&gt;{{ row.idx }}&lt;/td&gt;\n"
-"\t\t\t&lt;td style=\"width: 20%;\"&gt;\n"
-"\t\t\t\t{{ row.item_name }}\n"
-"\t\t\t\t{% if row.item_code != row.item_name -%}\n"
-"\t\t\t\t&lt;br&gt;Mã mục: {{ row.item_code}}\n"
-"\t\t\t\t{%- endif %}\n"
-"\t\t\t&lt;/td&gt;\n"
-"\t\t\t&lt;td style=\"width: 37%;\"&gt;\n"
-"\t\t\t\t&lt;div style=\"border: 0px;\"&gt;{{ row.description }}&lt;/div&gt;&lt;/td&gt;\n"
-"\t\t\t&lt;td style=\"width: 10%; text-align: right;\"&gt;{{ row.qty }} {{ row.uom or row.stock_uom }}&lt;/td&gt;\n"
-"\t\t\t&lt;td style=\"width: 15%; text-align: right;\"&gt;{{\n"
-"\t\t\t\trow.get_formatted(\"rate\", doc) }}&lt;/td&gt;\n"
-"\t\t\t&lt;td style=\"width: 15%; text-align: right;\"&gt;{{\n"
-"\t\t\t\trow.get_formatted(\"amount\", doc) }}&lt;/td&gt;\n"
-"\t\t&lt;/tr&gt;\n"
-"\t\t{%- endfor -%}\n"
-"\t&lt;/tbody&gt;\n"
-"&lt;/table&gt;</code></pre>\n"
-"<hr>\n"
-"<h4>Các hàm phổ biến</h4>\n"
-"<table class=\"table table-bordered\">\n"
-"\t<tbody>\n"
-"\t\t<tr>\n"
-"\t\t\t<td style=\"width: 30%;\"><code>doc.get_formatted(\"[fieldname]\", [parent_doc])</code></td>\n"
-"\t\t\t<td>Lấy giá trị tài liệu được định dạng dưới dạng Ngày, Tiền tệ, v.v. Truyền <code>doc</code> cha cho các trường loại tiền tệ.</td>\n"
-"\t\t</tr>\n"
-"\t\t<tr>\n"
-"\t\t\t<td style=\"width: 30%;\"><code>frappe.db.get_value(\"[doctype]\", \"[name]\", \"fieldname\")</code></td>\n"
-"\t\t\t<td>Lấy giá trị từ một tài liệu khác.</td>\n"
-"\t\t</tr>\n"
-"\t</tbody>\n"
-"</table>\n"
+msgstr "<h3>Trợ giúp định dạng in</h3>\n<hr>\n<h4>Giới thiệu</h4>\n<p>Các định dạng in được hiển thị ở phía server bằng ngôn ngữ mẫu Jinja. Tất cả các biểu mẫu đều có quyền truy cập vào đối tượng <code>doc</code> chứa thông tin về tài liệu đang được định dạng. Bạn cũng có thể truy cập các tiện ích phổ biến thông qua mô-đun <code>frappe</code>.</p>\n<p>Để tạo kiểu, framework CSS Bootstrap được cung cấp và bạn có thể tận dụng đầy đủ các lớp.</p>\n<hr>\n<h4>Tham khảo</h4>\n<ol>\n\t<li><a href=\"http://jinja.pocoo.org/docs/templates/\" target=\"_blank\">Ngôn ngữ mẫu Jinja</a></li>\n\t<li><a href=\"http://getbootstrap.com\" target=\"_blank\">Framework CSS Bootstrap</a></li>\n</ol>\n<hr>\n<h4>Ví dụ</h4>\n<pre><code>&lt;h3&gt;{{ doc.select_print_heading or \"Hóa đơn\" }}&lt;/h3&gt;\n&lt;div class=\"row\"&gt;\n\t&lt;div class=\"col-md-3 text-right\"&gt;Tên khách hàng&lt;/div&gt;\n\t&lt;div class=\"col-md-9\"&gt;{{ doc.customer_name }}&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"row\"&gt;\n\t&lt;div class=\"col-md-3 text-right\"&gt;Ngày&lt;/div&gt;\n\t&lt;div class=\"col-md-9\"&gt;{{ doc.get_formatted(\"invoice_date\") }}&lt;/div&gt;\n&lt;/div&gt;\n&lt;table class=\"table table-bordered\"&gt;\n\t&lt;tbody&gt;\n\t\t&lt;tr&gt;\n\t\t\t&lt;th&gt;STT&lt;/th&gt;\n\t\t\t&lt;th&gt;Tên mục&lt;/th&gt;\n\t\t\t&lt;th&gt;Mô tả&lt;/th&gt;\n\t\t\t&lt;th class=\"text-right\"&gt;SL&lt;/th&gt;\n\t\t\t&lt;th class=\"text-right\"&gt;Đơn giá&lt;/th&gt;\n\t\t\t&lt;th class=\"text-right\"&gt;Số tiền&lt;/th&gt;\n\t\t&lt;/tr&gt;\n\t\t{%- for row in doc.items -%}\n\t\t&lt;tr&gt;\n\t\t\t&lt;td style=\"width: 3%;\"&gt;{{ row.idx }}&lt;/td&gt;\n\t\t\t&lt;td style=\"width: 20%;\"&gt;\n\t\t\t\t{{ row.item_name }}\n\t\t\t\t{% if row.item_code != row.item_name -%}\n\t\t\t\t&lt;br&gt;Mã mục: {{ row.item_code}}\n\t\t\t\t{%- endif %}\n\t\t\t&lt;/td&gt;\n\t\t\t&lt;td style=\"width: 37%;\"&gt;\n\t\t\t\t&lt;div style=\"border: 0px;\"&gt;{{ row.description }}&lt;/div&gt;&lt;/td&gt;\n\t\t\t&lt;td style=\"width: 10%; text-align: right;\"&gt;{{ row.qty }} {{ row.uom or row.stock_uom }}&lt;/td&gt;\n\t\t\t&lt;td style=\"width: 15%; text-align: right;\"&gt;{{\n\t\t\t\trow.get_formatted(\"rate\", doc) }}&lt;/td&gt;\n\t\t\t&lt;td style=\"width: 15%; text-align: right;\"&gt;{{\n\t\t\t\trow.get_formatted(\"amount\", doc) }}&lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t\t{%- endfor -%}\n\t&lt;/tbody&gt;\n&lt;/table&gt;</code></pre>\n<hr>\n<h4>Các hàm phổ biến</h4>\n<table class=\"table table-bordered\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width: 30%;\"><code>doc.get_formatted(\"[fieldname]\", [parent_doc])</code></td>\n\t\t\t<td>Lấy giá trị tài liệu được định dạng dưới dạng Ngày, Tiền tệ, v.v. Truyền <code>doc</code> cha cho các trường loại tiền tệ.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width: 30%;\"><code>frappe.db.get_value(\"[doctype]\", \"[name]\", \"fieldname\")</code></td>\n\t\t\t<td>Lấy giá trị từ một tài liệu khác.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n"
 
 #. Description of the 'Template' (Code) field in DocType 'Address Template'
 #: frappe/contacts/doctype/address_template/address_template.json
@@ -630,19 +490,7 @@ msgid ""
 "{% if fax %}Fax: {{ fax }}&lt;br&gt;{% endif -%}\n"
 "{% if email_id %}Email: {{ email_id }}&lt;br&gt;{% endif -%}\n"
 "</code></pre>"
-msgstr ""
-"<h4>Mẫu Mặc định</h4>\n"
-"<p>Sử dụng <a href=\"http://jinja.pocoo.org/docs/templates/\">Jinja Templating</a> và tất cả các trường của Địa chỉ (bao gồm Custom Fields nếu có) sẽ đều khả dụng</p>\n"
-"<pre><code>{{ address_line1 }}&lt;br&gt;\n"
-"{% if address_line2 %}{{ address_line2 }}&lt;br&gt;{% endif -%}\n"
-"{{ city }}&lt;br&gt;\n"
-"{% if state %}{{ state }}&lt;br&gt;{% endif -%}\n"
-"{% if pincode %} PIN:  {{ pincode }}&lt;br&gt;{% endif -%}\n"
-"{{ country }}&lt;br&gt;\n"
-"{% if phone %}Điện thoại: {{ phone }}&lt;br&gt;{% endif -%}\n"
-"{% if fax %}Fax: {{ fax }}&lt;br&gt;{% endif -%}\n"
-"{% if email_id %}Email: {{ email_id }}&lt;br&gt;{% endif -%}\n"
-"</code></pre>"
+msgstr "<h4>Mẫu Mặc định</h4>\n<p>Sử dụng <a href=\"http://jinja.pocoo.org/docs/templates/\">Jinja Templating</a> và tất cả các trường của Địa chỉ (bao gồm Custom Fields nếu có) sẽ đều khả dụng</p>\n<pre><code>{{ address_line1 }}&lt;br&gt;\n{% if address_line2 %}{{ address_line2 }}&lt;br&gt;{% endif -%}\n{{ city }}&lt;br&gt;\n{% if state %}{{ state }}&lt;br&gt;{% endif -%}\n{% if pincode %} PIN:  {{ pincode }}&lt;br&gt;{% endif -%}\n{{ country }}&lt;br&gt;\n{% if phone %}Điện thoại: {{ phone }}&lt;br&gt;{% endif -%}\n{% if fax %}Fax: {{ fax }}&lt;br&gt;{% endif -%}\n{% if email_id %}Email: {{ email_id }}&lt;br&gt;{% endif -%}\n</code></pre>"
 
 #. Content of the 'Email Reply Help' (HTML) field in DocType 'Email Template'
 #: frappe/email/doctype/email_template/email_template.json
@@ -666,26 +514,7 @@ msgid ""
 "<h4>Templating</h4>\n"
 "\n"
 "<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>\n"
-msgstr ""
-"<h4>Ví dụ Trả lời Email</h4>\n"
-"\n"
-"<pre>Đơn hàng Quá hạn\n"
-"\n"
-"Giao dịch {{ name }} đã vượt quá Ngày đến hạn. Bạn hãy thực hiện hành động cần thiết.\n"
-"\n"
-"Chi tiết\n"
-"\n"
-"- Khách hàng: {{ customer }}\n"
-"- Số tiền: {{ grand_total }}\n"
-"</pre>\n"
-"\n"
-"<h4>Cách lấy tên trường</h4>\n"
-"\n"
-"<p>Tên trường bạn có thể sử dụng trong mẫu email là các trường trong tài liệu mà bạn đang gửi email. Bạn có thể tìm các trường của bất kỳ tài liệu nào qua Thiết lập &gt; Tùy chỉnh Form View và chọn loại tài liệu (ví dụ: Hoá đơn bán hàng)</p>\n"
-"\n"
-"<h4>Templating</h4>\n"
-"\n"
-"<p>Mẫu được biên dịch sử dụng Ngôn ngữ Jinja Templating. Để tìm hiểu thêm về Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">đọc tài liệu này.</a></p>\n"
+msgstr "<h4>Ví dụ Trả lời Email</h4>\n\n<pre>Đơn hàng Quá hạn\n\nGiao dịch {{ name }} đã vượt quá Ngày đến hạn. Bạn hãy thực hiện hành động cần thiết.\n\nChi tiết\n\n- Khách hàng: {{ customer }}\n- Số tiền: {{ grand_total }}\n</pre>\n\n<h4>Cách lấy tên trường</h4>\n\n<p>Tên trường bạn có thể sử dụng trong mẫu email là các trường trong tài liệu mà bạn đang gửi email. Bạn có thể tìm các trường của bất kỳ tài liệu nào qua Thiết lập &gt; Tùy chỉnh Form View và chọn loại tài liệu (ví dụ: Hoá đơn bán hàng)</p>\n\n<h4>Templating</h4>\n\n<p>Mẫu được biên dịch sử dụng Ngôn ngữ Jinja Templating. Để tìm hiểu thêm về Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">đọc tài liệu này.</a></p>\n"
 
 #. Content of the 'html_5' (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -714,25 +543,7 @@ msgid ""
 "&lt;li&gt;Amount: {{ doc.grand_total }}\n"
 "&lt;/ul&gt;\n"
 "</pre>"
-msgstr ""
-"<h5>Ví dụ về tin nhắn</h5>\n"
-"\n"
-"<pre>_&lt;h3&gt;Đơn hàng quá hạn&lt;/h3&gt;\n"
-"\n"
-"&lt;p&gt;Giao dịch {{ doc.name }} đã vượt quá hạn hoàn thành. Vui lòng thực hiện hành động cần thiết.&lt;/p&gt;\n"
-"\n"
-"&lt;!-- hiển thị bình luận cuối cùng --&gt;\n"
-"{% if comments %}\n"
-"Bình luận cuối cùng: {{ comments[-1].comment }} bởi {{ comments[-1].by }}\n"
-"{% endif %}\n"
-"\n"
-"&lt;h4&gt;Chi tiết&lt;/h4&gt;\n"
-"\n"
-"&lt;ul&gt;\n"
-"&lt;li&gt;Khách hàng: {{ doc.customer }}\n"
-"&lt;li&gt;Số tiền: {{ doc.grand_total }}\n"
-"&lt;/ul&gt;\n"
-"</pre>"
+msgstr "<h5>Ví dụ về tin nhắn</h5>\n\n<pre>_&lt;h3&gt;Đơn hàng quá hạn&lt;/h3&gt;\n\n&lt;p&gt;Giao dịch {{ doc.name }} đã vượt quá hạn hoàn thành. Vui lòng thực hiện hành động cần thiết.&lt;/p&gt;\n\n&lt;!-- hiển thị bình luận cuối cùng --&gt;\n{% if comments %}\nBình luận cuối cùng: {{ comments[-1].comment }} bởi {{ comments[-1].by }}\n{% endif %}\n\n&lt;h4&gt;Chi tiết&lt;/h4&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Khách hàng: {{ doc.customer }}\n&lt;li&gt;Số tiền: {{ doc.grand_total }}\n&lt;/ul&gt;\n</pre>"
 
 #. Content of the 'html_7' (HTML) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -740,10 +551,7 @@ msgid ""
 "<p><strong>Condition Examples:</strong></p>\n"
 "<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
 "</code></pre>\n"
-msgstr ""
-"<p><strong>Ví dụ điều kiện:</strong></p>\n"
-"<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
-"</code></pre>\n"
+msgstr "<p><strong>Ví dụ điều kiện:</strong></p>\n<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n</code></pre>\n"
 
 #. Content of the 'html_condition' (HTML) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
@@ -751,10 +559,7 @@ msgid ""
 "<p><strong>Condition Examples:</strong></p>\n"
 "<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
 "</pre>"
-msgstr ""
-"<p><strong>Ví dụ điều kiện:</strong></p>\n"
-"<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
-"</pre>"
+msgstr "<p><strong>Ví dụ điều kiện:</strong></p>\n<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n</pre>"
 
 #. Content of the 'Condition description' (HTML) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -762,10 +567,7 @@ msgid ""
 "<p>Multiple webforms can be created for a single doctype. Add filters specific to this webform to display correct record after submission.</p><p>For Example:</p>\n"
 "<p>If you create a separate webform every year to capture feedback from employees add a \n"
 " field named year in doctype and add a filter <b>year = 2023</b></p>\n"
-msgstr ""
-"<p>Có thể tạo nhiều webform cho một doctype đơn lẻ. Thêm filter cụ thể cho webform này để hiển thị đúng bản ghi sau khi gửi.</p><p>Ví dụ:</p>\n"
-"<p>Nếu Bạn tạo một webform riêng mỗi năm để thu thập phản hồi từ nhân viên, hãy thêm \n"
-" trường tên year trong doctype và thêm filter <b>year = 2023</b></p>\n"
+msgstr "<p>Có thể tạo nhiều webform cho một doctype đơn lẻ. Thêm filter cụ thể cho webform này để hiển thị đúng bản ghi sau khi gửi.</p><p>Ví dụ:</p>\n<p>Nếu Bạn tạo một webform riêng mỗi năm để thu thập phản hồi từ nhân viên, hãy thêm \n trường tên year trong doctype và thêm filter <b>year = 2023</b></p>\n"
 
 #. Description of the 'Context Script' (Code) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -774,11 +576,7 @@ msgid ""
 "</p><div><pre><code>\n"
 "context.project = frappe.get_doc(\"Project\", frappe.form_dict.name)\n"
 "</code></pre></div>"
-msgstr ""
-"<p>Thiết lập bối cảnh trước khi kết xuất bản mẫu. Ví dụ:</p><p>\n"
-"</p><div><pre><code>\n"
-"context.project = frappe.get_doc(\"Project\", frappe.form_dict.name)\n"
-"</code></pre></div>"
+msgstr "<p>Thiết lập bối cảnh trước khi kết xuất bản mẫu. Ví dụ:</p><p>\n</p><div><pre><code>\ncontext.project = frappe.get_doc(\"Project\", frappe.form_dict.name)\n</code></pre></div>"
 
 #. Content of the 'JS Message' (HTML) field in DocType 'Custom HTML Block'
 #: frappe/desk/doctype/custom_html_block/custom_html_block.json
@@ -787,11 +585,7 @@ msgid ""
 "let some_class_element = root_element.querySelector('.some-class');\n"
 "some_class_element.textContent = \"New content\";\n"
 "</code></pre>"
-msgstr ""
-"<p>Để tương tác với HTML ở trên, bạn cần sử dụng `root_element` làm bộ chọn phần tử cha.</p><p>Ví dụ:</p><pre class=\"p-3 bg-gray-100 border-radius rounded-sm mb-0\" style=\"width: fit-content;\"><code>// ở đây root_element được cung cấp theo mặc định\n"
-"let some_class_element = root_element.querySelector('.some-class');\n"
-"some_class_element.textContent = \"New content\";\n"
-"</code></pre>"
+msgstr "<p>Để tương tác với HTML ở trên, bạn cần sử dụng `root_element` làm bộ chọn phần tử cha.</p><p>Ví dụ:</p><pre class=\"p-3 bg-gray-100 border-radius rounded-sm mb-0\" style=\"width: fit-content;\"><code>// ở đây root_element được cung cấp theo mặc định\nlet some_class_element = root_element.querySelector('.some-class');\nsome_class_element.textContent = \"New content\";\n</code></pre>"
 
 #: frappe/twofactor.py:460
 msgid "<p>Your OTP secret on {0} has been reset. If you did not perform this reset and did not request it, please contact your System Administrator immediately.</p>"
@@ -817,21 +611,7 @@ msgid ""
 "* - Any value\n"
 "/ - Step values\n"
 "</pre>\n"
-msgstr ""
-"<pre>*  *  *  *  *\n"
-"┬  ┬  ┬  ┬  ┬\n"
-"│  │  │  │  │\n"
-"│  │  │  │  └ ngày trong tuần (0 - 6) (0 là Chủ Nhật)\n"
-"│  │  │  └───── tháng (1 - 12)\n"
-"│  │  └────────── ngày trong tháng (1 - 31)\n"
-"│  └─────────────── giờ (0 - 23)\n"
-"└──────────────────── phút (0 - 59)\n"
-"\n"
-"---\n"
-"\n"
-"* - Giá trị bất kỳ\n"
-"/ - Giá trị bước\n"
-"</pre>\n"
+msgstr "<pre>*  *  *  *  *\n┬  ┬  ┬  ┬  ┬\n│  │  │  │  │\n│  │  │  │  └ ngày trong tuần (0 - 6) (0 là Chủ Nhật)\n│  │  │  └───── tháng (1 - 12)\n│  │  └────────── ngày trong tháng (1 - 31)\n│  └─────────────── giờ (0 - 23)\n└──────────────────── phút (0 - 59)\n\n---\n\n* - Giá trị bất kỳ\n/ - Giá trị bước\n</pre>\n"
 
 #. Content of the 'Example' (HTML) field in DocType 'Workflow Transition'
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
@@ -850,21 +630,7 @@ msgid ""
 "<li>frappe.utils.now</li>\n"
 "</ul>\n"
 "<p>Example: </p><pre><code>doc.creation &gt; frappe.utils.add_to_date(frappe.utils.now_datetime(), days=-5, as_string=True, as_datetime=True) </code></pre><p></p>"
-msgstr ""
-"<pre><code>doc.grand_total &gt; 0</code></pre>\n"
-"\n"
-"<p>Điều kiện cần được viết bằng Python đơn giản. Bạn chỉ được sử dụng các thuộc tính có sẵn trong form.</p>\n"
-"<p>Các hàm được phép:\n"
-"</p><ul>\n"
-"<li>frappe.db.get_value</li>\n"
-"<li>frappe.db.get_list</li>\n"
-"<li>frappe.session</li>\n"
-"<li>frappe.utils.now_datetime</li>\n"
-"<li>frappe.utils.get_datetime</li>\n"
-"<li>frappe.utils.add_to_date</li>\n"
-"<li>frappe.utils.now</li>\n"
-"</ul>\n"
-"<p>Ví dụ: </p><pre><code>doc.creation &gt; frappe.utils.add_to_date(frappe.utils.now_datetime(), days=-5, as_string=True, as_datetime=True) </code></pre><p></p>"
+msgstr "<pre><code>doc.grand_total &gt; 0</code></pre>\n\n<p>Điều kiện cần được viết bằng Python đơn giản. Bạn chỉ được sử dụng các thuộc tính có sẵn trong form.</p>\n<p>Các hàm được phép:\n</p><ul>\n<li>frappe.db.get_value</li>\n<li>frappe.db.get_list</li>\n<li>frappe.session</li>\n<li>frappe.utils.now_datetime</li>\n<li>frappe.utils.get_datetime</li>\n<li>frappe.utils.add_to_date</li>\n<li>frappe.utils.now</li>\n</ul>\n<p>Ví dụ: </p><pre><code>doc.creation &gt; frappe.utils.add_to_date(frappe.utils.now_datetime(), days=-5, as_string=True, as_datetime=True) </code></pre><p></p>"
 
 #. Header text in the Welcome Workspace Workspace
 #: frappe/core/workspace/welcome_workspace/welcome_workspace.json
@@ -943,10 +709,7 @@ msgid ""
 "A version identifier string for the client software.\n"
 "<br>\n"
 "The value of the should change on any update of the client software with the same Software ID."
-msgstr ""
-"Chuỗi định danh phiên bản cho phần mềm máy khách.\n"
-"<br>\n"
-"Giá trị của sẽ thay đổi trên mọi bản cập nhật của phần mềm máy khách có cùng ID phần mềm."
+msgstr "Chuỗi định danh phiên bản cho phần mềm máy khách.\n<br>\nGiá trị của sẽ thay đổi trên mọi bản cập nhật của phần mềm máy khách có cùng ID phần mềm."
 
 #: frappe/utils/password_strength.py:169
 msgid "A word by itself is easy to guess."
@@ -1141,7 +904,7 @@ msgstr "Đã Chấp Nhận"
 #. Label of the accepted_at (Datetime) field in DocType 'User Invitation'
 #: frappe/core/doctype/user_invitation/user_invitation.json
 msgid "Accepted At"
-msgstr "Đã chấp nhận vào"
+msgstr "Thời điểm chấp nhận"
 
 #. Label of the access_control_section (Section Break) field in DocType 'Web
 #. Form'
@@ -1254,11 +1017,11 @@ msgstr "Loại hành động"
 
 #: frappe/core/doctype/submission_queue/submission_queue.py:120
 msgid "Action {0} completed successfully on {1} {2}. View it {3}"
-msgstr "Hành động {0} đã hoàn tất thành công vào {1} {2}. Xem nó {3}"
+msgstr "Thao tác {0} trên {1} {2} đã hoàn tất thành công. Xem tại {3}"
 
 #: frappe/core/doctype/submission_queue/submission_queue.py:116
 msgid "Action {0} failed on {1} {2}. View it {3}"
-msgstr "Hành động {0} đã thất bại trên {1} {2}. Xem nó {3}"
+msgstr "Thao tác {0} trên {1} {2} đã thất bại. Xem tại {3}"
 
 #. Label of the actions_section (Tab Break) field in DocType 'DocType'
 #. Label of the actions_section (Section Break) field in DocType 'User Session
@@ -1403,7 +1166,7 @@ msgstr "Thêm thẻ vào Dashboard"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:211
 msgid "Add Chart to Dashboard"
-msgstr "Thêm Biểu Đồ vào Bảng Điều Khiển"
+msgstr "Thêm Biểu Đồ vào Dashboard"
 
 #: frappe/public/js/frappe/views/treeview.js:310
 msgid "Add Child"
@@ -1636,7 +1399,7 @@ msgstr "Thêm tab"
 #: frappe/public/js/frappe/utils/dashboard_utils.js:262
 #: frappe/public/js/frappe/views/reports/query_report.js:253
 msgid "Add to Dashboard"
-msgstr "Thêm vào Bảng Điều Khiển"
+msgstr "Thêm vào Dashboard"
 
 #: frappe/desk/doctype/workspace/workspace.js:49
 msgid "Add to Desktop"
@@ -2195,10 +1958,7 @@ msgid ""
 "Allow editing even if the doctype has a workflow set up.\n"
 "\n"
 "Does nothing if a workflow isn't set up."
-msgstr ""
-"Cho phép chỉnh sửa ngay cả khi loại tài liệu đã thiết lập workflow.\n"
-"\n"
-"Sẽ không có tác dụng gì nếu workflow không được thiết lập."
+msgstr "Cho phép chỉnh sửa ngay cả khi loại tài liệu đã thiết lập workflow.\n\nSẽ không có tác dụng gì nếu workflow không được thiết lập."
 
 #. Label of the allow_events_in_timeline (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -2662,7 +2422,7 @@ msgstr "Nối vào có thể là một trong {0}"
 #. Description of the 'Append To' (Link) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Append as communication against this DocType (must have fields: \"Sender\" and \"Subject\"). These fields can be defined in the email settings section of the appended doctype."
-msgstr "Nối như liên lạc cho DocType này (phải có các trường: \"Người gửi\" và \"Theme\"). Các trường này có thể được định nghĩa trong phần cài đặt email của doctype được nối."
+msgstr "Nối như liên lạc cho DocType này (phải có các trường: \"Người gửi\" và \"Chủ đề\"). Các trường này có thể được định nghĩa trong phần cài đặt email của doctype được nối."
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:105
 msgid "Applicable Document Types"
@@ -4012,9 +3772,7 @@ msgstr "Logo thương hiệu"
 msgid ""
 "Brand is what appears on the top-left of the toolbar. If it is an image, make sure it\n"
 "has a transparent background and use the &lt;img /&gt; tag. Keep size as 200px x 30px"
-msgstr ""
-"Thương hiệu là nội dung hiển thị ở góc trên bên trái của thanh công cụ. Nếu là hình ảnh, hãy đảm bảo\n"
-"nó có nền trong suốt và sử dụng thẻ &lt;img /&gt;. Giữ kích thước 200px x 30px"
+msgstr "Thương hiệu là nội dung hiển thị ở góc trên bên trái của thanh công cụ. Nếu là hình ảnh, hãy đảm bảo\nnó có nền trong suốt và sử dụng thẻ &lt;img /&gt;. Giữ kích thước 200px x 30px"
 
 #. Label of the breadcrumbs (Code) field in DocType 'Web Form'
 #. Label of the breadcrumbs (Code) field in DocType 'Web Page'
@@ -4060,7 +3818,7 @@ msgstr "Xây dựng"
 #. Description of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Build your own reports, print formats, and dashboards. Create personalized workspaces for easier navigation"
-msgstr "Xây dựng báo cáo, mẫu in và trang tổng quan của riêng bạn. Tạo khu làm việc cá nhân hóa để điều hướng dễ dàng hơn"
+msgstr "Xây dựng báo cáo, mẫu in và Dashboard của riêng bạn. Tạo khu làm việc cá nhân hóa để điều hướng dễ dàng hơn"
 
 #: frappe/workflow/doctype/workflow/workflow_list.js:18
 msgid "Build {0}"
@@ -4368,15 +4126,15 @@ msgstr "Không thể đổi tên {0} thành {1} vì {0} không tồn tại."
 #: frappe/public/js/frappe/form/reminders.js:54
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:327
 msgid "Cancel"
-msgstr "Hủy bỏ"
+msgstr "Hủy"
 
 #: frappe/public/js/frappe/list/list_view.js:2341
 msgid "Cancel"
-msgstr "Hủy bỏ"
+msgstr "Hủy"
 
 #: frappe/public/js/frappe/ui/messages.js:74
 msgid "Cancel"
-msgstr "Hủy bỏ"
+msgstr "Hủy"
 
 #: frappe/public/js/frappe/form/form.js:1019
 msgid "Cancel All"
@@ -4542,7 +4300,7 @@ msgstr "Không thể xóa {0} vì nó có các nút con"
 
 #: frappe/desk/doctype/dashboard/dashboard.py:48
 msgid "Cannot edit Standard Dashboards"
-msgstr "Không thể chỉnh sửa Trang tổng quan tiêu chuẩn"
+msgstr "Không thể chỉnh sửa các Dashboard tiêu chuẩn"
 
 #: frappe/email/doctype/notification/notification.py:207
 msgid "Cannot edit Standard Notification. To edit, please disable this and duplicate it"
@@ -4749,10 +4507,7 @@ msgid ""
 "Change the starting / current sequence number of an existing series. <br>\n"
 "\n"
 "Warning: Incorrectly updating counters can prevent documents from getting created."
-msgstr ""
-"Thay đổi số thứ tự bắt đầu/hiện tại của chuỗi hiện có. <br>\n"
-"\n"
-"Cảnh báo: Bộ đếm cập nhật không chính xác có thể ngăn cản việc tạo tài liệu."
+msgstr "Thay đổi số thứ tự bắt đầu/hiện tại của chuỗi hiện có. <br>\n\nCảnh báo: Bộ đếm cập nhật không chính xác có thể ngăn cản việc tạo tài liệu."
 
 #. Label of the changed_at (Datetime) field in DocType 'Permission Log'
 #: frappe/core/doctype/permission_log/permission_log.json
@@ -5714,12 +5469,7 @@ msgid ""
 "Default behaviour is to follow an amend counter which adds a number to the end of the original name indicating the amended version. <br>\n"
 "\n"
 "Default Naming will make the amended document to behave same as new documents."
-msgstr ""
-"Cấu hình cách đặt tên các văn bản sửa đổi.<br>\n"
-"\n"
-"Hành vi mặc định là theo bộ đếm sửa đổi, thêm một số vào cuối tên gốc để chỉ phiên bản sửa đổi. <br>\n"
-"\n"
-"Đặt tên mặc định sẽ khiến văn bản sửa đổi hoạt động giống như các văn bản mới."
+msgstr "Cấu hình cách đặt tên các văn bản sửa đổi.<br>\n\nHành vi mặc định là theo bộ đếm sửa đổi, thêm một số vào cuối tên gốc để chỉ phiên bản sửa đổi. <br>\n\nĐặt tên mặc định sẽ khiến văn bản sửa đổi hoạt động giống như các văn bản mới."
 
 #. Description of a DocType
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
@@ -6827,7 +6577,7 @@ msgstr "Theme tối"
 #: frappe/public/js/frappe/utils/utils.js:959
 #: frappe/workspace_sidebar/build.json
 msgid "Dashboard"
-msgstr "Trang tổng quan"
+msgstr "Dashboard"
 
 #. Label of a Link in the Build Workspace
 #. Name of a DocType
@@ -6840,7 +6590,7 @@ msgstr "Biểu đồ dashboard"
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_field/dashboard_chart_field.json
 msgid "Dashboard Chart Field"
-msgstr "Trường biểu đồ trên trang tổng quan"
+msgstr "Trường biểu đồ trên Dashboard"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_link/dashboard_chart_link.json
@@ -6876,7 +6626,7 @@ msgstr "Chế độ xem dashboard"
 #. Label of the tab_break_2 (Tab Break) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
 msgid "Dashboards"
-msgstr "Trang tổng quan"
+msgstr "Dashboard"
 
 #. Label of the data (Code) field in DocType 'Deleted Document'
 #. Option for the 'Type' (Select) field in DocType 'DocField'
@@ -6938,7 +6688,7 @@ msgstr "Mẫu nhập dữ liệu"
 
 #: frappe/core/doctype/data_import/data_import.py:76
 msgid "Data Import is not allowed for {0}. Enable 'Allow Import' in DocType settings."
-msgstr "Nhập Dữ Liệu không được phép cho {0}. Bật 'Cho Phép Nhập' trong cài đặt DocType."
+msgstr "Import dữ liệu không được phép cho {0}. Bật 'Cho phép Import' trong cài đặt DocType."
 
 #: frappe/custom/doctype/customize_form/customize_form.py:623
 msgid "Data Too Long"
@@ -8044,11 +7794,7 @@ msgid ""
 "\t\t\t\tDo you want to update the docstatus of existing documents in those states?<br>\n"
 "\t\t\t\tThis does not undo any effect bought in by the document's existing docstatus.\n"
 "\t\t\t\t"
-msgstr ""
-"DocStatus của các trạng thái sau đã thay đổi:<br><strong>{0}</strong><br>\n"
-"\t\t\t\tBạn có muốn cập nhật docstatus của các tài liệu hiện có trong các trạng thái đó không?<br>\n"
-"\t\t\t\tĐiều này không hoàn tác bất kỳ tác động nào gây ra bởi docstatus hiện tại của tài liệu.\n"
-"\t\t\t\t"
+msgstr "DocStatus của các trạng thái sau đã thay đổi:<br><strong>{0}</strong><br>\n\t\t\t\tBạn có muốn cập nhật docstatus của các tài liệu hiện có trong các trạng thái đó không?<br>\n\t\t\t\tĐiều này không hoàn tác bất kỳ tác động nào gây ra bởi docstatus hiện tại của tài liệu.\n\t\t\t\t"
 
 #. Label of the document_type (Link) field in DocType 'Amended Document Naming
 #. Settings'
@@ -8516,7 +8262,7 @@ msgstr "Việc đổi tên tài liệu từ {0} thành {1} đã được đưa v
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:397
 msgid "Document type is required to create a dashboard chart"
-msgstr "Cần có loại tài liệu để tạo biểu đồ tổng quan"
+msgstr "Cần có loại tài liệu để tạo Biểu đồ Dashboard"
 
 #: frappe/core/doctype/deleted_document/deleted_document.py:45
 msgid "Document {0} Already Restored"
@@ -9298,7 +9044,7 @@ msgstr "Đã gửi Email"
 #. Label of the email_sent_at (Datetime) field in DocType 'User Invitation'
 #: frappe/core/doctype/user_invitation/user_invitation.json
 msgid "Email Sent At"
-msgstr "Email Đã Gửi Lúc"
+msgstr "Email đã gửi lúc"
 
 #. Label of the email_settings_sb (Section Break) field in DocType 'DocType'
 #. Label of the email_settings_section (Section Break) field in DocType
@@ -9598,9 +9344,7 @@ msgstr "Bật chế độ nhà phát triển để tạo Mẫu web tiêu chuẩn
 msgid ""
 "Enable if on click\n"
 "opens modal."
-msgstr ""
-"Bật nếu nhấp chuột\n"
-"mở phương thức."
+msgstr "Bật nếu nhấp chuột\nmở phương thức."
 
 #. Label of the enable_view_tracking (Check) field in DocType 'Website
 #. Settings'
@@ -9766,7 +9510,7 @@ msgstr "Nhập loại biểu mẫu"
 
 #: frappe/public/js/frappe/ui/messages.js:100
 msgid "Enter Value"
-msgstr "Giá trị nhập"
+msgstr "Nhập giá trị"
 
 #: frappe/public/js/frappe/form/form_tour.js:60
 msgid "Enter a name for this {0}"
@@ -10247,7 +9991,7 @@ msgstr "Xuất Nhập Nhật ký"
 
 #: frappe/public/js/frappe/views/reports/report_utils.js:245
 msgid "Export Report: {0}"
-msgstr "Báo cáo xuất: {0}"
+msgstr "Export báo cáo: {0}"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:26
 msgid "Export Type"
@@ -10479,7 +10223,7 @@ msgstr "Không hiển thị được tin nhắn: {}"
 
 #: frappe/email/doctype/notification/notification.py:142
 msgid "Failed to render subject: {}"
-msgstr "Không hiển thị được theme: {}"
+msgstr "Không hiển thị được chủ đề: {}"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:101
 msgid "Failed to request login to Frappe Cloud"
@@ -11383,15 +11127,13 @@ msgstr "Đối với giá trị"
 #. Description of the 'Subject' (Data) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
 msgid "For a dynamic subject, use Jinja tags like this: <code>{{ doc.name }} Delivered</code>"
-msgstr "Để có theme động, sử dụng thẻ Jinja như sau: <code>{{ doc.name }} Delivered</code>"
+msgstr "Để có chủ đề động, sử dụng thẻ Jinja như sau: <code>{{ doc.name }} Delivered</code>"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:455
 msgid ""
 "For comparison, use >5, <10 or =324.\n"
 "For ranges, use 5:10 (for values between 5 & 10)."
-msgstr ""
-"Để so sánh, sử dụng >5, <10 hoặc =324.\n"
-"Để chọn khoảng, sử dụng 5:10 (cho các giá trị giữa 5 và 10)."
+msgstr "Để so sánh, sử dụng >5, <10 hoặc =324.\nĐể chọn khoảng, sử dụng 5:10 (cho các giá trị giữa 5 và 10)."
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2287
 msgid "For comparison, use >5, <10 or =324. For ranges, use 5:10 (for values between 5 & 10)."
@@ -13256,7 +12998,7 @@ msgstr "Ứng dụng bị bỏ qua"
 
 #: frappe/model/workflow.py:223
 msgid "Illegal Document Status for {0}"
-msgstr "Tình trạng Tài liệu Bất hợp pháp cho {0}"
+msgstr "Trạng thái tài liệu không hợp lệ cho {0}"
 
 #: frappe/model/db_query.py:545 frappe/model/db_query.py:548
 #: frappe/model/db_query.py:1230
@@ -13379,11 +13121,11 @@ msgstr "Tiềm ẩn"
 #: frappe/core/page/permission_manager/permission_manager_help.html:71
 #: frappe/email/doctype/email_group/email_group.js:31
 msgid "Import"
-msgstr "Nhập khẩu"
+msgstr "Import"
 
 #: frappe/public/js/frappe/list/list_view.js:1972
 msgid "Import"
-msgstr "Nhập khẩu"
+msgstr "Import"
 
 #: frappe/email/doctype/email_group/email_group.js:14
 msgid "Import Email From"
@@ -14049,7 +13791,7 @@ msgstr "Filter không hợp lệ"
 
 #: frappe/public/js/form_builder/store.js:221
 msgid "Invalid Filter Format for field {0} of type {1}. Try using filter icon on the field to set it correctly"
-msgstr "Định dạng filter không hợp lệ cho trường {0} thuộc loại {1}. Hãy thử sử dụng biểu tượng filter trên sân để đặt chính xác"
+msgstr "Định dạng Filter không hợp lệ cho trường {0} thuộc loại {1}. Hãy dùng biểu tượng Filter trên trường để thiết lập chính xác."
 
 #: frappe/utils/dashboard.py:61
 msgid "Invalid Filter Value"
@@ -14230,7 +13972,7 @@ msgstr "Đường dẫn tệp không hợp lệ: {0}"
 
 #: frappe/database/query.py:730
 msgid "Invalid filter condition: {0}. Expected a list or tuple."
-msgstr "Điều kiện filter không hợp lệ: {0}. Dự kiến ​​​​một danh sách hoặc bộ dữ liệu."
+msgstr "Điều kiện Filter không hợp lệ: {0}. Cần một list hoặc tuple."
 
 #: frappe/database/query.py:836
 msgid "Invalid filter field format: {0}. Use 'fieldname' or 'link_fieldname.target_fieldname'."
@@ -14299,7 +14041,7 @@ msgstr "Định dạng filter đơn giản không hợp lệ: {0}"
 
 #: frappe/database/query.py:707
 msgid "Invalid start for filter condition: {0}. Expected a list or tuple."
-msgstr "Bắt đầu không hợp lệ cho điều kiện filter: {0}. Dự kiến ​​​​một danh sách hoặc bộ dữ liệu."
+msgstr "Phần bắt đầu của điều kiện Filter không hợp lệ: {0}. Cần một list hoặc tuple."
 
 #: frappe/core/doctype/data_import/importer.py:431
 msgid "Invalid template file for import"
@@ -16621,11 +16363,11 @@ msgstr "Việc hợp nhất chỉ có thể thực hiện giữa Nhóm với Nh�
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 #: frappe/www/message.html:3
 msgid "Message"
-msgstr "Thông điệp"
+msgstr "Tin nhắn"
 
 #: frappe/public/js/frappe/ui/messages.js:281 frappe/utils/messages.py:90
 msgid "Message"
-msgstr "Thông điệp"
+msgstr "Tin nhắn"
 
 #. Label of the message_examples (HTML) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -17336,10 +17078,7 @@ msgid ""
 "Naming Options:\n"
 "<ol><li><b>field:[fieldname]</b> - By Field</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present)</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li>\n"
 "<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>"
-msgstr ""
-"Tùy chọn đặt tên:\n"
-"<ol><li><b>field:[fieldname]</b> - Theo Trường</li><li><b>naming_series:</b> - Theo Chuỗi đặt tên (trường called naming_series phải tồn tại)</li><li><b>Prompt</b> - Nhắc người dùng nhập tên</li><li><b>[series]</b> - Chuỗi theo tiền tố (phân tách bằng dấu chấm); ví dụ PRE.#####</li>\n"
-"<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Thay thế tất cả từ trong dấu ngoặc nhọn (tên trường, từ ngày tháng (DD, MM, YY), chuỗi) bằng giá trị của chúng. Bên ngoài dấu ngoặc nhọn, có thể sử dụng bất kỳ ký tự nào.</li></ol>"
+msgstr "Tùy chọn đặt tên:\n<ol><li><b>field:[fieldname]</b> - Theo Trường</li><li><b>naming_series:</b> - Theo Chuỗi đặt tên (trường called naming_series phải tồn tại)</li><li><b>Prompt</b> - Nhắc người dùng nhập tên</li><li><b>[series]</b> - Chuỗi theo tiền tố (phân tách bằng dấu chấm); ví dụ PRE.#####</li>\n<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Thay thế tất cả từ trong dấu ngoặc nhọn (tên trường, từ ngày tháng (DD, MM, YY), chuỗi) bằng giá trị của chúng. Bên ngoài dấu ngoặc nhọn, có thể sử dụng bất kỳ ký tự nào.</li></ol>"
 
 #. Label of the naming_rule (Select) field in DocType 'DocType'
 #. Label of the naming_rule (Select) field in DocType 'Customize Form'
@@ -17600,10 +17339,7 @@ msgid ""
 "New line separated list of allowed public client URLs (eg <code>https://frappe.io</code>), or <code>*</code> to accept all.\n"
 "<br>\n"
 "Public clients are restricted by default."
-msgstr ""
-"Danh sách URL khách hàng công cộng được phép được phân tách bằng dòng mới (ví dụ: <code>https://frappe.io</code>) hoặc <code>*</code> để chấp nhận tất cả.\n"
-"<br>\n"
-"Các máy khách công cộng bị hạn chế theo mặc định."
+msgstr "Danh sách URL khách hàng công cộng được phép được phân tách bằng dòng mới (ví dụ: <code>https://frappe.io</code>) hoặc <code>*</code> để chấp nhận tất cả.\n<br>\nCác máy khách công cộng bị hạn chế theo mặc định."
 
 #. Description of the 'Scopes Supported' (Small Text) field in DocType 'OAuth
 #. Settings'
@@ -17659,7 +17395,7 @@ msgstr "Đã tạo {0} mới"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:386
 msgid "New {0} {1} added to Dashboard {2}"
-msgstr "{0} {1} mới được thêm vào Trang tổng quan {2}"
+msgstr "{0} {1} mới đã được thêm vào Dashboard {2}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:391
 msgid "New {0} {1} created"
@@ -18162,7 +17898,7 @@ msgstr "Không có hàng nào được chọn"
 
 #: frappe/email/doctype/notification/notification.py:137
 msgid "No subject"
-msgstr "Không có theme"
+msgstr "Không có chủ đề"
 
 #: frappe/www/printview.py:468
 msgid "No template found at path: {0}"
@@ -19630,8 +19366,7 @@ msgstr "Không tìm thấy trang"
 #: frappe/website/doctype/web_page/web_page.json
 msgid ""
 "Page to show on the website\n"
-msgstr ""
-"Trang hiển thị trên trang web\n"
+msgstr "Trang hiển thị trên trang web\n"
 
 #: frappe/public/html/print_template.html:38
 #: frappe/public/js/frappe/views/reports/print_tree.html:89
@@ -19712,7 +19447,7 @@ msgstr "Bảng cha"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:404
 msgid "Parent document type is required to create a dashboard chart"
-msgstr "Cần có loại tài liệu gốc để tạo biểu đồ trang tổng quan"
+msgstr "Cần có loại tài liệu gốc để tạo biểu đồ Dashboard"
 
 #: frappe/core/doctype/data_export/exporter.py:253
 msgid "Parent is the name of the document to which the data will get added to."
@@ -20244,7 +19979,7 @@ msgstr "Vui lòng cập nhật cài đặt SMS"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:614
 msgid "Please add a subject to your email"
-msgstr "Vui lòng thêm theme vào email của bạn"
+msgstr "Vui lòng thêm chủ đề vào email của bạn"
 
 #: frappe/templates/includes/comments/comments.html:168
 msgid "Please add a valid comment."
@@ -20276,7 +20011,7 @@ msgstr "Vui lòng đính kèm gói"
 
 #: frappe/utils/dashboard.py:58
 msgid "Please check the filter values set for Dashboard Chart: {}"
-msgstr "Vui lòng kiểm tra các giá trị filter được đặt cho Biểu đồ trang tổng quan: {}"
+msgstr "Vui lòng kiểm tra các giá trị filter được đặt cho Biểu đồ Dashboard: {}"
 
 #: frappe/model/base_document.py:1079
 msgid "Please check the value of \"Fetch From\" set for field {0}"
@@ -20312,7 +20047,7 @@ msgstr "Vui lòng nhấp vào liên kết sau để đặt mật khẩu mới"
 
 #: frappe/www/confirm_workflow_action.html:4
 msgid "Please confirm your action to {0} this document."
-msgstr "Vui lòng xác nhận hành động của bạn với {0} tài liệu này."
+msgstr "Vui lòng xác nhận thao tác {0} tài liệu này."
 
 #: frappe/printing/page/print/print.js:669
 msgid "Please contact your system manager to install correct version."
@@ -22743,7 +22478,7 @@ msgstr "Báo cáo {0}"
 
 #: frappe/desk/reportview.py:367
 msgid "Report {0} deleted"
-msgstr "Báo cáo {0} đã xóa"
+msgstr "Báo cáo {0} đã được xóa"
 
 #: frappe/desk/query_report.py:56
 msgid "Report {0} is disabled"
@@ -23581,7 +23316,7 @@ msgstr "Truy vấn SQL"
 
 #: frappe/database/query.py:2129
 msgid "SQL functions are not allowed as strings in SELECT: {0}. Use dict syntax like {{'COUNT': '*'}} instead."
-msgstr "Các hàm SQL không được phép dưới dạng chuỗi trong CHỌN: {0}. Thay vào đó, hãy sử dụng cú pháp chính tả như {{'COUNT': '*'}}."
+msgstr "Không cho phép hàm SQL dưới dạng chuỗi trong SELECT: {0}. Hãy dùng cú pháp dict như {{'COUNT': '*'}}."
 
 #. Label of the ssl_tls_mode (Select) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
@@ -24429,7 +24164,7 @@ msgstr "Chọn Trường người gửi hợp lệ để tạo tài liệu từ 
 
 #: frappe/core/doctype/doctype/doctype.py:1981
 msgid "Select a valid Subject field for creating documents from Email"
-msgstr "Chọn trường Theme hợp lệ để tạo tài liệu từ Email"
+msgstr "Chọn trường chủ đề hợp lệ để tạo tài liệu từ Email"
 
 #: frappe/public/js/frappe/form/form_tour.js:321
 msgid "Select an Image"
@@ -25065,25 +24800,7 @@ msgid ""
 "\treqd: 1\n"
 "}]\n"
 "</code></pre>"
-msgstr ""
-"Đặt filter ở đây. Ví dụ:\n"
-"<pre class=\"small text-muted\"><code>\n"
-"[{\n"
-"\tfieldname: \"company\",\n"
-"\tlabel: __(\"Company\"),\n"
-"\tfieldtype: \"Link\",\n"
-"\toptions: \"Company\",\n"
-"\tdefault: frappe.defaults.get_user_default(\"Company\"),\n"
-"\treqd: 1\n"
-"},\n"
-"{\n"
-"\tfieldname: \"account\",\n"
-"\tlabel: __(\"Account\"),\n"
-"\tfieldtype: \"Link\",\n"
-"\toptions: \"Account\",\n"
-"\treqd: 1\n"
-"}]\n"
-"</code></pre>"
+msgstr "Đặt filter ở đây. Ví dụ:\n<pre class=\"small text-muted\"><code>\n[{\n\tfieldname: \"company\",\n\tlabel: __(\"Company\"),\n\tfieldtype: \"Link\",\n\toptions: \"Company\",\n\tdefault: frappe.defaults.get_user_default(\"Company\"),\n\treqd: 1\n},\n{\n\tfieldname: \"account\",\n\tlabel: __(\"Account\"),\n\tfieldtype: \"Link\",\n\toptions: \"Account\",\n\treqd: 1\n}]\n</code></pre>"
 
 #. Description of the 'Method' (Data) field in DocType 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
@@ -25097,16 +24814,7 @@ msgid ""
 "\t\"route_options\": {\"from_date\": \"2023-05-23\"},\n"
 "\t\"route\": [\"query-report\", \"Permitted Documents For User\"]\n"
 "}</code></pre>"
-msgstr ""
-"Đặt đường dẫn đến hàm được whitelisted sẽ trả về dữ liệu cho thẻ số theo định dạng:\n"
-"\n"
-"<pre class=\"small text-muted\"><code>\n"
-"{\n"
-"\t\"value\": value,\n"
-"\t\"fieldtype\": \"Currency\",\n"
-"\t\"route_options\": {\"from_date\": \"2023-05-23\"},\n"
-"\t\"route\": [\"query-report\", \"Permitted Documents For User\"]\n"
-"}</code></pre>"
+msgstr "Đặt đường dẫn đến hàm được whitelisted sẽ trả về dữ liệu cho thẻ số theo định dạng:\n\n<pre class=\"small text-muted\"><code>\n{\n\t\"value\": value,\n\t\"fieldtype\": \"Currency\",\n\t\"route_options\": {\"from_date\": \"2023-05-23\"},\n\t\"route\": [\"query-report\", \"Permitted Documents For User\"]\n}</code></pre>"
 
 #: frappe/public/js/frappe/views/workspace/blocks/block.js:201
 msgid "Setting"
@@ -25312,7 +25020,7 @@ msgstr "Hiển thị ký hiệu tiền tệ ở bên phải"
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 #: frappe/desk/doctype/dashboard/dashboard.js:6
 msgid "Show Dashboard"
-msgstr "Hiển thị Trang tổng quan"
+msgstr "Hiển thị Dashboard"
 
 #. Label of the show_description_on_click (Check) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
@@ -26029,7 +25737,7 @@ msgstr "Văn bản nguồn"
 #: frappe/public/js/frappe/views/workspace/blocks/spacer.js:26
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:174
 msgid "Spacer"
-msgstr "Miếng đệm"
+msgstr "Khoảng trống"
 
 #. Option for the 'Email Status' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -26496,7 +26204,7 @@ msgstr "Domain phụ"
 #: frappe/public/js/frappe/views/communication.js:129
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:63
 msgid "Subject"
-msgstr "Theme"
+msgstr "Chủ đề"
 
 #. Label of the subject_field (Data) field in DocType 'DocType'
 #. Label of the subject_field (Data) field in DocType 'Customize Form'
@@ -26505,7 +26213,7 @@ msgstr "Theme"
 #: frappe/custom/doctype/customize_form/customize_form.json
 #: frappe/desk/doctype/calendar_view/calendar_view.json
 msgid "Subject Field"
-msgstr "Trường theme"
+msgstr "Trường chủ đề"
 
 #: frappe/core/doctype/doctype/doctype.py:1990
 msgid "Subject Field type should be Data, Text, Long Text, Small Text, Text Editor"
@@ -27389,13 +27097,7 @@ msgid ""
 "Your query:\n"
 "\n"
 "{0}"
-msgstr ""
-"Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi sẽ liên hệ lại với bạn sớm nhất.\n"
-"\n"
-"\n"
-"Truy vấn của bạn:\n"
-"\n"
-"{0}"
+msgstr "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi sẽ liên hệ lại với bạn sớm nhất.\n\n\nTruy vấn của bạn:\n\n{0}"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:156
 msgid "Thank you for spending your valuable time to fill this form"
@@ -27435,10 +27137,7 @@ msgid ""
 "The Client ID obtained from the Google Cloud Console under <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
 "\"APIs &amp; Services\" &gt; \"Credentials\"\n"
 "</a>"
-msgstr ""
-"Client ID từ Google Cloud Console bên dưới <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
-"\"APIs &amp; Services\" &gt; \"Credentials\"\n"
-"</a>"
+msgstr "Client ID từ Google Cloud Console bên dưới <a href=\"https://console.cloud.google.com/apis/credentials\">\n\"APIs &amp; Services\" &gt; \"Credentials\"\n</a>"
 
 #: frappe/email/doctype/notification/notification.py:224
 msgid "The Condition '{0}' is invalid"
@@ -27480,10 +27179,7 @@ msgid ""
 "The browser API key obtained from the Google Cloud Console under <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
 "\"APIs &amp; Services\" &gt; \"Credentials\"\n"
 "</a>"
-msgstr ""
-"Khóa API trình duyệt từ Google Cloud Console bên dưới <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
-"\"APIs &amp; Services\" &gt; \"Credentials\"\n"
-"</a>"
+msgstr "Khóa API trình duyệt từ Google Cloud Console bên dưới <a href=\"https://console.cloud.google.com/apis/credentials\">\n\"APIs &amp; Services\" &gt; \"Credentials\"\n</a>"
 
 #: frappe/database/database.py:484
 msgid "The changes have been reverted."
@@ -27624,10 +27320,7 @@ msgid ""
 "The project number obtained from Google Cloud Console under <a href=\"https://console.cloud.google.com/iam-admin/settings\">\n"
 "\"IAM &amp; Admin\" &gt; \"Settings\"\n"
 "</a>"
-msgstr ""
-"Số project từ Google Cloud Console bên dưới <a href=\"https://console.cloud.google.com/iam-admin/settings\">\n"
-"\"IAM &amp; Admin\" &gt; \"Settings\"\n"
-"</a>"
+msgstr "Số project từ Google Cloud Console bên dưới <a href=\"https://console.cloud.google.com/iam-admin/settings\">\n\"IAM &amp; Admin\" &gt; \"Settings\"\n</a>"
 
 #: frappe/desk/utils.py:110
 msgid "The report you requested has been generated.<br><br>Click here to download:<br><a href='{0}'>{0}</a><br><br>This link will expire in {1} hours."
@@ -27943,9 +27636,7 @@ msgstr "Email này được tạo tự động"
 msgid ""
 "This feature can not be used as dependencies are missing.\n"
 "\t\t\t\tPlease contact your system manager to enable this by installing pycups!"
-msgstr ""
-"Tính năng này không thể sử dụng vì thiếu các phụ thuộc.\n"
-"\t\t\t\tVui lòng liên hệ quản lý hệ thống của bạn để bật tính năng này bằng cách cài đặt pycups!"
+msgstr "Tính năng này không thể sử dụng vì thiếu các phụ thuộc.\n\t\t\t\tVui lòng liên hệ quản lý hệ thống của bạn để bật tính năng này bằng cách cài đặt pycups!"
 
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:40
 msgid "This feature is brand new and still experimental"
@@ -27959,11 +27650,7 @@ msgid ""
 "myfield\n"
 "eval:doc.myfield=='My Value'\n"
 "eval:doc.age&gt;18"
-msgstr ""
-"Trường này sẽ chỉ xuất hiện nếu tên trường được định nghĩa ở đây có giá trị HOẶC các quy tắc đúng (ví dụ):\n"
-"myfield\n"
-"eval:doc.myfield=='My Value'\n"
-"eval:doc.age&gt;18"
+msgstr "Trường này sẽ chỉ xuất hiện nếu tên trường được định nghĩa ở đây có giá trị HOẶC các quy tắc đúng (ví dụ):\nmyfield\neval:doc.myfield=='My Value'\neval:doc.age&gt;18"
 
 #: frappe/core/doctype/file/file.py:565
 msgid "This file is attached to a protected document and cannot be deleted."
@@ -28237,7 +27924,7 @@ msgstr "Thời gian tính bằng giây để giữ lại hình ảnh mã QR trê
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:413
 msgid "Time series based on is required to create a dashboard chart"
-msgstr "Cần phải có chuỗi thời gian dựa trên để tạo biểu đồ trang tổng quan"
+msgstr "Cần phải có chuỗi thời gian dựa trên để tạo biểu đồ Dashboard"
 
 #: frappe/public/js/frappe/form/controls/time.js:124
 msgid "Time {0} must be in format: {1}"
@@ -28417,10 +28104,7 @@ msgid ""
 "To add dynamic subject, use jinja tags like\n"
 "\n"
 "<div><pre><code>New {{ doc.doctype }} #{{ doc.name }}</code></pre></div>"
-msgstr ""
-"Để thêm tiêu đề động, hãy sử dụng các thẻ jinja như\n"
-"\n"
-"<div><pre><code>New {{ doc.doctype }} #{{ doc.name }}</code></pre></div>"
+msgstr "Để thêm tiêu đề động, hãy sử dụng các thẻ jinja như\n\n<div><pre><code>New {{ doc.doctype }} #{{ doc.name }}</code></pre></div>"
 
 #. Description of the 'JSON Request Body' (Code) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
@@ -28431,13 +28115,7 @@ msgid ""
 "<pre><code>{ \"id\": \"{{ doc.name }}\" }</code>\n"
 "</pre>\n"
 "</div>"
-msgstr ""
-"Để thêm các giá trị động từ tài liệu, hãy sử dụng các thẻ jinja như\n"
-"\n"
-"<div>\n"
-"<pre><code>{ \"id\": \"{{ doc.name }}\" }</code>\n"
-"</pre>\n"
-"</div>"
+msgstr "Để thêm các giá trị động từ tài liệu, hãy sử dụng các thẻ jinja như\n\n<div>\n<pre><code>{ \"id\": \"{{ doc.name }}\" }</code>\n</pre>\n</div>"
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:109
 msgid "To allow more reports update limit in System Settings."
@@ -28772,10 +28450,7 @@ msgid ""
 "Track if your email has been opened by the recipient.\n"
 "<br>\n"
 "Note: If you're sending to multiple recipients, even if 1 recipient reads the email, it'll be considered \"Opened\""
-msgstr ""
-"Theo dõi nếu email của bạn đã được người nhận mở.\n"
-"<br>\n"
-"Ghi chú: Nếu bạn gửi cho nhiều người nhận, ngay cả khi 1 người nhận đọc email, nó sẽ được coi là \"Đã mở\""
+msgstr "Theo dõi nếu email của bạn đã được người nhận mở.\n<br>\nGhi chú: Nếu bạn gửi cho nhiều người nhận, ngay cả khi 1 người nhận đọc email, nó sẽ được coi là \"Đã mở\""
 
 #. Description of a DocType
 #: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
@@ -29054,9 +28729,7 @@ msgstr "KHÔNG ĐƯỢC XEM"
 msgid ""
 "URIs for receiving authorization code once the user allows access, as well as failure responses. Typically a REST endpoint exposed by the Client App.\n"
 "<br>e.g. http://hostname/api/method/frappe.integrations.oauth2_logins.login_via_facebook"
-msgstr ""
-"Các URI để nhận mã ủy quyền khi người dùng cho phép truy cập, cũng như các phản hồi lỗi. Thường là một REST endpoint được hiển thị bởi Ứng dụng Client.\n"
-"<br>vd: http://hostname/api/method/frappe.integrations.oauth2_logins.login_via_facebook"
+msgstr "Các URI để nhận mã ủy quyền khi người dùng cho phép truy cập, cũng như các phản hồi lỗi. Thường là một REST endpoint được hiển thị bởi Ứng dụng Client.\n<br>vd: http://hostname/api/method/frappe.integrations.oauth2_logins.login_via_facebook"
 
 #. Option for the 'Type' (Select) field in DocType 'Workspace'
 #. Option for the 'Type' (Select) field in DocType 'Workspace Shortcut'
@@ -29249,10 +28922,7 @@ msgid ""
 "Unique ID assigned by the client developer used to identify the client software to be dynamically registered.\n"
 "<br>\n"
 "<b>Should remain same</b> across multiple versions or updates of the software."
-msgstr ""
-"ID duy nhất được gán bởi nhà phát triển client để xác định phần mềm client được đăng ký động.\n"
-"<br>\n"
-"<b>Nên giữ nguyên</b> qua nhiều phiên bản hoặc cập nhật của phần mềm."
+msgstr "ID duy nhất được gán bởi nhà phát triển client để xác định phần mềm client được đăng ký động.\n<br>\n<b>Nên giữ nguyên</b> qua nhiều phiên bản hoặc cập nhật của phần mềm."
 
 #: frappe/website/report/website_analytics/website_analytics.js:60
 msgid "Unknown"
@@ -31343,15 +31013,15 @@ msgstr "Màu vàng"
 #: frappe/public/js/frappe/views/reports/query_report.js:47
 #: frappe/website/doctype/help_article/templates/help_article.html:25
 msgid "Yes"
-msgstr "Đồng ý"
+msgstr "Có"
 
 #: frappe/public/js/frappe/ui/messages.js:38
 msgid "Yes"
-msgstr "Đồng ý"
+msgstr "Có"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:554
 msgid "Yes"
-msgstr "Đồng ý"
+msgstr "Có"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:736
 msgid "Yesterday"
@@ -31580,7 +31250,7 @@ msgstr "Bạn đã hủy tài liệu này {1}"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:417
 msgid "You cannot create a dashboard chart from single DocTypes"
-msgstr "Bạn không thể tạo biểu đồ trang tổng quan từ một DocTypes"
+msgstr "Bạn không thể tạo biểu đồ Dashboard từ một DocTypes"
 
 #: frappe/share.py:241
 msgid "You cannot share `{0}` on {1} `{2}` as you do not have `{0}` permission on `{1}`"
@@ -32078,7 +31748,7 @@ msgstr "màu xám đen"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:65
 msgid "dashboard"
-msgstr "tổng quan"
+msgstr "Dashboard"
 
 #. Option for the 'Date Format' (Select) field in DocType 'Language'
 #. Option for the 'Date Format' (Select) field in DocType 'System Settings'
@@ -32734,24 +32404,24 @@ msgstr "{0} = {1}"
 
 #: frappe/public/js/frappe/views/calendar/calendar.js:30
 msgid "{0} Calendar"
-msgstr "{0} Lịch"
+msgstr "Lịch {0}"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:650
 msgid "{0} Chart"
-msgstr "{0} Biểu đồ"
+msgstr "Biểu đồ {0}"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:67
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:368
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:369
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:12
 msgid "{0} Dashboard"
-msgstr "{0} Trang tổng quan"
+msgstr "Dashboard {0}"
 
 #: frappe/public/js/frappe/form/grid_row.js:472
 #: frappe/public/js/frappe/list/list_settings.js:230
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:178
 msgid "{0} Fields"
-msgstr "{0} Trường"
+msgstr "{0} trường"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:377
 msgid "{0} Google Calendar Events synced."
@@ -32779,11 +32449,11 @@ msgstr "{0} tháng"
 
 #: frappe/public/js/frappe/views/map/map_view.js:14
 msgid "{0} Map"
-msgstr "{0} Bản đồ"
+msgstr "Bản đồ {0}"
 
 #: frappe/public/js/frappe/form/quick_entry.js:134
 msgid "{0} Name"
-msgstr "{0} Tên"
+msgstr "Tên {0}"
 
 #: frappe/model/base_document.py:1286
 msgid "{0} Not allowed to change {1} after submission from {2} to {3}"
@@ -32791,19 +32461,19 @@ msgstr "{0} Không được phép thay đổi {1} sau khi gửi từ {2} thành 
 
 #: frappe/public/js/frappe/widgets/chart_widget.js:371
 msgid "{0} Report"
-msgstr "{0} Báo cáo"
+msgstr "Báo cáo {0}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:997
 msgid "{0} Reports"
-msgstr "{0} Báo cáo"
+msgstr "{0} báo cáo"
 
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:26
 msgid "{0} Settings"
-msgstr "{0} cài đặt"
+msgstr "Cài đặt {0}"
 
 #: frappe/public/js/frappe/views/treeview.js:153
 msgid "{0} Tree"
-msgstr "{0} Cây"
+msgstr "Cây {0}"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:128
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:152
@@ -33201,7 +32871,7 @@ msgstr "{0} là {1}"
 
 #: frappe/public/js/frappe/list/list_view.js:1902
 msgid "{0} items selected"
-msgstr "{0} mục đã chọn"
+msgstr "Đã chọn {0} mục"
 
 #: frappe/core/doctype/user/user.py:1498
 msgid "{0} just impersonated as you. They gave this reason: {1}"
@@ -33302,7 +32972,7 @@ msgstr "{0} hoặc {1}"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:177
 msgid "{0} record deleted"
-msgstr "{0} bản ghi đã bị xóa"
+msgstr "Đã xóa {0} bản ghi"
 
 #: frappe/public/js/frappe/logtypes.js:22
 msgid "{0} records are not automatically deleted."
@@ -33314,11 +32984,11 @@ msgstr "Bản ghi {0} được lưu giữ trong {1} ngày."
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:179
 msgid "{0} records deleted"
-msgstr "{0} bản ghi đã bị xóa"
+msgstr "Đã xóa {0} bản ghi"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:233
 msgid "{0} records will be exported"
-msgstr "Bản ghi {0} sẽ được xuất"
+msgstr "Sẽ Export {0} bản ghi"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:318
 msgid "{0} removed 1 row from {1}"
@@ -33382,7 +33052,7 @@ msgstr "{0} đã chia sẻ tài liệu này với {1}"
 
 #: frappe/core/doctype/doctype/doctype.py:318
 msgid "{0} should be indexed because it's referred in dashboard connections"
-msgstr "{0} nên được lập chỉ mục vì nó được đề cập trong các kết nối trang tổng quan"
+msgstr "{0} nên được lập chỉ mục vì nó được đề cập trong các kết nối Dashboard"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:149
 msgid "{0} should not be same as {1}"
@@ -33399,7 +33069,7 @@ msgstr "{0} đã gửi tài liệu này {1}"
 #: frappe/email/doctype/email_group/email_group.py:71
 #: frappe/email/doctype/email_group/email_group.py:142
 msgid "{0} subscribers added"
-msgstr "{0} người đăng ký đã được thêm"
+msgstr "Đã thêm {0} người đăng ký"
 
 #: frappe/email/queue.py:69
 msgid "{0} to stop receiving emails of this type"
@@ -33421,7 +33091,7 @@ msgstr "{0} đã cập nhật"
 
 #: frappe/public/js/frappe/form/controls/multiselect_list.js:213
 msgid "{0} values selected"
-msgstr "Đã chọn giá trị {0}"
+msgstr "Đã chọn {0} giá trị"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:184
 msgid "{0} viewed this"
@@ -33453,7 +33123,7 @@ msgstr "{0} {1} đã thêm"
 
 #: frappe/public/js/frappe/utils/dashboard_utils.js:269
 msgid "{0} {1} added to Dashboard {2}"
-msgstr "{0} {1} đã thêm vào Trang tổng quan {2}"
+msgstr "Đã thêm {0} {1} vào Dashboard {2}"
 
 #: frappe/model/base_document.py:778 frappe/model/rename_doc.py:110
 msgid "{0} {1} already exists"

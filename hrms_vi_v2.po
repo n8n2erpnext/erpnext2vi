@@ -289,30 +289,7 @@ msgid ""
 "<pre><code>Condition: employment_type==\"Intern\"</code></pre>\n"
 "<pre><code>Amount: 1000</code></pre></li>\n"
 "</ol>"
-msgstr ""
-"<h3>Trợ giúp</h3>\n"
-"\n"
-"<p>Ghi chú:</p>\n"
-"\n"
-"<ol>\n"
-"<li>Sử dụng trường <code>base</code> để sử dụng lương cơ bản của nhân viên</li>\n"
-"<li>Sử dụng tên viết tắt của Thành phần lương trong điều kiện và công thức. <code>BS = Lương cơ bản</code></li>\n"
-"<li>Sử dụng tên trường cho chi tiết nhân viên trong điều kiện và công thức. <code>Loại hợp đồng = employment_type</code><code>Chi nhánh = branch</code></li>\n"
-"<li>Sử dụng tên trường từ Phiếu lương trong điều kiện và công thức. <code>Số ngày thanh toán = payment_days</code><code>Nghỉ không lương = leave_without_pay</code></li>\n"
-"<li>Số tiền trực tiếp cũng có thể được nhập dựa trên Điều kiện. Xem ví dụ 3</li></ol>\n"
-"\n"
-"<h4>Ví dụ</h4>\n"
-"<ol>\n"
-"<li>Tính Lương cơ bản dựa trên <code>base</code>\n"
-"<pre><code>Điều kiện: base &lt; 10000</code></pre>\n"
-"<pre><code>Công thức: base * .2</code></pre></li>\n"
-"<li>Tính HRA dựa trên Lương cơ bản<code>BS</code> \n"
-"<pre><code>Điều kiện: BS &gt; 2000</code></pre>\n"
-"<pre><code>Công thức: BS * .1</code></pre></li>\n"
-"<li>Tính TDS dựa trên Loại hợp đồng<code>employment_type</code> \n"
-"<pre><code>Điều kiện: employment_type==\"Intern\"</code></pre>\n"
-"<pre><code>Số tiền: 1000</code></pre></li>\n"
-"</ol>"
+msgstr "<h3>Trợ giúp</h3>\n\n<p>Ghi chú:</p>\n\n<ol>\n<li>Sử dụng trường <code>base</code> để sử dụng lương cơ bản của nhân viên</li>\n<li>Sử dụng tên viết tắt của Thành phần lương trong điều kiện và công thức. <code>BS = Lương cơ bản</code></li>\n<li>Sử dụng tên trường cho chi tiết nhân viên trong điều kiện và công thức. <code>Loại hợp đồng = employment_type</code><code>Chi nhánh = branch</code></li>\n<li>Sử dụng tên trường từ Phiếu lương trong điều kiện và công thức. <code>Số ngày thanh toán = payment_days</code><code>Nghỉ không lương = leave_without_pay</code></li>\n<li>Số tiền trực tiếp cũng có thể được nhập dựa trên Điều kiện. Xem ví dụ 3</li></ol>\n\n<h4>Ví dụ</h4>\n<ol>\n<li>Tính Lương cơ bản dựa trên <code>base</code>\n<pre><code>Điều kiện: base &lt; 10000</code></pre>\n<pre><code>Công thức: base * .2</code></pre></li>\n<li>Tính HRA dựa trên Lương cơ bản<code>BS</code> \n<pre><code>Điều kiện: BS &gt; 2000</code></pre>\n<pre><code>Công thức: BS * .1</code></pre></li>\n<li>Tính TDS dựa trên Loại hợp đồng<code>employment_type</code> \n<pre><code>Điều kiện: employment_type==\"Intern\"</code></pre>\n<pre><code>Số tiền: 1000</code></pre></li>\n</ol>"
 
 #. Content of the 'html_6' (HTML) field in DocType 'Taxable Salary Slab'
 #: hrms/payroll/doctype/taxable_salary_slab/taxable_salary_slab.json
@@ -324,14 +301,7 @@ msgid ""
 "<code>Condition: gender==\"Male\"</code></li><br>\n"
 "<li>Applying tax by Salary Component<br>\n"
 "<code>Condition: base &gt; 10000</code></li></ol>"
-msgstr ""
-"<h4>Ví dụ điều kiện</h4>\n"
-"<ol>\n"
-"<li>Áp dụng thuế nếu nhân viên sinh giữa 31-12-1937 và 01-01-1958 (Nhân viên từ 60 đến 80 tuổi)<br>\n"
-"<code>Điều kiện: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>Áp dụng thuế theo giới tính nhân viên<br>\n"
-"<code>Điều kiện: gender==\"Male\"</code></li><br>\n"
-"<li>Áp dụng thuế theo Thành phần lương<br>\n"
-"<code>Điều kiện: base &gt; 10000</code></li></ol>"
+msgstr "<h4>Ví dụ điều kiện</h4>\n<ol>\n<li>Áp dụng thuế nếu nhân viên sinh giữa 31-12-1937 và 01-01-1958 (Nhân viên từ 60 đến 80 tuổi)<br>\n<code>Điều kiện: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>Áp dụng thuế theo giới tính nhân viên<br>\n<code>Điều kiện: gender==\"Male\"</code></li><br>\n<li>Áp dụng thuế theo Thành phần lương<br>\n<code>Điều kiện: base &gt; 10000</code></li></ol>"
 
 #. Content of the 'Half Day Marked Employee Header' (HTML) field in DocType
 #. 'Employee Attendance Tool'
@@ -766,7 +736,7 @@ msgstr "Phân bổ đã bị bỏ qua do giới hạn phân bổ nghỉ phép t�
 #. 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Allow Employee Checkin from Mobile App"
-msgstr "Cho phép nhân viên checkin từ ứng dụng di động"
+msgstr "Cho phép ghi nhận chấm công nhân viên từ ứng dụng di động"
 
 #. Label of the allow_encashment (Check) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
@@ -820,7 +790,7 @@ msgstr "Cho phép người dùng"
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Allow check-out after shift end time (in minutes)"
-msgstr "Cho phép check-out sau giờ kết thúc ca (tính bằng phút)"
+msgstr "Cho phép ghi nhận ra ca sau giờ kết thúc ca (tính bằng phút)"
 
 #. Option for the 'Payout Method' (Select) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
@@ -901,7 +871,7 @@ msgstr "Tài liệu lương thiếu đã tồn tại cho nhân viên {0} với c
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:56
 msgid "An attendance record is linked to this checkin. Please cancel the attendance before modifying time."
-msgstr "Một hồ sơ chấm công được liên kết với checkin này. Vui lòng hủy chấm công trước khi sửa thời gian."
+msgstr "Một bản ghi chấm công đang liên kết với lần ghi nhận này. Vui lòng hủy bản ghi chấm công trước khi sửa thời gian."
 
 #. Label of the annual_allocation (Float) field in DocType 'Leave Policy
 #. Detail'
@@ -1134,7 +1104,7 @@ msgstr "Tiêu đề mẫu đánh giá"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:135
 msgid "Appraisal Template not found for some designations."
-msgstr "Không tìm thấy mẫu đánh giá cho một số chức danh."
+msgstr "Không tìm thấy mẫu đánh giá cho một số chức vụ."
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:125
 msgid "Appraisal creation is queued. It may take a few minutes."
@@ -1533,7 +1503,7 @@ msgstr "Tự động lấy tất cả tài sản đã cấp cho nhân viên, n�
 #. Label of the auto_update_last_sync (Check) field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Automatically update Last Sync of Checkin"
-msgstr "Tự động cập nhật Đồng bộ lần cuối của Checkin"
+msgstr "Tự động cập nhật lần đồng bộ ghi nhận chấm công gần nhất"
 
 #. Label of the available_leaves (Float) field in DocType 'Salary Slip Leave'
 #: hrms/payroll/doctype/salary_slip_leave/salary_slip_leave.json
@@ -1613,7 +1583,7 @@ msgstr "Lương cơ bản & Lương biến đổi"
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Begin check-in before shift start time (in minutes)"
-msgstr "Bắt đầu check-in trước giờ bắt đầu ca (tính bằng phút)"
+msgstr "Bắt đầu ghi nhận vào ca trước giờ bắt đầu ca (tính bằng phút)"
 
 #: hrms/controllers/employee_reminders.py:75
 msgid "Below is the list of upcoming holidays for you:"
@@ -1822,7 +1792,7 @@ msgstr "Không thể hủy Phân ca: {0} vì nó được liên kết với Ch�
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:53
 msgid "Cannot cancel Shift Assignment: {0} as it is linked to Employee Checkin: {1}"
-msgstr "Không thể hủy Phân ca: {0} vì nó được liên kết với Checkin nhân viên: {1}"
+msgstr "Không thể hủy Phân ca: {0} vì nó được liên kết với Ghi nhận chấm công nhân viên: {1}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:306
 msgid "Cannot create Salary Slip for Employee joining after Payroll Period"
@@ -1927,26 +1897,26 @@ msgstr "Kiểm tra {0} để biết thêm chi tiết"
 
 #: frontend/src/components/CheckInPanel.vue:159
 msgid "Check-in"
-msgstr "Check-in"
+msgstr "Ghi nhận vào ca"
 
 #. Label of the check_in_date (Date) field in DocType 'Travel Itinerary'
 #: hrms/hr/doctype/travel_itinerary/travel_itinerary.json
 msgid "Check-in Date"
-msgstr "Ngày check-in"
+msgstr "Ngày ghi nhận vào ca"
 
 #: frontend/src/components/CheckInPanel.vue:159
 msgid "Check-out"
-msgstr "Check-out"
+msgstr "Ghi nhận ra ca"
 
 #. Label of the check_out_date (Date) field in DocType 'Travel Itinerary'
 #: hrms/hr/doctype/travel_itinerary/travel_itinerary.json
 msgid "Check-out Date"
-msgstr "Ngày check-out"
+msgstr "Ngày ghi nhận ra ca"
 
 #. Label of the checkin_radius (Int) field in DocType 'Shift Location'
 #: hrms/hr/doctype/shift_location/shift_location.json
 msgid "Checkin Radius"
-msgstr "Bán kính checkin"
+msgstr "Bán kính ghi nhận vào ca"
 
 #: hrms/hr/doctype/goal/goal_tree.js:52
 msgid "Child nodes can only be created under 'Group' type nodes"
@@ -1961,12 +1931,7 @@ msgid ""
 "<li>Salary Component-Based:\n"
 "\n"
 "(Sum of selected component amounts) ÷ (Payment Days) ÷ (Standard Daily Hours)</li></ol>"
-msgstr ""
-"Chọn cách tính số tiền tăng ca theo giờ:\n"
-"<ol style=\"padding-left:15px;\"><li>Đơn giá giờ cố định: Đơn giá giờ cố định được nhập thủ công.</li>\n"
-"<li>Dựa trên thành phần lương:\n"
-"\n"
-"(Tổng số tiền thành phần được chọn) ÷ (Số ngày thanh toán) ÷ (Số giờ làm việc tiêu chuẩn hàng ngày)</li></ol>"
+msgstr "Chọn cách tính số tiền tăng ca theo giờ:\n<ol style=\"padding-left:15px;\"><li>Đơn giá giờ cố định: Đơn giá giờ cố định được nhập thủ công.</li>\n<li>Dựa trên thành phần lương:\n\n(Tổng số tiền thành phần được chọn) ÷ (Số ngày thanh toán) ÷ (Số giờ làm việc tiêu chuẩn hàng ngày)</li></ol>"
 
 #. Description of the 'Payroll Date' (Date) field in DocType 'Payroll
 #. Correction'
@@ -2556,7 +2521,7 @@ msgstr "Cấu trúc lương mặc định"
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:204
 #: hrms/setup.py:207
 msgid "Default Shift"
-msgstr "Shift mặc định"
+msgstr "Ca mặc định"
 
 #: frontend/src/components/FileUploaderView.vue:49
 msgid "Delete Attachment"
@@ -2611,11 +2576,11 @@ msgstr "Mô tả vị trí tuyển dụng"
 #. Name of a DocType
 #: hrms/hr/doctype/designation_skill/designation_skill.json
 msgid "Designation Skill"
-msgstr "Kỹ năng chức danh"
+msgstr "Kỹ năng chức vụ"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:237
 msgid "Designation: {0}"
-msgstr "Chức danh: {0}"
+msgstr "chức vụ: {0}"
 
 #. Label of the details_of_sponsor (Data) field in DocType 'Travel Request'
 #: hrms/hr/doctype/travel_request/travel_request.json
@@ -2626,7 +2591,7 @@ msgstr "Chi tiết nhà tài trợ (Tên, Địa điểm)"
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Determine Check-in and Check-out"
-msgstr "Xác định Check-in và Check-out"
+msgstr "Xác định ghi nhận vào ca và ghi nhận ra ca"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:111
 msgid "Disable {0} for the {1} component, to prevent the amount from being deducted twice, as its formula already uses a payment-days-based component."
@@ -2940,11 +2905,11 @@ msgstr "Hoạt động onboarding nhân viên"
 #: hrms/hr/workspace/hr/hr.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Employee Checkin"
-msgstr "Checkin nhân viên"
+msgstr "Ghi nhận chấm công nhân viên"
 
 #: frontend/src/views/attendance/EmployeeCheckinList.vue:5
 msgid "Employee Checkin History"
-msgstr "Lịch sử checkin nhân viên"
+msgstr "Lịch sử Ghi nhận chấm công nhân viên"
 
 #. Name of a DocType
 #: hrms/payroll/doctype/employee_cost_center/employee_cost_center.json
@@ -3344,7 +3309,7 @@ msgstr "Hồ sơ nhân viên được tạo sử dụng tùy chọn đã chọn"
 
 #: hrms/hr/doctype/shift_type/shift_type.py:272
 msgid "Employee was marked Absent due to missing Employee Checkins."
-msgstr "Nhân viên được đánh dấu Vắng mặt do thiếu Checkin nhân viên."
+msgstr "Nhân viên được đánh dấu Vắng mặt do thiếu Ghi nhận chấm công nhân viên."
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:248
 msgid "Employee was marked Absent for not meeting the working hours threshold."
@@ -3352,7 +3317,7 @@ msgstr "Nhân viên được đánh dấu Vắng mặt do không đạt ngưỡn
 
 #: hrms/hr/doctype/shift_type/shift_type.py:401
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
-msgstr "Nhân viên được đánh dấu Vắng mặt nửa ca còn lại do thiếu Checkin nhân viên."
+msgstr "Nhân viên được đánh dấu Vắng mặt nửa ca còn lại do thiếu Ghi nhận chấm công nhân viên."
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:456
 msgid "Employee {0} : {1}"
@@ -3685,7 +3650,7 @@ msgstr "Mỗi 4 tuần"
 #. DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Every Valid Check-in and Check-out"
-msgstr "Mỗi Check-in và Check-out hợp lệ"
+msgstr "Mỗi ghi nhận vào ca và ghi nhận ra ca hợp lệ"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Shift Schedule'
 #: hrms/hr/doctype/shift_schedule/shift_schedule.json
@@ -4178,7 +4143,7 @@ msgstr "Công thức điểm cuối"
 #. DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "First Check-in and Last Check-out"
-msgstr "Check-in đầu tiên và Check-out cuối cùng"
+msgstr "ghi nhận vào ca đầu tiên và ghi nhận ra ca cuối cùng"
 
 #. Option for the 'Allocate on Day' (Select) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
@@ -4251,7 +4216,7 @@ msgstr "Đồ ăn"
 #. Label of the for_designation (Link) field in DocType 'Employee Referral'
 #: hrms/hr/doctype/employee_referral/employee_referral.json
 msgid "For Designation "
-msgstr "Cho chức danh "
+msgstr "Cho chức vụ "
 
 #. Label of the employee (Link) field in DocType 'Employee Performance
 #. Feedback'
@@ -4843,7 +4808,7 @@ msgstr "Nếu bật, Khai báo miễn thuế sẽ được xem xét để tính 
 #. DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "If enabled, auto attendance will be marked on holidays if Employee Checkins exist"
-msgstr "Nếu bật, chấm công tự động sẽ được đánh dấu vào ngày lễ nếu có Checkin nhân viên"
+msgstr "Nếu bật, chấm công tự động sẽ được đánh dấu vào ngày lễ nếu có Ghi nhận chấm công nhân viên"
 
 #. Description of the 'Consider Marked Attendance on Holidays' (Check) field in
 #. DocType 'Payroll Settings'
@@ -4949,7 +4914,7 @@ msgstr "Giờ vào"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:143
 msgid "In case of any error during this background process, the system will add a comment about the error on this Payroll Entry and revert to the Submitted status"
-msgstr "Trong trường hợp có lỗi trong quá trình nền này, hệ thống sẽ thêm bình luận về lỗi trên Phiếu lương này và quay lại trạng thái Đã gửi"
+msgstr "Trong trường hợp có lỗi trong quá trình nền này, hệ thống sẽ thêm bình luận về lỗi trên Bảng lương này và quay lại trạng thái Đã gửi"
 
 #. Label of the incentive_section (Section Break) field in DocType 'Employee
 #. Incentive'
@@ -5567,7 +5532,7 @@ msgstr "Các vị trí tuyển dụng"
 
 #: hrms/hr/doctype/job_opening/job_opening.py:83
 msgid "Job Openings for the designation {0} are already open or the hiring is complete as per the Staffing Plan {1}"
-msgstr "Vị trí tuyển dụng cho chức danh {0} đã mở hoặc tuyển dụng đã hoàn tất theo Kế hoạch nhân sự {1}"
+msgstr "Vị trí tuyển dụng cho chức vụ {0} đã mở hoặc tuyển dụng đã hoàn tất theo Kế hoạch nhân sự {1}"
 
 #. Label of the job_requisition (Link) field in DocType 'Job Opening'
 #. Name of a DocType
@@ -5675,7 +5640,7 @@ msgstr "Ngày cuối"
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Last Known Successful Sync of Employee Checkin. Reset this only if you are sure that all Logs are synced from all the locations. Please don't modify this if you are unsure."
-msgstr "Đồng bộ thành công cuối cùng được biết của Checkin nhân viên. Chỉ đặt lại điều này nếu bạn chắc chắn rằng tất cả Nhật ký được đồng bộ từ tất cả các vị trí. Vui lòng không sửa đổi điều này nếu bạn không chắc chắn."
+msgstr "Đồng bộ thành công cuối cùng được biết của Ghi nhận chấm công nhân viên. Chỉ đặt lại điều này nếu bạn chắc chắn rằng tất cả Nhật ký được đồng bộ từ tất cả các vị trí. Vui lòng không sửa đổi điều này nếu bạn không chắc chắn."
 
 #. Label of the last_odometer (Int) field in DocType 'Vehicle Log'
 #: hrms/hr/doctype/vehicle_log/vehicle_log.json
@@ -5685,7 +5650,7 @@ msgstr "Giá trị đồng hồ đo đường trước đó "
 #. Label of the last_sync_of_checkin (Datetime) field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Last Sync of Checkin"
-msgstr "Đồng bộ lần cuối của Checkin"
+msgstr "Lần đồng bộ ghi nhận chấm công gần nhất"
 
 #: frontend/src/components/CheckInPanel.vue:9
 msgid "Last {0} was at {1}"
@@ -5720,7 +5685,7 @@ msgstr "Thời gian ân hạn đi muộn"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:101
 msgid "Latitude and longitude values are required for checking in."
-msgstr "Giá trị vĩ độ và kinh độ là bắt buộc để checkin."
+msgstr "Cần có giá trị vĩ độ và kinh độ để ghi nhận vào ca."
 
 #: frontend/src/components/CheckInPanel.vue:131
 msgid "Latitude: {0}°"
@@ -6229,7 +6194,7 @@ msgstr "Loại log"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:83
 msgid "Log Type is required for check-ins falling in the shift: {0}."
-msgstr "Loại log là bắt buộc cho check-ins thuộc ca: {0}."
+msgstr "Loại log là bắt buộc cho các lần ghi nhận vào ca thuộc ca {0}."
 
 #: frontend/src/views/InvalidEmployee.vue:7
 msgid "Login Failed"
@@ -6324,11 +6289,11 @@ msgstr "Đánh dấu chấm công là {0} cho {1} vào các ngày đã chọn?"
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Mark attendance based on 'Employee Checkin' for Employees assigned to this shift."
-msgstr "Đánh dấu chấm công dựa trên 'Checkin nhân viên' cho Nhân viên được phân vào ca này."
+msgstr "Đánh dấu chấm công dựa trên 'Ghi nhận chấm công nhân viên' cho Nhân viên được phân vào ca này."
 
 #: hrms/hr/doctype/shift_type/shift_type.py:97
 msgid "Mark attendance for existing check-in/out logs before changing shift settings"
-msgstr "Đánh dấu chấm công cho các log check-in/out hiện có trước khi thay đổi cài đặt ca"
+msgstr "Đánh dấu chấm công cho các log ghi nhận vào/ra ca hiện có trước khi thay đổi cài đặt ca"
 
 #: hrms/hr/doctype/goal/goal_tree.js:262
 msgid "Mark {0} as Completed?"
@@ -6584,9 +6549,7 @@ msgstr "Nhiều phân ca"
 msgid ""
 "Multipliers that adjust the hourly overtime amount for specific scenarios\n"
 "\n"
-msgstr ""
-"Hệ số điều chỉnh số tiền tăng ca theo giờ cho các tình huống cụ thể\n"
-"\n"
+msgstr "Hệ số điều chỉnh số tiền tăng ca theo giờ cho các tình huống cụ thể\n\n"
 
 #: frontend/src/views/employee_advance/List.vue:19
 msgid "My Advances"
@@ -6746,7 +6709,7 @@ msgstr "Chưa Chọn Yêu Cầu Ca"
 
 #: hrms/hr/doctype/job_opening/job_opening.js:32
 msgid "No Staffing Plans found for this Designation"
-msgstr "Không Tìm Thấy Kế Hoạch Nhân Sự Cho Chức Danh Này"
+msgstr "Không Tìm Thấy Kế Hoạch Nhân Sự Cho chức vụ Này"
 
 #: hrms/payroll/doctype/arrear/arrear.py:71
 msgid "No active Salary Structure Assignment found for employee {0} with salary structure {1} on or after arrear start date {2}"
@@ -7522,7 +7485,7 @@ msgstr "Chi Tiết Nhân Viên Lương"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:141
 msgid "Payroll Entry cancellation is queued. It may take a few minutes"
-msgstr "Việc hủy Bảng Lương đã được xếp hàng. Có thể mất vài phút"
+msgstr "Việc hủy Bảng lương đã được xếp hàng. Có thể mất vài phút"
 
 #. Label of the payroll_frequency (Select) field in DocType 'Payroll Entry'
 #. Label of the payroll_frequency (Select) field in DocType 'Salary Slip'
@@ -7706,7 +7669,7 @@ msgstr "Vui Lòng Bật Tài Khoản Thu Mặc Định Trước Khi Tạo Nhóm 
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.js:97
 msgid "Please enter the designation"
-msgstr "Vui Lòng Nhập Chức Danh"
+msgstr "Vui Lòng Nhập chức vụ"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.js:11
 msgid "Please fill in Employee, Posting Date, and Company before fetching overtime details."
@@ -7722,7 +7685,7 @@ msgstr "Vui Lòng Xem Tệp Đính Kèm"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:225
 msgid "Please select Company and Designation"
-msgstr "Vui Lòng Chọn Công Ty Và Chức Danh"
+msgstr "Vui Lòng Chọn Công Ty Và chức vụ"
 
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission/employee_tax_exemption_proof_submission.js:22
 msgid "Please select Employee"
@@ -8172,7 +8135,7 @@ msgstr "Liên kết nhanh"
 #. Description of the 'Checkin Radius' (Int) field in DocType 'Shift Location'
 #: hrms/hr/doctype/shift_location/shift_location.json
 msgid "Radius within which check-in is allowed (in meters)"
-msgstr "Bán kính cho phép check-in (tính bằng mét)"
+msgstr "Bán kính cho phép ghi nhận vào ca (tính bằng mét)"
 
 #. Label of the rate_goals_manually (Check) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
@@ -8237,7 +8200,7 @@ msgstr "Yêu cầu ca gần đây"
 #. in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Recommended for a single biometric device / checkins via mobile app"
-msgstr "Khuyến nghị cho thiết bị sinh trắc học đơn lẻ / checkin qua ứng dụng di động"
+msgstr "Khuyến nghị cho một thiết bị sinh trắc học hoặc các lần ghi nhận chấm công qua ứng dụng di động"
 
 #. Option for the 'Action' (Select) field in DocType 'Full and Final Asset'
 #: hrms/hr/doctype/full_and_final_asset/full_and_final_asset.json
@@ -8854,7 +8817,7 @@ msgstr "Việc nộp phiếu lương đang được xếp hàng. Có thể mất
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1525
 msgid "Salary Slip {0} failed for Payroll Entry {1}"
-msgstr "Phiếu lương {0} thất bại cho mục nhập lương {1}"
+msgstr "Phiếu lương {0} thất bại cho Bảng lương {1}"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:117
 msgid "Salary Slip {0} failed. You can resolve the {1} and retry {0}."
@@ -9313,7 +9276,7 @@ msgstr "Chia sẻ tài liệu với người dùng {0} với quyền 'Nộp'"
 #. Name of a Workspace
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Shift & Attendance"
-msgstr "Ca Làm & Điểm Danh"
+msgstr "Ca Làm & chấm công"
 
 #. Label of the shift_actual_end (Datetime) field in DocType 'Employee Checkin'
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
@@ -9639,7 +9602,7 @@ msgstr "Chi tiết kế hoạch nhân sự"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:71
 msgid "Staffing Plan {0} already exist for designation {1}"
-msgstr "Kế hoạch nhân sự {0} đã tồn tại cho chức danh {1}"
+msgstr "Kế hoạch nhân sự {0} đã tồn tại cho chức vụ {1}"
 
 #. Label of the standard_multiplier (Float) field in DocType 'Overtime Type'
 #: hrms/hr/doctype/overtime_type/overtime_type.json
@@ -9717,7 +9680,7 @@ msgstr "Ngăn người dùng tạo đơn nghỉ phép vào các ngày sau."
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Strictly based on Log Type in Employee Checkin"
-msgstr "Chặt chẽ dựa trên loại log trong Checkin nhân viên"
+msgstr "Chặt chẽ dựa trên loại log trong Ghi nhận chấm công nhân viên"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:267
 msgid "Structures have been assigned successfully"
@@ -9771,7 +9734,7 @@ msgstr "Nộp để tạo hồ sơ nhân viên"
 #. Slip'
 #: hrms/hr/doctype/overtime_slip/overtime_slip.json
 msgid "Submitted via Payroll Entry"
-msgstr "Đã nộp qua mục nhập lương"
+msgstr "Đã nộp qua Bảng lương"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:430
 msgid "Submitting Salary Slips and creating Journal Entry..."
@@ -9982,7 +9945,7 @@ msgstr "Phần trăm lương hàng ngày cho mỗi ngày nghỉ phải từ 0 đ
 #. DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 msgid "The fraction of daily wages to be paid for half-day attendance"
-msgstr "Phần trăm lương hàng ngày được trả cho điểm danh nửa ngày"
+msgstr "Phần trăm lương hàng ngày được trả cho chấm công nửa ngày"
 
 #: hrms/hr/report/project_profitability/project_profitability.py:101
 msgid "The metrics for this report are calculated based on the {0}. Please set {0} in {1}."
@@ -10002,19 +9965,19 @@ msgstr "Phiếu lương được gửi qua email cho nhân viên sẽ được b
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "The time after the shift start time when check-in is considered as late (in minutes)."
-msgstr "Thời gian sau giờ bắt đầu ca khi check-in được coi là muộn (tính bằng phút)."
+msgstr "Thời gian sau giờ bắt đầu ca khi ghi nhận vào ca được coi là muộn (tính bằng phút)."
 
 #. Description of the 'Early Exit Grace Period' (Int) field in DocType 'Shift
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "The time before the shift end time when check-out is considered as early (in minutes)."
-msgstr "Thời gian trước giờ kết thúc ca khi check-out được coi là sớm (tính bằng phút)."
+msgstr "Thời gian trước giờ kết thúc ca khi ghi nhận ra ca được coi là sớm (tính bằng phút)."
 
 #. Description of the 'Begin check-in before shift start time (in minutes)'
 #. (Int) field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "The time before the shift start time during which Employee Check-in is considered for attendance."
-msgstr "Thời gian trước giờ bắt đầu ca mà Employee Check-in được tính cho chấm công."
+msgstr "Khoảng thời gian trước khi ca bắt đầu mà ghi nhận chấm công nhân viên được tính cho chấm công."
 
 #. Option for the 'Type' (Select) field in DocType 'Training Event'
 #: hrms/hr/doctype/training_event/training_event.json
@@ -10054,7 +10017,7 @@ msgstr "Hành động này sẽ ngăn việc thay đổi phản hồi/mục tiê
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.js:9
 msgid "This check-in is outside assigned shift hours and will not be considered for attendance. If a shift is assigned, adjust its time window and Fetch Shift again."
-msgstr "Check-in này ngoài giờ ca được phân công và sẽ không được tính cho chấm công. Nếu ca đã được phân công, hãy điều chỉnh khung thời gian và lấy lại ca."
+msgstr "ghi nhận vào ca này ngoài giờ ca được phân công và sẽ không được tính cho chấm công. Nếu ca đã được phân công, hãy điều chỉnh khung thời gian và lấy lại ca."
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:97
 msgid "This compensatory leave will be applicable from {0}."
@@ -10090,7 +10053,7 @@ msgstr "Điều này dựa trên chấm công của nhân viên này"
 
 #: hrms/www/hrms.py:19
 msgid "This method is only meant for developer mode"
-msgstr "Phương thức này chỉ dành cho chế độ nhà phát triển (developer mode)"
+msgstr "Phương thức này chỉ dành cho chế độ nhà phát triển"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:168
 msgid "This will overwrite the tax component {0} in the salary slip and tax won't be calculated based on the Income Tax Slabs"
@@ -10104,7 +10067,7 @@ msgstr "Điều này sẽ nộp Phiếu lương và tạo bút toán tích lũy.
 #. field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Time after the end of shift during which check-out is considered for attendance."
-msgstr "Thời gian sau khi kết thúc ca mà check-out được tính cho chấm công."
+msgstr "Thời gian sau khi kết thúc ca mà ghi nhận ra ca được tính cho chấm công."
 
 #. Description of the 'Time to Fill' (Duration) field in DocType 'Job
 #. Requisition'
@@ -10145,7 +10108,7 @@ msgstr "Ngày đến phải lớn hơn Ngày từ"
 #. Label of the to_user (Link) field in DocType 'PWA Notification'
 #: hrms/hr/doctype/pwa_notification/pwa_notification.json
 msgid "To User"
-msgstr "Đến Người dùng"
+msgstr "Đến người dùng"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:104
 msgid "To allow this, enable {0} under {1}."
@@ -10735,7 +10698,7 @@ msgstr "Hủy liên kết thanh toán"
 
 #: hrms/hr/doctype/attendance/attendance.py:231
 msgid "Unlinked Attendance record from Employee Checkins: {}"
-msgstr "Đã bỏ liên kết hồ sơ chấm công từ Employee Checkins: {}"
+msgstr "Đã bỏ liên kết hồ sơ chấm công từ Ghi nhận chấm công nhân viên: {}"
 
 #: hrms/hr/doctype/attendance/attendance.py:234
 msgid "Unlinked logs"
@@ -10747,7 +10710,7 @@ msgstr "Chấm công chưa đánh dấu cho các ngày"
 
 #: hrms/hr/doctype/shift_type/shift_type.py:96
 msgid "Unmarked Check-in Logs Found"
-msgstr "Tìm thấy logs check-in chưa đánh dấu"
+msgstr "Tìm thấy logs ghi nhận vào ca chưa đánh dấu"
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:157
 #: hrms/public/js/templates/employees_with_unmarked_attendance.html:19

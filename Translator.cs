@@ -36,6 +36,8 @@ public class PoTranslator
 
         // System UI & Navigation
         { "Desktop", "Tổng quan" },
+        { "Dashboard", "Dashboard" },
+        { "Dashboards", "Dashboard" },
         { "Workspace", "Khu làm việc" },
         { "Reload", "Làm mới" },
         { "Global Defaults", "Thiết lập chung" },
@@ -44,6 +46,8 @@ public class PoTranslator
         { "Attachments", "Tài liệu đính kèm" },
         { "Activity", "Nhật ký hoạt động" },
         { "Timeline", "Lịch sử" },
+        { "Subject", "Chủ đề" },
+        { "Subject Field", "Trường chủ đề" },
         { "Rename", "Đổi mã" },
         { "Customize", "Tuỳ biến" },
         { "Getting Started", "Hướng dẫn nhanh" },
@@ -53,6 +57,26 @@ public class PoTranslator
         { "New {0}", "{0} mới" },
         { "New {0} Created", "Đã tạo {0} mới" },
         { "New {0}: {1}", "{0} mới: {1}" },
+        // Runtime composition fragments. Placeholder meaning was reviewed per source:
+        // view/object names move after the Vietnamese noun; count fragments keep {0} first.
+        { "{0} Calendar", "Lịch {0}" },
+        { "{0} Chart", "Biểu đồ {0}" },
+        { "{0} Dashboard", "Dashboard {0}" },
+        { "{0} List", "Danh sách {0}" },
+        { "{0} List View Settings", "Thiết lập giao diện danh sách {0}" },
+        { "{0} Map", "Bản đồ {0}" },
+        { "{0} Name", "Tên {0}" },
+        { "{0} Report", "Báo cáo {0}" },
+        { "{0} Settings", "Cài đặt {0}" },
+        { "{0} Tree", "Cây {0}" },
+        { "{0} Fields", "{0} trường" },
+        { "{0} Reports", "{0} báo cáo" },
+        { "{0} record deleted", "Đã xóa {0} bản ghi" },
+        { "{0} records deleted", "Đã xóa {0} bản ghi" },
+        { "{0} records will be exported", "Sẽ Export {0} bản ghi" },
+        { "{0} items selected", "Đã chọn {0} mục" },
+        { "{0} subscribers added", "Đã thêm {0} người đăng ký" },
+        { "{0} values selected", "Đã chọn {0} giá trị" },
         { "Mr", "Mr" },
         { "Mrs", "Mrs" },
         { "Ms", "Ms" },
@@ -75,6 +99,11 @@ public class PoTranslator
         // CRM
         { "Lead", "Khách hàng tiềm năng" },
         { "Deal", "Cơ hội bán hàng" },
+        { "Deals", "Cơ hội bán hàng" },
+        { "CRM Deal", "Cơ hội bán hàng CRM" },
+        { "CRM Lead", "Khách hàng tiềm năng CRM" },
+        { "FCRM Note", "Ghi chú FCRM" },
+        { "Webhook Verify Token", "Token xác minh Webhook" },
         { "Opportunity", "Cơ hội kinh doanh" },
         { "Contact", "Liên hệ" },
         { "Call Logs", "Lịch sử cuộc gọi" },
@@ -104,6 +133,11 @@ public class PoTranslator
         { "No holiday list found", "Không tìm thấy lịch nghỉ" },
         { "Check In", "Ghi nhận vào ca" },
         { "Check Out", "Ghi nhận ra ca" },
+        { "Check-in", "Ghi nhận vào ca" },
+        { "Check-out", "Ghi nhận ra ca" },
+        { "Employee Checkin", "Ghi nhận chấm công nhân viên" },
+        { "Default Shift", "Ca mặc định" },
+        { "Payroll Entry", "Bảng lương" },
 
         // Kho / Stock
         { "Stock Entry", "Phiếu kho" },
@@ -137,6 +171,11 @@ public class PoTranslator
         { "Purchase Order", "Đơn mua hàng" },
         { "Purchase Invoice", "Hoá đơn mua hàng" },
         { "Landed Cost Voucher", "Chi phí nhập hàng" },
+        { "Landed Cost", "Chi phí nhập hàng" },
+        { "Landed Cost Help", "Trợ giúp chi phí nhập hàng" },
+        { "Landed Cost Id", "Mã chi phí nhập hàng" },
+        { "Landed Cost Item", "Mục chi phí nhập hàng" },
+        { "Landed Cost Report", "Báo cáo chi phí nhập hàng" },
 
         // Selling
         { "Customer", "Khách hàng" },
@@ -150,8 +189,8 @@ public class PoTranslator
         { "Default Buying Price List", "Bảng giá mua mặc định" },
         { "Price List Rate", "Đơn giá bảng giá" },
         { "Price List Rate (Company Currency)", "Đơn giá bảng giá (Tiền tệ công ty)" },
-        { "Avg. Buying Price List Rate", "Đơn giá mua trung bình" },
-        { "Avg. Selling Price List Rate", "Đơn giá bán trung bình" },
+        { "Avg. Buying Price List Rate", "Đơn giá mua trung bình theo bảng giá" },
+        { "Avg. Selling Price List Rate", "Đơn giá bán trung bình theo bảng giá" },
         { "Item-wise Price List Rate", "Đơn giá bảng giá theo mặt hàng" },
         { "Pricing Rule", "Chính sách giá" },
         { "Territory", "Khu vực bán hàng" },
@@ -166,6 +205,12 @@ public class PoTranslator
         { "Receivable", "Công nợ phải thu" },
         { "Payable", "Công nợ phải trả" },
         { "Outstanding Amount", "Công nợ còn lại" },
+        { "Dunning", "Nhắc nợ" },
+        { "Dunning Amount", "Số tiền nhắc nợ" },
+        { "Dunning Fee", "Phí nhắc nợ" },
+        { "Dunning Letter", "Thư nhắc nợ" },
+        { "Dunning Level", "Cấp độ nhắc nợ" },
+        { "Dunning Type", "Loại nhắc nợ" },
         { "Accounts Receivable", "Công nợ phải thu" },
         { "Accounts Payable", "Công nợ phải trả" },
         { "Accounts Receivable Summary", "Tổng hợp công nợ phải thu" },
@@ -227,6 +272,46 @@ public class PoTranslator
         { "Job Card", "Phiếu công đoạn" },
         { "Production Plan", "Kế hoạch sản xuất" },
         { "Routing", "Quy trình sản xuất" },
+
+        // Insights / Analytics
+        { "Insights Admin", "Quản trị Insights" },
+        { "Insights Alert", "Cảnh báo Insights" },
+        { "Insights Chart v3", "Biểu đồ Insights v3" },
+        { "Insights Dashboard", "Dashboard Insights" },
+        { "Insights Dashboard Chart v3", "Biểu đồ Dashboard Insights v3" },
+        { "Insights Dashboard Item", "Mục Dashboard Insights" },
+        { "Insights Dashboard v3", "Dashboard Insights v3" },
+        { "Insights Data Source", "Nguồn dữ liệu Insights" },
+        { "Insights Data Source v3", "Nguồn dữ liệu Insights v3" },
+        { "Insights Folder", "Thư mục Insights" },
+        { "Insights Notebook", "Notebook Insights" },
+        { "Insights Notebook Page", "Trang Notebook Insights" },
+        { "Insights Query", "Truy vấn Insights" },
+        { "Insights Query Chart", "Biểu đồ truy vấn Insights" },
+        { "Insights Query Column", "Cột truy vấn Insights" },
+        { "Insights Query Execution Log", "Log thực thi truy vấn Insights" },
+        { "Insights Query Reference", "Tham chiếu truy vấn Insights" },
+        { "Insights Query Result", "Kết quả truy vấn Insights" },
+        { "Insights Query Table", "Bảng truy vấn Insights" },
+        { "Insights Query Transform", "Biến đổi truy vấn Insights" },
+        { "Insights Query Variable", "Biến truy vấn Insights" },
+        { "Insights Query v3", "Truy vấn Insights v3" },
+        { "Insights Resource Permission", "Permission tài nguyên Insights" },
+        { "Insights Secret Key", "Khóa bí mật Insights" },
+        { "Insights Settings", "Cài đặt Insights" },
+        { "Insights Table", "Bảng Insights" },
+        { "Insights Table Column", "Cột bảng Insights" },
+        { "Insights Table Import", "Import bảng Insights" },
+        { "Insights Table Import Job", "Tác vụ Import bảng Insights" },
+        { "Insights Table Import Log", "Log Import bảng Insights" },
+        { "Insights Table Link", "Liên kết bảng Insights" },
+        { "Insights Table Link v3", "Liên kết bảng Insights v3" },
+        { "Insights Table v3", "Bảng Insights v3" },
+        { "Insights Team", "Nhóm Insights" },
+        { "Insights Team Member", "Thành viên nhóm Insights" },
+        { "Insights User Invitation", "Lời mời người dùng Insights" },
+        { "Insights Workbook", "Sổ làm việc Insights" },
+        { "Workbook", "Sổ làm việc" },
 
         // Helpdesk / Support
         { "Ticket", "Phiếu hỗ trợ" },
@@ -480,8 +565,20 @@ public class PoTranslator
                    .Replace("điểm bán hàng", "POS")
                    .Replace("Điểm bán lẻ", "POS");
 
-        text = text.Replace("Bảng điều khiển", "Dashboard")
-                   .Replace("bảng điều khiển", "dashboard");
+        // Dashboard is intentionally kept in English, but only when the source
+        // concept is Dashboard; do not rewrite unrelated Vietnamese control panels.
+        if (ContainsIgnoreCase(msgid, "Dashboard"))
+        {
+            text = text.Replace("Bảng điều khiển", "Dashboard")
+                       .Replace("Bảng Điều Khiển", "Dashboard")
+                       .Replace("bảng điều khiển", "Dashboard")
+                       .Replace("Trang tổng quan", "Dashboard")
+                       .Replace("trang tổng quan", "Dashboard")
+                       .Replace("Biểu đồ tổng quan", "Biểu đồ Dashboard")
+                       .Replace("biểu đồ tổng quan", "biểu đồ Dashboard")
+                       .Replace("Các trang tổng quan", "Các Dashboard")
+                       .Replace("các trang tổng quan", "các Dashboard");
+        }
 
         text = text.Replace("Quy trình làm việc", "Workflow")
                    .Replace("quy trình làm việc", "workflow");
@@ -516,8 +613,13 @@ public class PoTranslator
         text = text.Replace("Bộ lọc", "Filter")
                    .Replace("bộ lọc", "filter");
 
-        text = text.Replace("Chủ đề", "Theme")
-                   .Replace("chủ đề", "theme");
+        // "Theme" is a UI technical term, but Vietnamese "chủ đề" also means
+        // email/document Subject. Only normalize it when the English source is Theme.
+        if (ContainsIgnoreCase(msgid, "Theme"))
+        {
+            text = text.Replace("Chủ đề", "Theme")
+                       .Replace("chủ đề", "theme");
+        }
 
         text = text.Replace("Vai trò", "Role")
                    .Replace("vai trò", "role");
@@ -542,6 +644,77 @@ public class PoTranslator
 
         text = text.Replace("Máy chủ", "Server")
                    .Replace("máy chủ", "server");
+
+        // Cross-app semantic families: source msgid gates every repair so
+        // composable labels keep the same meaning across Frappe/ERPNext/CRM/HRMS/Insights.
+        if (ContainsIgnoreCase(msgid, "Subject"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)Theme(?!\w)", "Chủ đề", RegexOptions.IgnoreCase);
+        }
+
+        if (ContainsIgnoreCase(msgid, "Deal"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)Deals(?!\w)", "Cơ hội bán hàng", RegexOptions.IgnoreCase);
+            text = Regex.Replace(text, @"(?<!\w)Deal(?!\w)", "Cơ hội bán hàng", RegexOptions.IgnoreCase);
+            text = text.Replace("CRM Cơ hội bán hàng", "Cơ hội bán hàng CRM");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Lead"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)Leads(?!\w)", "Khách hàng tiềm năng", RegexOptions.IgnoreCase);
+            text = Regex.Replace(text, @"(?<!\w)Lead(?!\w)", "Khách hàng tiềm năng", RegexOptions.IgnoreCase);
+            text = text.Replace("CRM Khách hàng tiềm năng", "Khách hàng tiềm năng CRM");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Designation"))
+        {
+            text = text.Replace("Chức danh", "Chức vụ")
+                       .Replace("chức danh", "chức vụ");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Attendance"))
+        {
+            text = text.Replace("Điểm danh", "Chấm công")
+                       .Replace("điểm danh", "chấm công");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Shift"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)Shift(?!\w)", "Ca", RegexOptions.IgnoreCase);
+        }
+
+        if (ContainsIgnoreCase(msgid, "Employee Checkin") || ContainsIgnoreCase(msgid, "Employee Check-in"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)Employee Checkins?(?!\w)", "Ghi nhận chấm công nhân viên", RegexOptions.IgnoreCase);
+            text = Regex.Replace(text, @"(?<!\w)Checkins? nhân viên(?!\w)", "Ghi nhận chấm công nhân viên", RegexOptions.IgnoreCase);
+        }
+
+        if (ContainsIgnoreCase(msgid, "check-in"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)check-ins?(?!\w)", "ghi nhận vào ca", RegexOptions.IgnoreCase);
+        }
+
+        if (ContainsIgnoreCase(msgid, "check-out"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)check-outs?(?!\w)", "ghi nhận ra ca", RegexOptions.IgnoreCase);
+        }
+
+        if (ContainsIgnoreCase(msgid, "Payroll Entry"))
+        {
+            text = text.Replace("Mục nhập lương", "Bảng lương")
+                       .Replace("mục nhập lương", "Bảng lương");
+        }
+
+        if (ContainsIgnoreCase(msgid, "Workbook"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)Workbooks?(?!\w)", "Sổ làm việc", RegexOptions.IgnoreCase);
+        }
+
+        if (ContainsIgnoreCase(msgid, "Dunning"))
+        {
+            text = Regex.Replace(text, @"(?<!\w)Dunning(?!\w)", "Nhắc nợ", RegexOptions.IgnoreCase);
+            text = text.Replace("đòi nợ", "nhắc nợ").Replace("Đòi nợ", "Nhắc nợ");
+        }
 
         // ERP semantic phrase families: source msgid gates every replacement.
         if (ContainsIgnoreCase(msgid, "Holiday List"))
@@ -590,7 +763,11 @@ public class PoTranslator
         if (ContainsIgnoreCase(msgid, "Landed Cost"))
         {
             text = text.Replace("chi phí đã đáp tàu", "chi phí nhập hàng")
-                       .Replace("Chi phí đã đáp tàu", "Chi phí nhập hàng");
+                       .Replace("Chi phí đã đáp tàu", "Chi phí nhập hàng")
+                       .Replace("Chi phí hạ tầng", "Chi phí nhập hàng")
+                       .Replace("chi phí hạ tầng", "chi phí nhập hàng")
+                       .Replace("Chi phí Hạ cánh", "Chi phí nhập hàng")
+                       .Replace("chi phí hạ cánh", "chi phí nhập hàng");
         }
 
         if (ContainsIgnoreCase(msgid, "Expense Claim"))

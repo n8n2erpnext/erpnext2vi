@@ -1,4 +1,10 @@
-﻿msgstr ""
+# Translations template for Frappe Framework.
+# Copyright (C) 2026 Frappe Technologies
+# This file is distributed under the same license as the Frappe Framework project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2026-04-26 09:46+0000\n"
@@ -16,42 +22,6 @@
 "X-Crowdin-File: /[frappe.frappe] develop/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 52\n"
 "Language: vi_VN\n"
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-# Translations template for Frappe Framework.
-# Copyright (C) 2026 Frappe Technologies
-# This file is distributed under the same license as the Frappe Framework project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
-#
-msgid ""
-msgstr ""
 
 #: frappe/public/js/frappe/ui/page.html:49
 msgid " You are impersonating as another user."

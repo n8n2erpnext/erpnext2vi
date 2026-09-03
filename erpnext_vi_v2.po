@@ -1,4 +1,10 @@
-﻿msgstr ""
+# Translations template for ERPNext.
+# Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
+# This file is distributed under the same license as the ERPNext project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2026-05-17 10:04+0000\n"
@@ -16,42 +22,6 @@
 "X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
 "X-Crowdin-File-ID: 46\n"
 "Language: vi_VN\n"
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-# Translations template for ERPNext.
-# Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
-# This file is distributed under the same license as the ERPNext project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
-#
-msgid ""
-msgstr ""
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1591
 msgid ""

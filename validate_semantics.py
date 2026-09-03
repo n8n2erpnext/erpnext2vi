@@ -253,6 +253,28 @@ def decode_po_literal(text: str) -> str:
         raise ValueError(f"invalid PO string: {text.rstrip()} ({exc})")
 
 
+def validate_po_structure(path: str):
+    raw = Path(path).read_bytes()
+    errors = []
+    if raw.startswith(b"\xef\xbb\xbf"):
+        errors.append("UTF-8 BOM is not allowed; Babel PO compiler warns on it")
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError as exc:
+        return [f"invalid UTF-8: {exc}"]
+    lines = text.splitlines()
+    msgid_directives = sum(1 for line in lines if line.startswith("msgid "))
+    msgstr_directives = sum(1 for line in lines if line.startswith("msgstr "))
+    if msgid_directives != msgstr_directives:
+        errors.append(f"unbalanced PO directives: msgid={msgid_directives}, msgstr={msgstr_directives}")
+    first = next((i for i, line in enumerate(lines) if line.strip() and not line.startswith("#")), None)
+    if first is None or lines[first] != 'msgid ""':
+        errors.append('PO header must start with msgid ""')
+    elif first + 1 >= len(lines) or lines[first + 1] != 'msgstr ""':
+        errors.append('PO header msgid "" must be followed by msgstr ""')
+    return errors
+
+
 def parse_po(path: str):
     entries = []
     lines = Path(path).read_text(encoding="utf-8").splitlines()
@@ -274,7 +296,8 @@ def parse_po(path: str):
         while i < len(lines) and lines[i].startswith('"'):
             msgstr += decode_po_literal(lines[i])
             i += 1
-        entries.append((line_no, msgid, msgstr))
+        if msgid:
+            entries.append((line_no, msgid, msgstr))
     return entries
 
 
@@ -375,9 +398,12 @@ def main() -> int:
     failures = []
     parsed = {path: parse_po(path) for path in PO_FILES}
     for path in PO_FILES:
+        structure_errors = validate_po_structure(path)
+        if structure_errors:
+            failures.append((path, 1, "<PO header>", structure_errors))
         entries = parsed[path]
         total += len(entries)
-        count = 0
+        count = len(structure_errors)
         for line, msgid, msgstr in entries:
             errs = validate_entry(path, line, msgid, msgstr)
             if errs:

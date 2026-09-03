@@ -1,4 +1,10 @@
-﻿msgstr ""
+# Translations template for Frappe HR.
+# Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
+# This file is distributed under the same license as the Frappe HR project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-05-17 10:03+0000\n"
@@ -16,42 +22,6 @@
 "X-Crowdin-File: /[frappe.hrms] develop/hrms/locale/main.pot\n"
 "X-Crowdin-File-ID: 58\n"
 "Language: vi_VN\n"
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-# Translations template for Frappe HR.
-# Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
-# This file is distributed under the same license as the Frappe HR project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
-msgid ""
-msgstr ""
 
 #. Description of the 'Arrear Start Date' (Date) field in DocType 'Arrear'
 #: hrms/payroll/doctype/arrear/arrear.json

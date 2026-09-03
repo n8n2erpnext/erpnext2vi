@@ -45,7 +45,7 @@ Không Việt hóa cực đoan. Những thuật ngữ kỹ thuật hoặc vận 
 
 ## Semantic v3 QA
 
-Validator hiện kiểm **19.921 entry** trên 5 catalog và **19.146 unique msgid**. Các lớp kiểm chính:
+Validator hiện kiểm **19.916 translation entry** trên 5 catalog và **19.146 unique msgid**. Các lớp kiểm chính:
 
 - placeholder `{0}`, `%s`, `%(name)s`, JS template, Jinja và cấu trúc HTML;
 - semantic rule theo `msgid`, tránh sửa global gây sai ngữ cảnh;
@@ -65,7 +65,7 @@ Trạng thái chuẩn trước khi commit phải là:
 
 ```text
 Cross-app composition: 19146 unique msgids checked, 0 conflicts
-Checked 19921 entries across 5 files
+Checked 19916 entries across 5 files
 PASS: semantic glossary and format invariants are clean
 ```
 

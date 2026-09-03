@@ -1,4 +1,10 @@
-﻿msgstr ""
+# Translations template for Insights.
+# Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
+# This file is distributed under the same license as the Insights project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2026-05-17 10:03+0000\n"
@@ -16,38 +22,6 @@
 "X-Crowdin-File: /[frappe.insights] develop/insights/locale/main.pot\n"
 "X-Crowdin-File-ID: 152\n"
 "Language: vi_VN\n"
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-msgstr ""
-
-# Translations template for Insights.
-# Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
-# This file is distributed under the same license as the Insights project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
-#
-msgid ""
-msgstr ""
 
 #. Option for the 'Cardinality' (Select) field in DocType 'Insights Table Link'
 #: insights/insights/doctype/insights_table_link/insights_table_link.json

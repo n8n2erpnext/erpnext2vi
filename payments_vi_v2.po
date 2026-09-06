@@ -1,0 +1,740 @@
+# Vietnamese translations for Payments.
+# Copyright (C) 2026 Frappe Technologies
+# This file is distributed under the same license as the Payments project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Payments VERSION\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2026-09-06 08:52+0707\n"
+"PO-Revision-Date: 2026-09-06 08:52+0707\n"
+"Last-Translator: hello@frappe.io\n"
+"Language: vi\n"
+"Language-Team: hello@frappe.io\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#. Label of the online_passkey (Password) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid " Online PassKey"
+msgstr " Passkey trực tuyến"
+
+#. Label of the api_key (Password) field in DocType 'Paymob Settings'
+#. Label of the api_key (Data) field in DocType 'Razorpay Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgid "API Key"
+msgstr "Khóa API"
+
+#. Label of the api_password (Password) field in DocType 'PayPal Settings'
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgid "API Password"
+msgstr "Mật khẩu API"
+
+#. Label of the api_secret (Password) field in DocType 'Razorpay Settings'
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgid "API Secret"
+msgstr "Bí mật API"
+
+#. Label of the api_username (Data) field in DocType 'PayPal Settings'
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgid "API Username"
+msgstr "Tên người dùng API"
+
+#. Label of the access_token (Data) field in DocType 'GoCardless Settings'
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
+msgid "Access Token"
+msgstr "Token truy cập"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.js:23
+msgid "Access Token Updated"
+msgstr "Đã cập nhật Access Token"
+
+#. Label of the account_balance (Long Text) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Account Balance"
+msgstr "Số dư Tài khoản"
+
+#: payments/payment_gateways/doctype/mpesa_settings/account_balance.html:6
+msgid "Account Type"
+msgstr "Loại Tài khoản"
+
+#. Name of a role
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Accounts Manager"
+msgstr "Người Quản Lý Tài Khoản"
+
+#. Name of a role
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Accounts User"
+msgstr "Tài khoản Người dùng"
+
+#: payments/overrides/payment_webform.py:23
+msgid "Amount must be greater than 0."
+msgstr "Số tiền phải lớn hơn 0."
+
+#: payments/templates/pages/stripe_checkout.html:52
+msgid "An error occured during the payment process. Please contact us."
+msgstr "Đã xảy ra lỗi trong quá trình thanh toán. Vui lòng liên hệ với chúng tôi."
+
+#: payments/payment_gateways/doctype/mpesa_settings/account_balance.html:8
+msgid "Available Balance"
+msgstr "Số dư khả dụng"
+
+#: payments/payment_gateways/doctype/mpesa_settings/account_balance.html:2
+msgid "Balance Details"
+msgstr "Chi tiết số dư"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgid "Braintree Settings"
+msgstr "Cài đặt Braintree"
+
+#. Label of the business_shortcode (Data) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Business Shortcode"
+msgstr "Mã ngắn doanh nghiệp"
+
+#: payments/templates/pages/stripe_checkout.html:43
+msgid "Card Details"
+msgstr "Thông tin thẻ"
+
+#. Description of the 'Use Sandbox' (Check) field in DocType 'PayPal Settings'
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgid "Check this if you are testing your payment using the Sandbox API"
+msgstr "Chọn mục này nếu bạn đang thử nghiệm thanh toán bằng Sandbox API"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.js:6
+msgid "Clear"
+msgstr "Xóa"
+
+#. Label of the consumer_key (Data) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#. Label of the consumer_secret (Password) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+#: payments/templates/pages/payment-cancel.html:13
+#: payments/templates/pages/payment-failed.html:13
+#: payments/templates/pages/payment-success.html:17
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:570
+msgid "Controller method get_razorpay_order missing"
+msgstr "Thiếu phương thức controller get_razorpay_order"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:155
+msgid "Could not create Paymob order"
+msgstr "Không thể tạo đơn hàng Paymob"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:571
+msgid "Could not create Razorpay order. Please contact Administrator"
+msgstr "Không thể tạo đơn hàng Razorpay. Vui lòng liên hệ Quản trị viên"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:365
+msgid "Could not create razorpay order"
+msgstr "Không thể tạo đơn hàng Razorpay"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:112
+msgid "Could not generate Paymob payment URL"
+msgstr "Không thể tạo URL thanh toán Paymob"
+
+#. Label of the credentials_section (Section Break) field in DocType 'Paymob
+#. Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Credentials"
+msgstr "Thông tin xác thực"
+
+#: payments/payment_gateways/doctype/mpesa_settings/account_balance.html:7
+msgid "Current Balance"
+msgstr "Số dư hiện tại"
+
+#. Label of the disabled (Check) field in DocType 'GoCardless Mandate'
+#: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
+msgid "Disabled"
+msgstr "Đã tắt"
+
+#: payments/templates/pages/stripe_checkout.html:36
+msgid "Email"
+msgstr "Email"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:263
+msgid "Error"
+msgstr "Lỗi"
+
+#: payments/utils/utils.py:11
+msgid "Expired Token"
+msgstr "Token đã hết hạn"
+
+#. Label of the expires_in (Datetime) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Expires In"
+msgstr "Hết hạn vào"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:139
+msgid "Failed to create order in Paymob"
+msgstr "Không thể tạo đơn hàng trên Paymob"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:103
+msgid "Failed to retrieve payment token from Paymob"
+msgstr "Không thể lấy token thanh toán từ Paymob"
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:452
+msgid "Failed while amending subscription"
+msgstr "Lỗi khi điều chỉnh gói đăng ký"
+
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:188
+msgid "For currency {0}, the minimum transaction amount should be {1}"
+msgstr "Với tiền tệ {0}, số tiền giao dịch tối thiểu phải là {1}"
+
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.js:7
+msgid "For more information, {0}."
+msgstr "Để biết thêm thông tin, {0}."
+
+#. Label of the gateway (Data) field in DocType 'Payment Gateway'
+#: payments/payments/doctype/payment_gateway/payment_gateway.json
+msgid "Gateway"
+msgstr "Cổng thanh toán"
+
+#. Label of the gateway_controller (Dynamic Link) field in DocType 'Payment
+#. Gateway'
+#: payments/payments/doctype/payment_gateway/payment_gateway.json
+msgid "Gateway Controller"
+msgstr "Controller cổng thanh toán"
+
+#. Label of the gateway_settings (Link) field in DocType 'Payment Gateway'
+#: payments/payments/doctype/payment_gateway/payment_gateway.json
+msgid "Gateway Settings"
+msgstr "Cài đặt cổng thanh toán"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.js:6
+msgid "Get Access Token"
+msgstr "Lấy Access Token"
+
+#. Label of the get_account_balance (Button) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Get Account Balance"
+msgstr "Lấy số dư tài khoản"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.js:17
+msgid "Getting Access Token ..."
+msgstr "Đang lấy Access Token ..."
+
+#. Label of the gocardless_customer (Data) field in DocType 'GoCardless
+#. Mandate'
+#: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
+msgid "GoCardless Customer"
+msgstr "Khách hàng GoCardless"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
+msgid "GoCardless Mandate"
+msgstr "Ủy quyền GoCardless"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
+msgid "GoCardless Settings"
+msgstr "Cài đặt GoCardless"
+
+#. Label of the hmac (Password) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "HMAC"
+msgstr "HMAC"
+
+#. Label of the header_img (Attach Image) field in DocType 'Braintree Settings'
+#. Label of the header_img (Attach Image) field in DocType 'GoCardless
+#. Settings'
+#. Label of the header_img (Attach Image) field in DocType 'Stripe Settings'
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgid "Header Image"
+msgstr "Ảnh đầu trang"
+
+#. Label of the iframe (Data) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Iframe"
+msgstr "Iframe"
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:491
+msgid "In Valid Request"
+msgstr "Yêu cầu không hợp lệ"
+
+#. Label of the industry_type_id (Data) field in DocType 'Paytm Settings'
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgid "Industry Type ID"
+msgstr "Mã loại ngành"
+
+#. Label of the initiator_name (Data) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Initiator Name"
+msgstr "Tên bên khởi tạo"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:159
+msgid "Invalid Checkout Request ID"
+msgstr "Mã yêu cầu Checkout không hợp lệ"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:273
+msgid "Invalid Conversation ID"
+msgstr "Conversation ID không hợp lệ"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:172
+msgid "Invalid HMAC"
+msgstr "HMAC không hợp lệ"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:659
+msgid "Invalid Subscription"
+msgstr "Gói đăng ký không hợp lệ"
+
+#: payments/templates/pages/paytm_checkout.py:31
+#: payments/templates/pages/razorpay_checkout.py:48
+msgid "Invalid Token"
+msgstr "Token không hợp lệ"
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:171
+msgid "Invalid payment gateway credentials"
+msgstr "Thông tin xác thực cổng thanh toán không hợp lệ"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:142
+msgid "Issue detected with Mpesa configuration, check the error logs for more details"
+msgstr "Phát hiện vấn đề trong cấu hình Mpesa. Hãy kiểm tra log lỗi để biết thêm chi tiết"
+
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:212
+#: payments/payment_gateways/stripe_integration.py:29
+msgid "It seems that there is an issue with the server's stripe configuration. In case of failure, the amount will get refunded to your account."
+msgstr "Có vẻ cấu hình Stripe trên máy chủ đang gặp vấn đề. Nếu giao dịch thất bại, số tiền sẽ được hoàn lại vào tài khoản của bạn."
+
+#: payments/templates/pages/stripe_checkout.html:29
+msgid "John Doe"
+msgstr "John Doe"
+
+#: payments/templates/pages/gocardless_checkout.html:13
+msgid "Loading Payment System"
+msgstr "Đang tải hệ thống thanh toán"
+
+#: payments/templates/pages/braintree_checkout.py:48
+#: payments/templates/pages/gocardless_checkout.py:46
+#: payments/templates/pages/gocardless_confirmation.py:28
+#: payments/templates/pages/stripe_checkout.py:54
+msgid "Looks like someone sent you to an incomplete URL. Please ask them to look into it."
+msgstr "Có vẻ bạn được chuyển đến một URL chưa đầy đủ. Vui lòng nhờ người gửi kiểm tra lại."
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:216
+msgid "Looks like something is wrong with this site's Paypal configuration."
+msgstr "Có vẻ cấu hình PayPal của trang này đang có vấn đề."
+
+#: payments/utils/utils.py:40
+msgid "Looks like something is wrong with this site's payment gateway configuration. No payment has been made."
+msgstr "Có vẻ cấu hình cổng thanh toán của trang này đang có vấn đề. Chưa có khoản thanh toán nào được thực hiện."
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:280
+msgid "Looks like something went wrong during the transaction. Since we haven't confirmed the payment, Paypal will automatically refund you this amount. If it doesn't, please send us an email and mention the Correlation ID: {0}."
+msgstr "Có vẻ đã xảy ra lỗi trong giao dịch. Vì thanh toán chưa được xác nhận, PayPal sẽ tự động hoàn lại số tiền này. Nếu không, vui lòng gửi email cho chúng tôi và ghi rõ Correlation ID: {0}."
+
+#. Label of the mandate (Data) field in DocType 'GoCardless Mandate'
+#: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
+msgid "Mandate"
+msgstr "Ủy quyền thanh toán"
+
+#. Description of the 'Redirect To' (Data) field in DocType 'PayPal Settings'
+#. Description of the 'Redirect To' (Data) field in DocType 'Razorpay Settings'
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgid "Mention transaction completion page URL"
+msgstr "Nhập URL trang hoàn tất giao dịch"
+
+#. Description of the 'Redirect To' (Data) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid ""
+"Mention transaction completion page URL\n"
+"\n"
+msgstr "Nhập URL trang hoàn tất giao dịch\n\n"
+
+#. Label of the merchant_id (Data) field in DocType 'Braintree Settings'
+#. Label of the merchant_id (Data) field in DocType 'Paytm Settings'
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#. Label of the merchant_key (Password) field in DocType 'Paytm Settings'
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgid "Merchant Key"
+msgstr "Merchant Key"
+
+#: payments/utils/utils.py:217
+msgid "Missing ERPNext App"
+msgstr "Thiếu ứng dụng ERPNext"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:164
+msgid "Missing HMAC"
+msgstr "Thiếu HMAC"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:192
+msgid "Missing order ID"
+msgstr "Thiếu mã đơn hàng"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:69
+msgid "Missing order ID or amount"
+msgstr "Thiếu mã đơn hàng hoặc số tiền"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:143
+msgid "Mpesa Express Error"
+msgstr "Lỗi Mpesa Express"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Mpesa Settings"
+msgstr "Cài đặt Mpesa"
+
+#: payments/templates/pages/stripe_checkout.html:28
+msgid "Name"
+msgstr "Tên"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:241
+msgid "No Integration Request found for this order"
+msgstr "Không tìm thấy Integration Request cho đơn hàng này"
+
+#: payments/templates/pages/braintree_checkout.html:29
+#: payments/templates/pages/stripe_checkout.html:50
+msgid "Pay"
+msgstr "Trả"
+
+#: payments/templates/pages/gocardless_checkout.py:87
+msgid "Pay {0} {1}"
+msgstr "Thanh toán {0} {1}"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgid "PayPal Settings"
+msgstr "Cài đặt PayPal"
+
+#: payments/templates/pages/payment-cancel.html:3
+#: payments/templates/pages/payment-cancel.html:9
+msgid "Payment Cancelled"
+msgstr "Thanh toán đã bị hủy"
+
+#. Label of the payment_config (Section Break) field in DocType 'Paymob
+#. Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Payment Config"
+msgstr "Cấu hình thanh toán"
+
+#: payments/templates/pages/gocardless_confirmation.html:13
+msgid "Payment Confirmation"
+msgstr "Xác nhận thanh toán"
+
+#: payments/templates/pages/payment-failed.html:3
+#: payments/templates/pages/payment-failed.html:9
+msgid "Payment Failed"
+msgstr "Thanh toán không thành công"
+
+#. Name of a DocType
+#: payments/payments/doctype/payment_gateway/payment_gateway.json
+msgid "Payment Gateway"
+msgstr "Cổng thanh toán"
+
+#. Label of the gateway_name (Data) field in DocType 'Braintree Settings'
+#. Label of the gateway_name (Data) field in DocType 'GoCardless Settings'
+#. Label of the payment_gateway_name (Data) field in DocType 'Mpesa Settings'
+#. Label of the gateway_name (Data) field in DocType 'Stripe Settings'
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgid "Payment Gateway Name"
+msgstr "Tên cổng thanh toán"
+
+#. Label of the payment_integration (Int) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Payment Integration"
+msgstr "Tích hợp thanh toán"
+
+#: payments/templates/pages/payment-success.html:3
+msgid "Payment Success"
+msgstr "Thanh toán thành công"
+
+#: payments/config/desktop.py:5
+msgid "Payments"
+msgstr "Thanh toán"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Paymob Settings"
+msgstr "Cài đặt Paymob"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgid "Paytm Settings"
+msgstr "Cài đặt Paytm"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:263
+msgid "Please check your configuration and try again"
+msgstr "Vui lòng kiểm tra cấu hình và thử lại"
+
+#: payments/overrides/payment_webform.py:21
+msgid "Please select a Amount Field."
+msgstr "Vui lòng chọn trường Số tiền."
+
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:94
+msgid "Please select another payment method. Go Cardless does not support transactions in currency '{0}'"
+msgstr "Vui lòng chọn phương thức thanh toán khác. GoCardless không hỗ trợ giao dịch bằng tiền tệ '{0}'"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:26
+msgid "Please select another payment method. Mpesa does not support transactions in currency '{0}'"
+msgstr "Vui lòng chọn phương thức thanh toán khác. Mpesa không hỗ trợ giao dịch bằng tiền tệ '{0}'"
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:129
+msgid "Please select another payment method. PayPal does not support transactions in currency '{0}'"
+msgstr "Vui lòng chọn phương thức thanh toán khác. PayPal không hỗ trợ giao dịch bằng tiền tệ '{0}'"
+
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.py:36
+msgid "Please select another payment method. Paytm does not support transactions in currency '{0}'"
+msgstr "Vui lòng chọn phương thức thanh toán khác. Paytm không hỗ trợ giao dịch bằng tiền tệ '{0}'"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:242
+msgid "Please select another payment method. Razorpay does not support transactions in currency '{0}'"
+msgstr "Vui lòng chọn phương thức thanh toán khác. Razorpay không hỗ trợ giao dịch bằng tiền tệ '{0}'"
+
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.py:183
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:179
+msgid "Please select another payment method. Stripe does not support transactions in currency '{0}'"
+msgstr "Vui lòng chọn phương thức thanh toán khác. Stripe không hỗ trợ giao dịch bằng tiền tệ '{0}'"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.js:19
+msgid "Please set the initiator name and the security credential"
+msgstr "Vui lòng thiết lập tên bên khởi tạo và thông tin xác thực bảo mật"
+
+#. Label of the private_key (Password) field in DocType 'Braintree Settings'
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgid "Private Key"
+msgstr "Private Key"
+
+#: payments/templates/includes/stripe_checkout.js:33
+msgid "Processing..."
+msgstr "Đang xử lý..."
+
+#. Label of the public_key (Data) field in DocType 'Braintree Settings'
+#. Label of the public_key (Password) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Public Key"
+msgstr "Khóa công khai"
+
+#. Label of the publishable_key (Data) field in DocType 'Stripe Settings'
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgid "Publishable Key"
+msgstr "Publishable Key"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgid "Razorpay Settings"
+msgstr "Cài đặt Razorpay"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:496
+msgid "Razorpay Signature Verification Failed"
+msgstr "Xác minh chữ ký Razorpay thất bại"
+
+#. Label of the redirect_to (Data) field in DocType 'Paymob Settings'
+#. Label of the redirect_to (Data) field in DocType 'PayPal Settings'
+#. Label of the redirect_to (Data) field in DocType 'Razorpay Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgid "Redirect To"
+msgstr "Chuyển hướng đến"
+
+#. Label of the redirect_url (Data) field in DocType 'Stripe Settings'
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgid "Redirect URL"
+msgstr "URL chuyển hướng"
+
+#: payments/payment_gateways/doctype/mpesa_settings/account_balance.html:9
+msgid "Reserved Balance"
+msgstr "Số dư dự phòng"
+
+#. Label of the sandbox (Check) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#. Label of the secret_key (Password) field in DocType 'Paymob Settings'
+#. Label of the secret_key (Password) field in DocType 'Stripe Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#. Label of the security_credential (Small Text) field in DocType 'Mpesa
+#. Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Security Credential"
+msgstr "Thông tin xác thực bảo mật"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:237
+msgid "Seems API Key or API Secret is wrong !!!"
+msgstr "Có vẻ API Key hoặc API Secret không đúng!"
+
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:174
+msgid "Seems Publishable Key or Secret Key is wrong !!!"
+msgstr "Có vẻ Publishable Key hoặc Secret Key không đúng!"
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:380
+msgid "Seems issue with server's razorpay config. Don't worry, in case of failure amount will get refunded to your account."
+msgstr "Có vẻ cấu hình Razorpay trên máy chủ đang gặp vấn đề. Nếu giao dịch thất bại, số tiền sẽ được hoàn lại vào tài khoản của bạn."
+
+#: payments/templates/pages/paytm_checkout.py:32
+#: payments/templates/pages/razorpay_checkout.py:49
+msgid "Seems token you are using is invalid!"
+msgstr "Có vẻ token bạn đang sử dụng không hợp lệ!"
+
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.py:202
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:113
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:379
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:211
+#: payments/payment_gateways/stripe_integration.py:28
+msgid "Server Error"
+msgstr "Lỗi Máy Chủ"
+
+#. Label of the signature (Data) field in DocType 'PayPal Settings'
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgid "Signature"
+msgstr "Chữ ký"
+
+#: payments/templates/pages/braintree_checkout.py:47
+#: payments/templates/pages/gocardless_checkout.py:45
+#: payments/templates/pages/gocardless_confirmation.py:27
+#: payments/templates/pages/stripe_checkout.py:53
+msgid "Some information is missing"
+msgstr "Thiếu một số thông tin"
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:279
+#: payments/utils/utils.py:39
+msgid "Something went wrong"
+msgstr "Đã xảy ra lỗi"
+
+#. Label of the staging (Check) field in DocType 'Paytm Settings'
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgid "Staging"
+msgstr "Môi trường staging"
+
+#. Name of a DocType
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgid "Stripe Settings"
+msgstr "Cài đặt Stripe"
+
+#: payments/templates/pages/payment-success.html:9
+msgid "Success"
+msgstr "Thành công"
+
+#. Name of a role
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+#: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
+#: payments/payments/doctype/payment_gateway/payment_gateway.json
+msgid "System Manager"
+msgstr "Người quản lý hệ thống"
+
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:114
+msgid "There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account."
+msgstr "Có vẻ cấu hình GoCardless trên máy chủ đang gặp vấn đề. Nếu giao dịch thất bại, số tiền sẽ được hoàn lại vào tài khoản của bạn."
+
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.py:203
+msgid "There seems to be an issue with the server's braintree configuration. Don't worry, in case of failure, the amount will get refunded to your account."
+msgstr "Có vẻ cấu hình Braintree trên máy chủ đang gặp vấn đề. Nếu giao dịch thất bại, số tiền sẽ được hoàn lại vào tài khoản của bạn."
+
+#. Label of the till_number (Data) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Till Number"
+msgstr "Số quầy thanh toán"
+
+#. Label of the token (Password) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Token"
+msgstr "Token"
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:103
+msgid "Transaction Error"
+msgstr "Lỗi giao dịch"
+
+#. Label of the transaction_limit (Float) field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+msgid "Transaction Limit"
+msgstr "Hạn mức giao dịch"
+
+#: payments/payment_gateways/doctype/mpesa_settings/account_balance.html:10
+msgid "Uncleared Balance"
+msgstr "Số dư chưa đối soát"
+
+#. Label of the use_sandbox (Check) field in DocType 'Braintree Settings'
+#. Label of the use_sandbox (Check) field in DocType 'GoCardless Settings'
+#. Label of the paypal_sandbox (Check) field in DocType 'PayPal Settings'
+#: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgid "Use Sandbox"
+msgstr "Sử dụng Sandbox"
+
+#. Label of the webhooks_secret (Data) field in DocType 'GoCardless Settings'
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
+msgid "Webhooks Secret"
+msgstr "Webhook Secret"
+
+#. Label of the website (Data) field in DocType 'Paytm Settings'
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgid "Website"
+msgstr "Trang web"
+
+#: payments/overrides/payment_webform.py:71
+msgid "You are not allowed to update this Web Form Document"
+msgstr "Bạn không được phép cập nhật tài liệu Biểu mẫu web này"
+
+#: payments/overrides/payment_webform.py:115
+msgid "You must login to submit this form"
+msgstr "Bạn phải đăng nhập để gửi biểu mẫu này"
+
+#: payments/templates/pages/stripe_checkout.html:53
+msgid "Your payment has been successfully registered."
+msgstr "Khoản thanh toán của bạn đã được ghi nhận thành công."
+
+#: payments/templates/pages/payment-failed.html:11
+msgid "Your payment has failed."
+msgstr "Thanh toán của bạn thất bại."
+
+#: payments/templates/pages/payment-cancel.html:11
+msgid "Your payment is cancelled."
+msgstr "Thanh toán của bạn đã bị hủy."
+
+#: payments/templates/pages/payment-success.html:11
+msgid "Your payment was successfully accepted"
+msgstr "Thanh toán của bạn đã được chấp nhận thành công"
+
+#: payments/utils/utils.py:211
+msgid "erpnext app is not installed. Please install it from {} or {}"
+msgstr "Ứng dụng ERPNext chưa được cài đặt. Vui lòng cài đặt từ {} hoặc {}"
+
+#: payments/templates/pages/stripe_checkout.html:37
+msgid "john@doe.com"
+msgstr "john@doe.com"
+
+#: payments/utils/utils.py:21 payments/utils/utils.py:26
+msgid "{0} Settings not found"
+msgstr "Không tìm thấy cài đặt {0}"
+

@@ -42,10 +42,35 @@ Không Việt hóa cực đoan. Những thuật ngữ kỹ thuật hoặc vận 
 | `hrms_vi_v2.po` | HRMS | `apps/hrms/hrms/locale/vi.po` |
 | `crm_vi_v2.po` | Frappe CRM | `apps/crm/crm/locale/vi.po` |
 | `insights_vi_v2.po` | Frappe Insights | `apps/insights/insights/locale/vi.po` |
+| `lending_vi_v2.po` | Frappe Lending | `apps/lending/lending/locale/vi.po` |
+| `lms_vi_v2.po` | Frappe Learning / LMS | `apps/lms/lms/locale/vi.po` |
+| `helpdesk_vi_v2.po` | Frappe Helpdesk | `apps/helpdesk/helpdesk/locale/vi.po` |
+| `payments_vi_v2.po` | Frappe Payments | `apps/payments/payments/locale/vi.po` |
+| `education_vi_v2.po` | Frappe Education | `apps/education/education/locale/vi.po` |
+| `healthcare_vi_v2.po` | Frappe Health / Marley Healthcare | `apps/healthcare/healthcare/locale/vi.po` |
+| `agriculture_vi_v2.po` | Frappe Agriculture | `apps/agriculture/agriculture/locale/vi.po` |
+| `hospitality_core_vi_v2.po` | Hospitality Core | `apps/hospitality_core/hospitality_core/locale/vi.po` |
+
+## Nhóm module nghiệp vụ mở rộng
+
+Từ đợt 2026-09, repository bổ sung catalog cho Lending, LMS, Helpdesk, Payments, Education, Healthcare, Agriculture và Hospitality Core. Các file này được xây theo cùng nguyên tắc **A + B** với bộ core:
+
+- **A = core Frappe/ERPNext/HRMS giữ nguyên**: nếu module dùng lại đúng một `msgid` đã có bản dịch chuẩn ở core thì tái sử dụng bản dịch đó.
+- **B = module được phép override theo ngành**: cùng một từ tiếng Anh nhưng khác ngữ cảnh nghiệp vụ thì dịch theo domain. Ví dụ `Assignment` là **Phân công** trong Helpdesk nhưng là **Bài tập** trong LMS; `Admission` là **Tuyển sinh** trong Education nhưng là **Nhập viện** trong Healthcare.
+- Không sửa core chỉ để chiều một module. Các khác biệt ngữ cảnh phải nằm ở catalog của chính module đó.
+
+Trạng thái catalog hiện tại trên bộ app đã kiểm thử: Lending 865 entry, LMS 1.904, Helpdesk 1.315, Payments 148, Education 711, Healthcare 2.030, Agriculture 139 và Hospitality Core 665. Tất cả đã có `msgstr` và đã được compile thành `.mo` trên bench thử nghiệm Frappe/ERPNext v16.
+
+### Tài liệu riêng cho Health và Hospitality
+
+Hai app này có phạm vi gần nhau ở phần lưu trú/chăm sóc nhưng **không phải một sản phẩm** nên được tách README riêng:
+
+- [README_HEALTHCARE.md](README_HEALTHCARE.md): hệ thống y tế/clinic/HIS, dịch giao diện và workflow lâm sàng; không nhúng dữ liệu thuốc, bệnh, mã y khoa hay danh mục xét nghiệm của từng cơ sở.
+- [README_HOSPITALITY.md](README_HOSPITALITY.md): hotel/resort/PMS, phòng, đặt phòng, folio, housekeeping, night audit và billing. Có thể phối hợp với Healthcare cho mô hình điều dưỡng/lưu trú chăm sóc, nhưng không thay thế hồ sơ lâm sàng.
 
 ## Semantic v3 QA
 
-Validator hiện kiểm **19.916 translation entry** trên 5 catalog và **19.146 unique msgid**. Các lớp kiểm chính:
+Validator hiện kiểm **27.693 translation entry** trên 13 catalog và **25.012 unique msgid**. Các lớp kiểm chính:
 
 - placeholder `{0}`, `%s`, `%(name)s`, JS template, Jinja và cấu trúc HTML;
 - semantic rule theo `msgid`, tránh sửa global gây sai ngữ cảnh;
@@ -64,8 +89,8 @@ python3 validate_semantics.py
 Trạng thái chuẩn trước khi commit phải là:
 
 ```text
-Cross-app composition: 19146 unique msgids checked, 0 conflicts
-Checked 19916 entries across 5 files
+Cross-app composition: 25012 unique msgids checked, 0 conflicts
+Checked 27693 entries across 13 files
 PASS: semantic glossary and format invariants are clean
 ```
 
@@ -88,6 +113,14 @@ cp frappe_vi_v2.po apps/frappe/frappe/locale/vi.po
 cp hrms_vi_v2.po apps/hrms/hrms/locale/vi.po
 cp crm_vi_v2.po apps/crm/crm/locale/vi.po
 cp insights_vi_v2.po apps/insights/insights/locale/vi.po
+cp lending_vi_v2.po apps/lending/lending/locale/vi.po
+cp lms_vi_v2.po apps/lms/lms/locale/vi.po
+cp helpdesk_vi_v2.po apps/helpdesk/helpdesk/locale/vi.po
+cp payments_vi_v2.po apps/payments/payments/locale/vi.po
+cp education_vi_v2.po apps/education/education/locale/vi.po
+cp healthcare_vi_v2.po apps/healthcare/healthcare/locale/vi.po
+cp agriculture_vi_v2.po apps/agriculture/agriculture/locale/vi.po
+cp hospitality_core_vi_v2.po apps/hospitality_core/hospitality_core/locale/vi.po
 ```
 
 Sau đó compile và làm mới site:

@@ -1,0 +1,3581 @@
+# Vietnamese translations for Hospitality Core.
+# Copyright (C) 2026 Gift Braimah
+# This file is distributed under the same license as the Hospitality Core project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hospitality Core VERSION\n"
+"Report-Msgid-Bugs-To: braimahgifted@gmail.com\n"
+"POT-Creation-Date: 2026-09-06 08:52+0707\n"
+"PO-Revision-Date: 2026-09-06 08:52+0707\n"
+"Last-Translator: braimahgifted@gmail.com\n"
+"Language: vi\n"
+"Language-Team: braimahgifted@gmail.com\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: hospitality_core/hospitality_core/api/group_booking.py:112
+#: hospitality_core/hospitality_core/api/group_booking.py:142
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:133
+msgid "<b>Failures:</b>"
+msgstr "<b>Lỗi:</b>"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:82
+msgid "<b>Food with Proteins</b>"
+msgstr "<b>Thực phẩm có protein</b>"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:91
+msgid "<b>RECEIPTS</b>"
+msgstr "<b>PHIẾU THU</b>"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:72
+msgid "<b>SALES</b>"
+msgstr "<b>DOANH THU</b>"
+
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:43
+msgid "<b>Summary</b>"
+msgstr "<b>Tổng hợp</b>"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:81
+msgid "<b>Total Proteins</b>"
+msgstr "<b>Tổng protein</b>"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:89
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:107
+msgid "<b>Total Sales</b>"
+msgstr "<b>Tổng doanh thu</b>"
+
+#. Header text in the Hospitality Analytics Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality_analytics/hospitality_analytics.json
+msgid "<div id='hos-v10-controls'></div><div class='row' style='margin-top: 20px;'><div class='col-sm-6'><div id='chart-occ' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-adr' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-revpar' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-guest' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-12'><div id='chart-revext' class='v10-chart-box' style='height: 350px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-gp' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-exp' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-reception' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-payment' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-12'><div id='chart-maintenance' class='v10-chart-box' style='height: 350px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div></div>"
+msgstr "<div id='hos-v10-controls'></div><div class='row' style='margin-top: 20px;'><div class='col-sm-6'><div id='chart-occ' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-adr' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-revpar' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-guest' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-12'><div id='chart-revext' class='v10-chart-box' style='height: 350px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-gp' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-exp' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-reception' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-6'><div id='chart-payment' class='v10-chart-box' style='height: 300px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div><div class='col-sm-12'><div id='chart-maintenance' class='v10-chart-box' style='height: 350px; padding: 15px; background: #fff; border-radius: 12px; margin-bottom: 20px;'></div></div></div>"
+
+#. Content of the 'Room Rate Preview' (HTML) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "<div id='room-rate-preview-box'></div>"
+msgstr "<div id='room-rate-preview-box'></div>"
+
+#. Header text in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "<span class=\"h4\">Front Desk Operations</span>"
+msgstr "<span class=\"h4\">Vận hành lễ tân</span>"
+
+#. Header text in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "<span class=\"h4\">Management &amp; Inventory</span>"
+msgstr "<span class=\"h4\">Quản lý &amp; Tồn kho</span>"
+
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.py:15
+msgid "ADR"
+msgstr "ADR"
+
+#: hospitality_core/hospitality_core/api/room_move.py:17
+msgid "Access Denied. Only Frontdesk Supervisors can move rooms."
+msgstr "Từ chối truy cập. Chỉ Giám sát lễ tân mới được chuyển phòng."
+
+#: hospitality_core/hospitality_core/api/folio.py:240
+msgid "Access Denied. Only Frontdesk Supervisors can move transactions."
+msgstr "Từ chối truy cập. Chỉ Giám sát lễ tân mới được chuyển giao dịch."
+
+#: hospitality_core/hospitality_core/api/financial_control.py:24
+msgid "Access Denied. Only Frontdesk Supervisors can void transactions."
+msgstr "Từ chối truy cập. Chỉ Giám sát lễ tân mới được hủy hiệu lực giao dịch."
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:73
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:86
+msgid "Accommodation"
+msgstr "Lưu trú"
+
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:39
+msgid "Account"
+msgstr "Tài Khoản"
+
+#. Label of the account_head (Link) field in DocType 'Hospitality Expense Tax'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense_tax/hospitality_expense_tax.json
+msgid "Account Head"
+msgstr "Tài khoản"
+
+#. Description of the 'Income Suspense Account' (Link) field in DocType
+#. 'Hospitality Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Account where revenue is held until payment is made (e.g., Unearned Revenue)."
+msgstr "Tài khoản tạm giữ doanh thu cho đến khi được thanh toán (ví dụ: Doanh thu chưa thực hiện)."
+
+#. Label of a Card Break in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Accounting & Billing"
+msgstr "Kế toán & Thanh toán dịch vụ"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:203
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:190
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.js:57
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.js:25
+#: hospitality_core/hospitality_core/report/house_list/house_list.js:26
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.js:38
+msgid "Actions"
+msgstr "Chức năng"
+
+#. Label of the active (Check) field in DocType 'Room Rate Plan'
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.json
+msgid "Active"
+msgstr "Đang hoạt động"
+
+#. Label of the actual_amount (Currency) field in DocType 'EOD Payment Summary'
+#: hospitality_core/hospitality_core/doctype/eod_payment_summary/eod_payment_summary.json
+msgid "Actual Amount"
+msgstr "Số tiền thực tế"
+
+#. Label of the section_break_details (Section Break) field in DocType
+#. 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Additional Details"
+msgstr "Chi tiết bổ sung"
+
+#. Label of the address (Small Text) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Address"
+msgstr "Địa Chỉ"
+
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:13
+msgid "Age (Days)"
+msgstr "Tuổi (Ngày)"
+
+#. Label of the is_alien (Check) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Alien (Foreign National)"
+msgstr "Người nước ngoài"
+
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:48
+msgid "All Receptions"
+msgstr "Tất cả quầy lễ tân"
+
+#. Label of the allow_pos_posting (Check) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Allow POS/F&B Posting"
+msgstr "Cho phép ghi nhận POS/F&B"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/allowance_reason_code/allowance_reason_code.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Allowance Reason Code"
+msgstr "Mã lý do miễn/giảm"
+
+#. Label of the amended_from (Link) field in DocType 'Guest Balance Ledger'
+#. Label of the amended_from (Link) field in DocType 'Guest Folio'
+#. Label of the amended_from (Link) field in DocType 'Hospitality Expense'
+#. Label of the amended_from (Link) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Amended From"
+msgstr "Được sửa đổi từ"
+
+#. Label of the amount (Currency) field in DocType 'EOD Expense Breakdown'
+#. Label of the amount (Currency) field in DocType 'EOD Item Group Sales'
+#. Label of the amount (Currency) field in DocType 'EOD Item Sales'
+#. Label of the amount (Currency) field in DocType 'Folio Transaction'
+#. Label of the amount (Currency) field in DocType 'Folio Transaction Move Log'
+#. Label of the amount (Currency) field in DocType 'Guest Balance Ledger'
+#. Option for the 'Master Discount Type' (Select) field in DocType 'Hotel Group
+#. Booking'
+#. Option for the 'Discount Type' (Select) field in DocType 'Hotel Group
+#. Booking Room'
+#. Option for the 'Discount Type' (Select) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/eod_expense_breakdown/eod_expense_breakdown.json
+#: hospitality_core/hospitality_core/doctype/eod_item_group_sales/eod_item_group_sales.json
+#: hospitality_core/hospitality_core/doctype/eod_item_sales/eod_item_sales.json
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:347
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:508
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:622
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking_room/hotel_group_booking_room.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:15
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:22
+#: hospitality_core/hospitality_core/report/folio_transaction_move_report/folio_transaction_move_report.py:34
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.py:12
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:14
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:15
+msgid "Amount"
+msgstr "Số tiền"
+
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:12
+msgid "Amount (Credit)"
+msgstr "Số tiền (Có)"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:442
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:644
+msgid "Amount must be a positive value for a debit entry."
+msgstr "Số tiền phải là giá trị dương đối với bút toán Nợ."
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:13
+#: hospitality_core/hospitality_core/api/payment_bridge.py:350
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:52
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:450
+msgid "Amount must be greater than zero."
+msgstr "Số tiền phải lớn hơn 0."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:513
+msgid "Amount received from the company to offset city ledger"
+msgstr "Số tiền nhận từ công ty để cấn trừ công nợ City Ledger"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Analytics Dashboard"
+msgstr "Dashboard phân tích"
+
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.js:45
+msgid "Approval State"
+msgstr "Trạng thái phê duyệt"
+
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:12
+msgid "Arr Date"
+msgstr "Ngày đến"
+
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:15
+msgid "Arrival"
+msgstr "Đến"
+
+#. Label of the arrival_date (Date) field in DocType 'Hotel Group Booking'
+#. Label of the arrival_date (Date) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.py:21
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:21
+msgid "Arrival Date"
+msgstr "Ngày đến"
+
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.py:13
+msgid "Arrival Time"
+msgstr "Giờ đến"
+
+#. Label of the arriving_from (Data) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Arriving From"
+msgstr "Đến từ"
+
+#. Label of the section_break_discrepancies (Section Break) field in DocType
+#. 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Associated Closing Entries & Discrepancies"
+msgstr "Bút toán đóng ca & Chênh lệch liên quan"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.py:25
+msgid "At least one ingredient is required"
+msgstr "Cần ít nhất một nguyên liệu"
+
+#: hospitality_core/hospitality_core/api/auto_print.py:31
+msgid "Auto Print: Settings Error"
+msgstr "In tự động: Lỗi cài đặt"
+
+#: hospitality_core/hospitality_core/api/night_audit.py:42
+msgid "Auto-Bill (2 PM): Posted charges for {0} rooms."
+msgstr "Tự động tính phí (14:00): Đã ghi nhận phí cho {0} phòng."
+
+#: hospitality_core/hospitality_core/api/night_audit.py:72
+msgid "Auto-Cancelled (Night Audit): Guest did not arrive. Arrival date was {0}."
+msgstr "Tự động hủy (Night Audit): Khách không đến. Ngày đến dự kiến là {0}."
+
+#: hospitality_core/hospitality_core/api/night_audit.py:129
+msgid "Auto-Extended: Guest still in-house at 2 PM."
+msgstr "Tự động gia hạn: Khách vẫn đang lưu trú lúc 14:00."
+
+#. Description of the 'Payment Account' (Link) field in DocType 'Hospitality
+#. Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Auto-fetched from Mode of Payment if empty"
+msgstr "Tự lấy từ Phương thức thanh toán nếu để trống"
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:45
+msgid "Auto-linked Room {0} from active Folio {1}"
+msgstr "Tự động liên kết Phòng {0} từ Folio đang hoạt động {1}"
+
+#. Label of the section_break_printing (Section Break) field in DocType
+#. 'Hospitality Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Automatic Printing"
+msgstr "In tự động"
+
+#. Description of the 'Enable Automatic Receipt Printing' (Check) field in
+#. DocType 'Hospitality Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Automatically print receipts to the system's default printer when a POS Invoice is submitted"
+msgstr "Tự động in phiếu thu bằng máy in mặc định của hệ thống khi Hóa đơn POS được ghi nhận"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Availability Query"
+msgstr "Tra cứu phòng trống"
+
+#. Option for the 'Status' (Select) field in DocType 'Guest Balance Ledger'
+#. Option for the 'Status' (Select) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.py:15
+msgid "Available"
+msgstr "Có sẵn"
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:25
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:423
+msgid "Available Credit"
+msgstr "Hạn mức còn khả dụng"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:98
+msgid "Available Rooms"
+msgstr "Phòng còn trống"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:28
+msgid "Avg Daily Expense"
+msgstr "Chi phí bình quân ngày"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:27
+msgid "Avg Daily Rate"
+msgstr "Giá phòng bình quân ngày"
+
+#. Label of the bom (Link) field in DocType 'Item Recipe'
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+msgid "BOM Reference"
+msgstr "Tham chiếu BOM"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.js:12
+msgid "BOM not yet created"
+msgstr "Chưa tạo BOM"
+
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:17
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:16
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:20
+msgid "Balance Due"
+msgstr "Số dư phải thanh toán"
+
+#. Label of the balance_qty (Float) field in DocType 'EOD Stock Balance'
+#: hospitality_core/hospitality_core/doctype/eod_stock_balance/eod_stock_balance.json
+msgid "Balance Qty"
+msgstr "Số lượng cân đối"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:80
+msgid "Beef"
+msgstr "Thịt bò"
+
+#. Label of the bill_to (Select) field in DocType 'Folio Transaction'
+#. Label of the bill_to (Select) field in DocType 'Reservation Routing'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/doctype/reservation_routing/reservation_routing.json
+msgid "Bill To"
+msgstr "Xuất hóa đơn cho"
+
+#. Label of the is_invoiced (Check) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Billed"
+msgstr "Đã tính"
+
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.py:17
+msgid "Billed To"
+msgstr "Đã tính phí cho"
+
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.py:18
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:19
+msgid "Billing Type"
+msgstr "Loại tính phí"
+
+#. Option for the 'Guest Type' (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Blacklisted"
+msgstr "Trong danh sách hạn chế"
+
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.py:17
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:26
+msgid "Booked By"
+msgstr "Người đặt"
+
+#. Label of the status (Select) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Booking Status"
+msgstr "Trạng thái đặt phòng"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:71
+msgid "Bulk Reservation"
+msgstr "Đặt phòng hàng loạt"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:138
+msgid "Bulk Reservation Status"
+msgstr "Trạng thái đặt phòng hàng loạt"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:64
+msgid "Bulk Reserve"
+msgstr "Đặt phòng hàng loạt"
+
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:18
+msgid "CT (5%)"
+msgstr "Thuế tiêu thụ (5%)"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.js:16
+msgid "Calculate Cost"
+msgstr "Tính chi phí"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:237
+msgid "Can only refund from an Available ledger entry."
+msgstr "Chỉ có thể hoàn tiền từ một bút toán sổ còn khả dụng."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:111
+msgid "Cancel Reservation"
+msgstr "Hủy đặt phòng"
+
+#. Option for the 'Status' (Select) field in DocType 'Guest Folio'
+#. Option for the 'Status' (Select) field in DocType 'Hotel Group Booking'
+#. Option for the 'Status' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#. Option for the 'Booking Status' (Select) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#: hospitality_core/hospitality_core/api/financial_control.py:142
+msgid "Cancelling closing entry, voiding invoice, and resubmitting amended closing entry…"
+msgstr "Đang hủy bút toán đóng ca, hủy hiệu lực hóa đơn và ghi nhận lại bút toán đóng ca đã điều chỉnh…"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:154
+msgid "Cannot Check Out. Departure date ({0}) must be today ({1})."
+msgstr "Không thể Check-out. Ngày đi ({0}) phải là hôm nay ({1})."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:282
+msgid "Cannot Check Out. Outstanding balance of {0} remains on Folio {1}. Please settle payment."
+msgstr "Không thể Check-out. Folio {1} vẫn còn số dư phải thanh toán {0}. Vui lòng tất toán."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:70
+msgid "Cannot Check Out. The Departure Date must be today. Please update the Departure Date/Shorten Stay first."
+msgstr "Không thể Check-out. Ngày đi phải là hôm nay. Vui lòng cập nhật Ngày đi/Rút ngắn kỳ lưu trú trước."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:168
+msgid "Cannot Check Out. The Group Master Folio ({0}) has an outstanding balance of {1}. All group charges must be settled first."
+msgstr "Không thể Check-out. Folio tổng của đoàn ({0}) còn số dư phải thanh toán {1}. Phải tất toán toàn bộ chi phí của đoàn trước."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:113
+msgid "Cannot Check-In before Arrival Date."
+msgstr "Không thể Check-in trước Ngày đến."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.py:53
+msgid "Cannot Close Folio. Outstanding Balance is {0}. Please settle payments or post allowances."
+msgstr "Không thể đóng Folio. Số dư còn phải thanh toán là {0}. Vui lòng tất toán hoặc ghi nhận khoản miễn/giảm."
+
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.py:66
+msgid "Cannot add transactions to a {0} Folio."
+msgstr "Không thể thêm giao dịch vào Folio có trạng thái {0}."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.py:63
+msgid "Cannot delete a Folio that has transactions. Cancel it instead."
+msgstr "Không thể xóa Folio đã có giao dịch. Hãy hủy Folio thay vì xóa."
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:126
+msgid "Cannot issue refund. The folio does not have an excess balance."
+msgstr "Không thể hoàn tiền. Folio không có số dư thừa."
+
+#: hospitality_core/hospitality_core/api/folio.py:259
+msgid "Cannot move invoiced transaction: {0}"
+msgstr "Không thể chuyển giao dịch đã xuất hóa đơn: {0}"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:450
+msgid "Cannot post a transaction to a folio with status: {0}"
+msgstr "Không thể ghi nhận giao dịch vào Folio có trạng thái: {0}"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:358
+msgid "Cannot record a payment on a folio with status: {0}"
+msgstr "Không thể ghi nhận thanh toán trên Folio có trạng thái: {0}"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:21
+msgid "Cannot record payment for a folio with status: {0}"
+msgstr "Không thể ghi nhận thanh toán cho Folio có trạng thái: {0}"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:122
+msgid "Cannot record refund for a folio with status: {0}"
+msgstr "Không thể ghi nhận hoàn tiền cho Folio có trạng thái: {0}"
+
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.py:75
+msgid "Cannot un-void a transaction. Create a new correction posting instead."
+msgstr "Không thể khôi phục giao dịch đã hủy hiệu lực. Hãy tạo một bút toán điều chỉnh mới."
+
+#: hospitality_core/hospitality_core/api/financial_control.py:89
+msgid "Cannot void this transaction because it has already been invoiced (Sales Invoice generated). Create a Credit Note instead."
+msgstr "Không thể hủy hiệu lực giao dịch này vì đã xuất hóa đơn (đã tạo Hóa đơn bán hàng). Hãy tạo Credit Note thay thế."
+
+#. Label of the cashiers (Data) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Cashiers"
+msgstr "Thu ngân"
+
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:16
+msgid "Category"
+msgstr "Thể loại"
+
+#. Label of the category_name (Data) field in DocType 'Expense Category'
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.json
+msgid "Category Name"
+msgstr "Tên danh mục"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:77
+msgid "Catfish"
+msgstr "Cá da trơn"
+
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:14
+msgid "Charges"
+msgstr "Khoản phí"
+
+#. Description of the 'Transactions' (Table) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Charges posted to the room will appear here."
+msgstr "Các khoản phí ghi vào phòng sẽ hiển thị tại đây."
+
+#. Description of the 'Debit' (Currency) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Charges to the guest (auto-computed from Amount)"
+msgstr "Khoản tính cho khách (tự động tính từ Số tiền)"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:41
+msgid "Check In"
+msgstr "Ghi nhận vào ca"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:207
+msgid "Check In Group"
+msgstr "Check-in đoàn"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:65
+msgid "Check Out"
+msgstr "Ghi nhận ra ca"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:231
+msgid "Check Out Group"
+msgstr "Check-out đoàn"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:138
+msgid "Check-in successful. Room charged {0} for date {1}."
+msgstr "Check-in thành công. Đã tính phí phòng {0} cho ngày {1}."
+
+#. Option for the 'Booking Status' (Select) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Checked In"
+msgstr "Đã Check-in"
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Group Booking'
+#. Option for the 'Booking Status' (Select) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Checked Out"
+msgstr "Đã Check-out"
+
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.py:15
+msgid "Checkout Time"
+msgstr "Giờ Check-out"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:79
+msgid "Chicken"
+msgstr "Thịt gà"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "City Ledger"
+msgstr "Công nợ công ty/đại lý"
+
+#. Label of the section_break_claim (Section Break) field in DocType 'Lost and
+#. Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Claim Details"
+msgstr "Chi tiết khai báo"
+
+#. Label of the claimant_info (Text) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Claimant Info"
+msgstr "Thông tin người nhận"
+
+#. Option for the 'Status' (Select) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Claimed"
+msgstr "Đã yêu cầu"
+
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.py:15
+msgid "Claimed By"
+msgstr "Người nhận"
+
+#. Label of the claimed_date (Date) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Claimed Date"
+msgstr "Ngày nhận"
+
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.py:24
+msgid "Claimed Date cannot be before Found Date."
+msgstr "Ngày nhận không thể trước ngày tìm thấy."
+
+#. Option for the 'Issue Type' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Cleaning"
+msgstr "Dọn phòng"
+
+#. Label of the close_date (Date) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Close Date"
+msgstr "Ngày đóng"
+
+#. Option for the 'Status' (Select) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Closed"
+msgstr "Đã đóng"
+
+#. Label of the eod_discrepancies (Table) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Closing Entries Summary"
+msgstr "Tổng hợp bút toán đóng ca"
+
+#. Label of the section_break_stock (Section Break) field in DocType 'Sales
+#. Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Closing Stock Balances"
+msgstr "Tồn kho cuối ca"
+
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.py:58
+msgid "Collected by Payment Method"
+msgstr "Đã thu theo phương thức thanh toán"
+
+#. Option for the 'Bill To' (Select) field in DocType 'Folio Transaction'
+#. Label of the company (Link) field in DocType 'Guest Folio'
+#. Label of the company (Link) field in DocType 'Hospitality Expense'
+#. Option for the 'Bill To' (Select) field in DocType 'Reservation Routing'
+#. Label of the company (Link) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:493
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:593
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/doctype/reservation_routing/reservation_routing.json
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:10
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.py:16
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.js:7
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.js:5
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.js:5
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:19
+msgid "Company"
+msgstr "Công ty"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:285
+msgid "Company Guest Checkout: Outstanding balance of {0}. Liability remains on Company Master Folio."
+msgstr "Check-out khách công ty: Còn số dư {0}. Khoản phải thu vẫn nằm trên Folio tổng của công ty."
+
+#. Label of the company (Link) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Company Name"
+msgstr "Tên công ty"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.py:33
+msgid "Company is mandatory for a Company Master Folio."
+msgstr "Bắt buộc chọn Công ty cho Folio tổng của công ty."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:25
+msgid "Company is mandatory when 'Is Company Guest' is checked."
+msgstr "Bắt buộc chọn Công ty khi đánh dấu 'Khách của công ty'."
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+#. Label of the is_complimentary (Check) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Complimentary (Free Stay)"
+msgstr "Miễn phí lưu trú"
+
+#. Label of the item (Link) field in DocType 'Item Recipe'
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+msgid "Composite Item"
+msgstr "Mặt hàng cấu thành"
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Confirmed"
+msgstr "Đã xác nhận"
+
+#: hospitality_core/hospitality_core/api/stock.py:64
+msgid "Consumed {0} from Warehouse {1}"
+msgstr "Đã xuất dùng {0} từ Kho {1}"
+
+#. Label of the consumption_tax (Currency) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:31
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:46
+msgid "Consumption Tax (5%)"
+msgstr "Thuế tiêu thụ (5%)"
+
+#. Label of the consumption_tax_account (Link) field in DocType 'Hospitality
+#. Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Consumption Tax Account"
+msgstr "Tài khoản thuế tiêu thụ"
+
+#. Option for the 'Guest Type' (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Corporate"
+msgstr "Doanh nghiệp"
+
+#. Label of the cost_center (Link) field in DocType 'Hospitality Accounting
+#. Settings'
+#. Label of the cost_center (Link) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Cost Center"
+msgstr "Trung tâm chi phí"
+
+#: hospitality_core/hospitality_core/api/invoicing.py:37
+msgid "Could not determine Income Account for Item {0} in Company {1}. Please check Item or Item Group accounting defaults."
+msgstr "Không xác định được Tài khoản doanh thu cho Mặt hàng {0} tại Công ty {1}. Vui lòng kiểm tra thiết lập kế toán mặc định của Mặt hàng hoặc Nhóm mặt hàng."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:296
+msgid "Could not identify selected transaction. Please try again."
+msgstr "Không xác định được giao dịch đã chọn. Vui lòng thử lại."
+
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.py:8
+msgid "Count"
+msgstr "Đếm"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:45
+msgid "Create Invoice"
+msgstr "Tạo hóa đơn"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:7
+msgid "Create Master Folio"
+msgstr "Tạo Folio tổng"
+
+#. Description of the 'Master Folio' (Link) field in DocType 'Hotel Group
+#. Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Created automatically when the Group checks in."
+msgstr "Được tạo tự động khi đoàn Check-in."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:84
+msgid "Created new Master Folio for Company: {0}"
+msgstr "Đã tạo Folio tổng mới cho Công ty: {0}"
+
+#. Label of the credit (Currency) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:21
+msgid "Credit"
+msgstr "Có"
+
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:18
+msgid "Credit Balance"
+msgstr "Số dư Tín dụng"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:37
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:24
+msgid "Currency"
+msgstr "Tiền tệ"
+
+#. Description of the 'Receipt Print Format' (Link) field in DocType
+#. 'Hospitality Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Custom print format for receipts (leave blank to use default POS Invoice format)"
+msgstr "Mẫu in tùy chỉnh cho phiếu thu (để trống để dùng mẫu Hóa đơn POS mặc định)"
+
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.js:5
+msgid "Customer (Company)"
+msgstr "Khách hàng (Công ty)"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Daily Arrivals"
+msgstr "Khách đến trong ngày"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Daily Departures"
+msgstr "Khách đi trong ngày"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.json
+msgid "Daily Payment Collection"
+msgstr "Thu tiền trong ngày"
+
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Daily Payment Report"
+msgstr "Báo cáo thu tiền hàng ngày"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Daily Sales Consumption"
+msgstr "Doanh thu & tiêu hao hàng ngày"
+
+#. Label of the posting_date (Date) field in DocType 'Folio Transaction'
+#. Label of the date (Date) field in DocType 'Guest Balance Ledger'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.js:5
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.js:5
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:11
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:9
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:6
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.js:5
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:44
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.js:5
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:15
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.py:10
+#: hospitality_core/hospitality_core/report/house_list/house_list.js:5
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.js:5
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.js:5
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.py:10
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:13
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:9
+msgid "Date"
+msgstr "Ngày"
+
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.py:16
+msgid "Date Claimed"
+msgstr "Ngày nhận"
+
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.py:10
+msgid "Date Found"
+msgstr "Ngày tìm thấy"
+
+#: hospitality_core/public/js/analytics_filters_v8.js:51
+msgid "Date Range"
+msgstr "Phạm vi ngày"
+
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.py:9
+msgid "Date Reported"
+msgstr "Ngày báo cáo"
+
+#. Label of the debit (Currency) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Debit"
+msgstr "Ghi nợ"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:486
+msgid "Debit transaction of {0} posted to Company Folio {1}."
+msgstr "Đã ghi giao dịch Nợ {0} vào Folio công ty {1}."
+
+#. Label of the default_expense_account (Link) field in DocType 'Expense
+#. Category'
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.json
+msgid "Default Expense Account"
+msgstr "Tài khoản chi phí mặc định"
+
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.py:7
+msgid "Default Expense Account is mandatory for non-group categories."
+msgstr "Bắt buộc có Tài khoản chi phí mặc định cho nhóm không phải Group."
+
+#. Label of the default_rate (Currency) field in DocType 'Hotel Room Type'
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+msgid "Default Rate"
+msgstr "Đơn giá mặc định"
+
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:13
+msgid "Dep Date"
+msgstr "Ngày đi"
+
+#. Label of the departing_to (Data) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Departing To"
+msgstr "Đi đến"
+
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:12
+msgid "Department / Item Group"
+msgstr "Bộ phận / Nhóm mặt hàng"
+
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:16
+msgid "Departure"
+msgstr "Rời đi"
+
+#. Label of the departure_date (Date) field in DocType 'Hotel Group Booking'
+#. Label of the departure_date (Date) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.py:22
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:22
+msgid "Departure Date"
+msgstr "Ngày đi"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.py:23
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:32
+msgid "Departure Date must be after Arrival Date."
+msgstr "Ngày đi phải sau Ngày đến."
+
+#. Label of the description (Small Text) field in DocType 'Allowance Reason
+#. Code'
+#. Label of the description (Small Text) field in DocType 'Expense Category'
+#. Label of the description (Data) field in DocType 'Folio Transaction'
+#. Label of the description (Small Text) field in DocType 'Hospitality Expense'
+#. Label of the description (Data) field in DocType 'Hospitality Expense Tax'
+#. Label of the description (Small Text) field in DocType 'Hotel Room Type'
+#: hospitality_core/hospitality_core/doctype/allowance_reason_code/allowance_reason_code.json
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.json
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:609
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense_tax/hospitality_expense_tax.json
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:13
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:11
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:21
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.py:7
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:58
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.py:28
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.py:13
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:13
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:33
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:14
+msgid "Description"
+msgstr "Mô tả"
+
+#. Label of the description (Text) field in DocType 'Hotel Maintenance Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Description of Defect"
+msgstr "Mô tả hư hỏng"
+
+#. Label of the difference (Currency) field in DocType 'EOD Discrepancies'
+#. Label of the difference (Currency) field in DocType 'EOD Payment Summary'
+#: hospitality_core/hospitality_core/doctype/eod_discrepancies/eod_discrepancies.json
+#: hospitality_core/hospitality_core/doctype/eod_payment_summary/eod_payment_summary.json
+msgid "Difference"
+msgstr "Sự khác biệt"
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+msgid "Dirty"
+msgstr "Chưa dọn"
+
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:15
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.py:21
+msgid "Discount"
+msgstr "Giảm giá"
+
+#. Label of the discount_type (Select) field in DocType 'Hotel Group Booking
+#. Room'
+#. Label of the discount_type (Select) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:87
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking_room/hotel_group_booking_room.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Discount Type"
+msgstr "Loại giảm giá"
+
+#. Label of the discount_value (Currency) field in DocType 'Hotel Group Booking
+#. Room'
+#. Label of the discount_value (Currency) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:93
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking_room/hotel_group_booking_room.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Discount Value"
+msgstr "Giá trị giảm giá"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Discount and Complimentary Report"
+msgstr "Báo cáo giảm giá & miễn phí"
+
+#. Option for the 'Status' (Select) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Disposed"
+msgstr "Đã thanh lý"
+
+#. Option for the 'POS Entry Status' (Select) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Draft"
+msgstr "Bản nháp"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:74
+msgid "Drinks"
+msgstr "Đồ uống"
+
+#. Option for the 'ID Type' (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Driver License"
+msgstr "Giấy phép lái xe"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.py:30
+msgid "Duplicate ingredients are not allowed"
+msgstr "Không cho phép trùng nguyên liệu"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/eod_closing_entry/eod_closing_entry.json
+msgid "EOD Closing Entry"
+msgstr "Bút toán đóng ngày EOD"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/eod_discrepancies/eod_discrepancies.json
+msgid "EOD Discrepancies"
+msgstr "Chênh lệch EOD"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/eod_expense_breakdown/eod_expense_breakdown.json
+msgid "EOD Expense Breakdown"
+msgstr "Chi tiết chi phí EOD"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/eod_item_group_sales/eod_item_group_sales.json
+msgid "EOD Item Group Sales"
+msgstr "Doanh thu theo nhóm mặt hàng EOD"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/eod_item_sales/eod_item_sales.json
+msgid "EOD Item Sales"
+msgstr "Doanh thu theo mặt hàng EOD"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/eod_pos_profile/eod_pos_profile.json
+msgid "EOD POS Profile"
+msgstr "POS Profile EOD"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/eod_payment_summary/eod_payment_summary.json
+msgid "EOD Payment Summary"
+msgstr "Tổng hợp thanh toán EOD"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/eod_stock_balance/eod_stock_balance.json
+msgid "EOD Stock Balance"
+msgstr "Tồn kho EOD"
+
+#. Label of the customer (Link) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "ERPNext Customer Link"
+msgstr "Liên kết Khách hàng ERPNext"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:69
+msgid "Early Departure?"
+msgstr "Trả phòng sớm?"
+
+#. Option for the 'Issue Type' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Electrical"
+msgstr "Điện"
+
+#. Label of the email_id (Data) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Email"
+msgstr "Email"
+
+#. Label of the enable_auto_print (Check) field in DocType 'Hospitality
+#. Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Enable Automatic Receipt Printing"
+msgstr "Bật in phiếu thu tự động"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:352
+msgid "Enter amount being received"
+msgstr "Nhập số tiền đang nhận"
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:38
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:436
+msgid "Enter amount to refund to customer"
+msgstr "Nhập số tiền hoàn cho khách"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.js:109
+msgid "Estimated Cost: {0}"
+msgstr "Chi phí ước tính: {0}"
+
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:17
+msgid "Excess Payment"
+msgstr "Thanh toán thừa"
+
+#. Label of the excess_payment (Currency) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Excess Payment (Refundable)"
+msgstr "Thanh toán thừa (có thể hoàn)"
+
+#. Label of the expected_amount (Currency) field in DocType 'EOD Payment
+#. Summary'
+#: hospitality_core/hospitality_core/doctype/eod_payment_summary/eod_payment_summary.json
+msgid "Expected Amount"
+msgstr "Số tiền Dự kiến"
+
+#. Label of the expense_account (Data) field in DocType 'EOD Expense Breakdown'
+#. Label of the expense_account (Link) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/eod_expense_breakdown/eod_expense_breakdown.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Expense Account"
+msgstr "Tài khoản chi phí"
+
+#: hospitality_core/hospitality_core/api/accounting.py:388
+msgid "Expense Account and Payment Account are required for GL entries."
+msgstr "Cần có Tài khoản chi phí và Tài khoản thanh toán để tạo bút toán sổ cái."
+
+#. Label of the section_break_expenses (Section Break) field in DocType 'Sales
+#. Report'
+#. Label of the eod_expense_breakdown (Table) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Expense Breakdown"
+msgstr "Chi tiết chi phí"
+
+#. Name of a DocType
+#. Label of the expense_category (Link) field in DocType 'Hospitality Expense'
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.js:27
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Expense Category"
+msgstr "Nhóm chi phí"
+
+#. Label of the expense_date (Date) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Expense Date"
+msgstr "Ngày chi phí"
+
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:14
+msgid "Expense ID"
+msgstr "Mã chi phí"
+
+#. Label of the external_reference (Data) field in DocType 'Hospitality
+#. Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "External Reference (Invoice/Receipt #)"
+msgstr "Tham chiếu bên ngoài (Số hóa đơn/phiếu thu)"
+
+#: hospitality_core/api/composite_item_utils.py:64
+msgid "Failed to process composite item {0}. Error: {1}"
+msgstr "Không thể xử lý mặt hàng cấu thành {0}. Lỗi: {1}"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.py:146
+msgid "Failed to update BOM. Please check error log."
+msgstr "Không thể cập nhật BOM. Vui lòng kiểm tra log lỗi."
+
+#. Label of the section_break_financial (Section Break) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Financial & Routing"
+msgstr "Tài chính & Điều chuyển"
+
+#. Label of a Card Break in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Financial Activities"
+msgstr "Hoạt động tài chính"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Financial Activity Summary"
+msgstr "Tổng hợp hoạt động tài chính"
+
+#. Label of the finder (Data) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Finder Name"
+msgstr "Tên người tìm thấy"
+
+#. Label of the floor (Data) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+msgid "Floor"
+msgstr "Tầng"
+
+#. Label of the folio (Link) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.py:16
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:13
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.py:20
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:25
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.py:19
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:10
+msgid "Folio"
+msgstr "Cuốn sách"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Folio Balance Summary"
+msgstr "Tổng hợp số dư Folio"
+
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:10
+msgid "Folio ID"
+msgstr "Mã Folio"
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:14
+msgid "Folio Ref"
+msgstr "Tham chiếu Folio"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Folio Transaction"
+msgstr "Giao dịch Folio"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+msgid "Folio Transaction Move Log"
+msgstr "Nhật ký chuyển giao dịch Folio"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/folio_transaction_move_report/folio_transaction_move_report.json
+msgid "Folio Transaction Move Report"
+msgstr "Báo cáo chuyển giao dịch Folio"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:75
+msgid "Food (without Proteins)"
+msgstr "Thực phẩm (không tính nhóm protein)"
+
+#. Option for the 'Status' (Select) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Found"
+msgstr "Đã tìm thấy"
+
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.py:13
+msgid "Found By"
+msgstr "Người tìm thấy"
+
+#. Label of the found_date (Date) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Found Date"
+msgstr "Ngày tìm thấy"
+
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.py:13
+msgid "Found Date cannot be in the future."
+msgstr "Ngày tìm thấy không thể là ngày trong tương lai."
+
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.js:5
+msgid "Found From"
+msgstr "Tìm thấy từ"
+
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.py:12
+msgid "Found In"
+msgstr "Tìm thấy tại"
+
+#. Label of the found_location (Link) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Found Location (Room)"
+msgstr "Vị trí tìm thấy (Phòng)"
+
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.js:12
+msgid "Found To"
+msgstr "Tìm thấy đến"
+
+#: hospitality_core/hospitality_core/dashboard_chart_source/hospitality_analytics/hospitality_analytics.js:6
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.js:5
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.js:5
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.js:5
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.js:13
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.js:13
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.js:5
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.js:5
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.js:12
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.js:5
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.js:5
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.js:5
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.js:5
+msgid "From Date"
+msgstr "Từ Ngày"
+
+#. Label of the from_date_time (Datetime) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "From Date & Time"
+msgstr "Từ ngày & giờ"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Front Desk Console"
+msgstr "Bàn điều hành lễ tân"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:42
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.json
+msgid "Frontdesk End of Day Report"
+msgstr "Báo cáo cuối ngày lễ tân"
+
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:79
+msgid "Frontdesk Operations"
+msgstr "Vận hành lễ tân"
+
+#. Name of a role
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+msgid "Frontdesk Supervisor"
+msgstr "Giám sát lễ tân"
+
+#. Label of the full_name (Data) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Full Name"
+msgstr "Tên đầy đủ"
+
+#. Option for the 'Issue Type' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Furniture"
+msgstr "Nội thất"
+
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:79
+msgid "Generated on"
+msgstr "Tạo lúc"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:76
+msgid "Goatmeat"
+msgstr "Thịt dê"
+
+#. Label of the grand_total (Currency) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:22
+msgid "Grand Total"
+msgstr "Tổng cộng"
+
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:14
+msgid "Gross Amount"
+msgstr "Tổng tiền gộp"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:36
+msgid "Gross Profit %"
+msgstr "Tỷ suất lợi nhuận gộp %"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:35
+msgid "Gross Profit (Net Rev - Exp)"
+msgstr "Lợi nhuận gộp (Doanh thu thuần - Chi phí)"
+
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Gross Profit Report"
+msgstr "Báo cáo lợi nhuận gộp"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:29
+msgid "Gross Revenue (Inclusive)"
+msgstr "Doanh thu gộp (đã gồm thuế/phí)"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Gross Revenue Report"
+msgstr "Báo cáo doanh thu gộp"
+
+#. Option for the 'Bill To' (Select) field in DocType 'Folio Transaction'
+#. Option for the 'Bill To' (Select) field in DocType 'Reservation Routing'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/doctype/reservation_routing/reservation_routing.json
+msgid "Group"
+msgstr "Nhóm"
+
+#. Label of the group_booking (Link) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Group Booking"
+msgstr "Đặt phòng đoàn"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.js:34
+msgid "Group By"
+msgstr "Nhóm theo"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:217
+msgid "Group Check-In Status"
+msgstr "Trạng thái Check-in đoàn"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:241
+msgid "Group Check-Out Status"
+msgstr "Trạng thái Check-out đoàn"
+
+#. Label of the group_name (Data) field in DocType 'Hotel Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Group Name"
+msgstr "Tên nhóm"
+
+#. Option for the 'Bill To' (Select) field in DocType 'Folio Transaction'
+#. Name of a DocType
+#. Label of the guest (Link) field in DocType 'Guest Balance Ledger'
+#. Label of the guest (Link) field in DocType 'Hotel Reservation'
+#. Option for the 'Bill To' (Select) field in DocType 'Reservation Routing'
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:18
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:325
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:416
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:74
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/doctype/reservation_routing/reservation_routing.json
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:11
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:9
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.py:17
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:18
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.py:17
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:12
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Guest"
+msgstr "Khách lưu trú"
+
+#. Label of the guest (Link) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Guest (or Rep)"
+msgstr "Khách lưu trú (hoặc người đại diện)"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Guest 360 View"
+msgstr "Hồ sơ 360° khách lưu trú"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Guest Balance Ledger"
+msgstr "Sổ số dư khách lưu trú"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:91
+msgid "Guest Checked Out Successfully"
+msgstr "Khách đã Check-out thành công"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Guest Folio"
+msgstr "Folio khách"
+
+#: hospitality_core/hospitality_core/api/reservation.py:174
+msgid "Guest Folio {0} created successfully."
+msgstr "Đã tạo Folio khách {0} thành công."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:176
+msgid "Guest Folio {0} is already Closed. Skipping financial updates."
+msgstr "Folio khách {0} đã đóng. Bỏ qua cập nhật tài chính."
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Guest Ledger"
+msgstr "Sổ giao dịch khách"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Guest List"
+msgstr "Danh sách khách"
+
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.py:11
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.py:13
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:11
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:13
+msgid "Guest Name"
+msgstr "Tên khách"
+
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:14
+msgid "Guest Ref"
+msgstr "Tham chiếu khách"
+
+#. Label of the guest_type (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Guest Type"
+msgstr "Loại khách"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:151
+msgid "Guest is not currently Checked In."
+msgstr "Khách hiện chưa Check-in."
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:83
+msgid "Gym"
+msgstr "Phòng gym"
+
+#. Option for the 'Issue Type' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "HVAC"
+msgstr "HVAC"
+
+#. Name of a Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Hospitality"
+msgstr "Lưu trú & Dịch vụ"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Hospitality Accounting Settings"
+msgstr "Cài đặt kế toán lưu trú"
+
+#. Name of a Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality_analytics/hospitality_analytics.json
+msgid "Hospitality Analytics"
+msgstr "Phân tích vận hành lưu trú"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Hospitality Expense"
+msgstr "Chi phí lưu trú"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Hospitality Expense Report"
+msgstr "Báo cáo chi phí lưu trú"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/hospitality_expense_tax/hospitality_expense_tax.json
+msgid "Hospitality Expense Tax"
+msgstr "Thuế chi phí lưu trú"
+
+#. Name of a role
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/doctype/hotel_reception/hotel_reception.json
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+msgid "Hospitality Manager"
+msgstr "Quản lý lưu trú"
+
+#. Name of a role
+#: hospitality_core/hospitality_core/doctype/allowance_reason_code/allowance_reason_code.json
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+#: hospitality_core/hospitality_core/doctype/hotel_reception/hotel_reception.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Hospitality User"
+msgstr "Người dùng lưu trú"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Hotel Group Booking"
+msgstr "Đặt phòng đoàn khách sạn"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking_room/hotel_group_booking_room.json
+msgid "Hotel Group Booking Room"
+msgstr "Phòng trong đặt đoàn khách sạn"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Hotel Maintenance Request"
+msgstr "Yêu cầu bảo trì khách sạn"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.json
+msgid "Hotel Performance Analytics"
+msgstr "Phân tích hiệu quả khách sạn"
+
+#. Label of the hotel_reception (Link) field in DocType 'Guest Folio'
+#. Label of the hotel_reception (Link) field in DocType 'Hospitality Expense'
+#. Name of a DocType
+#. Label of the hotel_reception (Link) field in DocType 'Hotel Reservation'
+#. Label of the hotel_reception (Link) field in DocType 'Hotel Room'
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:41
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:368
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:439
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:529
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/doctype/hotel_reception/hotel_reception.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.js:12
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.js:19
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.js:25
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.js:12
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.js:5
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.js:39
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.js:19
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.js:26
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.js:25
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.js:19
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Hotel Reception"
+msgstr "Quầy lễ tân khách sạn"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.js:27
+msgid "Hotel Reception (Department)"
+msgstr "Lễ tân khách sạn (Bộ phận)"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Hotel Reservation"
+msgstr "Đặt phòng khách sạn"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Hotel Room"
+msgstr "Phòng khách sạn"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Hotel Room Type"
+msgstr "Loại phòng khách sạn"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/house_list/house_list.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "House List"
+msgstr "Danh sách khu/nhà"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Housekeeping Board"
+msgstr "Bảng điều phối buồng phòng"
+
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.py:9
+msgid "ID"
+msgstr "Mã số"
+
+#. Label of the identification_type (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "ID Type"
+msgstr "Loại giấy tờ"
+
+#. Label of the identification_no (Data) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Identification No"
+msgstr "Số giấy tờ"
+
+#. Description of the 'Is Company Guest' (Check) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "If checked, all charges are automatically mirrored to the Company Master Folio."
+msgstr "Nếu chọn, mọi khoản phí sẽ tự động được ghi song song vào Folio tổng của công ty."
+
+#. Description of the 'Is Group Guest' (Check) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "If checked, all charges are routed to the Group Master Folio."
+msgstr "Nếu chọn, mọi khoản phí sẽ được chuyển vào Folio tổng của đoàn."
+
+#. Description of the 'Requires Manager Approval' (Check) field in DocType
+#. 'Allowance Reason Code'
+#: hospitality_core/hospitality_core/doctype/allowance_reason_code/allowance_reason_code.json
+msgid "If checked, only users with Manager role can authorize this void."
+msgstr "Nếu chọn, chỉ người dùng có vai trò Quản lý mới được phê duyệt hủy hiệu lực giao dịch này."
+
+#. Description of the 'Is Company Master Folio' (Check) field in DocType 'Guest
+#. Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "If checked, this folio stays open indefinitely for corporate billing."
+msgstr "Nếu chọn, Folio này sẽ được giữ mở để tiếp tục thanh toán công nợ doanh nghiệp."
+
+#. Description of the 'Allow POS/F&B Posting' (Check) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "If unchecked, Cashiers cannot post charges to this room."
+msgstr "Nếu bỏ chọn, Thu ngân không thể ghi khoản phí vào phòng này."
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "In House"
+msgstr "Nội bộ"
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "In Progress"
+msgstr "Đang tiến hành"
+
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.js:19
+msgid "Include Companies & Complimentary"
+msgstr "Bao gồm khách công ty & miễn phí"
+
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.js:5
+msgid "Include Corporate/City Ledger Guests"
+msgstr "Bao gồm khách công ty/City Ledger"
+
+#. Label of the include_stock_balances (Check) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Include Stock Balances"
+msgstr "Bao gồm số dư tồn kho"
+
+#. Label of the income_account (Link) field in DocType 'Hospitality Accounting
+#. Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Income Account"
+msgstr "Tài khoản thu nhập"
+
+#. Label of the income_suspense_account (Link) field in DocType 'Hospitality
+#. Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Income Suspense Account"
+msgstr "Tài khoản doanh thu treo"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:267
+msgid "Individual balance of {0} settled via Group Master."
+msgstr "Số dư cá nhân {0} được tất toán qua Folio tổng của đoàn."
+
+#. Label of the ingredient_item (Link) field in DocType 'Recipe Ingredient'
+#: hospitality_core/hospitality_core/doctype/recipe_ingredient/recipe_ingredient.json
+msgid "Ingredient Item"
+msgstr "Mặt hàng nguyên liệu"
+
+#. Label of the section_break_7 (Section Break) field in DocType 'Item Recipe'
+#. Label of the ingredients (Table) field in DocType 'Item Recipe'
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+msgid "Ingredients"
+msgstr "Nguyên liệu"
+
+#: hospitality_core/api/composite_item_utils.py:286
+msgid "Insufficient Stock"
+msgstr "Tồn kho không đủ"
+
+#: hospitality_core/api/composite_item_utils.py:278
+msgid "Insufficient ingredients to make this item:"
+msgstr "Không đủ nguyên liệu để chế biến mặt hàng này:"
+
+#. Label of a Card Break in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Inventory & Rates"
+msgstr "Tồn kho & Đơn giá"
+
+#. Label of the is_active (Check) field in DocType 'Item Recipe'
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+msgid "Is Active"
+msgstr "Đang hoạt động"
+
+#. Label of the is_company_guest (Check) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Is Company Guest"
+msgstr "Là khách công ty"
+
+#. Label of the is_company_master (Check) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Is Company Master Folio"
+msgstr "Là Folio tổng công ty"
+
+#. Label of the is_enabled (Check) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+msgid "Is Enabled"
+msgstr "Đang bật"
+
+#. Label of the is_group (Check) field in DocType 'Expense Category'
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.json
+msgid "Is Group"
+msgstr "Là nhóm"
+
+#. Label of the is_group_guest (Check) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Is Group Guest"
+msgstr "Là khách trong đoàn"
+
+#. Label of the is_paid (Check) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Is Paid"
+msgstr "Đã thanh toán"
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:6
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:15
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:25
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:413
+msgid "Issue Refund"
+msgstr "Thực hiện hoàn tiền"
+
+#. Label of the issue_type (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.py:12
+msgid "Issue Type"
+msgstr "Loại Vấn đề"
+
+#. Label of the item (Link) field in DocType 'Folio Transaction'
+#. Label of the item (Link) field in DocType 'Folio Transaction Move Log'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+#: hospitality_core/hospitality_core/report/folio_transaction_move_report/folio_transaction_move_report.py:27
+msgid "Item"
+msgstr "Mặt hàng"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:457
+msgid "Item '{0}' does not exist."
+msgstr "Mặt hàng '{0}' không tồn tại."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:601
+msgid "Item / Charge Code"
+msgstr "Mã mặt hàng / khoản phí"
+
+#. Label of the item_code (Data) field in DocType 'EOD Item Sales'
+#. Label of the item_code (Data) field in DocType 'EOD Stock Balance'
+#: hospitality_core/hospitality_core/doctype/eod_item_sales/eod_item_sales.json
+#: hospitality_core/hospitality_core/doctype/eod_stock_balance/eod_stock_balance.json
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:10
+msgid "Item Code"
+msgstr "Mã Mặt hàng"
+
+#. Label of the item_group (Data) field in DocType 'EOD Item Group Sales'
+#. Label of the item_group (Data) field in DocType 'EOD Stock Balance'
+#: hospitality_core/hospitality_core/doctype/eod_item_group_sales/eod_item_group_sales.json
+#: hospitality_core/hospitality_core/doctype/eod_stock_balance/eod_stock_balance.json
+msgid "Item Group"
+msgstr "Nhóm mặt hàng"
+
+#. Label of the section_break_group (Section Break) field in DocType 'Sales
+#. Report'
+#. Label of the eod_item_group_sales (Table) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Item Group Sales"
+msgstr "Doanh thu theo nhóm mặt hàng"
+
+#. Label of the item_name (Data) field in DocType 'EOD Item Sales'
+#. Label of the item_name (Data) field in DocType 'EOD Stock Balance'
+#. Label of the item_name (Data) field in DocType 'Item Recipe'
+#. Label of the item_name (Data) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/eod_item_sales/eod_item_sales.json
+#: hospitality_core/hospitality_core/doctype/eod_stock_balance/eod_stock_balance.json
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.py:11
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.py:10
+msgid "Item Name"
+msgstr "Tên Mặt hàng"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+msgid "Item Recipe"
+msgstr "Công thức mặt hàng"
+
+#. Label of the section_break_item (Section Break) field in DocType 'Sales
+#. Report'
+#. Label of the eod_item_sales (Table) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Item Sales"
+msgstr "Doanh thu theo mặt hàng"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.py:34
+msgid "Item {0} cannot be an ingredient of itself"
+msgstr "Mặt hàng {0} không thể là nguyên liệu của chính nó"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.js:35
+msgid "Item {0} is not marked as a Composite Item. Please enable it in the Item master."
+msgstr "Mặt hàng {0} chưa được đánh dấu là Mặt hàng cấu thành. Vui lòng bật trong danh mục Mặt hàng."
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.py:20
+msgid "Item {0} must be marked as 'Composite Item' to create a recipe"
+msgstr "Mặt hàng {0} phải được đánh dấu 'Mặt hàng cấu thành' để tạo công thức"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:84
+msgid "Laundry"
+msgstr "Giặt là"
+
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.py:6
+msgid "Ledger Type"
+msgstr "Loại sổ cái"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:25
+msgid "Link Reservations"
+msgstr "Liên kết đặt phòng"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:368
+msgid "Linked Guest Folio {0} has been cancelled."
+msgstr "Folio khách liên kết {0} đã bị hủy."
+
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.js:4
+msgid "Log Expense"
+msgstr "Ghi nhận chi phí"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+msgid "Lost and Found Item"
+msgstr "Vật thất lạc"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.json
+msgid "Lost and Found Register"
+msgstr "Sổ quản lý đồ thất lạc"
+
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.py:38
+msgid "Maintenance Completed. Room {0} marked as 'Dirty' for cleaning."
+msgstr "Đã hoàn tất bảo trì. Phòng {0} được chuyển sang trạng thái 'Chưa dọn' để vệ sinh."
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Maintenance Log Report"
+msgstr "Báo cáo nhật ký bảo trì"
+
+#. Label of the maintenance_request (Link) field in DocType 'Hospitality
+#. Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:19
+msgid "Maintenance Request"
+msgstr "Yêu cầu bảo trì"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Maintenance Requests"
+msgstr "Yêu cầu bảo trì"
+
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.js:8
+msgid "Maintenance for Room {0}: {1}"
+msgstr "Bảo trì Phòng {0}: {1}"
+
+#: hospitality_core/hospitality_core/doctype/guest/guest.js:12
+msgid "Make Reservation"
+msgstr "Tạo đặt phòng"
+
+#. Label of the discount_type (Select) field in DocType 'Hotel Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Master Discount Type"
+msgstr "Loại giảm giá Folio tổng"
+
+#. Label of the discount_value (Currency) field in DocType 'Hotel Group
+#. Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Master Discount Value"
+msgstr "Giá trị giảm giá Folio tổng"
+
+#. Label of the master_folio (Link) field in DocType 'Hotel Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:11
+msgid "Master Folio"
+msgstr "Folio tổng"
+
+#: hospitality_core/hospitality_core/api/group_booking.py:10
+msgid "Master Folio already exists: {0}"
+msgstr "Folio tổng đã tồn tại: {0}"
+
+#. Label of the master_payer (Link) field in DocType 'Hotel Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Master Payer (Customer)"
+msgstr "Bên thanh toán chính (Khách hàng)"
+
+#. Label of the max_adults (Int) field in DocType 'Hotel Room Type'
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+msgid "Max Adults"
+msgstr "Số người lớn tối đa"
+
+#. Label of the max_children (Int) field in DocType 'Hotel Room Type'
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+msgid "Max Children"
+msgstr "Số trẻ em tối đa"
+
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:56
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.py:16
+msgid "Metric"
+msgstr "Chỉ số"
+
+#. Label of the mobile_no (Data) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Mobile No"
+msgstr "Số di động"
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:12
+msgid "Mode"
+msgstr "Chế độ"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:355
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:516
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.js:33
+msgid "Mode of Payment"
+msgstr "Phương thức thanh toán"
+
+#: hospitality_core/hospitality_core/report/folio_transaction_move_report/folio_transaction_move_report.py:15
+msgid "Move Date"
+msgstr "Ngày chuyển"
+
+#. Label of the move_datetime (Datetime) field in DocType 'Folio Transaction
+#. Move Log'
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+msgid "Move Datetime"
+msgstr "Thời điểm chuyển"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:149
+msgid "Move Room"
+msgstr "Chuyển phòng"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:73
+msgid "Move Transactions"
+msgstr "Chuyển giao dịch"
+
+#: hospitality_core/hospitality_core/api/folio.py:280
+msgid "Moved from Folio {0} to {1}"
+msgstr "Đã chuyển từ Folio {0} sang {1}"
+
+#: hospitality_core/hospitality_core/api/room_move.py:51
+msgid "Moved from Room {0} to Room {1} on {2}"
+msgstr "Đã chuyển từ Phòng {0} sang Phòng {1} vào {2}"
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:47
+msgid "Multiple active folios found for this customer ({0}). Please select a Room Number manually."
+msgstr "Tìm thấy nhiều Folio đang hoạt động của khách hàng này ({0}). Vui lòng chọn Số phòng thủ công."
+
+#. Label of the naming_series (Data) field in DocType 'Guest Folio'
+#. Label of the naming_series (Data) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Naming Series"
+msgstr "Chuỗi đặt tên"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:543
+msgid "Narration / Remarks"
+msgstr "Diễn giải / Ghi chú"
+
+#. Option for the 'ID Type' (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "National ID"
+msgstr "Số định danh cá nhân"
+
+#. Label of the amount (Currency) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:17
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:20
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.py:22
+msgid "Net Amount"
+msgstr "Số tiền ròng"
+
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:16
+msgid "Net Charged"
+msgstr "Số tiền tính thực tế"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:30
+msgid "Net Revenue"
+msgstr "Doanh thu thuần"
+
+#. Label of the net_sales (Currency) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Net Sales"
+msgstr "Doanh thu thuần"
+
+#: hospitality_core/hospitality_core/api/room_move.py:25
+msgid "New Room cannot be the same as Current Room."
+msgstr "Phòng mới không được trùng với Phòng hiện tại."
+
+#: hospitality_core/hospitality_core/api/night_audit.py:82
+msgid "Night Audit: Auto-cancelled {0} no-show reservation(s)."
+msgstr "Night Audit: Đã tự động hủy {0} đặt phòng khách không đến."
+
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:23
+msgid "Nights"
+msgstr "Số đêm"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:71
+#: hospitality_core/hospitality_core/api/payment_bridge.py:193
+msgid "No Default Receivable Account found for 'Edo Heritage Hotel'. Please configure it in Company settings."
+msgstr "Không tìm thấy Tài khoản phải thu mặc định cho 'Edo Heritage Hotel'. Vui lòng cấu hình trong cài đặt Công ty."
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:391
+msgid "No Default Receivable Account found for '{0}'. Please configure it in Company settings."
+msgstr "Không tìm thấy Tài khoản phải thu mặc định cho '{0}'. Vui lòng cấu hình trong cài đặt Công ty."
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:224
+msgid "No ERPNext Customer linked to the Guest/Reservation."
+msgstr "Chưa liên kết Khách hàng ERPNext với Khách/Đặt phòng."
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:61
+#: hospitality_core/hospitality_core/api/payment_bridge.py:183
+msgid "No account configured for Mode of Payment '{0}' under Edo Heritage Hotel. Please add a default account for it."
+msgstr "Chưa cấu hình tài khoản cho Phương thức thanh toán '{0}' tại Edo Heritage Hotel. Vui lòng thêm tài khoản mặc định."
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:383
+msgid "No account configured for Mode of Payment '{0}' under {1}. Please add a default account for it."
+msgstr "Chưa cấu hình tài khoản cho Phương thức thanh toán '{0}' tại {1}. Vui lòng thêm tài khoản mặc định."
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:202
+msgid "No active check-in found for Room {0}"
+msgstr "Không tìm thấy lượt Check-in đang hoạt động cho Phòng {0}"
+
+#: hospitality_core/api/composite_item_utils.py:107
+msgid "No active recipe found for item {0}"
+msgstr "Không tìm thấy công thức đang hoạt động cho mặt hàng {0}"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:45
+#: hospitality_core/hospitality_core/api/payment_bridge.py:156
+msgid "No customer could be resolved for Folio {0}."
+msgstr "Không xác định được khách hàng cho Folio {0}."
+
+#: hospitality_core/hospitality_core/api/group_booking.py:127
+msgid "No in-house guests found for this group to check out."
+msgstr "Không tìm thấy khách đang lưu trú trong đoàn này để Check-out."
+
+#: hospitality_core/api/composite_item_utils.py:113
+msgid "No ingredients found in recipe for {0}"
+msgstr "Không tìm thấy nguyên liệu trong công thức của {0}"
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:57
+msgid "No open Folio found for Room {0}."
+msgstr "Không tìm thấy Folio đang mở cho Phòng {0}."
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:206
+msgid "No reservation linked to the active folio."
+msgstr "Không có đặt phòng nào liên kết với Folio đang hoạt động."
+
+#: hospitality_core/hospitality_core/api/group_booking.py:95
+msgid "No reserved bookings found for this group."
+msgstr "Không tìm thấy đặt phòng ở trạng thái Reserved cho đoàn này."
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:177
+msgid "No rooms available for the selected dates/type."
+msgstr "Không còn phòng trống cho khoảng ngày/loại phòng đã chọn."
+
+#: hospitality_core/hospitality_core/api/folio.py:247
+msgid "No transactions selected"
+msgstr "Chưa chọn giao dịch"
+
+#: hospitality_core/hospitality_core/api/invoicing.py:50
+msgid "No unbilled transactions found to invoice."
+msgstr "Không tìm thấy giao dịch chưa xuất hóa đơn."
+
+#. Label of the print_copies (Int) field in DocType 'Hospitality Accounting
+#. Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Number of Copies to Print"
+msgstr "Số bản cần in"
+
+#. Description of the 'Number of Copies to Print' (Int) field in DocType
+#. 'Hospitality Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Number of receipt copies to print automatically"
+msgstr "Số bản phiếu thu cần in tự động"
+
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.py:13
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.py:16
+msgid "Occupancy %"
+msgstr "Công suất phòng %"
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.py:12
+msgid "Occupied"
+msgstr "Đang có khách"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:26
+msgid "Occupied Days (Qty)"
+msgstr "Số ngày có khách"
+
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.py:14
+msgid "Occupied/Sold"
+msgstr "Có khách/Đã bán"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:110
+msgid "Only Reserved bookings can be Checked In."
+msgstr "Chỉ đặt phòng ở trạng thái Reserved mới có thể Check-in."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:316
+msgid "Only Reserved or Checked In bookings can be Cancelled."
+msgstr "Chỉ đặt phòng ở trạng thái Reserved hoặc Đã Check-in mới có thể hủy."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:365
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:526
+msgid "Only reception-linked payment modes shown"
+msgstr "Chỉ hiển thị phương thức thanh toán liên kết với quầy lễ tân"
+
+#. Option for the 'Status' (Select) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Open"
+msgstr "Mở"
+
+#. Label of the open_date (Date) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Open Date"
+msgstr "Ngày mở"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:135
+msgid "Open Folio"
+msgstr "Mở Folio"
+
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:12
+msgid "Open Since"
+msgstr "Mở từ"
+
+#. Label of a Card Break in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Operational Reports"
+msgstr "Báo cáo vận hành"
+
+#. Label of a Card Break in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Operations"
+msgstr "Các hoạt động"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:540
+msgid "Optional: Bank reference, cheque number, etc."
+msgstr "Tùy chọn: Tham chiếu ngân hàng, số séc, v.v."
+
+#. Label of the folio (Link) field in DocType 'Guest Balance Ledger'
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+msgid "Originating Folio"
+msgstr "Folio nguồn"
+
+#. Option for the 'Issue Type' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Other"
+msgstr "Khác"
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.py:13
+msgid "Out of Order"
+msgstr "Ngừng hoạt động"
+
+#. Label of the outstanding_balance (Currency) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:339
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Outstanding Balance"
+msgstr "Số dư còn phải thanh toán"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:500
+msgid "Outstanding Balance (City Ledger)"
+msgstr "Số dư còn phải thanh toán (City Ledger)"
+
+#. Label of the pos_closing_entry (Link) field in DocType 'EOD Closing Entry'
+#. Label of the pos_closing_entry (Data) field in DocType 'EOD Discrepancies'
+#: hospitality_core/hospitality_core/doctype/eod_closing_entry/eod_closing_entry.json
+#: hospitality_core/hospitality_core/doctype/eod_discrepancies/eod_discrepancies.json
+msgid "POS Closing Entry"
+msgstr "Mục đóng POS"
+
+#. Label of the pos_entry_status (Select) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "POS Entry Status"
+msgstr "Trạng thái giao dịch POS"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "POS Invoice"
+msgstr "Hóa đơn POS"
+
+#. Label of the pos_profile (Data) field in DocType 'EOD Discrepancies'
+#. Label of the pos_profile (Data) field in DocType 'EOD Item Sales'
+#. Label of the pos_profile (Link) field in DocType 'EOD POS Profile'
+#. Label of the pos_profile (Data) field in DocType 'EOD Stock Balance'
+#: hospitality_core/hospitality_core/doctype/eod_discrepancies/eod_discrepancies.json
+#: hospitality_core/hospitality_core/doctype/eod_item_sales/eod_item_sales.json
+#: hospitality_core/hospitality_core/doctype/eod_pos_profile/eod_pos_profile.json
+#: hospitality_core/hospitality_core/doctype/eod_stock_balance/eod_stock_balance.json
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.js:5
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.js:12
+msgid "POS Profile"
+msgstr "Hồ sơ POS"
+
+#. Label of the pos_profiles (Table MultiSelect) field in DocType 'Sales
+#. Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "POS Profiles"
+msgstr "POS Profile"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "POS Sales Summary"
+msgstr "Tổng hợp doanh thu POS"
+
+#. Label of the paid_via (Link) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Paid Via (Mode of Payment)"
+msgstr "Thanh toán qua (Phương thức thanh toán)"
+
+#. Label of the parent_category (Link) field in DocType 'Expense Category'
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.json
+msgid "Parent Category"
+msgstr "Nhóm cấp trên"
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:13
+msgid "Party"
+msgstr "Đối tác"
+
+#. Option for the 'ID Type' (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Passport"
+msgstr "Hộ chiếu"
+
+#. Label of the passport_number (Data) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Passport Number"
+msgstr "Số hộ chiếu"
+
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:18
+msgid "Pax"
+msgstr "Số khách"
+
+#. Label of the payment_account (Link) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Payment Account"
+msgstr "Tài khoản thanh toán"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Payment Entry"
+msgstr "Phiếu thanh toán"
+
+#. Label of the payment_mode (Data) field in DocType 'EOD Payment Summary'
+#: hospitality_core/hospitality_core/doctype/eod_payment_summary/eod_payment_summary.json
+msgid "Payment Mode"
+msgstr "Phương thức thanh toán"
+
+#. Label of the section_break_payment (Section Break) field in DocType 'Sales
+#. Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Payment Mode Summary"
+msgstr "Tổng hợp phương thức thanh toán"
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:9
+msgid "Payment Ref"
+msgstr "Tham chiếu thanh toán"
+
+#. Label of the eod_payment_summary (Table) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Payment Summary"
+msgstr "Tổng hợp thanh toán"
+
+#: hospitality_core/public/js/pos_payment_control.js:200
+msgid "Payment mode \"{0}\" is not allowed for this customer/room combination."
+msgstr "Phương thức thanh toán \"{0}\" không được phép cho tổ hợp khách hàng/phòng này."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:393
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:571
+msgid "Payment {0} recorded successfully"
+msgstr "Đã ghi nhận thanh toán {0} thành công"
+
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:15
+msgid "Payments"
+msgstr "Thanh toán"
+
+#. Description of the 'Credit' (Currency) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Payments and discounts (auto-computed from Amount)"
+msgstr "Thanh toán và giảm giá (tự tính từ Số tiền)"
+
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:16
+msgid "Payments/Credits"
+msgstr "Thanh toán/Ghi Có"
+
+#. Option for the 'Master Discount Type' (Select) field in DocType 'Hotel Group
+#. Booking'
+#. Option for the 'Discount Type' (Select) field in DocType 'Hotel Group
+#. Booking Room'
+#. Option for the 'Discount Type' (Select) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking_room/hotel_group_booking_room.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Percentage"
+msgstr "Tỷ lệ phần trăm"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:86
+msgid "Photoshoot"
+msgstr "Chụp ảnh"
+
+#. Label of the plan_name (Data) field in DocType 'Room Rate Plan'
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.json
+msgid "Plan Name"
+msgstr "Tên kế hoạch"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.py:115
+msgid "Please add at least one room to the Room List to assign to the Master Payer."
+msgstr "Vui lòng thêm ít nhất một phòng vào Danh sách phòng để gán cho Bên thanh toán chính."
+
+#: hospitality_core/public/js/payment_entry_auto_print.js:81
+#: hospitality_core/public/js/pos_invoice_auto_print.js:70
+msgid "Please allow pop-ups for this site to enable automatic printing."
+msgstr "Vui lòng cho phép pop-up trên trang này để bật in tự động."
+
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.py:18
+msgid "Please enter Claimant Info before marking as Claimed."
+msgstr "Vui lòng nhập Thông tin người nhận trước khi đánh dấu Đã nhận."
+
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.py:16
+msgid "Please enter Resolution Notes before marking as Completed."
+msgstr "Vui lòng nhập Ghi chú xử lý trước khi đánh dấu Hoàn tất."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:551
+msgid "Please enter a valid amount."
+msgstr "Vui lòng nhập số tiền hợp lệ."
+
+#: hospitality_core/hospitality_core/api/invoicing.py:20
+msgid "Please link a Customer (Company) to this Folio or the Guest Profile to generate an Invoice."
+msgstr "Vui lòng liên kết Khách hàng (Công ty) với Folio này hoặc Hồ sơ khách để tạo Hóa đơn."
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.js:44
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.js:29
+msgid "Please select From Date and To Date first."
+msgstr "Vui lòng chọn Từ ngày và Đến ngày trước."
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:50
+msgid "Please select a Hotel Room for the Room Charge."
+msgstr "Vui lòng chọn Phòng khách sạn cho khoản phí phòng."
+
+#: hospitality_core/hospitality_core/api/group_booking.py:13
+msgid "Please select a Master Payer (Customer) before creating a Folio."
+msgstr "Vui lòng chọn Bên thanh toán chính (Khách hàng) trước khi tạo Folio."
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.py:32
+msgid "Please select a Master Payer (Customer) to confirm this group booking."
+msgstr "Vui lòng chọn Bên thanh toán chính (Khách hàng) để xác nhận đặt phòng đoàn này."
+
+#: hospitality_core/hospitality_core/report/house_list/house_list.js:15
+msgid "Please select a date first."
+msgstr "Vui lòng chọn ngày trước."
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:42
+msgid "Please select at least one reservation."
+msgstr "Vui lòng chọn ít nhất một đặt phòng."
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:111
+msgid "Please select at least one room."
+msgstr "Vui lòng chọn ít nhất một phòng."
+
+#: hospitality_core/public/js/hospitality_analytics_final.js:95
+msgid "Please select both From and To dates first."
+msgstr "Vui lòng chọn cả Từ ngày và Đến ngày trước."
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:66
+msgid "Please set Arrival and Departure dates for the group first."
+msgstr "Vui lòng thiết lập Ngày đến và Ngày đi cho đoàn trước."
+
+#. Option for the 'Issue Type' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Plumbing"
+msgstr "Hệ thống cấp thoát nước"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.json
+msgid "Point of Sale Report"
+msgstr "Báo cáo điểm bán hàng"
+
+#: hospitality_core/public/js/payment_entry_auto_print.js:80
+#: hospitality_core/public/js/pos_invoice_auto_print.js:69
+msgid "Pop-up Blocked"
+msgstr "Pop-up bị chặn"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:626
+msgid "Positive debit amount to be posted to the city ledger"
+msgstr "Số tiền Nợ dương sẽ được ghi vào City Ledger"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:641
+msgid "Post Transaction"
+msgstr "Ghi nhận giao dịch"
+
+#. Label of the posted_by (Link) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:14
+msgid "Posted By"
+msgstr "Người ghi nhận"
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:145
+msgid "Posted {0} items from POS to Folio {1}"
+msgstr "Đã ghi {0} mặt hàng từ POS vào Folio {1}"
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.js:26
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:17
+msgid "Poster"
+msgstr "Áp phích"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:629
+msgid "Posting Date"
+msgstr "Ngày hạch toán"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:648
+msgid "Posting transaction..."
+msgstr "Đang ghi nhận giao dịch..."
+
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.js:17
+msgid "Print Guest List"
+msgstr "In danh sách khách"
+
+#: hospitality_core/hospitality_core/report/house_list/house_list.js:12
+msgid "Print House List"
+msgstr "In danh sách phòng/khu"
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.js:40
+msgid "Print Payment Collection"
+msgstr "In báo cáo thu tiền"
+
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.js:25
+msgid "Print Room Only Sales"
+msgstr "In doanh thu chỉ tính phòng"
+
+#: hospitality_core/public/js/payment_entry_auto_print.js:71
+#: hospitality_core/public/js/pos_invoice_auto_print.js:60
+msgid "Printing {0} copies. Please print {1} more time(s) when prompted."
+msgstr "Đang in {0} bản. Vui lòng in thêm {1} lần khi được yêu cầu."
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:49
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:447
+msgid "Process Refund"
+msgstr "Xử lý hoàn tiền"
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.js:87
+msgid "Processing Checkout..."
+msgstr "Đang xử lý Check-out..."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:379
+msgid "Processing payment..."
+msgstr "Đang xử lý thanh toán..."
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:60
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:458
+msgid "Processing refund..."
+msgstr "Đang xử lý hoàn tiền..."
+
+#. Option for the 'Status' (Select) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Provisional"
+msgstr "Tạm tính"
+
+#. Label of the qty (Float) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Qty"
+msgstr "Số lượng"
+
+#. Label of the qty_sold (Float) field in DocType 'EOD Item Group Sales'
+#. Label of the qty_sold (Float) field in DocType 'EOD Item Sales'
+#: hospitality_core/hospitality_core/doctype/eod_item_group_sales/eod_item_group_sales.json
+#: hospitality_core/hospitality_core/doctype/eod_item_sales/eod_item_sales.json
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.py:11
+msgid "Qty Sold"
+msgstr "Số lượng bán"
+
+#. Label of the qty (Float) field in DocType 'Recipe Ingredient'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:615
+#: hospitality_core/hospitality_core/doctype/recipe_ingredient/recipe_ingredient.json
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. Label of the quantity (Float) field in DocType 'Item Recipe'
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+msgid "Quantity Produced"
+msgstr "Số lượng chế biến"
+
+#. Label of the rate (Float) field in DocType 'Hospitality Expense Tax'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense_tax/hospitality_expense_tax.json
+msgid "Rate (%)"
+msgstr "Tỷ lệ (%)"
+
+#. Label of the rate (Currency) field in DocType 'Room Rate Plan'
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.json
+msgid "Rate (Per Night)"
+msgstr "Đơn giá (mỗi đêm)"
+
+#. Label of the rate_plan (Link) field in DocType 'Hotel Group Booking Room'
+#. Label of the rate_plan (Link) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking_room/hotel_group_booking_room.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:17
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:24
+msgid "Rate Plan"
+msgstr "Bảng giá lưu trú"
+
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.py:41
+msgid "Rate Plan overlaps with existing active plan: {0} for Room Type {1}"
+msgstr "Bảng giá lưu trú bị trùng thời gian với bảng giá đang hoạt động {0} cho Loại phòng {1}"
+
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:16
+msgid "Reason"
+msgstr "Lý do"
+
+#. Label of the reason_code (Data) field in DocType 'Allowance Reason Code'
+#: hospitality_core/hospitality_core/doctype/allowance_reason_code/allowance_reason_code.json
+msgid "Reason Code"
+msgstr "Mã lý do"
+
+#. Label of the receipt_print_format (Link) field in DocType 'Hospitality
+#. Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Receipt Print Format"
+msgstr "Mẫu in phiếu thu"
+
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.py:19
+msgid "Receipts"
+msgstr "Phiếu thu"
+
+#. Label of the receivable_account (Link) field in DocType 'Hospitality
+#. Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Receivable Account"
+msgstr "Tài khoản phải thu"
+
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:46
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:48
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:18
+msgid "Reception"
+msgstr "Lễ tân"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:23
+msgid "Reception (Department)"
+msgstr "Lễ tân (Bộ phận)"
+
+#. Label of the reception_name (Data) field in DocType 'Hotel Reception'
+#: hospitality_core/hospitality_core/doctype/hotel_reception/hotel_reception.json
+msgid "Reception Name"
+msgstr "Tên quầy lễ tân"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/recipe_ingredient/recipe_ingredient.json
+msgid "Recipe Ingredient"
+msgstr "Nguyên liệu công thức"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:16
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:322
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:548
+msgid "Record Payment"
+msgstr "Ghi nhận thanh toán"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:33
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:490
+msgid "Record Payment to Company"
+msgstr "Ghi nhận thanh toán cho công ty"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:355
+msgid "Record Payment to Company can only be used on a Company Master Folio."
+msgstr "Chỉ có thể dùng Ghi nhận thanh toán cho công ty trên Folio tổng của công ty."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:38
+msgid "Record Transaction"
+msgstr "Ghi nhận giao dịch"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:590
+msgid "Record Transaction (Debit)"
+msgstr "Ghi nhận giao dịch (Nợ)"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:447
+msgid "Record Transaction can only be used on a Company Master Folio."
+msgstr "Chỉ có thể dùng Ghi nhận giao dịch trên Folio tổng của công ty."
+
+#: hospitality_core/hospitality_core/api/folio.py:337
+msgid "Recorded credit balance of {0} for Guest {1} in Balance Ledger."
+msgstr "Đã ghi số dư Có {0} cho Khách {1} trong Sổ số dư."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:555
+msgid "Recording company payment..."
+msgstr "Đang ghi nhận thanh toán của công ty..."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:537
+msgid "Reference / Cheque No"
+msgstr "Tham chiếu / Số séc"
+
+#. Label of the reference_doctype (Link) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Reference DocType"
+msgstr "Loại tài liệu tham khảo"
+
+#. Label of the reference_name (Dynamic Link) field in DocType 'Folio
+#. Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Reference ID"
+msgstr "Mã tham chiếu"
+
+#: hospitality_core/public/js/analytics_filters_v9.js:93
+msgid "Refetching Data..."
+msgstr "Đang tải lại dữ liệu..."
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:33
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:431
+msgid "Refund Amount"
+msgstr "Số tiền hoàn"
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:56
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:454
+msgid "Refund amount cannot exceed available credit."
+msgstr "Số tiền hoàn không thể vượt quá số dư Có khả dụng."
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:130
+msgid "Refund amount cannot exceed the available credit of {0}."
+msgstr "Số tiền hoàn không thể vượt quá số dư Có khả dụng {0}."
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:244
+msgid "Refund amount cannot exceed the ledger balance of {0}."
+msgstr "Số tiền hoàn không thể vượt quá số dư sổ {0}."
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:115
+#: hospitality_core/hospitality_core/api/payment_bridge.py:241
+msgid "Refund amount must be greater than zero."
+msgstr "Số tiền hoàn phải lớn hơn 0."
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:73
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:471
+msgid "Refund {0} recorded successfully"
+msgstr "Đã ghi nhận hoàn tiền {0} thành công"
+
+#. Option for the 'Status' (Select) field in DocType 'Guest Balance Ledger'
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+msgid "Refunded"
+msgstr "Đã hoàn tiền"
+
+#. Option for the 'Guest Type' (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Regular"
+msgstr "Thông thường"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:636
+msgid "Remarks"
+msgstr "Ghi chú"
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:184
+msgid "Removed {0} items from Folio(s) due to POS Invoice cancellation."
+msgstr "Đã xóa {0} mặt hàng khỏi Folio do hủy Hóa đơn POS."
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Reported"
+msgstr "Đã báo cáo"
+
+#. Label of the reported_by (Link) field in DocType 'Hotel Maintenance Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.py:14
+msgid "Reported By"
+msgstr "Người báo cáo"
+
+#. Label of a Card Break in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Reports"
+msgstr "Báo cáo"
+
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.py:10
+msgid "Request ID"
+msgstr "ID yêu cầu"
+
+#. Description of the 'ERPNext Customer Link' (Link) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Required for Corporate Guests to link to Company Billing."
+msgstr "Bắt buộc với khách doanh nghiệp để liên kết thanh toán theo công ty."
+
+#. Label of the requires_manager_approval (Check) field in DocType 'Allowance
+#. Reason Code'
+#: hospitality_core/hospitality_core/doctype/allowance_reason_code/allowance_reason_code.json
+msgid "Requires Manager Approval"
+msgstr "Cần Quản lý phê duyệt"
+
+#. Label of the reservation (Link) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.py:10
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.py:14
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.py:19
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:15
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.py:18
+msgid "Reservation"
+msgstr "Đặt trước"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/reservation_routing/reservation_routing.json
+msgid "Reservation Routing"
+msgstr "Điều chuyển chi phí đặt phòng"
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:213
+msgid "Reservation not found."
+msgstr "Không tìm thấy đặt phòng."
+
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Reservations Record"
+msgstr "Hồ sơ đặt phòng"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.json
+msgid "Reservations Report"
+msgstr "Báo cáo đặt phòng"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:54
+msgid "Reservations linked successfully."
+msgstr "Đã liên kết đặt phòng thành công."
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:103
+msgid "Reserve"
+msgstr "Đặt trước"
+
+#. Option for the 'Booking Status' (Select) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Reserved"
+msgstr "Đã đặt trước"
+
+#. Label of the reserved_by (Link) field in DocType 'Guest Folio'
+#. Label of the reserved_by (Link) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Reserved By"
+msgstr "Người đặt phòng"
+
+#. Label of the resolution_notes (Text) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.py:16
+msgid "Resolution Notes"
+msgstr "Ghi chú xử lý"
+
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.py:16
+msgid "RevPAR"
+msgstr "RevPAR"
+
+#. Label of the room (Link) field in DocType 'Guest Folio'
+#. Label of the room (Link) field in DocType 'Hotel Group Booking Room'
+#. Label of the room (Link) field in DocType 'Hotel Maintenance Request'
+#. Label of the room (Link) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:332
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking_room/hotel_group_booking_room.json
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.py:14
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.py:12
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:10
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:8
+#: hospitality_core/hospitality_core/report/guest_ledger/guest_ledger.py:9
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.py:15
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:12
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.py:11
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:16
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.py:15
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:11
+msgid "Room"
+msgstr "Phòng"
+
+#: hospitality_core/hospitality_core/api/reservation.py:104
+msgid "Room Availability Conflict"
+msgstr "Xung đột tình trạng phòng trống"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Room Availability Report"
+msgstr "Báo cáo tình trạng phòng trống"
+
+#. Label of the section_break_rooms (Section Break) field in DocType 'Hotel
+#. Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Room List"
+msgstr "Danh sách phòng"
+
+#. Label of the room_number (Data) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+msgid "Room Number"
+msgstr "Số phòng"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:18
+msgid "Room Number (Item)"
+msgstr "Số phòng (Mặt hàng)"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.json
+msgid "Room Only Sales"
+msgstr "Doanh thu tiền phòng"
+
+#. Name of a DocType
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Room Rate Plan"
+msgstr "Bảng giá phòng"
+
+#. Label of the room_rate_preview (HTML) field in DocType 'Hotel Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Room Rate Preview"
+msgstr "Xem trước giá phòng"
+
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.py:20
+msgid "Room Rent"
+msgstr "Tiền phòng"
+
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.py:14
+msgid "Room Revenue"
+msgstr "Doanh thu phòng"
+
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Room Sales"
+msgstr "Doanh thu phòng"
+
+#. Label of the room_type (Link) field in DocType 'Hotel Group Booking Room'
+#. Label of the room_type (Link) field in DocType 'Hotel Reservation'
+#. Label of the room_type (Link) field in DocType 'Hotel Room'
+#. Label of the room_type (Link) field in DocType 'Room Rate Plan'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:81
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking_room/hotel_group_booking_room.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.json
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.py:15
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.js:11
+#: hospitality_core/hospitality_core/report/guest_list/guest_list.py:16
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.js:32
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:17
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.js:19
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.py:11
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.py:16
+msgid "Room Type"
+msgstr "Loại phòng"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:19
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:21
+msgid "Room Type (Item Group)"
+msgstr "Loại phòng (Nhóm mặt hàng)"
+
+#. Label of the room_type_name (Data) field in DocType 'Hotel Room Type'
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+msgid "Room Type Name"
+msgstr "Tên loại phòng"
+
+#: hospitality_core/hospitality_core/api/room_move.py:22
+msgid "Room moves are only allowed for Checked In guests."
+msgstr "Chỉ được chuyển phòng đối với khách đã Check-in."
+
+#: hospitality_core/hospitality_core/api/reservation.py:67
+msgid "Room {0} does not exist."
+msgstr "Phòng {0} không tồn tại."
+
+#: hospitality_core/hospitality_core/api/reservation.py:39
+#: hospitality_core/hospitality_core/api/reservation.py:91
+msgid "Room {0} is already booked by {1} from {2} to {3} (Reservation: {4})"
+msgstr "Phòng {0} đã được {1} đặt từ {2} đến {3} (Đặt phòng: {4})"
+
+#: hospitality_core/hospitality_core/api/pos_bridge.py:72
+msgid "Room {0} is closed for POS Posting."
+msgstr "Phòng {0} đang khóa ghi nhận giao dịch POS."
+
+#: hospitality_core/hospitality_core/api/reservation.py:16
+#: hospitality_core/hospitality_core/api/reservation.py:71
+msgid "Room {0} is currently disabled/under maintenance."
+msgstr "Phòng {0} hiện đang tạm ngưng/được bảo trì."
+
+#: hospitality_core/hospitality_core/api/reservation.py:19
+#: hospitality_core/hospitality_core/api/reservation.py:73
+msgid "Room {0} is marked Out of Order."
+msgstr "Phòng {0} đang được đánh dấu Ngừng khai thác."
+
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.py:32
+msgid "Room {0} marked as 'Out of Order' due to maintenance request."
+msgstr "Phòng {0} được đánh dấu 'Ngừng khai thác' do yêu cầu bảo trì."
+
+#. Label of the rooms (Table) field in DocType 'Hotel Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Rooms"
+msgstr "Phòng"
+
+#. Label of the routing_instructions (Table) field in DocType 'Hotel
+#. Reservation'
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+msgid "Routing Instructions"
+msgstr "Hướng dẫn điều chuyển"
+
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:20
+msgid "SC (10%)"
+msgstr "Phí phục vụ (10%)"
+
+#. Name of a DocType
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Sales Report"
+msgstr "Báo cáo doanh thu"
+
+#. Description of the 'Service / Item Group' (Link) field in DocType
+#. 'Reservation Routing'
+#: hospitality_core/hospitality_core/doctype/reservation_routing/reservation_routing.json
+msgid "Select the Item Group (e.g., 'Room Rent' or 'Food') to route."
+msgstr "Chọn Nhóm mặt hàng (ví dụ: 'Tiền phòng' hoặc 'Ẩm thực') để điều chuyển."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:606
+msgid "Select the item or service being charged"
+msgstr "Chọn mặt hàng hoặc dịch vụ cần tính phí"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:373
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:534
+msgid "Select the receiving reception"
+msgstr "Chọn quầy lễ tân nhận"
+
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.js:46
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:444
+msgid "Select the reception issuing the refund"
+msgstr "Chọn quầy lễ tân thực hiện hoàn tiền"
+
+#. Label of the item_group (Link) field in DocType 'Reservation Routing'
+#: hospitality_core/hospitality_core/doctype/reservation_routing/reservation_routing.json
+msgid "Service / Item Group"
+msgstr "Dịch vụ / Nhóm mặt hàng"
+
+#. Label of the service_charge (Currency) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:33
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:58
+msgid "Service Charge (10%)"
+msgstr "Phí phục vụ (10%)"
+
+#. Label of the service_charge_account (Link) field in DocType 'Hospitality
+#. Accounting Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "Service Charge Account"
+msgstr "Tài khoản phí phục vụ"
+
+#. Label of the source_folio (Link) field in DocType 'Folio Transaction Move
+#. Log'
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+#: hospitality_core/hospitality_core/report/folio_transaction_move_report/folio_transaction_move_report.py:40
+msgid "Source Folio"
+msgstr "Folio nguồn"
+
+#. Option for the 'Guest Type' (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "Staff"
+msgstr "Nhân viên"
+
+#. Label of the status (Select) field in DocType 'Guest Balance Ledger'
+#. Label of the status (Select) field in DocType 'Guest Folio'
+#. Label of the workflow_state (Link) field in DocType 'Hospitality Expense'
+#. Label of the status (Select) field in DocType 'Hotel Group Booking'
+#. Label of the status (Select) field in DocType 'Hotel Maintenance Request'
+#. Label of the status (Select) field in DocType 'Hotel Room'
+#. Label of the status (Select) field in DocType 'Lost and Found Item'
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+#: hospitality_core/hospitality_core/report/daily_arrivals/daily_arrivals.py:12
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:14
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.js:19
+#: hospitality_core/hospitality_core/report/lost_and_found_register/lost_and_found_register.py:14
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.js:19
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.py:15
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.js:20
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.py:20
+msgid "Status"
+msgstr "Trạng thái"
+
+#. Label of the eod_stock_balance (Table) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Stock Balances"
+msgstr "Số dư tồn kho"
+
+#. Name of a role
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+msgid "Stock Manager"
+msgstr "Quản lý tồn kho"
+
+#. Label of the stock_qty (Float) field in DocType 'Recipe Ingredient'
+#: hospitality_core/hospitality_core/doctype/recipe_ingredient/recipe_ingredient.json
+msgid "Stock Quantity"
+msgstr "Số lượng tồn kho"
+
+#. Label of the stock_uom (Data) field in DocType 'Recipe Ingredient'
+#: hospitality_core/hospitality_core/doctype/recipe_ingredient/recipe_ingredient.json
+msgid "Stock UOM"
+msgstr "UOM tồn kho"
+
+#. Label of the warehouse (Link) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+msgid "Stock Warehouse"
+msgstr "Kho hàng"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:376
+msgid "Submit Payment"
+msgstr "Ghi nhận thanh toán"
+
+#. Option for the 'POS Entry Status' (Select) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Submitted"
+msgstr "Đã gửi"
+
+#: hospitality_core/hospitality_core/api/group_booking.py:110
+msgid "Successfully Checked In {0} guests."
+msgstr "Đã Check-in thành công {0} khách."
+
+#: hospitality_core/hospitality_core/api/group_booking.py:140
+msgid "Successfully Checked Out {0} guests."
+msgstr "Đã Check-out thành công {0} khách."
+
+#: hospitality_core/hospitality_core/api/room_move.py:55
+msgid "Successfully moved guest to Room {0}"
+msgstr "Đã chuyển khách sang Phòng {0} thành công"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:129
+msgid "Successfully reserved {0} rooms."
+msgstr "Đã đặt thành công {0} phòng."
+
+#. Label of the section_break_totals (Section Break) field in DocType 'Guest
+#. Folio'
+#. Label of the section_break_summary (Section Break) field in DocType 'Sales
+#. Report'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Summary"
+msgstr "Tóm tắt"
+
+#. Label of the supplier (Link) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.js:33
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:17
+msgid "Supplier"
+msgstr "Nhà cung cấp"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:85
+msgid "Swimming"
+msgstr "Hồ bơi"
+
+#. Name of a role
+#: hospitality_core/hospitality_core/doctype/allowance_reason_code/allowance_reason_code.json
+#: hospitality_core/hospitality_core/doctype/expense_category/expense_category.json
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+#: hospitality_core/hospitality_core/doctype/hotel_reception/hotel_reception.json
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.json
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+#: hospitality_core/hospitality_core/doctype/hotel_room_type/hotel_room_type.json
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+#: hospitality_core/hospitality_core/doctype/lost_and_found_item/lost_and_found_item.json
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.json
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "System Manager"
+msgstr "Người quản lý hệ thống"
+
+#. Label of a shortcut in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Tape Chart"
+msgstr "Sơ đồ phòng theo thời gian"
+
+#. Label of the target_folio (Link) field in DocType 'Folio Transaction Move
+#. Log'
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+#: hospitality_core/hospitality_core/report/folio_transaction_move_report/folio_transaction_move_report.py:47
+msgid "Target Folio"
+msgstr "Folio đích"
+
+#: hospitality_core/hospitality_core/api/folio.py:251
+msgid "Target Folio must be Open"
+msgstr "Folio đích phải ở trạng thái Mở"
+
+#. Label of the tax_amount (Currency) field in DocType 'Hospitality Expense
+#. Tax'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense_tax/hospitality_expense_tax.json
+msgid "Tax Amount"
+msgstr "Số tiền thuế"
+
+#. Label of the section_break_taxes (Section Break) field in DocType
+#. 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Taxes"
+msgstr "Thuế"
+
+#. Label of the taxes (Table) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+msgid "Taxes and Charges"
+msgstr "Thuế và Phí"
+
+#. Name of a report
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.json
+msgid "Taxes and Charges Report"
+msgstr "Báo cáo thuế & phí"
+
+#. Option for the 'Status' (Select) field in DocType 'Hotel Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "Tentative"
+msgstr "Tạm giữ"
+
+#. Description of the 'Master Payer (Customer)' (Link) field in DocType 'Hotel
+#. Group Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "The Company/Person responsible for the Master Folio."
+msgstr "Công ty/Cá nhân chịu trách nhiệm thanh toán Folio tổng."
+
+#: hospitality_core/hospitality_core/api/reservation.py:97
+msgid "The following availability issues were found:"
+msgstr "Phát hiện các vấn đề về tình trạng phòng trống sau:"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:361
+#: hospitality_core/hospitality_core/api/payment_bridge.py:453
+msgid "This Company Folio has no company linked. Please set the Company field first."
+msgstr "Folio công ty này chưa liên kết công ty. Vui lòng thiết lập trường Công ty trước."
+
+#: hospitality_core/hospitality_core/api/financial_control.py:36
+msgid "This Reason Code requires Supervisor Approval."
+msgstr "Mã lý do này cần Giám sát phê duyệt."
+
+#. Label of the posting_time (Time) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Time"
+msgstr "Thời gian"
+
+#: hospitality_core/hospitality_core/dashboard_chart_source/hospitality_analytics/hospitality_analytics.js:12
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.js:12
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.js:12
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.js:12
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.js:20
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.js:20
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.js:12
+#: hospitality_core/hospitality_core/report/maintenance_log_report/maintenance_log_report.js:12
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.js:18
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.js:12
+#: hospitality_core/hospitality_core/report/room_only_sales/room_only_sales.js:12
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.js:12
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.js:12
+msgid "To Date"
+msgstr "Đến Ngày"
+
+#. Label of the to_date_time (Datetime) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "To Date & Time"
+msgstr "Đến ngày & giờ"
+
+#. Label of the total (Currency) field in DocType 'Hospitality Expense Tax'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense_tax/hospitality_expense_tax.json
+#: hospitality_core/hospitality_core/report/point_of_sale_report/point_of_sale_report.py:48
+msgid "Total"
+msgstr "Tổng cộng"
+
+#. Label of the total_actual_amount (Currency) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Total Actual Amount"
+msgstr "Tổng số tiền thực tế"
+
+#: hospitality_core/hospitality_core/report/daily_departures/daily_departures.py:18
+msgid "Total Bill"
+msgstr "Tổng hóa đơn"
+
+#. Label of the total_charges (Currency) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+#: hospitality_core/hospitality_core/report/city_ledger/city_ledger.py:15
+msgid "Total Charges"
+msgstr "Tổng khoản phí"
+
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:37
+msgid "Total Collected"
+msgstr "Tổng đã thu"
+
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:64
+msgid "Total Deductions"
+msgstr "Tổng khấu trừ"
+
+#. Label of the total_difference (Currency) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Total Difference"
+msgstr "Tổng chênh lệch"
+
+#. Label of the total_discounts (Currency) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Total Discounts"
+msgstr "Tổng giảm giá"
+
+#. Label of the total_expected_amount (Currency) field in DocType 'Sales
+#. Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Total Expected Amount"
+msgstr "Tổng số tiền dự kiến"
+
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:34
+msgid "Total Expenses (Buying Amount)"
+msgstr "Tổng chi phí (Giá mua)"
+
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.py:10
+msgid "Total Liability (Credits)"
+msgstr "Tổng công nợ (Có)"
+
+#. Label of the total_expenses (Currency) field in DocType 'Hotel Maintenance
+#. Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Total Maintenance Cost"
+msgstr "Tổng chi phí bảo trì"
+
+#: hospitality_core/hospitality_core/report/house_list/house_list.py:57
+msgid "Total Occupied Rooms"
+msgstr "Tổng phòng có khách"
+
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:100
+msgid "Total POS Sales"
+msgstr "Tổng doanh thu POS"
+
+#. Label of the total_payments (Currency) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Total Payments"
+msgstr "Tổng thanh toán"
+
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:95
+msgid "Total Payments Collected"
+msgstr "Tổng thanh toán đã thu"
+
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.py:9
+msgid "Total Receivable"
+msgstr "Tổng phải thu"
+
+#: hospitality_core/hospitality_core/report/hotel_performance_analytics/hotel_performance_analytics.py:11
+#: hospitality_core/hospitality_core/report/room_availability_report/room_availability_report.py:12
+msgid "Total Rooms"
+msgstr "Tổng số phòng"
+
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:31
+#: hospitality_core/hospitality_core/report/pos_sales_summary/pos_sales_summary.py:118
+msgid "Total Sales"
+msgstr "Tổng doanh thu"
+
+#. Label of the total_taxes (Currency) field in DocType 'Hospitality Expense'
+#: hospitality_core/hospitality_core/doctype/hospitality_expense/hospitality_expense.json
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:21
+msgid "Total Taxes"
+msgstr "Tổng thuế"
+
+#. Label of the total_transactions (Int) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+msgid "Total Transactions"
+msgstr "Tổng giao dịch"
+
+#. Description of the 'Total Maintenance Cost' (Currency) field in DocType
+#. 'Hotel Maintenance Request'
+#: hospitality_core/hospitality_core/doctype/hotel_maintenance_request/hotel_maintenance_request.json
+msgid "Total of all submitted expenses linked to this request"
+msgstr "Tổng tất cả chi phí đã ghi nhận liên kết với yêu cầu này"
+
+#: hospitality_core/hospitality_core/report/folio_transaction_move_report/folio_transaction_move_report.py:21
+msgid "Transaction ID"
+msgstr "ID giao dịch"
+
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Transaction Move Report"
+msgstr "Báo cáo chuyển giao dịch"
+
+#. Label of the transaction_name (Data) field in DocType 'Folio Transaction
+#. Move Log'
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+msgid "Transaction Name"
+msgstr "Tên giao dịch"
+
+#: hospitality_core/hospitality_core/api/financial_control.py:30
+msgid "Transaction is already void."
+msgstr "Giao dịch đã bị hủy hiệu lực."
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:665
+msgid "Transaction {0} posted successfully"
+msgstr "Đã ghi nhận giao dịch {0} thành công"
+
+#. Label of the section_break_1 (Section Break) field in DocType 'Guest Folio'
+#. Label of the transactions (Table) field in DocType 'Guest Folio'
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.json
+msgid "Transactions"
+msgstr "Giao dịch"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:233
+msgid "Transactions moved successfully"
+msgstr "Đã chuyển giao dịch thành công"
+
+#. Option for the 'Status' (Select) field in DocType 'Guest Balance Ledger'
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+msgid "Transferred"
+msgstr "Đã chuyển"
+
+#. Label of the transferred_to_folio (Link) field in DocType 'Guest Balance
+#. Ledger'
+#: hospitality_core/hospitality_core/doctype/guest_balance_ledger/guest_balance_ledger.json
+msgid "Transferred To Folio"
+msgstr "Đã chuyển đến Folio"
+
+#: hospitality_core/hospitality_core/api/folio.py:393
+msgid "Transferred {0} from previous credit balances to this folio."
+msgstr "Đã chuyển {0} từ số dư Có trước đó vào Folio này."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:225
+msgid "Transferred {0} to City Ledger."
+msgstr "Đã chuyển {0} sang City Ledger."
+
+#: hospitality_core/hospitality_core/doctype/hotel_reservation/hotel_reservation.py:339
+msgid "Transferred {0} to Guest Balance Ledger."
+msgstr "Đã chuyển {0} sang Sổ số dư khách."
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:87
+msgid "Tray Charge"
+msgstr "Phí phục vụ tại phòng"
+
+#: hospitality_core/hospitality_core/report/financial_activity_summary/financial_activity_summary.py:78
+msgid "Turkey"
+msgstr "Thịt gà tây"
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:16
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.js:19
+#: hospitality_core/hospitality_core/report/discount_and_complimentary_report/discount_and_complimentary_report.py:7
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:13
+msgid "Type"
+msgstr "Loại"
+
+#. Label of the uom (Data) field in DocType 'EOD Stock Balance'
+#. Label of the uom (Link) field in DocType 'Item Recipe'
+#. Label of the uom (Link) field in DocType 'Recipe Ingredient'
+#: hospitality_core/hospitality_core/doctype/eod_stock_balance/eod_stock_balance.json
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.json
+#: hospitality_core/hospitality_core/doctype/recipe_ingredient/recipe_ingredient.json
+msgid "UOM"
+msgstr "Đơn vị tính"
+
+#: hospitality_core/hospitality_core/api/group_booking.py:106
+#: hospitality_core/hospitality_core/api/group_booking.py:137
+#: hospitality_core/hospitality_core/api/group_booking.py:213
+msgid "Unknown error"
+msgstr "Lỗi không xác định"
+
+#: hospitality_core/public/js/analytics_filters_v8.js:70
+msgid "Update Analytics"
+msgstr "Cập nhật phân tích"
+
+#: hospitality_core/public/js/analytics_filters_v8.js:88
+msgid "Updating Analytics..."
+msgstr "Đang cập nhật phân tích..."
+
+#. Label of the user (Link) field in DocType 'Folio Transaction Move Log'
+#: hospitality_core/hospitality_core/doctype/folio_transaction_move_log/folio_transaction_move_log.json
+#: hospitality_core/hospitality_core/report/folio_transaction_move_report/folio_transaction_move_report.py:54
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.py:17
+msgid "User"
+msgstr "Người dùng"
+
+#. Label of the vat_amount (Currency) field in DocType 'Sales Report'
+#: hospitality_core/hospitality_core/doctype/sales_report/sales_report.json
+#: hospitality_core/hospitality_core/report/daily_sales_consumption/daily_sales_consumption.py:19
+#: hospitality_core/hospitality_core/report/gross_revenue_report/gross_revenue_report.py:32
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:52
+msgid "VAT (7.5%)"
+msgstr "VAT (7,5%)"
+
+#. Label of the vat_account (Link) field in DocType 'Hospitality Accounting
+#. Settings'
+#: hospitality_core/hospitality_core/doctype/hospitality_accounting_settings/hospitality_accounting_settings.json
+msgid "VAT Account"
+msgstr "Tài khoản VAT"
+
+#. Option for the 'Guest Type' (Select) field in DocType 'Guest'
+#: hospitality_core/hospitality_core/doctype/guest/guest.json
+msgid "VIP"
+msgstr "VIP"
+
+#. Label of the valid_from (Date) field in DocType 'Room Rate Plan'
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.json
+msgid "Valid From"
+msgstr "Có hiệu lực từ"
+
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.py:14
+msgid "Valid From date cannot be after Valid To date."
+msgstr "Ngày hiệu lực từ không thể sau Ngày hiệu lực đến."
+
+#. Label of the valid_to (Date) field in DocType 'Room Rate Plan'
+#: hospitality_core/hospitality_core/doctype/room_rate_plan/room_rate_plan.json
+msgid "Valid To"
+msgstr "Hiệu lực đến"
+
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.html:57
+#: hospitality_core/hospitality_core/report/frontdesk_end_of_day_report/frontdesk_end_of_day_report.py:22
+msgid "Value"
+msgstr "Giá trị"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.js:8
+msgid "View BOM"
+msgstr "Xem BOM"
+
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.js:26
+msgid "View City Ledger"
+msgstr "Xem City Ledger"
+
+#: hospitality_core/hospitality_core/report/folio_balance_summary/folio_balance_summary.js:23
+msgid "View Guest Ledger"
+msgstr "Xem sổ giao dịch khách"
+
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.js:19
+msgid "View Master Folio"
+msgstr "Xem Folio tổng"
+
+#: hospitality_core/hospitality_core/report/reservations_report/reservations_report.js:12
+msgid "View Mode"
+msgstr "Chế độ hiển thị"
+
+#: hospitality_core/hospitality_core/doctype/guest/guest.js:7
+msgid "View Past Stays"
+msgstr "Xem lịch sử lưu trú"
+
+#. Label of the is_void (Check) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Void"
+msgstr "Hủy hiệu lực"
+
+#. Label of the void_reason (Data) field in DocType 'Folio Transaction'
+#: hospitality_core/hospitality_core/doctype/folio_transaction/folio_transaction.json
+msgid "Void Reason"
+msgstr "Lý do hủy hiệu lực"
+
+#: hospitality_core/hospitality_core/doctype/guest_folio/guest_folio.js:80
+msgid "Void Transaction"
+msgstr "Hủy hiệu lực giao dịch"
+
+#. Name of a report
+#. Label of a Link in the Hospitality Workspace
+#: hospitality_core/hospitality_core/report/void_and_allowance_report/void_and_allowance_report.json
+#: hospitality_core/hospitality_core/workspace/hospitality/hospitality.json
+msgid "Void and Allowance Report"
+msgstr "Báo cáo hủy hiệu lực & miễn/giảm"
+
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:26
+msgid "Voucher No"
+msgstr "Số chứng từ"
+
+#: hospitality_core/hospitality_core/report/daily_payment_collection/daily_payment_collection.py:10
+#: hospitality_core/hospitality_core/report/taxes_and_charges_report/taxes_and_charges_report.py:19
+msgid "Voucher Type"
+msgstr "Loại chứng từ"
+
+#. Label of the warehouse (Data) field in DocType 'EOD Stock Balance'
+#: hospitality_core/hospitality_core/doctype/eod_stock_balance/eod_stock_balance.json
+msgid "Warehouse"
+msgstr "Kho"
+
+#. Description of the 'Stock Warehouse' (Link) field in DocType 'Hotel Room'
+#: hospitality_core/hospitality_core/doctype/hotel_room/hotel_room.json
+msgid "Warehouse used for Minibar consumption deduction"
+msgstr "Kho dùng để trừ tồn khi phát sinh tiêu thụ Minibar"
+
+#: hospitality_core/hospitality_core/doctype/item_recipe/item_recipe.js:33
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#: hospitality_core/hospitality_core/api/folio.py:100
+msgid "Warning: Credit Limit Exceeded for {0}. Limit: {1}, Liability: {2}"
+msgstr "Cảnh báo: {0} đã vượt hạn mức tín dụng. Hạn mức: {1}, Công nợ: {2}"
+
+#: hospitality_core/hospitality_core/report/hospitality_expense_report/hospitality_expense_report.py:23
+msgid "Workflow State"
+msgstr "Trạng thái workflow"
+
+#. Description of the 'Reason Code' (Data) field in DocType 'Allowance Reason
+#. Code'
+#: hospitality_core/hospitality_core/doctype/allowance_reason_code/allowance_reason_code.json
+msgid "e.g., 'SRVC-REC' or 'POST-ERR'"
+msgstr "ví dụ: 'SRVC-REC' hoặc 'POST-ERR'"
+
+#. Description of the 'Group Name' (Data) field in DocType 'Hotel Group
+#. Booking'
+#: hospitality_core/hospitality_core/doctype/hotel_group_booking/hotel_group_booking.json
+msgid "e.g., 'Smith Wedding 2025' or 'TechConf Delegates'"
+msgstr "ví dụ: 'Đám cưới Smith 2025' hoặc 'Đoàn TechConf'"
+
+#: hospitality_core/hospitality_core/api/payment_bridge.py:324
+msgid "{0} of {1} successfully recorded on Folio {2}"
+msgstr "Đã ghi nhận thành công {0} / {1} vào Folio {2}"
+
+#: hospitality_core/api/composite_item_utils.py:280
+msgid "• {0}: Required {1}, Available {2}"
+msgstr "• {0}: Cần {1}, Khả dụng {2}"
+

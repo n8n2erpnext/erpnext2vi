@@ -1,0 +1,903 @@
+# Vietnamese translations for Agriculture.
+# Copyright (C) 2026 Frappe
+# This file is distributed under the same license as the Agriculture project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Agriculture VERSION\n"
+"Report-Msgid-Bugs-To: pandikunta@frappe.io\n"
+"POT-Creation-Date: 2026-09-06 08:52+0707\n"
+"PO-Revision-Date: 2026-09-06 08:52+0707\n"
+"Last-Translator: pandikunta@frappe.io\n"
+"Language: vi\n"
+"Language-Team: pandikunta@frappe.io\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#. Label of the ca_mg_per_k (Data) field in DocType 'Soil Analysis'
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+msgid "(Ca+Mg)/K"
+msgstr "(Ca+Mg)/K"
+
+#. Description of the 'Linked Location' (Table) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "A link to all the Locations in which the Crop is growing"
+msgstr "Liên kết đến tất cả địa điểm đang canh tác cây trồng này"
+
+#. Name of a Workspace
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+#: agriculture/config/desktop.py:10
+msgid "Agriculture"
+msgstr "Nông nghiệp"
+
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Agriculture Analysis Criteria"
+msgstr "Tiêu chí phân tích nông nghiệp"
+
+#. Name of a role
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/disease/disease.json
+#: agriculture/agriculture/doctype/fertilizer/fertilizer.json
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+#: agriculture/agriculture/doctype/weather/weather.json
+msgid "Agriculture Manager"
+msgstr "Quản lý nông nghiệp"
+
+#. Name of a DocType
+#. Label of the agriculture_task (Table) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Agriculture Task"
+msgstr "Công việc nông nghiệp"
+
+#. Name of a role
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/disease/disease.json
+#: agriculture/agriculture/doctype/fertilizer/fertilizer.json
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+#: agriculture/agriculture/doctype/weather/weather.json
+msgid "Agriculture User"
+msgstr "Người dùng nông nghiệp"
+
+#: agriculture/agriculture/setup.py:18 agriculture/agriculture/setup.py:23
+#: agriculture/agriculture/setup.py:28 agriculture/agriculture/setup.py:33
+msgid "All Item Groups"
+msgstr "Tất cả Nhóm Mặt hàng"
+
+#. Label of a Card Break in the Agriculture Workspace
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Analytics"
+msgstr "Phân tích"
+
+#. Option for the 'Type' (Select) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Annual"
+msgstr "Hàng năm"
+
+#. Label of the appearance (Data) field in DocType 'Water Analysis'
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Appearance"
+msgstr "Giao Diện"
+
+#. Option for the 'Type' (Select) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Biennial"
+msgstr "Cây hai năm"
+
+#. Label of the section_break_18 (Section Break) field in DocType 'Crop'
+#. Label of the byproducts (Table) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Byproducts"
+msgstr "Phụ phẩm"
+
+#. Label of the ca_per_k_ca_mg (Data) field in DocType 'Soil Analysis'
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+msgid "Ca/(K+Ca+Mg)"
+msgstr "Ca/(K+Ca+Mg)"
+
+#. Label of the ca_per_k (Data) field in DocType 'Soil Analysis'
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+msgid "Ca/K"
+msgstr "Ca/K"
+
+#. Label of the ca_per_mg (Data) field in DocType 'Soil Analysis'
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+msgid "Ca/Mg"
+msgstr "Ca/Mg"
+
+#. Label of the category (Data) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Category"
+msgstr "Thể loại"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Clay"
+msgstr "Đất sét"
+
+#. Label of the clay_composition (Percent) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Clay Composition (%)"
+msgstr "Tỷ lệ đất sét (%)"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Clay Loam"
+msgstr "Đất thịt pha sét"
+
+#. Label of the collection_datetime (Datetime) field in DocType 'Plant
+#. Analysis'
+#. Label of the collection_datetime (Datetime) field in DocType 'Soil Analysis'
+#. Label of the collection_datetime (Datetime) field in DocType 'Soil Texture'
+#. Label of the collection_datetime (Datetime) field in DocType 'Water
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Collection Datetime"
+msgstr "Thời điểm lấy mẫu"
+
+#. Label of the collection_temperature (Data) field in DocType 'Water Analysis'
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Collection Temperature "
+msgstr "Nhiệt độ khi lấy mẫu "
+
+#. Label of the common_name (Data) field in DocType 'Disease'
+#: agriculture/agriculture/doctype/disease/disease.json
+msgid "Common Name"
+msgstr "Tên thông dụng"
+
+#. Label of the container (Data) field in DocType 'Water Analysis'
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Container"
+msgstr "Dụng cụ chứa mẫu"
+
+#. Name of a DocType
+#. Label of the crop (Link) field in DocType 'Crop Cycle'
+#. Label of the crop (Link) field in DocType 'Plant Analysis'
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Crop"
+msgstr "Cắt"
+
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/crop/crop_dashboard.py:8
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Crop Cycle"
+msgstr "Chu kỳ canh tác"
+
+#. Label of the crop_name (Data) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Crop Name"
+msgstr "Tên cây trồng"
+
+#. Label of the crop_spacing (Float) field in DocType 'Crop'
+#. Label of the crop_spacing (Float) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Crop Spacing"
+msgstr "Khoảng cách cây"
+
+#. Label of the crop_spacing_uom (Link) field in DocType 'Crop'
+#. Label of the crop_spacing_uom (Link) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Crop Spacing UOM"
+msgstr "Đơn vị khoảng cách cây"
+
+#. Label of a Card Break in the Agriculture Workspace
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Crops & Lands"
+msgstr "Cây trồng & Đất canh tác"
+
+#. Label of the cycle_type (Select) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Cycle Type"
+msgstr "Loại chu kỳ"
+
+#. Label of the date (Date) field in DocType 'Weather'
+#: agriculture/agriculture/doctype/weather/weather.json
+msgid "Date"
+msgstr "Ngày"
+
+#. Label of the density (Data) field in DocType 'Fertilizer'
+#: agriculture/agriculture/doctype/fertilizer/fertilizer.json
+msgid "Density (if liquid)"
+msgstr "Khối lượng riêng (nếu là chất lỏng)"
+
+#. Label of the description (Long Text) field in DocType 'Disease'
+#: agriculture/agriculture/doctype/disease/disease.json
+msgid "Description"
+msgstr "Mô tả"
+
+#. Label of the detected_disease (Table) field in DocType 'Crop Cycle'
+#. Name of a DocType
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/detected_disease/detected_disease.json
+msgid "Detected Disease"
+msgstr "Bệnh phát hiện"
+
+#. Label of the section_break_14 (Section Break) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Detected Diseases"
+msgstr "Các bệnh phát hiện"
+
+#. Label of the disease (Link) field in DocType 'Detected Disease'
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/detected_disease/detected_disease.json
+#: agriculture/agriculture/doctype/disease/disease.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Disease"
+msgstr "Bệnh cây"
+
+#. Label of a Card Break in the Agriculture Workspace
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Diseases & Fertilizers"
+msgstr "Bệnh cây & Phân bón"
+
+#. Label of the end_date (Data) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "End Date"
+msgstr "Ngày kết thúc"
+
+#. Label of the end_day (Int) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "End Day"
+msgstr "Ngày kết thúc"
+
+#. Option for the 'Linked Doctype' (Select) field in DocType 'Agriculture
+#. Analysis Criteria'
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/fertilizer/fertilizer.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Fertilizer"
+msgstr "Phân bón"
+
+#. Name of a DocType
+#: agriculture/agriculture/doctype/fertilizer_content/fertilizer_content.json
+msgid "Fertilizer Content"
+msgstr "Thành phần phân bón"
+
+#. Label of the section_break_28 (Section Break) field in DocType 'Fertilizer'
+#: agriculture/agriculture/doctype/fertilizer/fertilizer.json
+msgid "Fertilizer Contents"
+msgstr "Các thành phần phân bón"
+
+#. Label of the fertilizer_name (Data) field in DocType 'Fertilizer'
+#: agriculture/agriculture/doctype/fertilizer/fertilizer.json
+msgid "Fertilizer Name"
+msgstr "Tên phân bón"
+
+#. Option for the 'Priority' (Select) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "High"
+msgstr "Cao"
+
+#. Label of the holiday_management (Select) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Holiday Management"
+msgstr "Quản lý ngày nghỉ"
+
+#. Label of the iso_8601_standard (Check) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "ISO 8601 standard"
+msgstr "Tiêu chuẩn ISO 8601"
+
+#. Option for the 'Holiday Management' (Select) field in DocType 'Agriculture
+#. Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Ignore holidays"
+msgstr "Bỏ qua ngày nghỉ"
+
+#. Label of the invoice_number (Data) field in DocType 'Soil Analysis'
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+msgid "Invoice Number"
+msgstr "Số hóa đơn"
+
+#. Label of the item (Link) field in DocType 'Fertilizer'
+#: agriculture/agriculture/doctype/fertilizer/fertilizer.json
+msgid "Item"
+msgstr "Mặt hàng"
+
+#. Label of the section_break_22 (Section Break) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "LInked Analysis"
+msgstr "Phân tích liên kết"
+
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.py:26
+msgid "Lab result datetime cannot be before testing datetime"
+msgstr "Thời điểm có kết quả labo không thể trước thời điểm xét nghiệm"
+
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.py:24
+msgid "Lab testing datetime cannot be before collection datetime"
+msgstr "Thời điểm xét nghiệm không thể trước thời điểm lấy mẫu"
+
+#. Label of the laboratory_testing_datetime (Datetime) field in DocType 'Plant
+#. Analysis'
+#. Label of the laboratory_testing_datetime (Datetime) field in DocType 'Soil
+#. Texture'
+#. Label of the laboratory_testing_datetime (Datetime) field in DocType 'Water
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Laboratory Testing Datetime"
+msgstr "Thời điểm xét nghiệm tại labo"
+
+#. Option for the 'Cycle Type' (Select) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Less than a year"
+msgstr "Dưới một năm"
+
+#. Label of the linked_doctype (Select) field in DocType 'Agriculture Analysis
+#. Criteria'
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+msgid "Linked Doctype"
+msgstr "DocType liên kết"
+
+#. Label of the column_break_3 (Column Break) field in DocType 'Crop Cycle'
+#. Label of the linked_location (Table) field in DocType 'Crop Cycle'
+#. Name of a DocType
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/linked_location/linked_location.json
+msgid "Linked Location"
+msgstr "Vị trí được liên kết"
+
+#. Name of a DocType
+#: agriculture/agriculture/doctype/linked_plant_analysis/linked_plant_analysis.json
+msgid "Linked Plant Analysis"
+msgstr "Phân tích cây trồng liên kết"
+
+#. Name of a DocType
+#: agriculture/agriculture/doctype/linked_soil_analysis/linked_soil_analysis.json
+msgid "Linked Soil Analysis"
+msgstr "Phân tích đất liên kết"
+
+#. Name of a DocType
+#: agriculture/agriculture/doctype/linked_soil_texture/linked_soil_texture.json
+msgid "Linked Soil Texture"
+msgstr "Kết cấu đất liên kết"
+
+#. Description of the 'Detected Diseases' (Section Break) field in DocType
+#. 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "List of diseases detected on the field. When selected it'll automatically add a list of tasks to deal with the disease "
+msgstr "Danh sách bệnh được phát hiện trên đồng ruộng. Khi chọn, hệ thống sẽ tự động thêm các công việc cần thực hiện để xử lý bệnh "
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Loam"
+msgstr "Đất thịt"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Loamy Sand"
+msgstr "Đất cát pha thịt"
+
+#. Label of the location (Link) field in DocType 'Linked Location'
+#. Label of the location (Geolocation) field in DocType 'Plant Analysis'
+#. Label of the location (Geolocation) field in DocType 'Soil Analysis'
+#. Label of the location (Geolocation) field in DocType 'Soil Texture'
+#. Label of the location (Geolocation) field in DocType 'Water Analysis'
+#. Label of the location (Link) field in DocType 'Weather'
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/linked_location/linked_location.json
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+#: agriculture/agriculture/doctype/weather/weather.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Location"
+msgstr "Vị trí"
+
+#. Option for the 'Priority' (Select) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Low"
+msgstr "Thấp"
+
+#. Label of the section_break_17 (Section Break) field in DocType 'Crop'
+#. Label of the materials_required (Table) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Materials Required"
+msgstr "Vật tư cần thiết"
+
+#. Label of the maximum_permissible_value (Data) field in DocType 'Plant
+#. Analysis Criteria'
+#. Label of the maximum_permissible_value (Data) field in DocType 'Soil
+#. Label of the maximum_permissible_value (Data) field in DocType 'Soil Texture
+#. Criteria'
+#. Label of the maximum_permissible_value (Data) field in DocType 'Water
+#. Label of the maximum_permissible_value (Data) field in DocType 'Weather
+#. Parameter'
+#: agriculture/agriculture/doctype/plant_analysis_criteria/plant_analysis_criteria.json
+#: agriculture/agriculture/doctype/soil_analysis_criteria/soil_analysis_criteria.json
+#: agriculture/agriculture/doctype/soil_texture_criteria/soil_texture_criteria.json
+#: agriculture/agriculture/doctype/water_analysis_criteria/water_analysis_criteria.json
+#: agriculture/agriculture/doctype/weather_parameter/weather_parameter.json
+msgid "Maximum Permissible Value"
+msgstr "Giá trị tối đa cho phép"
+
+#. Option for the 'Priority' (Select) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Medium"
+msgstr "Trung bình"
+
+#. Label of the mg_per_k (Data) field in DocType 'Soil Analysis'
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+msgid "Mg/K"
+msgstr "Mg/K"
+
+#. Label of the minimum_permissible_value (Data) field in DocType 'Plant
+#. Analysis Criteria'
+#. Label of the minimum_permissible_value (Data) field in DocType 'Soil
+#. Label of the minimum_permissible_value (Data) field in DocType 'Soil Texture
+#. Criteria'
+#. Label of the minimum_permissible_value (Data) field in DocType 'Water
+#. Label of the minimum_permissible_value (Data) field in DocType 'Weather
+#. Parameter'
+#: agriculture/agriculture/doctype/plant_analysis_criteria/plant_analysis_criteria.json
+#: agriculture/agriculture/doctype/soil_analysis_criteria/soil_analysis_criteria.json
+#: agriculture/agriculture/doctype/soil_texture_criteria/soil_texture_criteria.json
+#: agriculture/agriculture/doctype/water_analysis_criteria/water_analysis_criteria.json
+#: agriculture/agriculture/doctype/weather_parameter/weather_parameter.json
+msgid "Minimum Permissible Value"
+msgstr "Giá trị tối thiểu cho phép"
+
+#. Option for the 'Holiday Management' (Select) field in DocType 'Agriculture
+#. Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Next Business Day"
+msgstr "Ngày làm việc kế tiếp"
+
+#. Label of the origin (Data) field in DocType 'Water Analysis'
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Origin"
+msgstr "Nguồn gốc"
+
+#. Option for the 'Type' (Select) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Perennial"
+msgstr "Cây lâu năm"
+
+#. Label of the period (Int) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Period"
+msgstr "Thời kỳ"
+
+#. Label of the person_responsible (Data) field in DocType 'Water Analysis'
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Person Responsible"
+msgstr "Người phụ trách"
+
+#. Option for the 'Linked Doctype' (Select) field in DocType 'Agriculture
+#. Analysis Criteria'
+#. Label of the plant_analysis (Table) field in DocType 'Crop Cycle'
+#. Label of the plant_analysis (Link) field in DocType 'Linked Plant Analysis'
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/linked_plant_analysis/linked_plant_analysis.json
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Plant Analysis"
+msgstr "Phân tích cây trồng"
+
+#. Name of a DocType
+#: agriculture/agriculture/doctype/plant_analysis_criteria/plant_analysis_criteria.json
+msgid "Plant Analysis Criteria"
+msgstr "Tiêu chí phân tích cây trồng"
+
+#. Label of the section_break_2 (Section Break) field in DocType 'Plant
+#. Analysis'
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+msgid "Plant Analysis Criterias"
+msgstr "Các tiêu chí phân tích cây trồng"
+
+#. Label of the planting_area (Data) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Planting Area"
+msgstr "Diện tích gieo trồng"
+
+#. Label of the planting_uom (Link) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Planting UOM"
+msgstr "Đơn vị diện tích gieo trồng"
+
+#. Option for the 'Holiday Management' (Select) field in DocType 'Agriculture
+#. Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Previous Business Day"
+msgstr "Ngày làm việc trước đó"
+
+#. Label of the priority (Select) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Priority"
+msgstr "Ưu tiên"
+
+#. Label of the produce (Table) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Produce"
+msgstr "Nông sản"
+
+#. Label of the section_break_19 (Section Break) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Produced Items"
+msgstr "Sản phẩm thu hoạch"
+
+#. Label of the project (Link) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Project"
+msgstr "Dự án"
+
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.js:7
+msgid "Reload Linked Analysis"
+msgstr "Tải lại phân tích liên kết"
+
+#. Header text in the Agriculture Workspace
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Reports & Masters"
+msgstr "Báo cáo & Bản gốc"
+
+#. Label of the result_datetime (Datetime) field in DocType 'Plant Analysis'
+#. Label of the result_datetime (Datetime) field in DocType 'Soil Analysis'
+#. Label of the result_datetime (Datetime) field in DocType 'Soil Texture'
+#. Label of the result_datetime (Datetime) field in DocType 'Water Analysis'
+#: agriculture/agriculture/doctype/plant_analysis/plant_analysis.json
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Result Datetime"
+msgstr "Thời điểm có kết quả"
+
+#. Label of the row_spacing (Float) field in DocType 'Crop'
+#. Label of the row_spacing (Float) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Row Spacing"
+msgstr "Khoảng cách hàng"
+
+#. Label of the row_spacing_uom (Link) field in DocType 'Crop'
+#. Label of the row_spacing_uom (Link) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Row Spacing UOM"
+msgstr "Đơn vị khoảng cách hàng"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Sand"
+msgstr "Cát"
+
+#. Label of the sand_composition (Percent) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Sand Composition (%)"
+msgstr "Tỷ lệ cát (%)"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Sandy Clay"
+msgstr "Đất sét pha cát"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Sandy Clay Loam"
+msgstr "Đất thịt pha sét và cát"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Sandy Loam"
+msgstr "Đất thịt pha cát"
+
+#. Label of the scientific_name (Data) field in DocType 'Crop'
+#. Label of the scientific_name (Data) field in DocType 'Disease'
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/disease/disease.json
+msgid "Scientific Name"
+msgstr "Tên khoa học"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Select"
+msgstr "Chọn"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Silt"
+msgstr "Bụi đất"
+
+#. Label of the silt_composition (Percent) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Silt Composition (%)"
+msgstr "Tỷ lệ bụi đất (%)"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Silt Loam"
+msgstr "Đất thịt pha bụi"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Silty Clay"
+msgstr "Đất sét pha bụi"
+
+#. Option for the 'Soil Type' (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Silty Clay Loam"
+msgstr "Đất thịt pha sét và bụi"
+
+#. Option for the 'Linked Doctype' (Select) field in DocType 'Agriculture
+#. Analysis Criteria'
+#. Label of the soil_analysis (Table) field in DocType 'Crop Cycle'
+#. Label of the soil_analysis (Link) field in DocType 'Linked Soil Analysis'
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/linked_soil_analysis/linked_soil_analysis.json
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Soil Analysis"
+msgstr "Phân tích đất"
+
+#. Name of a DocType
+#: agriculture/agriculture/doctype/soil_analysis_criteria/soil_analysis_criteria.json
+msgid "Soil Analysis Criteria"
+msgstr "Tiêu chí phân tích đất"
+
+#. Label of the soil_analysis_criterias (Section Break) field in DocType 'Soil
+#. Analysis'
+#: agriculture/agriculture/doctype/soil_analysis/soil_analysis.json
+msgid "Soil Analysis Criterias"
+msgstr "Các tiêu chí phân tích đất"
+
+#. Option for the 'Linked Doctype' (Select) field in DocType 'Agriculture
+#. Analysis Criteria'
+#. Label of the soil_texture (Table) field in DocType 'Crop Cycle'
+#. Label of the soil_texture (Link) field in DocType 'Linked Soil Texture'
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/linked_soil_texture/linked_soil_texture.json
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Soil Texture"
+msgstr "Kết cấu đất"
+
+#. Label of the section_break_15 (Section Break) field in DocType 'Soil
+#. Texture'
+#. Name of a DocType
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+#: agriculture/agriculture/doctype/soil_texture_criteria/soil_texture_criteria.json
+msgid "Soil Texture Criteria"
+msgstr "Tiêu chí kết cấu đất"
+
+#. Label of the soil_type (Select) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Soil Type"
+msgstr "Loại đất"
+
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.py:27
+msgid "Soil compositions do not add up to 100"
+msgstr "Tổng tỷ lệ thành phần đất không bằng 100"
+
+#. Label of the source (Data) field in DocType 'Weather'
+#: agriculture/agriculture/doctype/weather/weather.json
+msgid "Source"
+msgstr "Nguồn"
+
+#. Label of the standard (Check) field in DocType 'Agriculture Analysis
+#. Criteria'
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+msgid "Standard"
+msgstr "Chuẩn"
+
+#. Label of the start_date (Date) field in DocType 'Crop Cycle'
+#. Label of the start_date (Date) field in DocType 'Detected Disease'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/detected_disease/detected_disease.json
+msgid "Start Date"
+msgstr "Ngày bắt đầu"
+
+#. Label of the start_day (Int) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Start Day"
+msgstr "Ngày bắt đầu"
+
+#: agriculture/agriculture/doctype/crop/crop.py:17
+#: agriculture/agriculture/doctype/disease/disease.py:16
+msgid "Start day is greater than end day in task '{0}'"
+msgstr "Ngày bắt đầu lớn hơn ngày kết thúc trong công việc '{0}'"
+
+#. Label of the storage_temperature (Data) field in DocType 'Water Analysis'
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Storage Temperature"
+msgstr "Nhiệt độ bảo quản"
+
+#. Label of the target_warehouse (Link) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Target Warehouse"
+msgstr "Kho đích"
+
+#. Label of the task_name (Data) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Task Name"
+msgstr "Tên nhiệm vụ"
+
+#. Label of the section_break_20 (Section Break) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Tasks"
+msgstr "Nhiệm vụ"
+
+#. Label of the tasks_created (Check) field in DocType 'Detected Disease'
+#: agriculture/agriculture/doctype/detected_disease/detected_disease.json
+msgid "Tasks Created"
+msgstr "Đã tạo công việc"
+
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.py:45
+msgid "Tasks have been created for managing the {0} disease (on row {1})"
+msgstr "Đã tạo các công việc để xử lý bệnh {0} (ở dòng {1})"
+
+#. Label of the ternary_plot (HTML) field in DocType 'Soil Texture'
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.json
+msgid "Ternary Plot"
+msgstr "Biểu đồ tam giác"
+
+#. Description of the 'Row Spacing' (Float) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "The minimum distance between rows of plants for optimum growth"
+msgstr "Khoảng cách tối thiểu giữa các hàng cây để cây sinh trưởng tối ưu"
+
+#. Description of the 'Crop Spacing' (Float) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "The minimum length between each plant in the field for optimum growth"
+msgstr "Khoảng cách tối thiểu giữa các cây trên đồng ruộng để cây sinh trưởng tối ưu"
+
+#. Description of the 'Start Date' (Date) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "This will be day 1 of the crop cycle"
+msgstr "Ngày này sẽ được tính là ngày 1 của chu kỳ canh tác"
+
+#. Label of the title (Data) field in DocType 'Agriculture Analysis Criteria'
+#. Label of the title (Data) field in DocType 'Crop'
+#. Label of the title (Data) field in DocType 'Crop Cycle'
+#. Label of the title (Link) field in DocType 'Fertilizer Content'
+#. Label of the title (Link) field in DocType 'Plant Analysis Criteria'
+#. Label of the title (Link) field in DocType 'Soil Analysis Criteria'
+#. Label of the title (Link) field in DocType 'Soil Texture Criteria'
+#. Label of the title (Link) field in DocType 'Water Analysis Criteria'
+#. Label of the title (Link) field in DocType 'Weather Parameter'
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/crop/crop.json
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+#: agriculture/agriculture/doctype/fertilizer_content/fertilizer_content.json
+#: agriculture/agriculture/doctype/plant_analysis_criteria/plant_analysis_criteria.json
+#: agriculture/agriculture/doctype/soil_analysis_criteria/soil_analysis_criteria.json
+#: agriculture/agriculture/doctype/soil_texture_criteria/soil_texture_criteria.json
+#: agriculture/agriculture/doctype/water_analysis_criteria/water_analysis_criteria.json
+#: agriculture/agriculture/doctype/weather_parameter/weather_parameter.json
+msgid "Title"
+msgstr "Tiêu đề"
+
+#. Label of the treatment_period (Int) field in DocType 'Disease'
+#: agriculture/agriculture/doctype/disease/disease.json
+msgid "Treatment Period"
+msgstr "Thời gian xử lý"
+
+#. Label of the treatment_task (Table) field in DocType 'Disease'
+#. Label of the section_break_2 (Section Break) field in DocType 'Disease'
+#: agriculture/agriculture/doctype/disease/disease.json
+msgid "Treatment Task"
+msgstr "Công việc xử lý"
+
+#. Label of the type (Select) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Type"
+msgstr "Loại"
+
+#. Label of the type_of_sample (Data) field in DocType 'Water Analysis'
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+msgid "Type of Sample"
+msgstr "Loại mẫu"
+
+#. Option for the 'Priority' (Select) field in DocType 'Agriculture Task'
+#: agriculture/agriculture/doctype/agriculture_task/agriculture_task.json
+msgid "Urgent"
+msgstr "Khẩn cấp"
+
+#. Label of the value (Data) field in DocType 'Fertilizer Content'
+#. Label of the value (Data) field in DocType 'Plant Analysis Criteria'
+#. Label of the value (Data) field in DocType 'Soil Analysis Criteria'
+#. Label of the value (Data) field in DocType 'Soil Texture Criteria'
+#. Label of the value (Data) field in DocType 'Water Analysis Criteria'
+#. Label of the value (Data) field in DocType 'Weather Parameter'
+#: agriculture/agriculture/doctype/fertilizer_content/fertilizer_content.json
+#: agriculture/agriculture/doctype/plant_analysis_criteria/plant_analysis_criteria.json
+#: agriculture/agriculture/doctype/soil_analysis_criteria/soil_analysis_criteria.json
+#: agriculture/agriculture/doctype/soil_texture_criteria/soil_texture_criteria.json
+#: agriculture/agriculture/doctype/water_analysis_criteria/water_analysis_criteria.json
+#: agriculture/agriculture/doctype/weather_parameter/weather_parameter.json
+msgid "Value"
+msgstr "Giá trị"
+
+#. Option for the 'Linked Doctype' (Select) field in DocType 'Agriculture
+#. Analysis Criteria'
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Water Analysis"
+msgstr "Phân tích nước"
+
+#. Label of the column_break_29 (Section Break) field in DocType 'Water
+#. Analysis'
+#. Name of a DocType
+#: agriculture/agriculture/doctype/water_analysis/water_analysis.json
+#: agriculture/agriculture/doctype/water_analysis_criteria/water_analysis_criteria.json
+msgid "Water Analysis Criteria"
+msgstr "Tiêu chí phân tích nước"
+
+#. Option for the 'Linked Doctype' (Select) field in DocType 'Agriculture
+#. Analysis Criteria'
+#. Name of a DocType
+#. Label of a Link in the Agriculture Workspace
+#: agriculture/agriculture/doctype/agriculture_analysis_criteria/agriculture_analysis_criteria.json
+#: agriculture/agriculture/doctype/weather/weather.json
+#: agriculture/agriculture/workspace/agriculture/agriculture.json
+msgid "Weather"
+msgstr "Thời tiết"
+
+#. Label of the section_break_9 (Section Break) field in DocType 'Weather'
+#. Name of a DocType
+#: agriculture/agriculture/doctype/weather/weather.json
+#: agriculture/agriculture/doctype/weather_parameter/weather_parameter.json
+msgid "Weather Parameter"
+msgstr "Thông số thời tiết"
+
+#. Option for the 'Cycle Type' (Select) field in DocType 'Crop Cycle'
+#: agriculture/agriculture/doctype/crop_cycle/crop_cycle.json
+msgid "Yearly"
+msgstr "Hàng năm"
+
+#. Label of the yield_uom (Link) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "Yield UOM"
+msgstr "Đơn vị năng suất"
+
+#. Description of the 'Tasks' (Section Break) field in DocType 'Crop'
+#: agriculture/agriculture/doctype/crop/crop.json
+msgid "You can define all the tasks which need to carried out for this crop here. The day field is used to mention the day on which the task needs to be carried out, 1 being the 1st day, etc.. "
+msgstr "Bạn có thể khai báo tại đây tất cả công việc cần thực hiện cho cây trồng này. Trường Ngày dùng để xác định ngày cần thực hiện công việc; 1 là ngày đầu tiên, v.v.. "
+
+#: agriculture/agriculture/doctype/soil_texture/soil_texture.py:25
+msgid "{0} should be a value between 0 and 100"
+msgstr "{0} phải là giá trị từ 0 đến 100"
+
